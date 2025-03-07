@@ -65,6 +65,7 @@ jobs:
 
     - name: Install Python Dependencies
       run: |
+        cd docs
         pip install -r requirements.txt
 
     - name: Build Documentation
