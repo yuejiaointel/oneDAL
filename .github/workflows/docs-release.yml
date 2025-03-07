@@ -63,7 +63,7 @@ jobs:
         fi
         git branch
 
-     - name: Install Python Dependencies
+    - name: Install Python Dependencies
       run: |
         pip install -r requirements.txt
 
