@@ -853,9 +853,9 @@
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#descriptor">Descriptor</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I000EN6oneapi3dal11kmeans_init10descriptorE"><code class="docutils literal notranslate"><span class="pre">descriptor</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor10descriptorENSt7int64_tE"><code class="docutils literal notranslate"><span class="pre">descriptor::descriptor()</span></code></a></li>
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor18local_trials_countE"><code class="docutils literal notranslate"><span class="pre">descriptor::local_trials_count</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor4seedE"><code class="docutils literal notranslate"><span class="pre">descriptor::seed</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor13cluster_countE"><code class="docutils literal notranslate"><span class="pre">descriptor::cluster_count</span></code></a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor18local_trials_countE"><code class="docutils literal notranslate"><span class="pre">descriptor::local_trials_count</span></code></a></li>
 </ul>
 </li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-tags">Method tags</a><ul class="nav section-nav flex-column">
@@ -972,23 +972,6 @@ uses the initialization result to partition input data into <span class="math no
 
 <p><strong>Properties</strong></p>
 <dl class="cpp member">
-<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal11kmeans_init10descriptor18local_trials_countE">
-<span id="_CPPv3N6oneapi3dal11kmeans_init10descriptor18local_trials_countE"></span><span id="_CPPv2N6oneapi3dal11kmeans_init10descriptor18local_trials_countE"></span><span id="oneapi::dal::kmeans_init::descriptor::local_trials_count__autoR"></span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">local_trials_count</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor18local_trials_countE" title="Link to this definition">#</a><br /></dt>
-<dd><p>Number of attempts to find the best sample in terms of potential value If the value is equal to -1, the number of trials is 2 + int(log(cluster_count)). <strong>Default value</strong>: -1.</p>
-<dl>
-<dt>Getter &amp; Setter</dt><dd><div class="line-block">
-<div class="line"><code class="docutils literal notranslate"><span class="pre">template</span> <span class="pre">&lt;typename</span> <span class="pre">M</span> <span class="pre">=</span> <span class="pre">Method,</span> <span class="pre">typename</span> <span class="pre">None</span> <span class="pre">=</span> <span class="pre">detail::v1::enable_if_plus_plus&lt;M&gt;&gt;</span> <span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">get_local_trials_count()</span> <span class="pre">const</span></code></div>
-<div class="line"><code class="docutils literal notranslate"><span class="pre">template</span> <span class="pre">&lt;typename</span> <span class="pre">M</span> <span class="pre">=</span> <span class="pre">Method,</span> <span class="pre">typename</span> <span class="pre">None</span> <span class="pre">=</span> <span class="pre">detail::v1::enable_if_plus_plus&lt;M&gt;&gt;</span> <span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_local_trials_count(std::int64_t</span> <span class="pre">value=-1)</span></code></div>
-</div>
-</dd>
-<dt>Invariants</dt><dd><div class="line-block">
-<div class="line"><span class="cpp-expr sig sig-inline cpp"><span class="n">local_trials</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">0</span></span> or :expr`local_trials = -1`</div>
-</div>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="cpp member">
 <dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal11kmeans_init10descriptor4seedE">
 <span id="_CPPv3N6oneapi3dal11kmeans_init10descriptor4seedE"></span><span id="_CPPv2N6oneapi3dal11kmeans_init10descriptor4seedE"></span><span id="oneapi::dal::kmeans_init::descriptor::seed__autoR"></span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">seed</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor4seedE" title="Link to this definition">#</a><br /></dt>
 <dd><dl>
@@ -1012,6 +995,23 @@ uses the initialization result to partition input data into <span class="math no
 </dd>
 <dt>Invariants</dt><dd><div class="line-block">
 <div class="line"><span class="cpp-expr sig sig-inline cpp"><a class="reference internal" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor13cluster_countE" title="oneapi::dal::kmeans_init::descriptor::cluster_count"><span class="n">cluster_count</span></a><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">0</span></span></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp member">
+<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal11kmeans_init10descriptor18local_trials_countE">
+<span id="_CPPv3N6oneapi3dal11kmeans_init10descriptor18local_trials_countE"></span><span id="_CPPv2N6oneapi3dal11kmeans_init10descriptor18local_trials_countE"></span><span id="oneapi::dal::kmeans_init::descriptor::local_trials_count__autoR"></span><span class="kt"><span class="pre">auto</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">local_trials_count</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor18local_trials_countE" title="Link to this definition">#</a><br /></dt>
+<dd><p>Number of attempts to find the best sample in terms of potential value If the value is equal to -1, the number of trials is 2 + int(log(cluster_count)). <strong>Default value</strong>: -1.</p>
+<dl>
+<dt>Getter &amp; Setter</dt><dd><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">template</span> <span class="pre">&lt;typename</span> <span class="pre">M</span> <span class="pre">=</span> <span class="pre">Method,</span> <span class="pre">typename</span> <span class="pre">None</span> <span class="pre">=</span> <span class="pre">detail::v1::enable_if_plus_plus&lt;M&gt;&gt;</span> <span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">get_local_trials_count()</span> <span class="pre">const</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">template</span> <span class="pre">&lt;typename</span> <span class="pre">M</span> <span class="pre">=</span> <span class="pre">Method,</span> <span class="pre">typename</span> <span class="pre">None</span> <span class="pre">=</span> <span class="pre">detail::v1::enable_if_plus_plus&lt;M&gt;&gt;</span> <span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_local_trials_count(std::int64_t</span> <span class="pre">value=-1)</span></code></div>
+</div>
+</dd>
+<dt>Invariants</dt><dd><div class="line-block">
+<div class="line"><span class="cpp-expr sig sig-inline cpp"><span class="n">local_trials</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">0</span></span> or :expr`local_trials = -1`</div>
 </div>
 </dd>
 </dl>
@@ -1268,9 +1268,9 @@ uses the initialization result to partition input data into <span class="math no
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#descriptor">Descriptor</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I000EN6oneapi3dal11kmeans_init10descriptorE"><code class="docutils literal notranslate"><span class="pre">descriptor</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor10descriptorENSt7int64_tE"><code class="docutils literal notranslate"><span class="pre">descriptor::descriptor()</span></code></a></li>
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor18local_trials_countE"><code class="docutils literal notranslate"><span class="pre">descriptor::local_trials_count</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor4seedE"><code class="docutils literal notranslate"><span class="pre">descriptor::seed</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor13cluster_countE"><code class="docutils literal notranslate"><span class="pre">descriptor::cluster_count</span></code></a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal11kmeans_init10descriptor18local_trials_countE"><code class="docutils literal notranslate"><span class="pre">descriptor::local_trials_count</span></code></a></li>
 </ul>
 </li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-tags">Method tags</a><ul class="nav section-nav flex-column">

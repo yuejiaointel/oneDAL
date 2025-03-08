@@ -853,10 +853,10 @@
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#descriptor">Descriptor</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I000EN6oneapi3dal6dbscan10descriptorE"><code class="docutils literal notranslate"><span class="pre">descriptor</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor10descriptorEdNSt7int64_tE"><code class="docutils literal notranslate"><span class="pre">descriptor::descriptor()</span></code></a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE"><code class="docutils literal notranslate"><span class="pre">descriptor::epsilon</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor14result_optionsE"><code class="docutils literal notranslate"><span class="pre">descriptor::result_options</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor16min_observationsE"><code class="docutils literal notranslate"><span class="pre">descriptor::min_observations</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor13mem_save_modeE"><code class="docutils literal notranslate"><span class="pre">descriptor::mem_save_mode</span></code></a></li>
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE"><code class="docutils literal notranslate"><span class="pre">descriptor::epsilon</span></code></a></li>
 </ul>
 </li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-tags">Method tags</a><ul class="nav section-nav flex-column">
@@ -884,12 +884,12 @@
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#result">Result</a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I0EN6oneapi3dal6dbscan14compute_resultE"><code class="docutils literal notranslate"><span class="pre">compute_result</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result14compute_resultEv"><code class="docutils literal notranslate"><span class="pre">compute_result::compute_result()</span></code></a></li>
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE"><code class="docutils literal notranslate"><span class="pre">compute_result::cluster_count</span></code></a></li>
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result9responsesE"><code class="docutils literal notranslate"><span class="pre">compute_result::responses</span></code></a></li>
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result17core_observationsE"><code class="docutils literal notranslate"><span class="pre">compute_result::core_observations</span></code></a></li>
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result24core_observation_indicesE"><code class="docutils literal notranslate"><span class="pre">compute_result::core_observation_indices</span></code></a></li>
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result14result_optionsE"><code class="docutils literal notranslate"><span class="pre">compute_result::result_options</span></code></a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE"><code class="docutils literal notranslate"><span class="pre">compute_result::cluster_count</span></code></a></li>
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result10core_flagsE"><code class="docutils literal notranslate"><span class="pre">compute_result::core_flags</span></code></a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result14result_optionsE"><code class="docutils literal notranslate"><span class="pre">compute_result::result_options</span></code></a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result17core_observationsE"><code class="docutils literal notranslate"><span class="pre">compute_result::core_observations</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -971,6 +971,23 @@ marking as outliers observations that lie alone in low-density regions (whose ne
 
 <p><strong>Properties</strong></p>
 <dl class="cpp member">
+<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE">
+<span id="_CPPv3N6oneapi3dal6dbscan10descriptor7epsilonE"></span><span id="_CPPv2N6oneapi3dal6dbscan10descriptor7epsilonE"></span><span id="oneapi::dal::dbscan::descriptor::epsilon__double"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">epsilon</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE" title="Link to this definition">#</a><br /></dt>
+<dd><p>The distance <cite>epsilon</cite> for neighbor search.</p>
+<dl>
+<dt>Getter &amp; Setter</dt><dd><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">double</span> <span class="pre">get_epsilon()</span> <span class="pre">const</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_epsilon(double</span> <span class="pre">value)</span></code></div>
+</div>
+</dd>
+<dt>Invariants</dt><dd><div class="line-block">
+<div class="line"><span class="cpp-expr sig sig-inline cpp"><a class="reference internal" href="#_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE" title="oneapi::dal::dbscan::descriptor::epsilon"><span class="n">epsilon</span></a><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="m">0.0</span></span></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp member">
 <dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan10descriptor14result_optionsE">
 <span id="_CPPv3N6oneapi3dal6dbscan10descriptor14result_optionsE"></span><span id="_CPPv2N6oneapi3dal6dbscan10descriptor14result_optionsE"></span><span id="oneapi::dal::dbscan::descriptor::result_options__result_option_id"></span><span class="n"><span class="pre">result_option_id</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">result_options</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan10descriptor14result_optionsE" title="Link to this definition">#</a><br /></dt>
 <dd><p>Choose which results should be computed and returned.</p>
@@ -1004,23 +1021,6 @@ marking as outliers observations that lie alone in low-density regions (whose ne
 <dt>Getter &amp; Setter</dt><dd><div class="line-block">
 <div class="line"><code class="docutils literal notranslate"><span class="pre">bool</span> <span class="pre">get_mem_save_mode()</span> <span class="pre">const</span></code></div>
 <div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_mem_save_mode(bool</span> <span class="pre">value)</span></code></div>
-</div>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="cpp member">
-<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE">
-<span id="_CPPv3N6oneapi3dal6dbscan10descriptor7epsilonE"></span><span id="_CPPv2N6oneapi3dal6dbscan10descriptor7epsilonE"></span><span id="oneapi::dal::dbscan::descriptor::epsilon__double"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">epsilon</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE" title="Link to this definition">#</a><br /></dt>
-<dd><p>The distance <cite>epsilon</cite> for neighbor search.</p>
-<dl>
-<dt>Getter &amp; Setter</dt><dd><div class="line-block">
-<div class="line"><code class="docutils literal notranslate"><span class="pre">double</span> <span class="pre">get_epsilon()</span> <span class="pre">const</span></code></div>
-<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_epsilon(double</span> <span class="pre">value)</span></code></div>
-</div>
-</dd>
-<dt>Invariants</dt><dd><div class="line-block">
-<div class="line"><span class="cpp-expr sig sig-inline cpp"><a class="reference internal" href="#_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE" title="oneapi::dal::dbscan::descriptor::epsilon"><span class="n">epsilon</span></a><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="m">0.0</span></span></div>
 </div>
 </dd>
 </dl>
@@ -1125,23 +1125,6 @@ marking as outliers observations that lie alone in low-density regions (whose ne
 
 <p><strong>Properties</strong></p>
 <dl class="cpp member">
-<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE">
-<span id="_CPPv3N6oneapi3dal6dbscan14compute_result13cluster_countE"></span><span id="_CPPv2N6oneapi3dal6dbscan14compute_result13cluster_countE"></span><span id="oneapi::dal::dbscan::compute_result::cluster_count__std::int64_t"></span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">int64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cluster_count</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE" title="Link to this definition">#</a><br /></dt>
-<dd><p>The number of clusters found by the algorithm.</p>
-<dl>
-<dt>Getter &amp; Setter</dt><dd><div class="line-block">
-<div class="line"><code class="docutils literal notranslate"><span class="pre">std::int64_t</span> <span class="pre">get_cluster_count()</span> <span class="pre">const</span></code></div>
-<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_cluster_count(std::int64_t</span> <span class="pre">value)</span></code></div>
-</div>
-</dd>
-<dt>Invariants</dt><dd><div class="line-block">
-<div class="line"><span class="cpp-expr sig sig-inline cpp"><a class="reference internal" href="#_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE" title="oneapi::dal::dbscan::compute_result::cluster_count"><span class="n">cluster_count</span></a><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="m">0</span></span></div>
-</div>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="cpp member">
 <dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan14compute_result9responsesE">
 <span id="_CPPv3N6oneapi3dal6dbscan14compute_result9responsesE"></span><span id="_CPPv2N6oneapi3dal6dbscan14compute_result9responsesE"></span><span id="oneapi::dal::dbscan::compute_result::responses__tableCR"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../../data-management/tables.html#_CPPv4N6oneapi3dal5tableE" title="oneapi::dal::table"><span class="n"><span class="pre">table</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">responses</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan14compute_result9responsesE" title="Link to this definition">#</a><br /></dt>
 <dd><p>An <span class="math notranslate nohighlight">\(n \times 1\)</span> table with the responses <span class="math notranslate nohighlight">\(y_i\)</span> assigned to the samples <span class="math notranslate nohighlight">\(x_i\)</span> in the input data. <strong>Default value</strong>: table{}.</p>
@@ -1149,19 +1132,6 @@ marking as outliers observations that lie alone in low-density regions (whose ne
 <dt>Getter &amp; Setter</dt><dd><div class="line-block">
 <div class="line"><code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">table</span> <span class="pre">&amp;</span> <span class="pre">get_responses()</span> <span class="pre">const</span></code></div>
 <div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_responses(const</span> <span class="pre">table</span> <span class="pre">&amp;value)</span></code></div>
-</div>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="cpp member">
-<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan14compute_result17core_observationsE">
-<span id="_CPPv3N6oneapi3dal6dbscan14compute_result17core_observationsE"></span><span id="_CPPv2N6oneapi3dal6dbscan14compute_result17core_observationsE"></span><span id="oneapi::dal::dbscan::compute_result::core_observations__tableCR"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../../data-management/tables.html#_CPPv4N6oneapi3dal5tableE" title="oneapi::dal::table"><span class="n"><span class="pre">table</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">core_observations</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan14compute_result17core_observationsE" title="Link to this definition">#</a><br /></dt>
-<dd><p>An <span class="math notranslate nohighlight">\(m \times p\)</span> table with the core observations in the input data. <span class="math notranslate nohighlight">\(m\)</span> is a number of core observations.</p>
-<dl>
-<dt>Getter &amp; Setter</dt><dd><div class="line-block">
-<div class="line"><code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">table</span> <span class="pre">&amp;</span> <span class="pre">get_core_observations()</span> <span class="pre">const</span></code></div>
-<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_core_observations(const</span> <span class="pre">table</span> <span class="pre">&amp;value)</span></code></div>
 </div>
 </dd>
 </dl>
@@ -1181,13 +1151,17 @@ marking as outliers observations that lie alone in low-density regions (whose ne
 </dd></dl>
 
 <dl class="cpp member">
-<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan14compute_result14result_optionsE">
-<span id="_CPPv3N6oneapi3dal6dbscan14compute_result14result_optionsE"></span><span id="_CPPv2N6oneapi3dal6dbscan14compute_result14result_optionsE"></span><span id="oneapi::dal::dbscan::compute_result::result_options__result_option_idCR"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">result_option_id</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">result_options</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan14compute_result14result_optionsE" title="Link to this definition">#</a><br /></dt>
-<dd><p>Result options that indicates availability of the properties. <strong>Default value</strong>: default_result_options&lt;Task&gt;.</p>
+<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE">
+<span id="_CPPv3N6oneapi3dal6dbscan14compute_result13cluster_countE"></span><span id="_CPPv2N6oneapi3dal6dbscan14compute_result13cluster_countE"></span><span id="oneapi::dal::dbscan::compute_result::cluster_count__std::int64_t"></span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">int64_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">cluster_count</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE" title="Link to this definition">#</a><br /></dt>
+<dd><p>The number of clusters found by the algorithm.</p>
 <dl>
 <dt>Getter &amp; Setter</dt><dd><div class="line-block">
-<div class="line"><code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">result_option_id</span> <span class="pre">&amp;</span> <span class="pre">get_result_options()</span> <span class="pre">const</span></code></div>
-<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_result_options(const</span> <span class="pre">result_option_id</span> <span class="pre">&amp;value)</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">std::int64_t</span> <span class="pre">get_cluster_count()</span> <span class="pre">const</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_cluster_count(std::int64_t</span> <span class="pre">value)</span></code></div>
+</div>
+</dd>
+<dt>Invariants</dt><dd><div class="line-block">
+<div class="line"><span class="cpp-expr sig sig-inline cpp"><a class="reference internal" href="#_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE" title="oneapi::dal::dbscan::compute_result::cluster_count"><span class="n">cluster_count</span></a><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="m">0</span></span></div>
 </div>
 </dd>
 </dl>
@@ -1201,6 +1175,32 @@ marking as outliers observations that lie alone in low-density regions (whose ne
 <dt>Getter &amp; Setter</dt><dd><div class="line-block">
 <div class="line"><code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">table</span> <span class="pre">&amp;</span> <span class="pre">get_core_flags()</span> <span class="pre">const</span></code></div>
 <div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_core_flags(const</span> <span class="pre">table</span> <span class="pre">&amp;value)</span></code></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp member">
+<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan14compute_result14result_optionsE">
+<span id="_CPPv3N6oneapi3dal6dbscan14compute_result14result_optionsE"></span><span id="_CPPv2N6oneapi3dal6dbscan14compute_result14result_optionsE"></span><span id="oneapi::dal::dbscan::compute_result::result_options__result_option_idCR"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">result_option_id</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">result_options</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan14compute_result14result_optionsE" title="Link to this definition">#</a><br /></dt>
+<dd><p>Result options that indicates availability of the properties. <strong>Default value</strong>: default_result_options&lt;Task&gt;.</p>
+<dl>
+<dt>Getter &amp; Setter</dt><dd><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">result_option_id</span> <span class="pre">&amp;</span> <span class="pre">get_result_options()</span> <span class="pre">const</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_result_options(const</span> <span class="pre">result_option_id</span> <span class="pre">&amp;value)</span></code></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp member">
+<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal6dbscan14compute_result17core_observationsE">
+<span id="_CPPv3N6oneapi3dal6dbscan14compute_result17core_observationsE"></span><span id="_CPPv2N6oneapi3dal6dbscan14compute_result17core_observationsE"></span><span id="oneapi::dal::dbscan::compute_result::core_observations__tableCR"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../../data-management/tables.html#_CPPv4N6oneapi3dal5tableE" title="oneapi::dal::table"><span class="n"><span class="pre">table</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">core_observations</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal6dbscan14compute_result17core_observationsE" title="Link to this definition">#</a><br /></dt>
+<dd><p>An <span class="math notranslate nohighlight">\(m \times p\)</span> table with the core observations in the input data. <span class="math notranslate nohighlight">\(m\)</span> is a number of core observations.</p>
+<dl>
+<dt>Getter &amp; Setter</dt><dd><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">table</span> <span class="pre">&amp;</span> <span class="pre">get_core_observations()</span> <span class="pre">const</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_core_observations(const</span> <span class="pre">table</span> <span class="pre">&amp;value)</span></code></div>
 </div>
 </dd>
 </dl>
@@ -1319,10 +1319,10 @@ marking as outliers observations that lie alone in low-density regions (whose ne
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#descriptor">Descriptor</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I000EN6oneapi3dal6dbscan10descriptorE"><code class="docutils literal notranslate"><span class="pre">descriptor</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor10descriptorEdNSt7int64_tE"><code class="docutils literal notranslate"><span class="pre">descriptor::descriptor()</span></code></a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE"><code class="docutils literal notranslate"><span class="pre">descriptor::epsilon</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor14result_optionsE"><code class="docutils literal notranslate"><span class="pre">descriptor::result_options</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor16min_observationsE"><code class="docutils literal notranslate"><span class="pre">descriptor::min_observations</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor13mem_save_modeE"><code class="docutils literal notranslate"><span class="pre">descriptor::mem_save_mode</span></code></a></li>
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan10descriptor7epsilonE"><code class="docutils literal notranslate"><span class="pre">descriptor::epsilon</span></code></a></li>
 </ul>
 </li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-tags">Method tags</a><ul class="nav section-nav flex-column">
@@ -1350,12 +1350,12 @@ marking as outliers observations that lie alone in low-density regions (whose ne
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#result">Result</a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I0EN6oneapi3dal6dbscan14compute_resultE"><code class="docutils literal notranslate"><span class="pre">compute_result</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result14compute_resultEv"><code class="docutils literal notranslate"><span class="pre">compute_result::compute_result()</span></code></a></li>
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE"><code class="docutils literal notranslate"><span class="pre">compute_result::cluster_count</span></code></a></li>
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result9responsesE"><code class="docutils literal notranslate"><span class="pre">compute_result::responses</span></code></a></li>
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result17core_observationsE"><code class="docutils literal notranslate"><span class="pre">compute_result::core_observations</span></code></a></li>
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result24core_observation_indicesE"><code class="docutils literal notranslate"><span class="pre">compute_result::core_observation_indices</span></code></a></li>
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result14result_optionsE"><code class="docutils literal notranslate"><span class="pre">compute_result::result_options</span></code></a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result13cluster_countE"><code class="docutils literal notranslate"><span class="pre">compute_result::cluster_count</span></code></a></li>
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result10core_flagsE"><code class="docutils literal notranslate"><span class="pre">compute_result::core_flags</span></code></a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result14result_optionsE"><code class="docutils literal notranslate"><span class="pre">compute_result::result_options</span></code></a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal6dbscan14compute_result17core_observationsE"><code class="docutils literal notranslate"><span class="pre">compute_result::core_observations</span></code></a></li>
 </ul>
 </li>
 </ul>

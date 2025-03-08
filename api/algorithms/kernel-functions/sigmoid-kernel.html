@@ -851,8 +851,8 @@
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#descriptor">Descriptor</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I000EN6oneapi3dal14sigmoid_kernel10descriptorE"><code class="docutils literal notranslate"><span class="pre">descriptor</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor10descriptorEv"><code class="docutils literal notranslate"><span class="pre">descriptor::descriptor()</span></code></a></li>
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5scaleE"><code class="docutils literal notranslate"><span class="pre">descriptor::scale</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5shiftE"><code class="docutils literal notranslate"><span class="pre">descriptor::shift</span></code></a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5scaleE"><code class="docutils literal notranslate"><span class="pre">descriptor::scale</span></code></a></li>
 </ul>
 </li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-tags">Method tags</a><ul class="nav section-nav flex-column">
@@ -871,8 +871,8 @@
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#input">Input</a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I0EN6oneapi3dal14sigmoid_kernel13compute_inputE"><code class="docutils literal notranslate"><span class="pre">compute_input</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input13compute_inputERK5tableRK5table"><code class="docutils literal notranslate"><span class="pre">compute_input::compute_input()</span></code></a></li>
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1xE"><code class="docutils literal notranslate"><span class="pre">compute_input::x</span></code></a></li>
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1yE"><code class="docutils literal notranslate"><span class="pre">compute_input::y</span></code></a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1xE"><code class="docutils literal notranslate"><span class="pre">compute_input::x</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -955,19 +955,6 @@ used in kernelized learning algorithms.</p>
 
 <p><strong>Properties</strong></p>
 <dl class="cpp member">
-<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5scaleE">
-<span id="_CPPv3N6oneapi3dal14sigmoid_kernel10descriptor5scaleE"></span><span id="_CPPv2N6oneapi3dal14sigmoid_kernel10descriptor5scaleE"></span><span id="oneapi::dal::sigmoid_kernel::descriptor::scale__double"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">scale</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5scaleE" title="Link to this definition">#</a><br /></dt>
-<dd><p>The coefficient <span class="math notranslate nohighlight">\(k\)</span> of the sigmoid kernel. <strong>Default value</strong>: 1.0.</p>
-<dl>
-<dt>Getter &amp; Setter</dt><dd><div class="line-block">
-<div class="line"><code class="docutils literal notranslate"><span class="pre">double</span> <span class="pre">get_scale()</span> <span class="pre">const</span></code></div>
-<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_scale(double</span> <span class="pre">value)</span></code></div>
-</div>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="cpp member">
 <dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5shiftE">
 <span id="_CPPv3N6oneapi3dal14sigmoid_kernel10descriptor5shiftE"></span><span id="_CPPv2N6oneapi3dal14sigmoid_kernel10descriptor5shiftE"></span><span id="oneapi::dal::sigmoid_kernel::descriptor::shift__double"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">shift</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5shiftE" title="Link to this definition">#</a><br /></dt>
 <dd><p>The coefficient <span class="math notranslate nohighlight">\(b\)</span> of the sigmoid kernel. <strong>Default value</strong>: 0.0.</p>
@@ -975,6 +962,19 @@ used in kernelized learning algorithms.</p>
 <dt>Getter &amp; Setter</dt><dd><div class="line-block">
 <div class="line"><code class="docutils literal notranslate"><span class="pre">double</span> <span class="pre">get_shift()</span> <span class="pre">const</span></code></div>
 <div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_shift(double</span> <span class="pre">value)</span></code></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp member">
+<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5scaleE">
+<span id="_CPPv3N6oneapi3dal14sigmoid_kernel10descriptor5scaleE"></span><span id="_CPPv2N6oneapi3dal14sigmoid_kernel10descriptor5scaleE"></span><span id="oneapi::dal::sigmoid_kernel::descriptor::scale__double"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">scale</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5scaleE" title="Link to this definition">#</a><br /></dt>
+<dd><p>The coefficient <span class="math notranslate nohighlight">\(k\)</span> of the sigmoid kernel. <strong>Default value</strong>: 1.0.</p>
+<dl>
+<dt>Getter &amp; Setter</dt><dd><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">double</span> <span class="pre">get_scale()</span> <span class="pre">const</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_scale(double</span> <span class="pre">value)</span></code></div>
 </div>
 </dd>
 </dl>
@@ -1033,19 +1033,6 @@ used in kernelized learning algorithms.</p>
 
 <p><strong>Properties</strong></p>
 <dl class="cpp member">
-<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1xE">
-<span id="_CPPv3N6oneapi3dal14sigmoid_kernel13compute_input1xE"></span><span id="_CPPv2N6oneapi3dal14sigmoid_kernel13compute_input1xE"></span><span id="oneapi::dal::sigmoid_kernel::compute_input::x__tableCR"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../../data-management/tables.html#_CPPv4N6oneapi3dal5tableE" title="oneapi::dal::table"><span class="n"><span class="pre">table</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">x</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1xE" title="Link to this definition">#</a><br /></dt>
-<dd><p>An <span class="math notranslate nohighlight">\(n \times p\)</span> table with the data x, where each row stores one feature vector. <strong>Default value</strong>: table{}.</p>
-<dl>
-<dt>Getter &amp; Setter</dt><dd><div class="line-block">
-<div class="line"><code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">table</span> <span class="pre">&amp;</span> <span class="pre">get_x()</span> <span class="pre">const</span></code></div>
-<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_x(const</span> <span class="pre">table</span> <span class="pre">&amp;data)</span></code></div>
-</div>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="cpp member">
 <dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1yE">
 <span id="_CPPv3N6oneapi3dal14sigmoid_kernel13compute_input1yE"></span><span id="_CPPv2N6oneapi3dal14sigmoid_kernel13compute_input1yE"></span><span id="oneapi::dal::sigmoid_kernel::compute_input::y__tableCR"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../../data-management/tables.html#_CPPv4N6oneapi3dal5tableE" title="oneapi::dal::table"><span class="n"><span class="pre">table</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">y</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1yE" title="Link to this definition">#</a><br /></dt>
 <dd><p>An <span class="math notranslate nohighlight">\(m \times p\)</span> table with the data y, where each row stores one feature vector. <strong>Default value</strong>: table{}.</p>
@@ -1053,6 +1040,19 @@ used in kernelized learning algorithms.</p>
 <dt>Getter &amp; Setter</dt><dd><div class="line-block">
 <div class="line"><code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">table</span> <span class="pre">&amp;</span> <span class="pre">get_y()</span> <span class="pre">const</span></code></div>
 <div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_y(const</span> <span class="pre">table</span> <span class="pre">&amp;data)</span></code></div>
+</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp member">
+<dt class="sig sig-object cpp" id="_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1xE">
+<span id="_CPPv3N6oneapi3dal14sigmoid_kernel13compute_input1xE"></span><span id="_CPPv2N6oneapi3dal14sigmoid_kernel13compute_input1xE"></span><span id="oneapi::dal::sigmoid_kernel::compute_input::x__tableCR"></span><span class="k"><span class="pre">const</span></span><span class="w"> </span><a class="reference internal" href="../../data-management/tables.html#_CPPv4N6oneapi3dal5tableE" title="oneapi::dal::table"><span class="n"><span class="pre">table</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">x</span></span></span><a class="headerlink" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1xE" title="Link to this definition">#</a><br /></dt>
+<dd><p>An <span class="math notranslate nohighlight">\(n \times p\)</span> table with the data x, where each row stores one feature vector. <strong>Default value</strong>: table{}.</p>
+<dl>
+<dt>Getter &amp; Setter</dt><dd><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">const</span> <span class="pre">table</span> <span class="pre">&amp;</span> <span class="pre">get_x()</span> <span class="pre">const</span></code></div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">auto</span> <span class="pre">&amp;</span> <span class="pre">set_x(const</span> <span class="pre">table</span> <span class="pre">&amp;data)</span></code></div>
 </div>
 </dd>
 </dl>
@@ -1180,8 +1180,8 @@ used in kernelized learning algorithms.</p>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#descriptor">Descriptor</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I000EN6oneapi3dal14sigmoid_kernel10descriptorE"><code class="docutils literal notranslate"><span class="pre">descriptor</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor10descriptorEv"><code class="docutils literal notranslate"><span class="pre">descriptor::descriptor()</span></code></a></li>
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5scaleE"><code class="docutils literal notranslate"><span class="pre">descriptor::scale</span></code></a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5shiftE"><code class="docutils literal notranslate"><span class="pre">descriptor::shift</span></code></a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel10descriptor5scaleE"><code class="docutils literal notranslate"><span class="pre">descriptor::scale</span></code></a></li>
 </ul>
 </li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#method-tags">Method tags</a><ul class="nav section-nav flex-column">
@@ -1200,8 +1200,8 @@ used in kernelized learning algorithms.</p>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#input">Input</a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4I0EN6oneapi3dal14sigmoid_kernel13compute_inputE"><code class="docutils literal notranslate"><span class="pre">compute_input</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input13compute_inputERK5tableRK5table"><code class="docutils literal notranslate"><span class="pre">compute_input::compute_input()</span></code></a></li>
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1xE"><code class="docutils literal notranslate"><span class="pre">compute_input::x</span></code></a></li>
 <li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1yE"><code class="docutils literal notranslate"><span class="pre">compute_input::y</span></code></a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#_CPPv4N6oneapi3dal14sigmoid_kernel13compute_input1xE"><code class="docutils literal notranslate"><span class="pre">compute_input::x</span></code></a></li>
 </ul>
 </li>
 </ul>
