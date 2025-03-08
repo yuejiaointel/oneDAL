@@ -83,21 +83,13 @@ jobs:
 
         # Copy the build folder to a temporary location
         cp -R docs/build/. /tmp/build
-        echo "copy"
-        ls -al /tmp/build
-        echo "origin"
-        ls -al docs/build
 
         # Checkout the gh-pages branch
         git checkout gh-pages
 
         # Replace existing files with new build files
         git rm -rf .
-        echo "before"
-        ls -al
         cp -R /tmp/build/. .
-        echo "after"
-        ls -al
 
         # Push to gh-pages
         git add -A
