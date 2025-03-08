@@ -82,7 +82,11 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
         # Copy the build folder to a temporary location
-        cp -R docs/build /tmp/build
+        cp -R docs/build/. /tmp/build
+        echo "copy"
+        ls -al /tmp/build
+        echo "origin"
+        ls -al docs/build
 
         # Checkout the gh-pages branch
         git checkout gh-pages
