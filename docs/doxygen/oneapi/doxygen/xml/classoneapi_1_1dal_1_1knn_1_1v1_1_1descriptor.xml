@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor" kind="class" language="C++" prot="private">
+    <compoundname>oneapi::dal::knn::v1::descriptor</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">oneapi::dal::knn::detail::v1::descriptor_base&lt; task::by_default &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+        <defval>float</defval>
+      </param>
+      <param>
+        <type>typename Method</type>
+        <defval>method::by_default</defval>
+      </param>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+      <param>
+        <type>typename Distance</type>
+        <defval>oneapi::dal::minkowski_distance::descriptor&lt;Float&gt;</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base" kindref="compound">detail::descriptor_base</ref>&lt; Task &gt;</type>
+        <definition>using base_t =  detail::descriptor_base&lt;Task&gt;</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="250" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="250" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" static="no">
+        <type>Float</type>
+        <definition>using float_t =  Float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="253" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" static="no">
+        <type>Method</type>
+        <definition>using method_t =  Method</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="254" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="255" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a45758bfa2d7221bcc9040825bed7580c" prot="public" static="no">
+        <type>Distance</type>
+        <definition>using distance_t =  Distance</definition>
+        <argsstring></argsstring>
+        <name>distance_t</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::distance_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="256" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="256" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a9d315fc7c49bc9d41b5afbd4c940eb20" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>descriptor</definition>
+        <argsstring>(std::int64_t class_count, std::int64_t neighbor_count)</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::descriptor</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>class_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>neighbor_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new instance of the class with the given :literal:<computeroutput>class_count</computeroutput> and :literal:<computeroutput>neighbor_count</computeroutput> property values </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="260" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="260" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ab3d6670c92a566460c6912a3e06545f9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+            <defval>Method</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_brute_force_t&lt;M&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>descriptor</definition>
+        <argsstring>(std::int64_t class_count, std::int64_t neighbor_count, const distance_t &amp;distance)</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::descriptor</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>class_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>neighbor_count</declname>
+        </param>
+        <param>
+          <type>const distance_t &amp;</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new instance of the class with the given :literal:<computeroutput>class_count</computeroutput>, :literal:<computeroutput>neighbor_count</computeroutput> and :literal:<computeroutput>distance</computeroutput> property values. Used with :expr:<computeroutput>method::brute_force</computeroutput> only. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="270" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="270" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1af6ee16dfc4f65df711ac7268a5e5c3e9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_not_classification_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>descriptor</definition>
+        <argsstring>(std::int64_t neighbor_count)</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::descriptor</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>neighbor_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new instance of the class with the given :literal:<computeroutput>neighbor_count</computeroutput> property value. Used with :expr:<computeroutput>task::search</computeroutput> and :expr:<computeroutput>task::regression</computeroutput> only. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="282" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="282" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a1c14d4fbb61415e5757266397ff266c9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_not_classification_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>descriptor</definition>
+        <argsstring>(std::int64_t neighbor_count, const distance_t &amp;distance)</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::descriptor</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>neighbor_count</declname>
+        </param>
+        <param>
+          <type>const distance_t &amp;</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new instance of the class with the given :literal:<computeroutput>neighbor_count</computeroutput> and :literal:<computeroutput>distance</computeroutput> property values. Used with :expr:<computeroutput>task::search</computeroutput> and :expr:<computeroutput>task::regression</computeroutput> only. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="290" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="290" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1aa71e9f4f7d270a3c90972bbac4e67158" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_class_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_class_count</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::get_class_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of classes c <simplesect kind="invariant"><para>:expr:<computeroutput>class_count &gt; 1</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="297" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="297" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1abebad988fd2db53e82966f08602e67a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_class_count</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_class_count</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::set_class_count</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="301" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="301" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a848e3bd896ce77eb8f6773085944348a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_neighbor_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_neighbor_count</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::get_neighbor_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of neighbors k <simplesect kind="invariant"><para>:expr:<computeroutput>neighbor_count &gt; 0</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="308" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="308" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a1384975e911758053f2de47b90d2a41e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_neighbor_count</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_neighbor_count</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::set_neighbor_count</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="312" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="312" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ab055bd7e3c52ba4d4dedf68f06a3ee04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>voting_mode</type>
+        <definition>voting_mode get_voting_mode</definition>
+        <argsstring>() const</argsstring>
+        <name>get_voting_mode</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::get_voting_mode</qualifiedname>
+        <briefdescription>
+<para>The voting mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="318" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="318" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a70df0f0b85aac241479facdef4f69f14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_voting_mode</definition>
+        <argsstring>(voting_mode value)</argsstring>
+        <name>set_voting_mode</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::set_voting_mode</qualifiedname>
+        <param>
+          <type>voting_mode</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="322" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="322" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a7e7f74fe002abb1b6e3e3686be0b5be1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+            <defval>Method</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_brute_force_t&lt;M&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>const distance_t &amp;</type>
+        <definition>const distance_t &amp; get_distance</definition>
+        <argsstring>() const</argsstring>
+        <name>get_distance</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::get_distance</qualifiedname>
+        <briefdescription>
+<para>Choose distance type for calculations. Used with :expr:<computeroutput>method::brute_force</computeroutput> only. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="329" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="329" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ac4315072a760f98c9673925387ecdf88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+            <defval>Method</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_brute_force_t&lt;M&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_distance</definition>
+        <argsstring>(const distance_t &amp;dist)</argsstring>
+        <name>set_distance</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::set_distance</qualifiedname>
+        <param>
+          <type>const distance_t &amp;</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="336" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="336" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a4e723b75e0cc5bb912916a6fe3d88a69" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1knn_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>result_option_id get_result_options</definition>
+        <argsstring>() const</argsstring>
+        <name>get_result_options</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::get_result_options</qualifiedname>
+        <briefdescription>
+<para>Choose which results should be computed and returned. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="342" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="342" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a1317ed1a05aa0795155a380496ee48e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_result_options</definition>
+        <argsstring>(const result_option_id &amp;value)</argsstring>
+        <name>set_result_options</name>
+        <qualifiedname>oneapi::dal::knn::v1::descriptor::set_result_options</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1knn_1_1result__option__id" kindref="compound">result_option_id</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="346" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="346" bodyend="349"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Float</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The floating-point type that the algorithm uses for intermediate computations. Can be :expr:<computeroutput>float</computeroutput> or :expr:<computeroutput>double</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies an implementation of algorithm. Can be :expr:<computeroutput>method::brute_force</computeroutput> or :expr:<computeroutput>method::kd_tree</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies type of the problem to solve. Can be :expr:<computeroutput>task::classification</computeroutput>, :expr:<computeroutput>task::regression</computeroutput>, or :expr:<computeroutput>task::search</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The descriptor of the distance used for computations. Can be :expr:<computeroutput>minkowski_distance::descriptor</computeroutput> or :expr:<computeroutput>chebyshev_distance::descriptor</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task, Distance &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task, Distance &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="242" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="242" bodyend="350"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a9d315fc7c49bc9d41b5afbd4c940eb20" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ab3d6670c92a566460c6912a3e06545f9" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1af6ee16dfc4f65df711ac7268a5e5c3e9" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a1c14d4fbb61415e5757266397ff266c9" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base_1ae5418001ac7cba94e21559266ab67543" prot="protected" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a45758bfa2d7221bcc9040825bed7580c" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>distance_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1aa71e9f4f7d270a3c90972bbac4e67158" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>get_class_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a7e7f74fe002abb1b6e3e3686be0b5be1" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>get_distance</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base_1afbfacb2f6c7442926ad022343abbd38a" prot="protected" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>get_distance_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a848e3bd896ce77eb8f6773085944348a" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>get_neighbor_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a4e723b75e0cc5bb912916a6fe3d88a69" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>get_result_options</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ab055bd7e3c52ba4d4dedf68f06a3ee04" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>get_voting_mode</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1abebad988fd2db53e82966f08602e67a5" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_class_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base_1a3b9f59d828a39414cf74be9bedb39233" prot="protected" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_class_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ac4315072a760f98c9673925387ecdf88" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_distance</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base_1a6ddf4f83065b0661247a0a7915d6a615" prot="protected" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_distance_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a1384975e911758053f2de47b90d2a41e" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_neighbor_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base_1a3da624b2c9be44537ccd143a137617c6" prot="protected" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_neighbor_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a1317ed1a05aa0795155a380496ee48e3" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_result_options</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base_1aa5607543770784168494e5697df7f046" prot="protected" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_result_options_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1a70df0f0b85aac241479facdef4f69f14" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_voting_mode</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base_1ab243acc28574a2b697dec34bf65ed142" prot="protected" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>set_voting_mode_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::knn::v1::descriptor</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

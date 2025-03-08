@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::basic_statistics::test::basic_statistics_test</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture" prot="public" virt="non-virtual">oneapi::dal::test::engine::crtp_algo_fixture&lt; TestType, Derived &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename TestType</type>
+      </param>
+      <param>
+        <type>typename Derived</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1ac326cc316db45ea7e8a439c7b06c4cb1" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 0, TestType &gt;</type>
+        <definition>using float_t =  std::tuple_element_t&lt;0, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="44" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a8f837853131c68aace349d86d5190e55" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 1, TestType &gt;</type>
+        <definition>using method_t =  std::tuple_element_t&lt;1, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="45" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1aad65c401f81ab43cd4f5d28934684cec" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__input" kindref="compound">bs::compute_input</ref>&lt;&gt;</type>
+        <definition>using input_t =  bs::compute_input&lt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>input_t</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::input_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="46" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a3423b88546a94a252141e139ca010545" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__result" kindref="compound">bs::compute_result</ref>&lt;&gt;</type>
+        <definition>using result_t =  bs::compute_result&lt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>result_t</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::result_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="47" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a444c548e88a5c914a9c6712999e2de6b" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__input" kindref="compound">bs::partial_compute_input</ref>&lt;&gt;</type>
+        <definition>using partial_input_t =  bs::partial_compute_input&lt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>partial_input_t</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::partial_input_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="48" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a1b46b140592a6d3678a860a3017f9bcd" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result" kindref="compound">bs::partial_compute_result</ref>&lt;&gt;</type>
+        <definition>using partial_result_t =  bs::partial_compute_result&lt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>partial_result_t</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::partial_result_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="49" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1ae71513de093468cca8b496d07d4902bb" prot="public" static="no">
+        <type>bs::descriptor&lt; float_t, method_t &gt;</type>
+        <definition>using descriptor_t =  bs::descriptor&lt;float_t, method_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>descriptor_t</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::descriptor_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="50" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a754a4f0194386b9a91f55638742817c4" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1csr__table" kindref="compound">dal::csr_table</ref></type>
+        <definition>using csr_table =  dal::csr_table</definition>
+        <argsstring></argsstring>
+        <name>csr_table</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::csr_table</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="51" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a5a444a8137a2f07c039301e3734614ca" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+        <definition>const bs::result_option_id res_min_max</definition>
+        <argsstring></argsstring>
+        <name>res_min_max</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::res_min_max</qualifiedname>
+        <initializer>= <ref refid="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1a81f080dbf8ad8bc10fc596b7702a5e1f" kindref="member">result_options::min</ref> | <ref refid="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1a69eaec57bbbeb3ec714627ebec0dd86c" kindref="member">result_options::max</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="401" column="32" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a9b4f33c4ddb96b54e9773ba790dd4898" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+        <definition>const bs::result_option_id res_mean_varc</definition>
+        <argsstring></argsstring>
+        <name>res_mean_varc</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::res_mean_varc</qualifiedname>
+        <initializer>= <ref refid="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1ad0c42c3ebf102ee1c4fa870e6f6c72bf" kindref="member">result_options::mean</ref> | <ref refid="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1a3672c99f3c9487b448472c0687248d1a" kindref="member">result_options::variance</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="402" column="32" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a947d7ac0088bd8e806728a9fe3d236db" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+        <definition>const bs::result_option_id res_all</definition>
+        <argsstring></argsstring>
+        <name>res_all</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::res_all</qualifiedname>
+        <initializer>=
+        <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref>(<ref refid="classoneapi_1_1dal_1_1result__option__id__base" kindref="compound">dal::result_option_id_base</ref>(mask_full))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="403" column="32" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="403" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a99556fc139bf52fb82eb95f75e5467ed" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto get_descriptor</definition>
+        <argsstring>(bs::result_option_id compute_mode) const</argsstring>
+        <name>get_descriptor</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::get_descriptor</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+          <declname>compute_mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="53" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a6e6416ac3e4bcb5b1ba7d636acf31ff1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1table__id" kindref="compound">te::table_id</ref></type>
+        <definition>te::table_id get_homogen_table_id</definition>
+        <argsstring>() const</argsstring>
+        <name>get_homogen_table_id</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::get_homogen_table_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="57" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1aff635c2a35bd4e9f3a5f72ced4a37615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">dal::table</ref> &gt;</type>
+        <definition>std::vector&lt; dal::table &gt; split_table_by_rows</definition>
+        <argsstring>(const dal::table &amp;t, std::int64_t split_count)</argsstring>
+        <name>split_table_by_rows</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::split_table_by_rows</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">dal::table</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>split_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="61" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="61" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1adf54304bb33ff58463d96b3d5ff99548" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void general_checks</definition>
+        <argsstring>(const te::dataframe &amp;data_fr, std::shared_ptr&lt; te::dataframe &gt; weights_fr, bs::result_option_id compute_mode)</argsstring>
+        <name>general_checks</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::general_checks</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &amp;</type>
+          <declname>data_fr</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &gt;</type>
+          <declname>weights_fr</declname>
+        </param>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+          <declname>compute_mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="86" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="86" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a083e741c3f54a3255ccaa51396c51bae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void csr_general_checks</definition>
+        <argsstring>(const te::csr_table_builder&lt;&gt; &amp;data, bs::result_option_id compute_mode)</argsstring>
+        <name>csr_general_checks</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::csr_general_checks</qualifiedname>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder" kindref="compound">te::csr_table_builder</ref>&lt;&gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+          <declname>compute_mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="110" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="110" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1ace7c65af2d6eb20b87fff52cf50ef4cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool not_cpu_friendly</definition>
+        <argsstring>(const te::csr_table_builder&lt;&gt; &amp;data)</argsstring>
+        <name>not_cpu_friendly</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::not_cpu_friendly</qualifiedname>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder" kindref="compound">te::csr_table_builder</ref>&lt;&gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="125" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1af19fbc00b305c57794988ac8713ca429" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void online_general_checks</definition>
+        <argsstring>(const te::dataframe &amp;data_fr, std::shared_ptr&lt; te::dataframe &gt; weights_fr, bs::result_option_id compute_mode, std::int64_t nBlocks)</argsstring>
+        <name>online_general_checks</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::online_general_checks</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &amp;</type>
+          <declname>data_fr</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &gt;</type>
+          <declname>weights_fr</declname>
+        </param>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+          <declname>compute_mode</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>nBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="130" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="130" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1aed1896b3bf5d05d1ed3a6ec76b1266cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_compute_result</definition>
+        <argsstring>(bs::result_option_id compute_mode, const table &amp;data, const table &amp;weights, const result_t &amp;result)</argsstring>
+        <name>check_compute_result</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::check_compute_result</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+          <declname>compute_mode</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__result" kindref="compound">result_t</ref> &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="166" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="166" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a544fae5fa82e458d9e54560cb08a634a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_result_shape</definition>
+        <argsstring>(bs::result_option_id compute_mode, const table &amp;data, const result_t &amp;result)</argsstring>
+        <name>check_result_shape</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::check_result_shape</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+          <declname>compute_mode</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__result" kindref="compound">result_t</ref> &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="179" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="179" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a7f5414997b6618a09bc2fbb95e31b492" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_if_close</definition>
+        <argsstring>(const table &amp;left, const table &amp;right, std::string name=&quot;&quot;, double tol=1e-2)</argsstring>
+        <name>check_if_close</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::check_if_close</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+          <defval>1e-2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="218" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="218" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1aa320280fb40544bcbe1261d99858bbc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_vs_reference</definition>
+        <argsstring>(bs::result_option_id compute_mode, const table &amp;data, const table &amp;weights, const result_t &amp;result)</argsstring>
+        <name>check_vs_reference</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::check_vs_reference</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+          <declname>compute_mode</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__result" kindref="compound">result_t</ref> &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="258" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="258" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a4267f9c59dc7d4ad2f694916ddcaa7d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_for_exception_for_non_requested_results</definition>
+        <argsstring>(bs::result_option_id compute_mode, const result_t &amp;result)</argsstring>
+        <name>check_for_exception_for_non_requested_results</name>
+        <qualifiedname>oneapi::dal::basic_statistics::test::basic_statistics_test::check_for_exception_for_non_requested_results</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">bs::result_option_id</ref></type>
+          <declname>compute_mode</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__result" kindref="compound">result_t</ref> &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="366" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="366" bodyend="398"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>basic_statistics_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>float_algo_fixture&lt; std::tuple_element_t&lt; 0, TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>crtp_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>crtp_base_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>basic_statistics_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>float_algo_fixture&lt; std::tuple_element_t&lt; 0, TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>crtp_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>crtp_base_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" line="42" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp" bodystart="42" bodyend="405"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a47e0976672a17441594551ce187a42fb" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1aed1896b3bf5d05d1ed3a6ec76b1266cc" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>check_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a4267f9c59dc7d4ad2f694916ddcaa7d8" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>check_for_exception_for_non_requested_results</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a7f5414997b6618a09bc2fbb95e31b492" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>check_if_close</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a544fae5fa82e458d9e54560cb08a634a" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>check_result_shape</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1aa320280fb40544bcbe1261d99858bbc5" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>check_vs_reference</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a94f22290cc3d23e51bf7d30d569628ce" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a7512faf980955c840eda7d26ff607134" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afe2fd9a0e7f017a0593fc2e062f96280" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>compute_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a846e74572aabf08ac8ec1b55aa9865e7" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>compute_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a083e741c3f54a3255ccaa51396c51bae" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>csr_general_checks</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a754a4f0194386b9a91f55638742817c4" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>csr_table</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ad89ea821951f979c65f34120555f1ebf" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>derived</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a7a703a9d746f80d1f1bb684274e9054b" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>derived_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1ae71513de093468cca8b496d07d4902bb" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>descriptor_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a98e68b95a18f894c9705226a01f3619c" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>finalize_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1af509567b3a24d60f43ac5e68225df6ea" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>finalize_compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1ab78b4384841a391350222d38a71989ca" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>finalize_compute_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a91ee6fceea739e3b3dde9a295f84fbbf" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>finalize_compute_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a1ddff1057e1c77615717643fabd710da" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>finalize_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ab63fb783388a7caab10158bbe1c4f320" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>finalize_train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fb19ae9f8ecaf3c4e521391fb560bde" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>finalize_train_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a6f7983b21f53d22485e6fef1af3bbf92" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>finalize_train_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1ac326cc316db45ea7e8a439c7b06c4cb1" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1adf54304bb33ff58463d96b3d5ff99548" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>general_checks</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a99556fc139bf52fb82eb95f75e5467ed" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>get_descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a6e6416ac3e4bcb5b1ba7d636acf31ff1" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>get_homogen_table_id</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1ad5b4f390efae39c68f92df90353b5ca8" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>get_policy</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1a2db053a584a93e0d852f86ee02750992" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>get_queue</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a1769a758869aeeed2df2d90ad6c5bd7b" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>infer</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a99902a786318586ae7135865bd37504a" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>infer_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afa99ce660b78dc6381d265d6bc5c0ac4" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>infer_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1aab4216cdc871583a7ae486c5a3cbf34f" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>infer_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1aad65c401f81ab43cd4f5d28934684cec" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>input_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a163bd2487ff1fd422798cd3bd9fbbdb1" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>merge_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1af0c5aa299637b51f9f770fd5318149f2" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>merge_compute_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a14cc53d7c932692aa33e4ddff6937437" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>merge_finalize_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a3411c600dcc18c2fcff5930e43474ed9" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>merge_finalize_compute_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1aab5e6e48d85bec4329368ff5ab783234" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>merge_finalize_train_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1aa7f33d78b74650dd71d9512e5e6213ae" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>merge_infer_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a46370c114f72f7cbf3e12022f1e8ea94" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>merge_infer_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a928e7542d7a3f0bdb9bf71ec1fac1314" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>merge_train_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a96895ee7ca7beb657d42d7f44cc0e505" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>merge_train_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a8f837853131c68aace349d86d5190e55" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1ace7c65af2d6eb20b87fff52cf50ef4cf" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>not_cpu_friendly</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a7ae0ebe89b0dc86c3febaead54efdd44" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>not_float64_friendly</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1af19fbc00b305c57794988ac8713ca429" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>online_general_checks</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ac3c45f1572b279a5d6f74a6548d0a104" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>partial_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a8d74106df88dca7a52c1e0efd268617e" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>partial_compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a444c548e88a5c914a9c6712999e2de6b" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>partial_input_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a1b46b140592a6d3678a860a3017f9bcd" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>partial_result_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a6d64f595fca38a8c16bce504ce20b0c2" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>partial_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a376eff5b483f54b63c186b7c294fd950" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>partial_train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1afcb54598e7c58188a35c3eb79d54bed4" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>partial_train_with_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a947d7ac0088bd8e806728a9fe3d236db" prot="private" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>res_all</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a9b4f33c4ddb96b54e9773ba790dd4898" prot="private" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>res_mean_varc</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a5a444a8137a2f07c039301e3734614ca" prot="private" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>res_min_max</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1a3423b88546a94a252141e139ca010545" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>result_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a815bc11016e94bfc56362972bf4899c3" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_compute_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a681ab37ab9bbb635dfda6c3e32093216" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_compute_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a59f28edc3d1d2dc30eae5d23c2f6ced0" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_finalize_compute_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a4a3cdda7f9b045718e8119c1130d96b7" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_finalize_compute_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ae8f43835cbbdafdfd1006ac4bcf1b002" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_finalize_train_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a15b054f68d10cca541ef19f3c93aedc9" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_infer_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a3be0322fad50f3ff364db8673245e6e9" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_infer_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test_1aff635c2a35bd4e9f3a5f72ced4a37615" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_table_by_rows</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a817835eeb02cc5122cc38408d5f46c14" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_train_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1abc343e4dec6108c883424787bf6ca4e6" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>split_train_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a78b584fe4368d4320992381407f46b5c" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ae66f1418bb3c5e55678da710125bebef" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a3bc6bb64c716348cea45a78f281843be" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>train_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fc841dae09ff56d51ecdeeb678139dd" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>train_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a596f6a2f2ffff25aa8ffa9b4151f7257" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::test::basic_statistics_test</scope><name>train_with_parameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

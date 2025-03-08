@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_ada7a9dc6ce5fa85c02d235259aace4f" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree</compoundname>
+    <innerfile refid="algo_2decision__tree_2common_8hpp">common.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/"/>
+  </compounddef>
+</doxygen>

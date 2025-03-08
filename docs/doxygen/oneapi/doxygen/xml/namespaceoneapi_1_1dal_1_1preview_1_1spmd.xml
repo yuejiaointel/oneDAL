@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1preview_1_1spmd" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::preview::spmd</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info" prot="public">oneapi::dal::preview::spmd::ccl_info</innerclass>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1spmd_1_1backend">oneapi::dal::preview::spmd::backend</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1spmd_1_1device__memory__access">oneapi::dal::preview::spmd::device_memory_access</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1spmd_1_1v1">oneapi::dal::preview::spmd::v1</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="spmd_2ccl_2communicator_8hpp_1a54a5871169edb7bcfc982c5078c793b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">communicator</ref>&lt; <ref refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1device__memory__access_1_1v1_1_1none" kindref="compound">device_memory_access::none</ref> &gt;</type>
+        <definition>communicator&lt; device_memory_access::none &gt; make_communicator&lt; backend::ccl &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>make_communicator&lt; backend::ccl &gt;</name>
+        <qualifiedname>oneapi::dal::preview::spmd::make_communicator&lt; backend::ccl &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" line="1" column="0" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_2ccl_2communicator_8hpp_1ad7b1b20c649583ea0911d3031c9dcd26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">communicator</ref>&lt; <ref refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1device__memory__access_1_1v1_1_1usm" kindref="compound">device_memory_access::usm</ref> &gt;</type>
+        <definition>communicator&lt; device_memory_access::usm &gt; make_communicator&lt; backend::ccl &gt;</definition>
+        <argsstring>(sycl::queue &amp;queue)</argsstring>
+        <name>make_communicator&lt; backend::ccl &gt;</name>
+        <qualifiedname>oneapi::dal::preview::spmd::make_communicator&lt; backend::ccl &gt;</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" line="1" column="0" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" bodystart="68" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_2communicator_8hpp_1ab2d76737ff561386266a3ca34ac04955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Backend</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">communicator</ref>&lt; <ref refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1device__memory__access_1_1v1_1_1none" kindref="compound">device_memory_access::none</ref> &gt;</type>
+        <definition>communicator&lt; device_memory_access::none &gt; make_communicator</definition>
+        <argsstring>()</argsstring>
+        <name>make_communicator</name>
+        <qualifiedname>oneapi::dal::preview::spmd::make_communicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="542" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="542" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_2communicator_8hpp_1a17d789982be39c54a64d9ddd8515b6c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Backend</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">communicator</ref>&lt; <ref refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1device__memory__access_1_1v1_1_1usm" kindref="compound">device_memory_access::usm</ref> &gt;</type>
+        <definition>communicator&lt; device_memory_access::usm &gt; make_communicator</definition>
+        <argsstring>(sycl::queue &amp;queue)</argsstring>
+        <name>make_communicator</name>
+        <qualifiedname>oneapi::dal::preview::spmd::make_communicator</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="550" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="550" bodyend="554"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_2mpi_2communicator_8hpp_1a41a87bb2dbe84aaba58a1fafa4a866aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">communicator</ref>&lt; <ref refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1device__memory__access_1_1v1_1_1none" kindref="compound">device_memory_access::none</ref> &gt;</type>
+        <definition>communicator&lt; device_memory_access::none &gt; make_communicator&lt; backend::mpi &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>make_communicator&lt; backend::mpi &gt;</name>
+        <qualifiedname>oneapi::dal::preview::spmd::make_communicator&lt; backend::mpi &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/mpi/communicator.hpp" line="1" column="0" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/mpi/communicator.hpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_2mpi_2communicator_8hpp_1a4bcfeb269028143f36dec6a772dcd238" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">communicator</ref>&lt; <ref refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1device__memory__access_1_1v1_1_1usm" kindref="compound">device_memory_access::usm</ref> &gt;</type>
+        <definition>communicator&lt; device_memory_access::usm &gt; make_communicator&lt; backend::mpi &gt;</definition>
+        <argsstring>(sycl::queue &amp;queue)</argsstring>
+        <name>make_communicator&lt; backend::mpi &gt;</name>
+        <qualifiedname>oneapi::dal::preview::spmd::make_communicator&lt; backend::mpi &gt;</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/mpi/communicator.hpp" line="1" column="0" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/mpi/communicator.hpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" line="27" column="1"/>
+  </compounddef>
+</doxygen>

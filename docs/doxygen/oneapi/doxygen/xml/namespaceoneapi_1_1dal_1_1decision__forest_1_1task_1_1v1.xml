@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1decision__forest_1_1task_1_1v1" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::decision_forest::task::v1</compoundname>
+    <innerclass refid="structoneapi_1_1dal_1_1decision__forest_1_1task_1_1v1_1_1classification" prot="public">oneapi::dal::decision_forest::task::v1::classification</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1decision__forest_1_1task_1_1v1_1_1regression" prot="public">oneapi::dal::decision_forest::task::v1::regression</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="algo_2decision__forest_2common_8hpp_1a1fa7aa5475161c51e11c704e381871b9" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1decision__forest_1_1task_1_1v1_1_1classification" kindref="compound">classification</ref></type>
+        <definition>using by_default =  classification</definition>
+        <argsstring></argsstring>
+        <name>by_default</name>
+        <qualifiedname>oneapi::dal::decision_forest::task::v1::by_default</qualifiedname>
+        <briefdescription>
+<para>Alias tag-type for classification task. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="39" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="29" column="1"/>
+  </compounddef>
+</doxygen>

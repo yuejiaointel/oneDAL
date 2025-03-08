@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</compoundname>
+    <basecompoundref refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper" prot="public" virt="non-virtual">ndindexer_dkeeper&lt; Index &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Index</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4_1aa2df4ff110856d966c8fc2989087c428" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper" kindref="compound">ndindexer_dkeeper</ref>&lt; Index &gt;</type>
+        <definition>using base_t =  ndindexer_dkeeper&lt;Index&gt;</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="54" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4_1a111a2f66b6cbf084c75692b5df248ad3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ndindexer_base</definition>
+        <argsstring>(Index h, Index w, Index s)</argsstring>
+        <name>ndindexer_base</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;::ndindexer_base</qualifiedname>
+        <param>
+          <type>Index</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>Index</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>Index</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="56" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4_1a4a768cb0c77b80159b90ffb5bb570cd6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Index</type>
+        <definition>Index get_index</definition>
+        <argsstring>(Index row, Index col) const</argsstring>
+        <name>get_index</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;::get_index</qualifiedname>
+        <param>
+          <type>Index</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>Index</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="62" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ndindexer_base&lt; ndorder::c, Index &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ndindexer_dkeeper&lt; Index &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ndindexer_base&lt; ndorder::c, Index &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ndindexer_dkeeper&lt; Index &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="53" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="53" bodyend="66"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4_1aa2df4ff110856d966c8fc2989087c428" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</scope><name>base_t</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1a3024206e2b49ae5ed61b36a8a2f9bc8d" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</scope><name>check</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4_1a4a768cb0c77b80159b90ffb5bb570cd6" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</scope><name>get_index</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1ad903030ebef878c7dbf18fa0c1b23059" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</scope><name>height</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4_1a111a2f66b6cbf084c75692b5df248ad3" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</scope><name>ndindexer_base</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1afe083b95033f1c50b40f23032c019d78" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</scope><name>ndindexer_dkeeper</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1adb513d07bee6fb39b6b8b4f755d9910b" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</scope><name>stride</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1ae727dc96a12da6998818f50df8f66a6c" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

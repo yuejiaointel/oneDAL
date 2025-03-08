@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_e3689030dd6bfd9e4157983719c3710d" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend</compoundname>
+    <innerdir refid="dir_abbf7c2f9986b8f916c56afc4cb43cb6">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives</innerdir>
+    <innerfile refid="atomic_8hpp">atomic.hpp</innerfile>
+    <innerfile refid="backend_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="backend_2communicator_8hpp">communicator.hpp</innerfile>
+    <innerfile refid="dispatcher_8hpp">dispatcher.hpp</innerfile>
+    <innerfile refid="dispatcher__cpu_8hpp">dispatcher_cpu.hpp</innerfile>
+    <innerfile refid="backend_2math_8hpp">math.hpp</innerfile>
+    <innerfile refid="backend_2serialization_8hpp">serialization.hpp</innerfile>
+    <innerfile refid="transfer_8hpp">transfer.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/"/>
+  </compounddef>
+</doxygen>

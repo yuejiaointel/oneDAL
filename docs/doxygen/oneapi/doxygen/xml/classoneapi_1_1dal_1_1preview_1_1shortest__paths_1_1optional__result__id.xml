@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::preview::shortest_paths::optional_result_id</compoundname>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a526b4a93a7bc67a3b14d0e96b893378b" prot="private" static="no">
+        <type>std::uint64_t</type>
+        <definition>using bitset_t =  std::uint64_t</definition>
+        <argsstring></argsstring>
+        <name>bitset_t</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::optional_result_id::bitset_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="36" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a2f120933f18fdd326673f1903d8c6ece" prot="private" static="no" mutable="no">
+        <type>bitset_t</type>
+        <definition>bitset_t mask_</definition>
+        <argsstring></argsstring>
+        <name>mask_</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::optional_result_id::mask_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="61" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a556b98d5555f3200769915dac165ee9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>optional_result_id</definition>
+        <argsstring>()</argsstring>
+        <name>optional_result_id</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::optional_result_id::optional_result_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="39" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1ace81aba11e516ef6438ccc9f14cd96c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>optional_result_id</definition>
+        <argsstring>(const bitset_t &amp;mask)</argsstring>
+        <name>optional_result_id</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::optional_result_id::optional_result_id</qualifiedname>
+        <param>
+          <type>const bitset_t &amp;</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="41" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a83e0f34a3e78176035849d19de9e9760" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const bitset_t &amp;</type>
+        <definition>const bitset_t &amp; get_mask</definition>
+        <argsstring>() const</argsstring>
+        <name>get_mask</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::optional_result_id::get_mask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="43" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a67b76affb3b5d35fa419ac234144038b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::optional_result_id::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="47" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="47" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a8ef4b92c04fd2b79e0b6b9accf9bbc51" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref></type>
+        <definition>static optional_result_id get_result_id_by_index</definition>
+        <argsstring>(std::int64_t result_index)</argsstring>
+        <name>get_result_id_by_index</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::optional_result_id::get_result_id_by_index</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="51" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="51" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a487706b2c9ffb576e80f0b3e96e52461" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+        <definition>optional_result_id &amp; set_mask</definition>
+        <argsstring>(const bitset_t &amp;mask)</argsstring>
+        <name>set_mask</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::optional_result_id::set_mask</qualifiedname>
+        <param>
+          <type>const bitset_t &amp;</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="56" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="35" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="35" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a526b4a93a7bc67a3b14d0e96b893378b" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::optional_result_id</scope><name>bitset_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a83e0f34a3e78176035849d19de9e9760" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::optional_result_id</scope><name>get_mask</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a8ef4b92c04fd2b79e0b6b9accf9bbc51" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::optional_result_id</scope><name>get_result_id_by_index</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a2f120933f18fdd326673f1903d8c6ece" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::optional_result_id</scope><name>mask_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a67b76affb3b5d35fa419ac234144038b" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::optional_result_id</scope><name>operator bool</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a556b98d5555f3200769915dac165ee9c" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::optional_result_id</scope><name>optional_result_id</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1ace81aba11e516ef6438ccc9f14cd96c6" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::optional_result_id</scope><name>optional_result_id</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id_1a487706b2c9ffb576e80f0b3e96e52461" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::optional_result_id</scope><name>set_mask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

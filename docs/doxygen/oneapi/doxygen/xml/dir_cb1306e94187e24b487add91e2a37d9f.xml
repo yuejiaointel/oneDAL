@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_cb1306e94187e24b487add91e2a37d9f" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/test</compoundname>
+    <innerfile refid="covariance_2test_2fixture_8hpp">fixture.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/test/"/>
+  </compounddef>
+</doxygen>

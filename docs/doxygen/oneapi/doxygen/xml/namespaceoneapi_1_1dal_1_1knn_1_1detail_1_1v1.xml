@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1knn_1_1detail_1_1v1" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::knn::detail::v1</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base" prot="public">oneapi::dal::knn::detail::v1::descriptor_base</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__impl" prot="public">oneapi::dal::knn::detail::v1::descriptor_impl</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__tag" prot="public">oneapi::dal::knn::detail::v1::descriptor_tag</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1infer__input__impl" prot="public">oneapi::dal::knn::detail::v1::infer_input_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1infer__result__impl" prot="public">oneapi::dal::knn::detail::v1::infer_result_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1model__impl" prot="public">oneapi::dal::knn::detail::v1::model_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1train__input__impl" prot="public">oneapi::dal::knn::detail::v1::train_input_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1train__result__impl" prot="public">oneapi::dal::knn::detail::v1::train_result_impl</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="algo_2knn_2common_8hpp_1ac17af59a298f6783a05365f946fb1663" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; std::is_same_v&lt; std::decay_t&lt; T &gt;, <ref refid="structoneapi_1_1dal_1_1knn_1_1task_1_1v1_1_1search" kindref="compound">task::search</ref> &gt; &gt;</type>
+        <definition>using enable_if_search_t =  std::enable_if_t&lt;std::is_same_v&lt;std::decay_t&lt;T&gt;, task::search&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_search_t</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::enable_if_search_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="152" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="algo_2knn_2common_8hpp_1aa9c820d36532ddbfb25a731846b96f11" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; std::is_same_v&lt; std::decay_t&lt; T &gt;, <ref refid="structoneapi_1_1dal_1_1knn_1_1task_1_1v1_1_1regression" kindref="compound">task::regression</ref> &gt; &gt;</type>
+        <definition>using enable_if_regression_t =  std::enable_if_t&lt;std::is_same_v&lt;std::decay_t&lt;T&gt;, task::regression&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_regression_t</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::enable_if_regression_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="155" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="algo_2knn_2common_8hpp_1a92579e6dc81a3db613b6ff2fde401692" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; std::is_same_v&lt; std::decay_t&lt; T &gt;, <ref refid="structoneapi_1_1dal_1_1knn_1_1task_1_1v1_1_1classification" kindref="compound">task::classification</ref> &gt; &gt;</type>
+        <definition>using enable_if_classification_t =  std::enable_if_t&lt;std::is_same_v&lt;std::decay_t&lt;T&gt;, task::classification&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_classification_t</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::enable_if_classification_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="158" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="algo_2knn_2common_8hpp_1a433c8ced11725514f17f43106c4623a3" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; std::is_same_v&lt; std::decay_t&lt; T &gt;, <ref refid="structoneapi_1_1dal_1_1knn_1_1method_1_1v1_1_1brute__force" kindref="compound">method::brute_force</ref> &gt; &gt;</type>
+        <definition>using enable_if_brute_force_t =  std::enable_if_t&lt;std::is_same_v&lt;std::decay_t&lt;T&gt;, method::brute_force&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_brute_force_t</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::enable_if_brute_force_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="162" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="algo_2knn_2common_8hpp_1a683e320d4cd37f0ca2e0992da30e7b9e" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; is_not_search_v&lt; T &gt; &gt;</type>
+        <definition>using enable_if_not_search_t =  std::enable_if_t&lt;is_not_search_v&lt;T&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_not_search_t</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::enable_if_not_search_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="166" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="algo_2knn_2common_8hpp_1aeb9d0b747e1684886dd1f7826d0a99c0" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; is_not_classification_v&lt; T &gt; &gt;</type>
+        <definition>using enable_if_not_classification_t =  std::enable_if_t&lt;is_not_classification_v&lt;T&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_not_classification_t</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::enable_if_not_classification_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="169" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="169" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="algo_2knn_2common_8hpp_1a47508ff2562d529231dda47b677a7a89" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_float_v</definition>
+        <argsstring></argsstring>
+        <name>is_valid_float_v</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::is_valid_float_v</qualifiedname>
+        <initializer>= dal::detail::is_one_of_v&lt;Float, float, double&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="128" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2knn_2common_8hpp_1a801c5424efd3b7ec2f014ec5024a0830" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Method</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_method_v</definition>
+        <argsstring></argsstring>
+        <name>is_valid_method_v</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::is_valid_method_v</qualifiedname>
+        <initializer>=
+    dal::detail::is_one_of_v&lt;Method, <ref refid="structoneapi_1_1dal_1_1knn_1_1method_1_1v1_1_1kd__tree" kindref="compound">method::kd_tree</ref>, <ref refid="structoneapi_1_1dal_1_1knn_1_1method_1_1v1_1_1brute__force" kindref="compound">method::brute_force</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="131" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2knn_2common_8hpp_1a7d5b5b6385d2e3afa0bdc62e9038eaf3" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Task</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_task_v</definition>
+        <argsstring></argsstring>
+        <name>is_valid_task_v</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::is_valid_task_v</qualifiedname>
+        <initializer>=
+    dal::detail::is_one_of_v&lt;Task, <ref refid="structoneapi_1_1dal_1_1knn_1_1task_1_1v1_1_1classification" kindref="compound">task::classification</ref>, <ref refid="structoneapi_1_1dal_1_1knn_1_1task_1_1v1_1_1regression" kindref="compound">task::regression</ref>, <ref refid="structoneapi_1_1dal_1_1knn_1_1task_1_1v1_1_1search" kindref="compound">task::search</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="135" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2knn_2common_8hpp_1add51c9c24c6bdc3ab923bc202cf819e8" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Distance</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_distance_v</definition>
+        <argsstring></argsstring>
+        <name>is_valid_distance_v</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::is_valid_distance_v</qualifiedname>
+        <initializer>=
+    dal::detail::is_tag_one_of_v&lt;Distance,
+                                 <ref refid="structoneapi_1_1dal_1_1minkowski__distance_1_1detail_1_1v1_1_1descriptor__tag" kindref="compound">minkowski_distance::detail::descriptor_tag</ref>,
+                                 <ref refid="structoneapi_1_1dal_1_1chebyshev__distance_1_1detail_1_1v1_1_1descriptor__tag" kindref="compound">chebyshev_distance::detail::descriptor_tag</ref>,
+                                 <ref refid="structoneapi_1_1dal_1_1cosine__distance_1_1detail_1_1v1_1_1descriptor__tag" kindref="compound">cosine_distance::detail::descriptor_tag</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="139" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2knn_2common_8hpp_1a22faac4b8b1b00f70c2a00ba161fc82d" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_not_search_v</definition>
+        <argsstring></argsstring>
+        <name>is_not_search_v</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::is_not_search_v</qualifiedname>
+        <initializer>= !std::is_same_v&lt;T, <ref refid="structoneapi_1_1dal_1_1knn_1_1task_1_1v1_1_1search" kindref="compound">task::search</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="146" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2knn_2common_8hpp_1a7ab8f8fba35ff5dc2558af380ef9d819" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_not_classification_v</definition>
+        <argsstring></argsstring>
+        <name>is_not_classification_v</name>
+        <qualifiedname>oneapi::dal::knn::detail::v1::is_not_classification_v</qualifiedname>
+        <initializer>= !std::is_same_v&lt;T, <ref refid="structoneapi_1_1dal_1_1knn_1_1task_1_1v1_1_1classification" kindref="compound">task::classification</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="149" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="149" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="119" column="1"/>
+  </compounddef>
+</doxygen>

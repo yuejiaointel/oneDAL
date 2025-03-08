@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_7da33f317726fa9b5ca7c2cf9faa7e0a" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression</compoundname>
+    <innerdir refid="dir_e4a755d6fa8a6021c8f12798e49bedd7">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/parameters</innerdir>
+    <innerdir refid="dir_3d26d7930ea6ecdd156a99d6a7dde3a1">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/test</innerdir>
+    <innerfile refid="algo_2logistic__regression_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="algo_2logistic__regression_2infer_8hpp">infer.hpp</innerfile>
+    <innerfile refid="logistic__regression_2infer__types_8hpp">infer_types.hpp</innerfile>
+    <innerfile refid="algo_2logistic__regression_2train_8hpp">train.hpp</innerfile>
+    <innerfile refid="logistic__regression_2train__types_8hpp">train_types.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/"/>
+  </compounddef>
+</doxygen>

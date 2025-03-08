@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::kmeans::v1::train_result</compoundname>
+    <includes refid="kmeans_2train__types_8hpp" local="no">train_types.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="87" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a64720e38d6d42cce23a73988c6f62a62" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1kmeans_1_1detail_1_1v1_1_1train__result__impl" kindref="compound">detail::train_result_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::train_result_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="148" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" bodystart="148" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a88c5cfbeed393e8157984e8f363a742e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>train_result</definition>
+        <argsstring>()</argsstring>
+        <name>train_result</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::train_result</qualifiedname>
+        <briefdescription>
+<para>Creates a new instance of the class with the default property values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="90" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a0e452e22f1bf6bf46d565874f7f8c50e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const model&lt; Task &gt; &amp;</type>
+        <definition>const model&lt; Task &gt; &amp; get_model</definition>
+        <argsstring>() const</argsstring>
+        <name>get_model</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::get_model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The trained K-means model <simplesect kind="remark"><para>default = model&lt;Task&gt;{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="94" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1ad899d600d76249b78bfaaa25f64a1247" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_model</definition>
+        <argsstring>(const model&lt; Task &gt; &amp;value)</argsstring>
+        <name>set_model</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::set_model</qualifiedname>
+        <param>
+          <type>const model&lt; Task &gt; &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="96" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a36b94224c53efbdaa7b12b961bce9f1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_labels</definition>
+        <argsstring>() const</argsstring>
+        <name>get_labels</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::get_labels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An $n \times 1$ table with the labels $y_i$ assigned to the samples $x_i$ in the input data, $1 \leq 1 \leq n$. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="104" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a60f4146a730e62ee4138b3b5740c0af2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_labels</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_labels</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::set_labels</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="107" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" bodystart="107" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a54172ca3abdfa049228563fa84e35517" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_responses</definition>
+        <argsstring>() const</argsstring>
+        <name>get_responses</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::get_responses</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An $n \times 1$ table with the responses $y_i$ assigned to the samples $x_i$ in the input data, $1 \leq 1 \leq n$. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="114" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a4e27d75f1b75a3fc10dcfd365904de5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_responses</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_responses</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::set_responses</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="116" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1ae752e0ce230f4f14f5dfbc7f0fd3e99c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_iteration_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_iteration_count</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::get_iteration_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of iterations performed by the algorithm. <simplesect kind="remark"><para>default = 0 </para>
+</simplesect>
+<simplesect kind="invariant"><para>:expr:<computeroutput>iteration_count &gt;= 0</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="124" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a0e5963efb225089257d30f6b1efefa0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_iteration_count</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_iteration_count</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::set_iteration_count</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="126" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a6de2e96ffd0fd96c438072ad7c7acdfe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_objective_function_value</definition>
+        <argsstring>() const</argsstring>
+        <name>get_objective_function_value</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::get_objective_function_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The value of the objective function $\Phi_X(C)$, where $C$ is :expr:<computeroutput>model.centroids</computeroutput>. <simplesect kind="invariant"><para>:expr:<computeroutput>objective_function_value &gt;= 0.0</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="134" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1afd6c60c1196f5d66f6f2fc79a0d604d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_objective_function_value</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_objective_function_value</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::set_objective_function_value</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="136" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" bodystart="136" bodyend="139"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1af694f9b254bbbe5d8345e464d0b20b80" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_model_impl</definition>
+        <argsstring>(const model&lt; Task &gt; &amp;)</argsstring>
+        <name>set_model_impl</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::set_model_impl</qualifiedname>
+        <param>
+          <type>const model&lt; Task &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="142" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1aaf150f75dfd47d7d5dc8e8e085b1141d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_responses_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_responses_impl</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::set_responses_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="143" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1affa5e1b7460bbc895b28c4b1319601e1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_iteration_count_impl</definition>
+        <argsstring>(std::int64_t)</argsstring>
+        <name>set_iteration_count_impl</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::set_iteration_count_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="144" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a11cf893cbc7eb5ce7feaad69b45c665d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_objective_function_value_impl</definition>
+        <argsstring>(double)</argsstring>
+        <name>set_objective_function_value_impl</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::train_result::set_objective_function_value_impl</qualifiedname>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="145" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies type of the problem to solve. Can be :expr:<computeroutput>task::clustering</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" line="83" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/train_types.hpp" bodystart="83" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1ae752e0ce230f4f14f5dfbc7f0fd3e99c" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>get_iteration_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a36b94224c53efbdaa7b12b961bce9f1e" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>get_labels</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a0e452e22f1bf6bf46d565874f7f8c50e" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>get_model</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a6de2e96ffd0fd96c438072ad7c7acdfe" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>get_objective_function_value</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a54172ca3abdfa049228563fa84e35517" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>get_responses</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a64720e38d6d42cce23a73988c6f62a62" prot="private" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a0e5963efb225089257d30f6b1efefa0b" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>set_iteration_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1affa5e1b7460bbc895b28c4b1319601e1" prot="protected" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>set_iteration_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a60f4146a730e62ee4138b3b5740c0af2" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>set_labels</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1ad899d600d76249b78bfaaa25f64a1247" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>set_model</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1af694f9b254bbbe5d8345e464d0b20b80" prot="protected" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>set_model_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1afd6c60c1196f5d66f6f2fc79a0d604d4" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>set_objective_function_value</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a11cf893cbc7eb5ce7feaad69b45c665d" prot="protected" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>set_objective_function_value_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a4e27d75f1b75a3fc10dcfd365904de5d" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>set_responses</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1aaf150f75dfd47d7d5dc8e8e085b1141d" prot="protected" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>set_responses_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__result_1a88c5cfbeed393e8157984e8f363a742e" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::train_result</scope><name>train_result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

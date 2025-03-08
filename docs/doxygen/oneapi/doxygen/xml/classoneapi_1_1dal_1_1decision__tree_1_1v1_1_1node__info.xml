@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_tree::v1::node_info</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1split__node__info" prot="public" virt="non-virtual">split_node_info&lt; Task &gt;</derivedcompoundref>
+    <includes refid="algo_2decision__tree_2common_8hpp" local="no">common.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="78" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a1c261213c618c762e8f59fb9f6e0e6ca" prot="protected" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__tree_1_1detail_1_1v1_1_1node__info__impl" kindref="compound">detail::node_info_impl</ref>&lt; task_t &gt;</type>
+        <definition>using impl_t =  detail::node_info_impl&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>impl_t</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::impl_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="94" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a8b6a119c0a63924b6e188721f24348fc" prot="protected" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__tree_1_1detail_1_1v1_1_1node__info__impl" kindref="compound">impl_t</ref> *</type>
+        <definition>impl_t* impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="98" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a4c8cd6d56a55c6bdec7c96737cd35195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>node_info</definition>
+        <argsstring>()</argsstring>
+        <name>node_info</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::node_info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="79" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a2ef54bcf4a1e53e91b4a2c8c9c998317" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ~node_info</definition>
+        <argsstring>()</argsstring>
+        <name>~node_info</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::~node_info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="80" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a7ccc3969baab2e4ece35702eb4229b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>node_info</definition>
+        <argsstring>(const node_info&lt; task_t &gt; &amp;)</argsstring>
+        <name>node_info</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::node_info</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" kindref="compound">node_info</ref>&lt; task_t &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="81" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1afe2e7edf0ac5a133433b3c337e7fc2b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>node_info</definition>
+        <argsstring>(node_info&lt; task_t &gt; &amp;&amp;)</argsstring>
+        <name>node_info</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::node_info</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" kindref="compound">node_info</ref>&lt; task_t &gt; &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="82" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a6fda5c1259efb0a61931904a25b8fcd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" kindref="compound">node_info</ref>&lt; task_t &gt; &amp;</type>
+        <definition>node_info&lt; task_t &gt; &amp; operator=</definition>
+        <argsstring>(const node_info&lt; task_t &gt; &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" kindref="compound">node_info</ref>&lt; task_t &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="83" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1aed1d033ac6bd071c7d0b2f8f2b6ac754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" kindref="compound">node_info</ref>&lt; task_t &gt; &amp;</type>
+        <definition>node_info&lt; task_t &gt; &amp; operator=</definition>
+        <argsstring>(node_info&lt; task_t &gt; &amp;&amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" kindref="compound">node_info</ref>&lt; task_t &gt; &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="84" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1aa7397a36eb2cc39b554b5b505d4136d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_level</definition>
+        <argsstring>() const</argsstring>
+        <name>get_level</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::get_level</qualifiedname>
+        <briefdescription>
+<para>Number of connections between the node and the root. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="87" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1ace7a9818974f9b50b770fbacf1e36a91" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_impurity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_impurity</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::get_impurity</qualifiedname>
+        <briefdescription>
+<para>Measure of the homogeneity of the response variable at the node (i.e., the value of the criterion) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="89" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1ae3301dca375de118184ac24ce8897edb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_sample_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_sample_count</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::get_sample_count</qualifiedname>
+        <briefdescription>
+<para>Number of samples at the node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="91" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a181736f239a1144adf5010674718bbbc" prot="protected" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>node_info</definition>
+        <argsstring>(impl_t *impl)</argsstring>
+        <name>node_info</name>
+        <qualifiedname>oneapi::dal::decision_tree::v1::node_info::node_info</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1decision__tree_1_1detail_1_1v1_1_1node__info__impl" kindref="compound">impl_t</ref> *</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="96" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class containing base node info in decision tree. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>node_info&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>split_node_info&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1split__node__info"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>node_info&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>impl_</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>node_info_impl&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1detail_1_1v1_1_1node__info__impl"/>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" line="73" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_tree/common.hpp" bodystart="73" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1ace7a9818974f9b50b770fbacf1e36a91" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>get_impurity</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1aa7397a36eb2cc39b554b5b505d4136d2" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>get_level</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1ae3301dca375de118184ac24ce8897edb" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>get_sample_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a8b6a119c0a63924b6e188721f24348fc" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a1c261213c618c762e8f59fb9f6e0e6ca" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>impl_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a4c8cd6d56a55c6bdec7c96737cd35195" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>node_info</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a7ccc3969baab2e4ece35702eb4229b6a" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>node_info</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1afe2e7edf0ac5a133433b3c337e7fc2b8" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>node_info</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a181736f239a1144adf5010674718bbbc" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>node_info</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a6fda5c1259efb0a61931904a25b8fcd1" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>operator=</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1aed1d033ac6bd071c7d0b2f8f2b6ac754" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>operator=</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>~base</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info_1a2ef54bcf4a1e53e91b4a2c8c9c998317" prot="public" virt="virtual"><scope>oneapi::dal::decision_tree::v1::node_info</scope><name>~node_info</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1linear__kernel" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::linear_kernel</compoundname>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1linear__kernel_1_1detail">oneapi::dal::linear_kernel::detail</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1linear__kernel_1_1method">oneapi::dal::linear_kernel::method</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1linear__kernel_1_1task">oneapi::dal::linear_kernel::task</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1linear__kernel_1_1v1">oneapi::dal::linear_kernel::v1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_kernel/common.hpp" line="22" column="1"/>
+  </compounddef>
+</doxygen>

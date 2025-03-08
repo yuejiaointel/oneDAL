@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::linear_regression::detail::v1::train_parameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">system_parameters</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1abf539f59a7064078d5507478102bdd83" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="structoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters__impl" kindref="compound">train_parameters_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;train_parameters_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="81" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1aeda5df9c1d6a0322e430e9fac6906a96" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>train_parameters</definition>
+        <argsstring>()</argsstring>
+        <name>train_parameters</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::train_parameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="41" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a149460866b1534070ebc99ba887ebda9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>train_parameters</definition>
+        <argsstring>(train_parameters &amp;&amp;)=default</argsstring>
+        <name>train_parameters</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::train_parameters</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters" kindref="compound">train_parameters</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="42" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a2b1dfa19954d73b7afd1d46730e4f0a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>train_parameters</definition>
+        <argsstring>(const train_parameters &amp;)=default</argsstring>
+        <name>train_parameters</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::train_parameters</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters" kindref="compound">train_parameters</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="43" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a36d23a70f7fd4218318376a1c75fc5bd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_cpu_macro_block</definition>
+        <argsstring>() const</argsstring>
+        <name>get_cpu_macro_block</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::get_cpu_macro_block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="45" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a03d37f8dd68e8dc333064bc9d6845231" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_cpu_macro_block</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_cpu_macro_block</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_cpu_macro_block</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="46" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a95c8984d8e9d208d4cb2ded4cbf22838" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_gpu_macro_block</definition>
+        <argsstring>() const</argsstring>
+        <name>get_gpu_macro_block</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::get_gpu_macro_block</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="51" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1aec792ed5a36b233a05c8cb139991b12f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_gpu_macro_block</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_gpu_macro_block</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_gpu_macro_block</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="52" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a67ccfd0c951a8c912f6dc2e6e5ab67f0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_cpu_max_cols_batched</definition>
+        <argsstring>() const</argsstring>
+        <name>get_cpu_max_cols_batched</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::get_cpu_max_cols_batched</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="57" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a6896f57ce672afea2c0152f5a9bc6f17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_cpu_max_cols_batched</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_cpu_max_cols_batched</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_cpu_max_cols_batched</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="58" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a782debd348f32a3b1a903016f70d81e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_cpu_small_rows_threshold</definition>
+        <argsstring>() const</argsstring>
+        <name>get_cpu_small_rows_threshold</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::get_cpu_small_rows_threshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="63" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a67704533f3f8fe62f197580620e3e23a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_cpu_small_rows_threshold</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_cpu_small_rows_threshold</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_cpu_small_rows_threshold</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="64" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1ad0d0f91fb1c1b0dfd97e38cc42d4f314" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_cpu_small_rows_max_cols_batched</definition>
+        <argsstring>() const</argsstring>
+        <name>get_cpu_small_rows_max_cols_batched</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::get_cpu_small_rows_max_cols_batched</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="69" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a1767dddd3fd2368ebeb2a446cf7261c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_cpu_small_rows_max_cols_batched</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_cpu_small_rows_max_cols_batched</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_cpu_small_rows_max_cols_batched</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="70" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a55cc099438eff8de4149551ca06807d6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_cpu_macro_block_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_cpu_macro_block_impl</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_cpu_macro_block_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="76" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a8d13dca34c2fbc84baadaa875de5e43e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_gpu_macro_block_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_gpu_macro_block_impl</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_gpu_macro_block_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="77" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1ab4a8467744416f09cc0a2920b1f181c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_cpu_max_cols_batched_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_cpu_max_cols_batched_impl</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_cpu_max_cols_batched_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="78" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1aa99468262c52a1edeef303255d6ff4df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_cpu_small_rows_threshold_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_cpu_small_rows_threshold_impl</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_cpu_small_rows_threshold_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="79" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a2525d4534f22bd0b3e81c59ef315fb40" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_cpu_small_rows_max_cols_batched_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_cpu_small_rows_max_cols_batched_impl</name>
+        <qualifiedname>oneapi::dal::linear_regression::detail::v1::train_parameters::set_cpu_small_rows_max_cols_batched_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="80" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>system_parameters</label>
+      </node>
+      <node id="1">
+        <label>train_parameters&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>system_parameters</label>
+      </node>
+      <node id="1">
+        <label>train_parameters&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" line="39" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/train_types.hpp" bodystart="39" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a36d23a70f7fd4218318376a1c75fc5bd" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>get_cpu_macro_block</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a67ccfd0c951a8c912f6dc2e6e5ab67f0" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>get_cpu_max_cols_batched</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1ad0d0f91fb1c1b0dfd97e38cc42d4f314" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>get_cpu_small_rows_max_cols_batched</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a782debd348f32a3b1a903016f70d81e1" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>get_cpu_small_rows_threshold</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a95c8984d8e9d208d4cb2ded4cbf22838" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>get_gpu_macro_block</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1abf539f59a7064078d5507478102bdd83" prot="private" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a03d37f8dd68e8dc333064bc9d6845231" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_cpu_macro_block</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a55cc099438eff8de4149551ca06807d6" prot="private" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_cpu_macro_block_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a6896f57ce672afea2c0152f5a9bc6f17" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_cpu_max_cols_batched</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1ab4a8467744416f09cc0a2920b1f181c8" prot="private" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_cpu_max_cols_batched_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a1767dddd3fd2368ebeb2a446cf7261c4" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_cpu_small_rows_max_cols_batched</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a2525d4534f22bd0b3e81c59ef315fb40" prot="private" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_cpu_small_rows_max_cols_batched_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a67704533f3f8fe62f197580620e3e23a" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_cpu_small_rows_threshold</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1aa99468262c52a1edeef303255d6ff4df" prot="private" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_cpu_small_rows_threshold_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1aec792ed5a36b233a05c8cb139991b12f" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_gpu_macro_block</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a8d13dca34c2fbc84baadaa875de5e43e" prot="private" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>set_gpu_macro_block_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1aeda5df9c1d6a0322e430e9fac6906a96" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>train_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a149460866b1534070ebc99ba887ebda9" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>train_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1train__parameters_1a2b1dfa19954d73b7afd1d46730e4f0a4" prot="public" virt="non-virtual"><scope>oneapi::dal::linear_regression::detail::v1::train_parameters</scope><name>train_parameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

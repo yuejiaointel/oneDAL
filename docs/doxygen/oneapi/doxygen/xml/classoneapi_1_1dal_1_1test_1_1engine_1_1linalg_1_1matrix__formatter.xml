@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::linalg::matrix_formatter</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>layout</type>
+        <declname>lyt</declname>
+        <defname>lyt</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1afb78e095e0c3b234ebfa64ff52d47d68" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix" kindref="compound">matrix</ref>&lt; T, lyt &gt;</type>
+        <definition>matrix&lt;T, lyt&gt; matrix_</definition>
+        <argsstring></argsstring>
+        <name>matrix_</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::matrix_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="63" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a85cff07f30d82b0b549fbef06974d2fb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int symbol_width_</definition>
+        <argsstring></argsstring>
+        <name>symbol_width_</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::symbol_width_</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="64" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a0d275ad29c67a94a5e2cdd4876b59752" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int precision_</definition>
+        <argsstring></argsstring>
+        <name>precision_</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::precision_</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="65" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a5197af77740836488a30f77928c37741" prot="private" static="no" mutable="no">
+        <type>std::ios::fmtflags</type>
+        <definition>std::ios::fmtflags iosflags_</definition>
+        <argsstring></argsstring>
+        <name>iosflags_</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::iosflags_</qualifiedname>
+        <initializer>= std::ios::fixed</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="66" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a2c77f3ab9b7d99190f456a1bb82d36b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>matrix_formatter</definition>
+        <argsstring>(const matrix&lt; T, lyt &gt; &amp;m)</argsstring>
+        <name>matrix_formatter</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::matrix_formatter</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix" kindref="compound">matrix</ref>&lt; T, lyt &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="29" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a49f7ddca9a8c626df323ca8eff28e561" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix" kindref="compound">matrix</ref>&lt; T, lyt &gt; &amp;</type>
+        <definition>const matrix&lt; T, lyt &gt; &amp; get_matrix</definition>
+        <argsstring>() const</argsstring>
+        <name>get_matrix</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::get_matrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="31" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a94f0ae89e496e710d23100ad868d49b5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int get_symbol_width</definition>
+        <argsstring>() const</argsstring>
+        <name>get_symbol_width</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::get_symbol_width</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="35" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a49e48f9e1bba5ab10d313fa9d686a358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_symbol_width</definition>
+        <argsstring>(int symbol_width)</argsstring>
+        <name>set_symbol_width</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::set_symbol_width</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>symbol_width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="39" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a4cbfca61161dd1b5676532ecaddcf410" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int get_precision</definition>
+        <argsstring>() const</argsstring>
+        <name>get_precision</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::get_precision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="44" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a647533c5dc2467fee27e8d20f7bde7a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_precision</definition>
+        <argsstring>(int precision)</argsstring>
+        <name>set_precision</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::set_precision</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="48" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1ab4897c2dc23c640d0374c07596cfb3fc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ios::fmtflags</type>
+        <definition>std::ios::fmtflags get_iosflags</definition>
+        <argsstring>() const</argsstring>
+        <name>get_iosflags</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::get_iosflags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="53" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a55ffb9818459357b1cbf1c763da23930" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_iosflags</definition>
+        <argsstring>(std::ios::fmtflags flags)</argsstring>
+        <name>set_iosflags</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::matrix_formatter::set_iosflags</qualifiedname>
+        <param>
+          <type>std::ios::fmtflags</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="57" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" line="27" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/io.hpp" bodystart="27" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1ab4897c2dc23c640d0374c07596cfb3fc" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>get_iosflags</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a49f7ddca9a8c626df323ca8eff28e561" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>get_matrix</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a4cbfca61161dd1b5676532ecaddcf410" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>get_precision</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a94f0ae89e496e710d23100ad868d49b5" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>get_symbol_width</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a5197af77740836488a30f77928c37741" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>iosflags_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1afb78e095e0c3b234ebfa64ff52d47d68" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>matrix_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a2c77f3ab9b7d99190f456a1bb82d36b6" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>matrix_formatter</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a0d275ad29c67a94a5e2cdd4876b59752" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>precision_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a55ffb9818459357b1cbf1c763da23930" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>set_iosflags</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a647533c5dc2467fee27e8d20f7bde7a0" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>set_precision</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a49e48f9e1bba5ab10d313fa9d686a358" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>set_symbol_width</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1matrix__formatter_1a85cff07f30d82b0b549fbef06974d2fb" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::matrix_formatter</scope><name>symbol_width_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

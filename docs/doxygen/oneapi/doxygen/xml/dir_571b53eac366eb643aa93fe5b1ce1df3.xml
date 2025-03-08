@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_571b53eac366eb643aa93fe5b1ce1df3" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/test</compoundname>
+    <innerfile refid="kmeans__init_2test_2fixture_8hpp">fixture.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/test/"/>
+  </compounddef>
+</doxygen>

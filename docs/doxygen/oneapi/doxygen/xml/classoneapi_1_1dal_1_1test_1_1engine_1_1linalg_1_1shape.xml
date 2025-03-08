@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::linalg::shape</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a1b1d9ad69eb6356de5132634e4d6a0fe" prot="private" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t shape_[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>shape_</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::shape::shape_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="82" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a735b79c719a91acfc390e31a42da2b49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shape</definition>
+        <argsstring>(std::int64_t row_count=0, std::int64_t column_count=0)</argsstring>
+        <name>shape</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::shape::shape</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>row_count</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>column_count</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="36" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="36" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1ab9f56bbdc7619a97592682878573bf3f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t operator[]</definition>
+        <argsstring>(std::int64_t i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::shape::operator[]</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="52" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1ac3b1b36ddf172f1cf880c4eba11458de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_row_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_row_count</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::shape::get_row_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="57" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1ad34b0800ecaa0895cd108af5dcd7bc5f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_column_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_column_count</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::shape::get_column_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="61" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a3469aa510a6f2614bc925dfaa581d7d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_count</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::shape::get_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="65" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a282e7ef915d44cde8c197e9e4508ef6b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape" kindref="compound">shape</ref></type>
+        <definition>shape t</definition>
+        <argsstring>() const</argsstring>
+        <name>t</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::shape::t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="69" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a9bc88bc5f2c353e435ad08a2eabb80b5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const shape &amp;other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::shape::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape" kindref="compound">shape</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="73" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1add0f5b5ddb6a53769c48135a60af977b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(const shape &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>oneapi::dal::test::engine::linalg::shape::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape" kindref="compound">shape</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="77" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="77" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" line="34" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/linalg/matrix.hpp" bodystart="34" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1ad34b0800ecaa0895cd108af5dcd7bc5f" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::shape</scope><name>get_column_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a3469aa510a6f2614bc925dfaa581d7d7" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::shape</scope><name>get_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1ac3b1b36ddf172f1cf880c4eba11458de" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::shape</scope><name>get_row_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1add0f5b5ddb6a53769c48135a60af977b" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::shape</scope><name>operator!=</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a9bc88bc5f2c353e435ad08a2eabb80b5" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::shape</scope><name>operator==</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1ab9f56bbdc7619a97592682878573bf3f" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::shape</scope><name>operator[]</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a735b79c719a91acfc390e31a42da2b49" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::shape</scope><name>shape</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a1b1d9ad69eb6356de5132634e4d6a0fe" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::shape</scope><name>shape_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1linalg_1_1shape_1a282e7ef915d44cde8c197e9e4508ef6b" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::linalg::shape</scope><name>t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

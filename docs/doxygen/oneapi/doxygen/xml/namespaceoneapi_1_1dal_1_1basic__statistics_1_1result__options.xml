@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::basic_statistics::result_options</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1a81f080dbf8ad8bc10fc596b7702a5e1f" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::min</qualifiedname>
+        <initializer>= detail::get_max_id()</initializer>
+        <briefdescription>
+<para>Return the min. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="89" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1a69eaec57bbbeb3ec714627ebec0dd86c" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::max</qualifiedname>
+        <initializer>= detail::get_min_id()</initializer>
+        <briefdescription>
+<para>Return the max. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="91" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1a2de1431fe32b5b0abd525653f8f0d937" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id sum</definition>
+        <argsstring></argsstring>
+        <name>sum</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::sum</qualifiedname>
+        <initializer>= detail::get_sum_id()</initializer>
+        <briefdescription>
+<para>Return the sum. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="93" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1ae634d6c39e1d68e0ff9e125fac1b1ee0" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id sum_squares</definition>
+        <argsstring></argsstring>
+        <name>sum_squares</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::sum_squares</qualifiedname>
+        <initializer>= detail::get_sum_squares_id()</initializer>
+        <briefdescription>
+<para>Return the sum of squares. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="95" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1a2ec513fcfae9e158d3e037dc83d7bb4b" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id sum_squares_centered</definition>
+        <argsstring></argsstring>
+        <name>sum_squares_centered</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::sum_squares_centered</qualifiedname>
+        <initializer>= detail::get_sum_squares_centered_id()</initializer>
+        <briefdescription>
+<para>Return the sum of squared differences from the mean. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="97" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1ad0c42c3ebf102ee1c4fa870e6f6c72bf" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id mean</definition>
+        <argsstring></argsstring>
+        <name>mean</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::mean</qualifiedname>
+        <initializer>= detail::get_mean_id()</initializer>
+        <briefdescription>
+<para>Return the mean. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="99" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1ae255d4e3ed1c118448865057f8e443cc" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id second_order_raw_moment</definition>
+        <argsstring></argsstring>
+        <name>second_order_raw_moment</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::second_order_raw_moment</qualifiedname>
+        <initializer>= detail::get_second_order_raw_moment_id()</initializer>
+        <briefdescription>
+<para>Return the second order raw moment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="101" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1a3672c99f3c9487b448472c0687248d1a" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id variance</definition>
+        <argsstring></argsstring>
+        <name>variance</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::variance</qualifiedname>
+        <initializer>= detail::get_variance_id()</initializer>
+        <briefdescription>
+<para>Return the variance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="103" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1ae7254bf51b52caab5b9897362b68fcf2" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id standard_deviation</definition>
+        <argsstring></argsstring>
+        <name>standard_deviation</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::standard_deviation</qualifiedname>
+        <initializer>= detail::get_standard_deviation_id()</initializer>
+        <briefdescription>
+<para>Return the standard deviation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="105" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1basic__statistics_1_1result__options_1af74e6029014c18eb2eba7149d8a77ed2" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id variation</definition>
+        <argsstring></argsstring>
+        <name>variation</name>
+        <qualifiedname>oneapi::dal::basic_statistics::result_options::variation</qualifiedname>
+        <initializer>= detail::get_variation_id()</initializer>
+        <briefdescription>
+<para>Return the variation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="107" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" bodystart="107" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Result options are used to define what should an algorithm returns </para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/common.hpp" line="86" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::kmeans::v1::infer_result</compoundname>
+    <includes refid="kmeans_2infer__types_8hpp" local="no">infer_types.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="86" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a49463f9160efc71f3e4ab79d46d0db9c" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1kmeans_1_1detail_1_1v1_1_1infer__result__impl" kindref="compound">detail::infer_result_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::infer_result_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="136" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" bodystart="136" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a9fbe9b8ec16d2a03c897292626f1742d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>infer_result</definition>
+        <argsstring>()</argsstring>
+        <name>infer_result</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::infer_result</qualifiedname>
+        <briefdescription>
+<para>Creates a new instance of the class with the default property values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="89" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a36b94224c53efbdaa7b12b961bce9f1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_labels</definition>
+        <argsstring>() const</argsstring>
+        <name>get_labels</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::get_labels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An $n \times 1$ table with assignments labels to feature vectors in the input data. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="94" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a60f4146a730e62ee4138b3b5740c0af2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_labels</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_labels</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::set_labels</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="97" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a54172ca3abdfa049228563fa84e35517" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_responses</definition>
+        <argsstring>() const</argsstring>
+        <name>get_responses</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::get_responses</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An $n \times 1$ table with assignments responses to feature vectors in the input data. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="104" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a4e27d75f1b75a3fc10dcfd365904de5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_responses</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_responses</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::set_responses</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="105" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a6de2e96ffd0fd96c438072ad7c7acdfe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_objective_function_value</definition>
+        <argsstring>() const</argsstring>
+        <name>get_objective_function_value</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::get_objective_function_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The value of the objective function $\Phi_X(C)$, where $C$ is defined by the corresponding :expr:<computeroutput>infer_input::model::centroids</computeroutput>. <simplesect kind="invariant"><para>:expr:<computeroutput>objective_function_value &gt;= 0.0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 0.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="114" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1afd6c60c1196f5d66f6f2fc79a0d604d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_objective_function_value</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_objective_function_value</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::set_objective_function_value</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="116" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1aae512207ea39169712675b94c956b637" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1kmeans_1_1result__option__id" kindref="compound">result_option_id</ref> &amp;</type>
+        <definition>const result_option_id &amp; get_result_options</definition>
+        <argsstring>() const</argsstring>
+        <name>get_result_options</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::get_result_options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Result options that indicates availability of the properties <simplesect kind="remark"><para>default = default_result_options&lt;Task&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="123" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a1317ed1a05aa0795155a380496ee48e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_result_options</definition>
+        <argsstring>(const result_option_id &amp;value)</argsstring>
+        <name>set_result_options</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::set_result_options</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1kmeans_1_1result__option__id" kindref="compound">result_option_id</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="125" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1aaf150f75dfd47d7d5dc8e8e085b1141d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_responses_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_responses_impl</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::set_responses_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="131" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a11cf893cbc7eb5ce7feaad69b45c665d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_objective_function_value_impl</definition>
+        <argsstring>(double)</argsstring>
+        <name>set_objective_function_value_impl</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::set_objective_function_value_impl</qualifiedname>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="132" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1ac16dbbb5d08315a227bdbfefa53bbf0d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_result_options_impl</definition>
+        <argsstring>(const result_option_id &amp;)</argsstring>
+        <name>set_result_options_impl</name>
+        <qualifiedname>oneapi::dal::kmeans::v1::infer_result::set_result_options_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1kmeans_1_1result__option__id" kindref="compound">result_option_id</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="133" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies type of the problem to solve. Can be :expr:<computeroutput>task::clustering</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" line="82" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/infer_types.hpp" bodystart="82" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a36b94224c53efbdaa7b12b961bce9f1e" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>get_labels</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a6de2e96ffd0fd96c438072ad7c7acdfe" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>get_objective_function_value</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a54172ca3abdfa049228563fa84e35517" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>get_responses</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1aae512207ea39169712675b94c956b637" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>get_result_options</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a49463f9160efc71f3e4ab79d46d0db9c" prot="private" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a9fbe9b8ec16d2a03c897292626f1742d" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>infer_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a60f4146a730e62ee4138b3b5740c0af2" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>set_labels</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1afd6c60c1196f5d66f6f2fc79a0d604d4" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>set_objective_function_value</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a11cf893cbc7eb5ce7feaad69b45c665d" prot="protected" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>set_objective_function_value_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a4e27d75f1b75a3fc10dcfd365904de5d" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>set_responses</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1aaf150f75dfd47d7d5dc8e8e085b1141d" prot="protected" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>set_responses_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1a1317ed1a05aa0795155a380496ee48e3" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>set_result_options</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1ac16dbbb5d08315a227bdbfefa53bbf0d" prot="protected" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>set_result_options_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans::v1::infer_result</scope><name>task_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1preview_1_1csv_1_1backend" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::preview::csv::backend</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="read__graph_8hpp_1a5dafcb77d817e4468fec6a17920778f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cpu</type>
+          </param>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_vertex_count_from_edge_list</definition>
+        <argsstring>(const edge_list&lt; std::int32_t &gt; &amp;edges)</argsstring>
+        <name>get_vertex_count_from_edge_list</name>
+        <qualifiedname>oneapi::dal::preview::csv::backend::get_vertex_count_from_edge_list</qualifiedname>
+        <param>
+          <type>const edge_list&lt; std::int32_t &gt; &amp;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp" line="29" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="read__graph_8hpp_1af26f9dc2fd4a0aa8d35d2bcb6763cfa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cpu</type>
+          </param>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t compute_prefix_sum</definition>
+        <argsstring>(const std::int32_t *degrees, std::int64_t degrees_count, std::int64_t *edge_offsets)</argsstring>
+        <name>compute_prefix_sum</name>
+        <qualifiedname>oneapi::dal::preview::csv::backend::compute_prefix_sum</qualifiedname>
+        <param>
+          <type>const std::int32_t *</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>degrees_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t *</type>
+          <declname>edge_offsets</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp" line="40" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp" bodystart="40" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="read__graph_8hpp_1aab5827e9993c308262b704d0fca62420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cpu</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void fill_filtered_neighs</definition>
+        <argsstring>(const std::int64_t *unfiltered_offsets, const std::int32_t *unfiltered_neighs, const std::int32_t *filtered_degrees, const std::int64_t *filtered_offsets, std::int32_t *filtered_neighs, std::int64_t vertex_count)</argsstring>
+        <name>fill_filtered_neighs</name>
+        <qualifiedname>oneapi::dal::preview::csv::backend::fill_filtered_neighs</qualifiedname>
+        <param>
+          <type>const std::int64_t *</type>
+          <declname>unfiltered_offsets</declname>
+        </param>
+        <param>
+          <type>const std::int32_t *</type>
+          <declname>unfiltered_neighs</declname>
+        </param>
+        <param>
+          <type>const std::int32_t *</type>
+          <declname>filtered_degrees</declname>
+        </param>
+        <param>
+          <type>const std::int64_t *</type>
+          <declname>filtered_offsets</declname>
+        </param>
+        <param>
+          <type>std::int32_t *</type>
+          <declname>filtered_neighs</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>vertex_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp" line="53" column="6" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp" bodystart="53" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="read__graph_8hpp_1a7cb4967cfdb55ef8eb47a7c90222d40b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Cpu</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void filter_neighbors_and_fill_new_degrees</definition>
+        <argsstring>(std::int32_t *unfiltered_neighs, std::int64_t *unfiltered_offsets, std::int32_t *new_degrees, std::int64_t vertex_count)</argsstring>
+        <name>filter_neighbors_and_fill_new_degrees</name>
+        <qualifiedname>oneapi::dal::preview::csv::backend::filter_neighbors_and_fill_new_degrees</qualifiedname>
+        <param>
+          <type>std::int32_t *</type>
+          <declname>unfiltered_neighs</declname>
+        </param>
+        <param>
+          <type>std::int64_t *</type>
+          <declname>unfiltered_offsets</declname>
+        </param>
+        <param>
+          <type>std::int32_t *</type>
+          <declname>new_degrees</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>vertex_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp" line="69" column="6" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp" bodystart="69" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp" line="26" column="1"/>
+  </compounddef>
+</doxygen>

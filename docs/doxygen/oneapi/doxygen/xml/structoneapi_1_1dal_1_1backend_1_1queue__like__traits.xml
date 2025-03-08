@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1backend_1_1queue__like__traits" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::queue_like_traits</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename QueueLike</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1a119f5233b840b84395975b95afb7b03e" prot="public" static="no">
+        <type>std::decay_t&lt; QueueLike &gt;</type>
+        <definition>using queue_like_t =  std::decay_t&lt;QueueLike&gt;</definition>
+        <argsstring></argsstring>
+        <name>queue_like_t</name>
+        <qualifiedname>oneapi::dal::backend::queue_like_traits::queue_like_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="396" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="396" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1a2ce91e4b5406ca4433673d16415daedb" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_queue</definition>
+        <argsstring></argsstring>
+        <name>is_queue</name>
+        <qualifiedname>oneapi::dal::backend::queue_like_traits::is_queue</qualifiedname>
+        <initializer>= std::is_same_v&lt;queue_like_t, sycl::queue&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="397" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1aaf336f4a87a8e7cd13b5d578a4c3c731" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_optional_queue</definition>
+        <argsstring></argsstring>
+        <name>is_optional_queue</name>
+        <qualifiedname>oneapi::dal::backend::queue_like_traits::is_optional_queue</qualifiedname>
+        <initializer>=
+        std::is_same_v&lt;queue_like_t, std::optional&lt;sycl::queue&gt;&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="398" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1abca63a8d1715c0938d8c0b7b76ac3c55" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool has_get_queue</definition>
+        <argsstring></argsstring>
+        <name>has_get_queue</name>
+        <qualifiedname>oneapi::dal::backend::queue_like_traits::has_get_queue</qualifiedname>
+        <initializer>= has_get_queue_v&lt;queue_like_t&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="400" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1a15d4d4e434cf5a4802e784cdac58b90c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool has_get_optional_queue</definition>
+        <argsstring></argsstring>
+        <name>has_get_optional_queue</name>
+        <qualifiedname>oneapi::dal::backend::queue_like_traits::has_get_optional_queue</qualifiedname>
+        <initializer>= has_get_optional_queue_v&lt;queue_like_t&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="401" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1ac40e2f6b16673621ee11f794813446bf" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid</definition>
+        <argsstring></argsstring>
+        <name>is_valid</name>
+        <qualifiedname>oneapi::dal::backend::queue_like_traits::is_valid</qualifiedname>
+        <initializer>=
+        is_queue || is_optional_queue || <ref refid="structoneapi_1_1dal_1_1backend_1_1has__get__queue" kindref="compound">has_get_queue</ref> || <ref refid="structoneapi_1_1dal_1_1backend_1_1has__get__optional__queue" kindref="compound">has_get_optional_queue</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="402" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="402" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="395" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="395" bodyend="404"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1a15d4d4e434cf5a4802e784cdac58b90c" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::queue_like_traits</scope><name>has_get_optional_queue</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1abca63a8d1715c0938d8c0b7b76ac3c55" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::queue_like_traits</scope><name>has_get_queue</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1aaf336f4a87a8e7cd13b5d578a4c3c731" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::queue_like_traits</scope><name>is_optional_queue</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1a2ce91e4b5406ca4433673d16415daedb" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::queue_like_traits</scope><name>is_queue</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1ac40e2f6b16673621ee11f794813446bf" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::queue_like_traits</scope><name>is_valid</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1queue__like__traits_1a119f5233b840b84395975b95afb7b03e" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::queue_like_traits</scope><name>queue_like_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

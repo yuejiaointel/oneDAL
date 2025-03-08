@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::thread_communicator_bcast</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a200cd649fd2d140afe2fbe0435e9e2fb" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__context" kindref="compound">thread_communicator_context</ref> &amp;</type>
+        <definition>thread_communicator_context&amp; ctx_</definition>
+        <argsstring></argsstring>
+        <name>ctx_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_bcast::ctx_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="157" column="33" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1aa42704e5aa229f236d0bee3e42f8cc06" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__barrier" kindref="compound">thread_communicator_barrier</ref></type>
+        <definition>thread_communicator_barrier barrier_</definition>
+        <argsstring></argsstring>
+        <name>barrier_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_bcast::barrier_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="158" column="33" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a904244cc9603a55fb726e9abd16de47b" prot="private" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t source_count_</definition>
+        <argsstring></argsstring>
+        <name>source_count_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_bcast::source_count_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="159" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a56894254e18c39a10674c36320be65ed" prot="private" static="no" mutable="no">
+        <type>byte_t *</type>
+        <definition>byte_t* source_buf_</definition>
+        <argsstring></argsstring>
+        <name>source_buf_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_bcast::source_buf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="160" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="160" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a6da184be34d316149dc51c573f77c4a8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>thread_communicator_bcast</definition>
+        <argsstring>(thread_communicator_context &amp;ctx)</argsstring>
+        <name>thread_communicator_bcast</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_bcast::thread_communicator_bcast</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__context" kindref="compound">thread_communicator_context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="145" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="145" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a8f60df31c673d87082b25ca8f0054b67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void operator()</definition>
+        <argsstring>(byte_t *send_buf, std::int64_t count, const data_type &amp;dtype, std::int64_t root)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_bcast::operator()</qualifiedname>
+        <param>
+          <type>byte_t *</type>
+          <declname>send_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="151" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="143" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="143" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1aa42704e5aa229f236d0bee3e42f8cc06" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_bcast</scope><name>barrier_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a200cd649fd2d140afe2fbe0435e9e2fb" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_bcast</scope><name>ctx_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a8f60df31c673d87082b25ca8f0054b67" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_bcast</scope><name>operator()</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a56894254e18c39a10674c36320be65ed" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_bcast</scope><name>source_buf_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a904244cc9603a55fb726e9abd16de47b" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_bcast</scope><name>source_count_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast_1a6da184be34d316149dc51c573f77c4a8" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_bcast</scope><name>thread_communicator_bcast</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

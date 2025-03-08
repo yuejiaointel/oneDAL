@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::dataframe_builder_impl</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1aef18c0cbd9b90a24df98fe063d926db4" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__program" kindref="compound">dataframe_builder_program</ref></type>
+        <definition>dataframe_builder_program program_</definition>
+        <argsstring></argsstring>
+        <name>program_</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_impl::program_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="267" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" bodystart="267" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1ad7420ee7db03af186e25933471e67d8a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dataframe_builder_impl</definition>
+        <argsstring>(std::int64_t row_count, std::int64_t column_count)</argsstring>
+        <name>dataframe_builder_impl</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_impl::dataframe_builder_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>row_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>column_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="257" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1a23ab2895c9cb2973f0338e0be444ff25" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dataframe_builder_impl</definition>
+        <argsstring>(const std::string &amp;dataset)</argsstring>
+        <name>dataframe_builder_impl</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_impl::dataframe_builder_impl</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>dataset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="258" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1a0cebca49ec783c3fcdc2c92abd75631c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>dataframe_builder_impl</definition>
+        <argsstring>(const dataframe_builder_impl &amp;)=delete</argsstring>
+        <name>dataframe_builder_impl</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_impl::dataframe_builder_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl" kindref="compound">dataframe_builder_impl</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="259" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1ad9d069755402d564a50fa381295fa5cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl" kindref="compound">dataframe_builder_impl</ref> &amp;</type>
+        <definition>dataframe_builder_impl &amp; operator=</definition>
+        <argsstring>(const dataframe_builder_impl &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_impl::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl" kindref="compound">dataframe_builder_impl</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="260" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1a4259389a6876686b521e8ced175c00cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__program" kindref="compound">dataframe_builder_program</ref> &amp;</type>
+        <definition>dataframe_builder_program &amp; get_program</definition>
+        <argsstring>()</argsstring>
+        <name>get_program</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_impl::get_program</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="262" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" bodystart="262" bodyend="264"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="255" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" bodystart="255" bodyend="268"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1ad7420ee7db03af186e25933471e67d8a" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_impl</scope><name>dataframe_builder_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1a23ab2895c9cb2973f0338e0be444ff25" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_impl</scope><name>dataframe_builder_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1a0cebca49ec783c3fcdc2c92abd75631c" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_impl</scope><name>dataframe_builder_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1a4259389a6876686b521e8ced175c00cc" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_impl</scope><name>get_program</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1ad9d069755402d564a50fa381295fa5cf" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_impl</scope><name>operator=</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl_1aef18c0cbd9b90a24df98fe063d926db4" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_impl</scope><name>program_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

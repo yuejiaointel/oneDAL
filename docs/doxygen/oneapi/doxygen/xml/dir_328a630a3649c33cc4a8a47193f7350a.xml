@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_328a630a3649c33cc4a8a47193f7350a" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting</compoundname>
+    <innerfile refid="algo_2triangle__counting_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="algo_2triangle__counting_2vertex__ranking_8hpp">vertex_ranking.hpp</innerfile>
+    <innerfile refid="vertex__ranking__types_8hpp">vertex_ranking_types.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/"/>
+  </compounddef>
+</doxygen>

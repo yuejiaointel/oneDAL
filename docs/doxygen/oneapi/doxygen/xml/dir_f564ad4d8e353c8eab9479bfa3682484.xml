@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_f564ad4d8e353c8eab9479bfa3682484" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd</compoundname>
+    <innerdir refid="dir_1ba73e84dbdbb4f658db8aff93c20bc7">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl</innerdir>
+    <innerdir refid="dir_cbc5a66fb087f89d7145cd45d64a4839">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/mpi</innerdir>
+    <innerfile refid="spmd_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="spmd_2communicator_8hpp">communicator.hpp</innerfile>
+    <innerfile refid="spmd_2exceptions_8hpp">exceptions.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/"/>
+  </compounddef>
+</doxygen>

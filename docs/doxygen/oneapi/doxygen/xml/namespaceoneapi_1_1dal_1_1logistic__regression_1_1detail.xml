@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1logistic__regression_1_1detail" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::logistic_regression::detail</compoundname>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1logistic__regression_1_1detail_1_1v1">oneapi::dal::logistic_regression::detail::v1</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="algo_2logistic__regression_2common_8hpp_1a21994229b7a4fac82155aa77093db6a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1logistic__regression_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_intercept_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_intercept_id</name>
+        <qualifiedname>oneapi::dal::logistic_regression::detail::get_intercept_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="71" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" declline="71" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2logistic__regression_2common_8hpp_1af81bf36bdad603dcbbed9670f6db6605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1logistic__regression_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_coefficients_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_coefficients_id</name>
+        <qualifiedname>oneapi::dal::logistic_regression::detail::get_coefficients_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="72" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" declline="72" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2logistic__regression_2common_8hpp_1ae8401ddeb4d3e66487063cd936b270d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1logistic__regression_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_iterations_count_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_iterations_count_id</name>
+        <qualifiedname>oneapi::dal::logistic_regression::detail::get_iterations_count_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="73" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" declline="73" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2logistic__regression_2common_8hpp_1a43506da79e462a205047ec848b7b7fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1logistic__regression_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_inner_iterations_count_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_inner_iterations_count_id</name>
+        <qualifiedname>oneapi::dal::logistic_regression::detail::get_inner_iterations_count_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="74" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" declline="74" declcolumn="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="69" column="1"/>
+  </compounddef>
+</doxygen>

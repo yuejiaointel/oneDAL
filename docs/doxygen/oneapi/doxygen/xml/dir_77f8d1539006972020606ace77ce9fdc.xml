@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_77f8d1539006972020606ace77ce9fdc" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/parameters</compoundname>
+    <innerdir refid="dir_ad5cf37f67152936a9f871993f8f125b">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/parameters/cpu</innerdir>
+    <innerdir refid="dir_d486962c1ee86793161a85cb4e7433d6">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/parameters/gpu</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/parameters/"/>
+  </compounddef>
+</doxygen>

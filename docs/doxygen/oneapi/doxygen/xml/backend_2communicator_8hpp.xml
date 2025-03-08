@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="backend_2communicator_8hpp" kind="file" language="C++">
+    <compoundname>communicator.hpp</compoundname>
+    <includes refid="backend_2common_8hpp" local="yes">oneapi/dal/backend/common.hpp</includes>
+    <includes refid="spmd_2communicator_8hpp" local="yes">oneapi/dal/spmd/communicator.hpp</includes>
+    <includedby refid="dispatcher_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>oneapi/dal/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>oneapi/dal/backend/common.hpp</label>
+        <link refid="backend_2common_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp</label>
+        <link refid="backend_2communicator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>oneapi/dal/common.hpp</label>
+        <link refid="common_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>oneapi/dal/spmd/common.hpp</label>
+        <link refid="spmd_2common_8hpp_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>oneapi/dal/spmd/communicator.hpp</label>
+        <link refid="spmd_2communicator_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>oneapi/dal/spmd/exceptions.hpp</label>
+        <link refid="spmd_2exceptions_8hpp_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>cstdint</label>
+      </node>
+      <node id="6">
+        <label>oneapi/dal/detail/array_impl.hpp</label>
+      </node>
+      <node id="7">
+        <label>oneapi/dal/detail/common.hpp</label>
+      </node>
+      <node id="14">
+        <label>oneapi/dal/detail/error_messages.hpp</label>
+      </node>
+      <node id="4">
+        <label>sycl/sycl.hpp</label>
+      </node>
+      <node id="3">
+        <label>type_traits</label>
+      </node>
+      <node id="12">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/parameters/cpu/compute_parameters.hpp</label>
+        <link refid="cpu_2compute__parameters_8hpp_source"/>
+      </node>
+      <node id="4">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/parameters/gpu/compute_parameters.hpp</label>
+        <link refid="gpu_2compute__parameters_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/infer_parameters.hpp</label>
+        <link refid="cpu_2infer__parameters_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/train_parameters.hpp</label>
+        <link refid="decision__forest_2parameters_2cpu_2train__parameters_8hpp_source"/>
+      </node>
+      <node id="7">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/gpu/infer_parameters.hpp</label>
+        <link refid="gpu_2infer__parameters_8hpp_source"/>
+      </node>
+      <node id="8">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/gpu/train_parameters.hpp</label>
+        <link refid="decision__forest_2parameters_2gpu_2train__parameters_8hpp_source"/>
+      </node>
+      <node id="9">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/parameters/cpu/train_parameters.hpp</label>
+        <link refid="linear__regression_2parameters_2cpu_2train__parameters_8hpp_source"/>
+      </node>
+      <node id="10">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/parameters/gpu/train_parameters.hpp</label>
+        <link refid="linear__regression_2parameters_2gpu_2train__parameters_8hpp_source"/>
+      </node>
+      <node id="11">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/parameters/cpu/train_parameters.hpp</label>
+        <link refid="logistic__regression_2parameters_2cpu_2train__parameters_8hpp_source"/>
+      </node>
+      <node id="12">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/parameters/gpu/train_parameters.hpp</label>
+        <link refid="logistic__regression_2parameters_2gpu_2train__parameters_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp</label>
+        <link refid="backend_2communicator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp</label>
+        <link refid="dispatcher_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_graph.hpp</label>
+        <link refid="read__graph_8hpp_source"/>
+      </node>
+      <node id="14">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/cpu/read_kernel.hpp</label>
+        <link refid="cpu_2read__kernel_8hpp_source"/>
+      </node>
+      <node id="15">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend/gpu/read_kernel.hpp</label>
+        <link refid="gpu_2read__kernel_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1fake__spmd__communicator" prot="public">oneapi::dal::backend::fake_spmd_communicator</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1communicator__event" prot="public">oneapi::dal::backend::communicator_event</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1communicator" prot="public">oneapi::dal::backend::communicator</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1backend">oneapi::dal::backend</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp"/>
+  </compounddef>
+</doxygen>

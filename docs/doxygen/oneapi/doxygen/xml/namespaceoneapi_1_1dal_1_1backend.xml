@@ -1,0 +1,2007 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1backend" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::backend</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1communicator" prot="public">oneapi::dal::backend::communicator</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1communicator__event" prot="public">oneapi::dal::backend::communicator_event</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider" prot="public">oneapi::dal::backend::communicator_provider</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1context__cpu" prot="public">oneapi::dal::backend::context_cpu</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1context__gpu" prot="public">oneapi::dal::backend::context_gpu</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1fake__spmd__communicator" prot="public">oneapi::dal::backend::fake_spmd_communicator</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1has__get__optional__queue" prot="public">oneapi::dal::backend::has_get_optional_queue</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1has__get__optional__queue_3_01_t_00_01std_1_1void__t_3_01declt16c2bdbca4e92ac5062e9f9e6bb3f494" prot="public">oneapi::dal::backend::has_get_optional_queue&lt; T, std::void_t&lt; decltype(&amp;T::get_queue)&gt; &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1has__get__queue" prot="public">oneapi::dal::backend::has_get_queue</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1has__get__queue_3_01_t_00_01std_1_1void__t_3_01decltype_07_6_t_1_1get__queue_08_4_01_4" prot="public">oneapi::dal::backend::has_get_queue&lt; T, std::void_t&lt; decltype(&amp;T::get_queue)&gt; &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher" prot="public">oneapi::dal::backend::kernel_dispatcher</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4" prot="public">oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__ker893d74e0a6cea882c61691e370ccf035" prot="public">oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt;, kernel_spec&lt; single_node_gpu_kernel, GpuKernel &gt; &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kerf8e29f2961dbf25567d67723acd30146" prot="public">oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt;, kernel_spec&lt; universal_spmd_gpu_kernel, GpuKernel &gt; &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1kernel__return__type" prot="public">oneapi::dal::backend::kernel_return_type</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1kernel__spec" prot="public">oneapi::dal::backend::kernel_spec</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1object__store" prot="public">oneapi::dal::backend::object_store</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1object__store__entry" prot="public">oneapi::dal::backend::object_store_entry</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1queue__like__traits" prot="public">oneapi::dal::backend::queue_like_traits</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1serializable__map" prot="public">oneapi::dal::backend::serializable_map</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_01_4" prot="public">oneapi::dal::backend::serializable_map&lt; Tag, Map1, Map2 &gt;</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_00_01_map3_01_4" prot="public">oneapi::dal::backend::serializable_map&lt; Tag, Map1, Map2, Map3 &gt;</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_00_01_map3_00_01_map4_01_4" prot="public">oneapi::dal::backend::serializable_map&lt; Tag, Map1, Map2, Map3, Map4 &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1serialization__id__map" prot="public">oneapi::dal::backend::serialization_id_map</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1serialization__ids" prot="public">oneapi::dal::backend::serialization_ids</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1single__node__cpu__kernel" prot="public">oneapi::dal::backend::single_node_cpu_kernel</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1single__node__gpu__kernel" prot="public">oneapi::dal::backend::single_node_gpu_kernel</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1smart__event" prot="public">oneapi::dal::backend::smart_event</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1uniform__blocking" prot="public">oneapi::dal::backend::uniform_blocking</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1universal__spmd__gpu__kernel" prot="public">oneapi::dal::backend::universal_spmd_gpu_kernel</innerclass>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1backend_1_1impl">oneapi::dal::backend::impl</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1backend_1_1primitives">oneapi::dal::backend::primitives</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="backend_2common_8hpp_1a6dfb8a016570ae17e15ec92d20e97fda" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>bool</type>
+            <declname>is_integral</declname>
+            <defname>is_integral</defname>
+            <defval>std::is_integral_v&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>typename <ref refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1make__signed__map" kindref="compound">impl::make_signed_map</ref>&lt; T, is_integral &gt;::type</type>
+        <definition>using make_signed_t =  typename impl::make_signed_map&lt;T, is_integral&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>make_signed_t</name>
+        <qualifiedname>oneapi::dal::backend::make_signed_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="76" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="backend_2common_8hpp_1a9fe8ba446524432118c0991a5b03019e" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>std::int64_t</type>
+            <declname>axis_count</declname>
+            <defname>axis_count</defname>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; std::int64_t, axis_count &gt;</type>
+        <definition>using ndindex =  std::array&lt;std::int64_t, axis_count&gt;</definition>
+        <argsstring></argsstring>
+        <name>ndindex</name>
+        <qualifiedname>oneapi::dal::backend::ndindex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="79" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="backend_2common_8hpp_1a0107e9867ee0fd12d33b3ad93c176c90" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+          <param>
+            <type>typename T</type>
+            <defval>make_signed_t&lt;Type&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>typename impl::preferred_vector_desc&lt; T &gt;::type</type>
+        <definition>using preferred_vector_desc_t =  typename impl::preferred_vector_desc&lt;T&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>preferred_vector_desc_t</name>
+        <qualifiedname>oneapi::dal::backend::preferred_vector_desc_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="259" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="backend_2common_8hpp_1ab4b217ca126b0cc3242c4b219b80b14a" prot="public" static="no">
+        <type>std::vector&lt; sycl::event &gt;</type>
+        <definition>using event_vector =  std::vector&lt;sycl::event&gt;</definition>
+        <argsstring></argsstring>
+        <name>event_vector</name>
+        <qualifiedname>oneapi::dal::backend::event_vector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="261" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="dispatcher_8hpp_1a9687b0f4e7dc05bb401008e5de391723" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>typename <ref refid="structoneapi_1_1dal_1_1backend_1_1kernel__return__type" kindref="compound">kernel_return_type</ref>&lt; <ref refid="classoneapi_1_1dal_1_1backend_1_1context__cpu" kindref="compound">context_cpu</ref>, Args... &gt;::type</type>
+        <definition>using cpu_kernel_return_t =  typename kernel_return_type&lt;context_cpu, Args...&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>cpu_kernel_return_t</name>
+        <qualifiedname>oneapi::dal::backend::cpu_kernel_return_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="173" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="dispatcher_8hpp_1a0bc30121e101e83bbf3e87f261c38ffc" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>typename <ref refid="structoneapi_1_1dal_1_1backend_1_1kernel__return__type" kindref="compound">kernel_return_type</ref>&lt; <ref refid="classoneapi_1_1dal_1_1backend_1_1context__gpu" kindref="compound">context_gpu</ref>, Args... &gt;::type</type>
+        <definition>using gpu_kernel_return_t =  typename kernel_return_type&lt;context_gpu, Args...&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>gpu_kernel_return_t</name>
+        <qualifiedname>oneapi::dal::backend::gpu_kernel_return_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="177" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="177" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="backend_2common_8hpp_1a014c1f3798bc96630a77359af5257df4" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool has_get_queue_v</definition>
+        <argsstring></argsstring>
+        <name>has_get_queue_v</name>
+        <qualifiedname>oneapi::dal::backend::has_get_queue_v</qualifiedname>
+        <initializer>= <ref refid="structoneapi_1_1dal_1_1backend_1_1has__get__queue" kindref="compound">has_get_queue</ref>&lt;T&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="389" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="backend_2common_8hpp_1a10e013613268b39c35f4d6e9d1f32ea8" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool has_get_optional_queue_v</definition>
+        <argsstring></argsstring>
+        <name>has_get_optional_queue_v</name>
+        <qualifiedname>oneapi::dal::backend::has_get_optional_queue_v</qualifiedname>
+        <initializer>= <ref refid="structoneapi_1_1dal_1_1backend_1_1has__get__optional__queue" kindref="compound">has_get_optional_queue</ref>&lt;T&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="392" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="392" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="atomic_8hpp_1ae6b0faa159193af4e98edb6004164dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_global_add</definition>
+        <argsstring>(T *ptr, T operand)</argsstring>
+        <name>atomic_global_add</name>
+        <qualifiedname>oneapi::dal::backend::atomic_global_add</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>operand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="30" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="atomic_8hpp_1a5a467392b0b5553a62f590797ac59890" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_global_sum</definition>
+        <argsstring>(T *ptr, T operand)</argsstring>
+        <name>atomic_global_sum</name>
+        <qualifiedname>oneapi::dal::backend::atomic_global_sum</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>operand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="42" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="42" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="atomic_8hpp_1a333ac9a3f9287c2fc46eb98eca210884" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_global_min</definition>
+        <argsstring>(T *ptr, T operand)</argsstring>
+        <name>atomic_global_min</name>
+        <qualifiedname>oneapi::dal::backend::atomic_global_min</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>operand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="55" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="55" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="atomic_8hpp_1a7f90e6da78fc8931d8d167dd26891e78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_global_max</definition>
+        <argsstring>(T *ptr, T operand)</argsstring>
+        <name>atomic_global_max</name>
+        <qualifiedname>oneapi::dal::backend::atomic_global_max</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>operand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="67" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="67" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="atomic_8hpp_1a12feeadb107723b38bfd5af4690e2ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_global_cmpxchg</definition>
+        <argsstring>(T *ptr, T expected, T desired)</argsstring>
+        <name>atomic_global_cmpxchg</name>
+        <qualifiedname>oneapi::dal::backend::atomic_global_cmpxchg</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>desired</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="79" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="79" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="atomic_8hpp_1a52858fb1176b120d4d5685cbdd4b5285" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_local_add</definition>
+        <argsstring>(T *ptr, T operand)</argsstring>
+        <name>atomic_local_add</name>
+        <qualifiedname>oneapi::dal::backend::atomic_local_add</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>operand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="93" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="atomic_8hpp_1ab761b2dcde999c880c67498d1f1ac49e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_local_sum</definition>
+        <argsstring>(T *ptr, T operand)</argsstring>
+        <name>atomic_local_sum</name>
+        <qualifiedname>oneapi::dal::backend::atomic_local_sum</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>operand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="102" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="102" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="atomic_8hpp_1a9b4c5eb3a8f3b4babb22541d71e3bf9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_local_min</definition>
+        <argsstring>(T *ptr, T operand)</argsstring>
+        <name>atomic_local_min</name>
+        <qualifiedname>oneapi::dal::backend::atomic_local_min</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>operand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="112" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="atomic_8hpp_1af8bb1dc8b350c86ddd8d06da3daf3bf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_local_max</definition>
+        <argsstring>(T *ptr, T operand)</argsstring>
+        <name>atomic_local_max</name>
+        <qualifiedname>oneapi::dal::backend::atomic_local_max</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>operand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="121" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="121" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="atomic_8hpp_1a9fb678f4434e1647fdaabf728868f47e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>sycl::memory_order</type>
+            <declname>mem_order</declname>
+            <defname>mem_order</defname>
+            <defval>sycl::memory_order::relaxed</defval>
+          </param>
+          <param>
+            <type>sycl::memory_scope</type>
+            <declname>mem_scope</declname>
+            <defname>mem_scope</defname>
+            <defval>sycl::memory_scope::device</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T atomic_local_cmpxchg</definition>
+        <argsstring>(T *ptr, T expected, T desired)</argsstring>
+        <name>atomic_local_cmpxchg</name>
+        <qualifiedname>oneapi::dal::backend::atomic_local_cmpxchg</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>expected</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>desired</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="130" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ac1d8b7e2d21df3e909be865b5cdca910" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>Type *</type>
+        <definition>Type * begin</definition>
+        <argsstring>(const dal::array&lt; Type &gt; &amp;arr)</argsstring>
+        <name>begin</name>
+        <qualifiedname>oneapi::dal::backend::begin</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Type &gt; &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="39" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a339b45887f04b28b89364be92d60b7bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>Type *</type>
+        <definition>Type * end</definition>
+        <argsstring>(const dal::array&lt; Type &gt; &amp;arr)</argsstring>
+        <name>end</name>
+        <qualifiedname>oneapi::dal::backend::end</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Type &gt; &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="45" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ae363efe907e77b0ed605e803f6fe9709" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>const Type *</type>
+        <definition>const Type * cbegin</definition>
+        <argsstring>(const dal::array&lt; Type &gt; &amp;arr)</argsstring>
+        <name>cbegin</name>
+        <qualifiedname>oneapi::dal::backend::cbegin</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Type &gt; &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="50" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a685db93588d5e8f92993138024d4a5c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>const Type *</type>
+        <definition>const Type * cend</definition>
+        <argsstring>(const dal::array&lt; Type &gt; &amp;arr)</argsstring>
+        <name>cend</name>
+        <qualifiedname>oneapi::dal::backend::cend</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Type &gt; &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="55" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a1feb292d85c1bed20473431068972bef" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Integer</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr Integer</type>
+        <definition>constexpr Integer up_log</definition>
+        <argsstring>(Integer x, Integer b=2)</argsstring>
+        <name>up_log</name>
+        <qualifiedname>oneapi::dal::backend::up_log</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>b</declname>
+          <defval>2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="82" column="26" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="82" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1afddaa91b92a7f8a2178cb58676908bd4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Integer</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr Integer</type>
+        <definition>constexpr Integer down_multiple</definition>
+        <argsstring>(Integer x, Integer multiple)</argsstring>
+        <name>down_multiple</name>
+        <qualifiedname>oneapi::dal::backend::down_multiple</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>multiple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the largest multiple of <computeroutput>multiple</computeroutput> not larger than <computeroutput>x</computeroutput> Return <computeroutput>x</computeroutput>, if <computeroutput>x</computeroutput> is already multiple of <computeroutput>multiple</computeroutput> Example: down_multiple(10, 4) == 8 Example: down_multiple(10, 5) == 10 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="101" column="26" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="101" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a4aa18b19e176c9cce9a365f04be30071" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Integer</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr Integer</type>
+        <definition>constexpr Integer up_multiple</definition>
+        <argsstring>(Integer x, Integer multiple)</argsstring>
+        <name>up_multiple</name>
+        <qualifiedname>oneapi::dal::backend::up_multiple</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>Integer</type>
+          <declname>multiple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the smallest multiple of <computeroutput>multiple</computeroutput> not smaller than <computeroutput>x</computeroutput>. Return <computeroutput>x</computeroutput>, if <computeroutput>x</computeroutput> is already multiple of <computeroutput>multiple</computeroutput> Example: up_multiple(10, 4) == 12 Example: up_multiple(10, 5) == 10 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="113" column="26" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="113" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a5de03ca188d00154cd63d4dd97d743cb" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Integer</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_pow2</definition>
+        <argsstring>(Integer x)</argsstring>
+        <name>is_pow2</name>
+        <qualifiedname>oneapi::dal::backend::is_pow2</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if &apos;x&apos; is power of 2. Example: down_pow2(10) == false Example: down_pow2(16) == true </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="127" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a0146aa277b6e67f11a8048483bab5641" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Integer</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr std::int64_t</type>
+        <definition>constexpr std::int64_t get_magnitude_bit_count</definition>
+        <argsstring>()</argsstring>
+        <name>get_magnitude_bit_count</name>
+        <qualifiedname>oneapi::dal::backend::get_magnitude_bit_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="133" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="133" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a72176ab9e66a8f0063dde3eacd52c20b" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Integer</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr Integer</type>
+        <definition>constexpr Integer down_pow2</definition>
+        <argsstring>(Integer x)</argsstring>
+        <name>down_pow2</name>
+        <qualifiedname>oneapi::dal::backend::down_pow2</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the largest power of 2 number not larger than <computeroutput>x</computeroutput>. Return <computeroutput>x</computeroutput>, if <computeroutput>x</computeroutput> is already power of 2 Example: down_pow2(10) == 8 Example: down_pow2(16) == 16 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="144" column="26" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="144" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ab553b4fbe524cc88576b87ce7ac44911" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Integer</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr Integer</type>
+        <definition>constexpr Integer up_pow2</definition>
+        <argsstring>(Integer x)</argsstring>
+        <name>up_pow2</name>
+        <qualifiedname>oneapi::dal::backend::up_pow2</qualifiedname>
+        <param>
+          <type>Integer</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the smallest power of 2 number not smaller than <computeroutput>x</computeroutput>. Return <computeroutput>x</computeroutput>, if <computeroutput>x</computeroutput> is already power of 2 Example: up_pow2(10) == 16 Example: up_pow2(16) == 16 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="165" column="26" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="165" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1aaa7f1200bf505630be85d68015c7c18c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event wait_or_pass</definition>
+        <argsstring>(const event_vector &amp;vec)</argsstring>
+        <name>wait_or_pass</name>
+        <qualifiedname>oneapi::dal::backend::wait_or_pass</qualifiedname>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Depending on the <computeroutput>vec</computeroutput> contents it waits for all events or returns a dummy event</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">vec</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of <computeroutput>sycl::event</computeroutput>s </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="267" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="267" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a5dfc9ce5fbec6199ed7a7fb28443e05b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>event_vector</type>
+        <definition>event_vector operator+</definition>
+        <argsstring>(const event_vector &amp;lhs, const event_vector &amp;rhs)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>oneapi::dal::backend::operator+</qualifiedname>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="273" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="273" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a99904a2e1aa20cba10be80154e417f12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>event_vector</type>
+        <definition>event_vector operator+</definition>
+        <argsstring>(const event_vector &amp;lhs, const sycl::event &amp;rhs)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>oneapi::dal::backend::operator+</qualifiedname>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const sycl::event &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="287" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="287" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a87cdc42cb0a5915fd274fc7646b3d456" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>event_vector</type>
+        <definition>event_vector operator+</definition>
+        <argsstring>(const sycl::event &amp;lhs, const sycl::event &amp;rhs)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>oneapi::dal::backend::operator+</qualifiedname>
+        <param>
+          <type>const sycl::event &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const sycl::event &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="291" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="291" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a47954f3ac063bb4d1c91c832d609246b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_same_context</definition>
+        <argsstring>(const sycl::queue &amp;q1, const sycl::queue &amp;q2)</argsstring>
+        <name>is_same_context</name>
+        <qualifiedname>oneapi::dal::backend::is_same_context</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q1</declname>
+        </param>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="369" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="369" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a777b0caf7dbd4d5bcd6384565279e5f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename QueueLike</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; sycl::queue &gt;</type>
+        <definition>std::optional&lt; sycl::queue &gt; extract_queue</definition>
+        <argsstring>(QueueLike &amp;&amp;queue_like)</argsstring>
+        <name>extract_queue</name>
+        <qualifiedname>oneapi::dal::backend::extract_queue</qualifiedname>
+        <param>
+          <type>QueueLike &amp;&amp;</type>
+          <declname>queue_like</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="407" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="407" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a04d5ec9b35693c626342cb5250a6a3ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename QueueLike</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool is_same_context_impl</definition>
+        <argsstring>(const sycl::queue &amp;reference, QueueLike &amp;&amp;queue_like)</argsstring>
+        <name>is_same_context_impl</name>
+        <qualifiedname>oneapi::dal::backend::is_same_context_impl</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>QueueLike &amp;&amp;</type>
+          <declname>queue_like</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="424" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="424" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ad0ad7ec8cb0cdf19807c7add7dad34f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename QueueLike</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool is_same_context_ignore_nullopt_impl</definition>
+        <argsstring>(const sycl::queue &amp;reference, QueueLike &amp;&amp;queue_like)</argsstring>
+        <name>is_same_context_ignore_nullopt_impl</name>
+        <qualifiedname>oneapi::dal::backend::is_same_context_ignore_nullopt_impl</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>QueueLike &amp;&amp;</type>
+          <declname>queue_like</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="430" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="430" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1aba0abf4ccb004dbf4daa6fa27c71ddf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename QueueLike</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool is_same_device_impl</definition>
+        <argsstring>(const sycl::queue &amp;reference, QueueLike &amp;&amp;queue_like)</argsstring>
+        <name>is_same_device_impl</name>
+        <qualifiedname>oneapi::dal::backend::is_same_device_impl</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>QueueLike &amp;&amp;</type>
+          <declname>queue_like</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="440" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="440" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a7c9ac080d3174f1db85a50617cb3e0cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>QueueLike</declname>
+            <defname>QueueLike</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool is_same_context</definition>
+        <argsstring>(const sycl::queue &amp;reference, QueueLike &amp;&amp;... queues_like)</argsstring>
+        <name>is_same_context</name>
+        <qualifiedname>oneapi::dal::backend::is_same_context</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>QueueLike &amp;&amp;...</type>
+          <declname>queues_like</declname>
+        </param>
+        <briefdescription>
+<para>Checks whether all queue-like objects have the same context. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="447" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="447" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a014a32a1bb2b2a51365003b62f115bdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>QueueLike</declname>
+            <defname>QueueLike</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool is_same_context_ignore_nullopt</definition>
+        <argsstring>(const sycl::queue &amp;reference, QueueLike &amp;&amp;... queues_like)</argsstring>
+        <name>is_same_context_ignore_nullopt</name>
+        <qualifiedname>oneapi::dal::backend::is_same_context_ignore_nullopt</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>QueueLike &amp;&amp;...</type>
+          <declname>queues_like</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks whether all queue-like objects have the same context. The queue-like objects, which does not carry context, do not participate in comparison. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="454" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="454" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a130c14b21b6ecff7e03fd3913d7a8cd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>QueueLike</declname>
+            <defname>QueueLike</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool is_same_device</definition>
+        <argsstring>(const sycl::queue &amp;reference, QueueLike &amp;&amp;... queues_like)</argsstring>
+        <name>is_same_device</name>
+        <qualifiedname>oneapi::dal::backend::is_same_device</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>QueueLike &amp;&amp;...</type>
+          <declname>queues_like</declname>
+        </param>
+        <briefdescription>
+<para>Checks whether all queue-like objects have the same device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="462" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="462" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a5659e009c32b414d628dfcdcf2a1a9df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>QueueLike</declname>
+            <defname>QueueLike</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void check_if_same_context</definition>
+        <argsstring>(const sycl::queue &amp;reference, QueueLike &amp;&amp;... queues_like)</argsstring>
+        <name>check_if_same_context</name>
+        <qualifiedname>oneapi::dal::backend::check_if_same_context</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>QueueLike &amp;&amp;...</type>
+          <declname>queues_like</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="467" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="467" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ab281cfec4481ada6600a38ff74588a99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::range&lt; 1 &gt;</type>
+        <definition>sycl::range&lt; 1 &gt; make_range_1d</definition>
+        <argsstring>(std::int64_t size)</argsstring>
+        <name>make_range_1d</name>
+        <qualifiedname>oneapi::dal::backend::make_range_1d</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="473" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="473" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ade662bb77d6aad5af5ca0784e85db085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::range&lt; 2 &gt;</type>
+        <definition>sycl::range&lt; 2 &gt; make_range_2d</definition>
+        <argsstring>(std::int64_t size1, std::int64_t size2)</argsstring>
+        <name>make_range_2d</name>
+        <qualifiedname>oneapi::dal::backend::make_range_2d</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>size1</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>size2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="477" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="477" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ae5eee2dd5f8626e8939df449a061bdf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::nd_range&lt; 1 &gt;</type>
+        <definition>sycl::nd_range&lt; 1 &gt; make_multiple_nd_range_1d</definition>
+        <argsstring>(std::int64_t global_size, std::int64_t local_size)</argsstring>
+        <name>make_multiple_nd_range_1d</name>
+        <qualifiedname>oneapi::dal::backend::make_multiple_nd_range_1d</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>global_size</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>local_size</declname>
+        </param>
+        <briefdescription>
+<para>Creates <computeroutput>nd_range</computeroutput>, where global size is multiple of local size. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="483" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="483" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a64f55b14320e7c5b9467aea5ee002600" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::nd_range&lt; 2 &gt;</type>
+        <definition>sycl::nd_range&lt; 2 &gt; make_multiple_nd_range_2d</definition>
+        <argsstring>(const ndindex&lt; 2 &gt; &amp;global_size, const ndindex&lt; 2 &gt; &amp;local_size)</argsstring>
+        <name>make_multiple_nd_range_2d</name>
+        <qualifiedname>oneapi::dal::backend::make_multiple_nd_range_2d</qualifiedname>
+        <param>
+          <type>const ndindex&lt; 2 &gt; &amp;</type>
+          <declname>global_size</declname>
+        </param>
+        <param>
+          <type>const ndindex&lt; 2 &gt; &amp;</type>
+          <declname>local_size</declname>
+        </param>
+        <briefdescription>
+<para>Creates <computeroutput>nd_range</computeroutput>, where global sizes is multiple of local size. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="491" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="491" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a69d9877b1ce5350de8c4c28f03fe5053" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::nd_range&lt; 3 &gt;</type>
+        <definition>sycl::nd_range&lt; 3 &gt; make_multiple_nd_range_3d</definition>
+        <argsstring>(const ndindex&lt; 3 &gt; &amp;global_size, const ndindex&lt; 3 &gt; &amp;local_size)</argsstring>
+        <name>make_multiple_nd_range_3d</name>
+        <qualifiedname>oneapi::dal::backend::make_multiple_nd_range_3d</qualifiedname>
+        <param>
+          <type>const ndindex&lt; 3 &gt; &amp;</type>
+          <declname>global_size</declname>
+        </param>
+        <param>
+          <type>const ndindex&lt; 3 &gt; &amp;</type>
+          <declname>local_size</declname>
+        </param>
+        <briefdescription>
+<para>Creates <computeroutput>nd_range</computeroutput>, where global sizes is multiple of local size. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="501" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="501" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ad295d07af2a3acd9cb69024c2be25ad2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_max_wg_size</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_max_wg_size</name>
+        <qualifiedname>oneapi::dal::backend::device_max_wg_size</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="513" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="513" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a5b6ecba02d5d62a3474a4b262cea1f04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_max_sg_size</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_max_sg_size</name>
+        <qualifiedname>oneapi::dal::backend::device_max_sg_size</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="518" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="518" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a7c30a63c1a593c1dfbe263893d74e9a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t propose_wg_size</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>propose_wg_size</name>
+        <qualifiedname>oneapi::dal::backend::propose_wg_size</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="526" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="526" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a7fac233066b91d166636f51033c13ba5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_scaled_wg_size_per_row</definition>
+        <argsstring>(const sycl::queue &amp;queue, std::int64_t column_count, std::int64_t preffered_wg_size)</argsstring>
+        <name>get_scaled_wg_size_per_row</name>
+        <qualifiedname>oneapi::dal::backend::get_scaled_wg_size_per_row</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>column_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>preffered_wg_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the workgroup size for specified data set width {WG-per-row topology is expected) Number of subgroups is calculated as minimal value from subgroups in WG with preffered_wg_size and number of subgroups to completely cover the dataset row For, example if column_count = 350; preffered_wg_size = 512 and max supported subgroup size = 32 then final WG size will be 352 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="540" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="540" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a83a2940636f1fbbd228f70dc83df08f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_local_mem_size</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_local_mem_size</name>
+        <qualifiedname>oneapi::dal::backend::device_local_mem_size</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="554" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="554" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a40641061bf1b892441184b28533dc3be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_native_vector_size</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_native_vector_size</name>
+        <qualifiedname>oneapi::dal::backend::device_native_vector_size</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="560" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="560" bodyend="565"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a3fdc14564a9f043a2254622b96dcea29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_native_vector_size&lt; float &gt;</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_native_vector_size&lt; float &gt;</name>
+        <qualifiedname>oneapi::dal::backend::device_native_vector_size&lt; float &gt;</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="568" column="8" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="568" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1aeb1192ec9e1a3c33cb2a9d51a2d51482" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_native_vector_size&lt; double &gt;</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_native_vector_size&lt; double &gt;</name>
+        <qualifiedname>oneapi::dal::backend::device_native_vector_size&lt; double &gt;</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="575" column="8" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="575" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a1457e5feac185f9f9f09ee538ff48cb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_native_vector_size&lt; int &gt;</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_native_vector_size&lt; int &gt;</name>
+        <qualifiedname>oneapi::dal::backend::device_native_vector_size&lt; int &gt;</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="582" column="8" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="582" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a132621fe7141fa3b9be06fa431681e67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_native_vector_size&lt; long &gt;</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_native_vector_size&lt; long &gt;</name>
+        <qualifiedname>oneapi::dal::backend::device_native_vector_size&lt; long &gt;</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="589" column="8" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="589" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1a952a27178447f777204be48885ba5267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_max_mem_alloc_size</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_max_mem_alloc_size</name>
+        <qualifiedname>oneapi::dal::backend::device_max_mem_alloc_size</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="595" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="595" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ad8763be53f2073910b939e28ded3136b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_global_mem_size</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_global_mem_size</name>
+        <qualifiedname>oneapi::dal::backend::device_global_mem_size</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="600" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="600" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2common_8hpp_1ac8468d21c81ebddbc0ed8e2d2d85a17b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t device_global_mem_cache_size</definition>
+        <argsstring>(const sycl::queue &amp;q)</argsstring>
+        <name>device_global_mem_cache_size</name>
+        <qualifiedname>oneapi::dal::backend::device_global_mem_cache_size</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="605" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="605" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="dispatcher_8hpp_1afd97e292416b1685361ba7986ca7feb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CpuBranch</type>
+          </param>
+          <param>
+            <type>typename GpuBranch</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto dispatch_by_device</definition>
+        <argsstring>(const detail::data_parallel_policy &amp;policy, CpuBranch &amp;&amp;cpu_branch, GpuBranch &amp;&amp;gpu_branch)</argsstring>
+        <name>dispatch_by_device</name>
+        <qualifiedname>oneapi::dal::backend::dispatch_by_device</qualifiedname>
+        <param>
+          <type>const detail::data_parallel_policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>CpuBranch &amp;&amp;</type>
+          <declname>cpu_branch</declname>
+        </param>
+        <param>
+          <type>GpuBranch &amp;&amp;</type>
+          <declname>gpu_branch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="136" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="136" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="dispatcher_8hpp_1a3d3a729ebe55454cefba010260428fb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool test_cpu_extension</definition>
+        <argsstring>(detail::cpu_extension mask, detail::cpu_extension test)</argsstring>
+        <name>test_cpu_extension</name>
+        <qualifiedname>oneapi::dal::backend::test_cpu_extension</qualifiedname>
+        <param>
+          <type>detail::cpu_extension</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>detail::cpu_extension</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="291" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="291" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="dispatcher_8hpp_1ab28c4839ae02159a1dccf905eb8d2aad" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Op</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>constexpr auto dispatch_by_cpu</definition>
+        <argsstring>(const context_cpu &amp;ctx, Op &amp;&amp;op)</argsstring>
+        <name>dispatch_by_cpu</name>
+        <qualifiedname>oneapi::dal::backend::dispatch_by_cpu</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1context__cpu" kindref="compound">context_cpu</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>Op &amp;&amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="296" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="296" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="backend_2math_8hpp_1ab8a2f5cc28f335a2ff2e2e93cf837dab" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr Float</type>
+        <definition>constexpr Float exp_low_threshold</definition>
+        <argsstring>()</argsstring>
+        <name>exp_low_threshold</name>
+        <qualifiedname>oneapi::dal::backend::exp_low_threshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/math.hpp" line="24" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/math.hpp" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="ndarray_8hpp_1a1b98ae5582e495c4bddcaed7baea9fda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>Type *</type>
+        <definition>Type * begin</definition>
+        <argsstring>(const primitives::ndview&lt; Type, 1 &gt; &amp;arr)</argsstring>
+        <name>begin</name>
+        <qualifiedname>oneapi::dal::backend::begin</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview" kindref="compound">primitives::ndview</ref>&lt; Type, 1 &gt; &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1393" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1393" bodyend="1396"/>
+      </memberdef>
+      <memberdef kind="function" id="ndarray_8hpp_1a25a6b8c54948a9ab7e8bb79887502591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>Type *</type>
+        <definition>Type * end</definition>
+        <argsstring>(const primitives::ndview&lt; Type, 1 &gt; &amp;arr)</argsstring>
+        <name>end</name>
+        <qualifiedname>oneapi::dal::backend::end</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview" kindref="compound">primitives::ndview</ref>&lt; Type, 1 &gt; &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1399" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1399" bodyend="1401"/>
+      </memberdef>
+      <memberdef kind="function" id="ndarray_8hpp_1aed3b548db454a7fdf88241d7d25e6d95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>const Type *</type>
+        <definition>const Type * cbegin</definition>
+        <argsstring>(const primitives::ndview&lt; Type, 1 &gt; &amp;arr)</argsstring>
+        <name>cbegin</name>
+        <qualifiedname>oneapi::dal::backend::cbegin</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview" kindref="compound">primitives::ndview</ref>&lt; Type, 1 &gt; &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1404" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1404" bodyend="1407"/>
+      </memberdef>
+      <memberdef kind="function" id="ndarray_8hpp_1a6a03985278637baffb99128220fe9b77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>const Type *</type>
+        <definition>const Type * cend</definition>
+        <argsstring>(const primitives::ndview&lt; Type, 1 &gt; &amp;arr)</argsstring>
+        <name>cend</name>
+        <qualifiedname>oneapi::dal::backend::cend</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview" kindref="compound">primitives::ndview</ref>&lt; Type, 1 &gt; &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1410" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1410" bodyend="1412"/>
+      </memberdef>
+      <memberdef kind="function" id="transfer_8hpp_1a32a06b4930f1e0fa5ed8deb953682c44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::tuple&lt; <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;, sycl::event &gt;</type>
+        <definition>std::tuple&lt; array&lt; T &gt;, sycl::event &gt; to_device</definition>
+        <argsstring>(sycl::queue &amp;q, const array&lt; T &gt; &amp;ary)</argsstring>
+        <name>to_device</name>
+        <qualifiedname>oneapi::dal::backend::to_device</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt; &amp;</type>
+          <declname>ary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" line="26" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" bodystart="26" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="transfer_8hpp_1a035778b0e0e484546c368a110176dd7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::tuple&lt; <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;, sycl::event &gt;</type>
+        <definition>std::tuple&lt; array&lt; T &gt;, sycl::event &gt; to_host</definition>
+        <argsstring>(const array&lt; T &gt; &amp;ary)</argsstring>
+        <name>to_host</name>
+        <qualifiedname>oneapi::dal::backend::to_host</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt; &amp;</type>
+          <declname>ary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" line="51" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" bodystart="51" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="transfer_8hpp_1a8d6c5242a8b0b214f4736185534ad2b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; to_device_sync</definition>
+        <argsstring>(sycl::queue &amp;q, const array&lt; T &gt; &amp;ary)</argsstring>
+        <name>to_device_sync</name>
+        <qualifiedname>oneapi::dal::backend::to_device_sync</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt; &amp;</type>
+          <declname>ary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" line="68" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="transfer_8hpp_1a73df47f9f058f2bf09dd27401266d55f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; to_host_sync</definition>
+        <argsstring>(const array&lt; T &gt; &amp;ary)</argsstring>
+        <name>to_host_sync</name>
+        <qualifiedname>oneapi::dal::backend::to_host_sync</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt; &amp;</type>
+          <declname>ary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" line="75" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" bodystart="75" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="transfer_8hpp_1afbb6a961457eaba760e9b0cc755643f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event gather_device2host</definition>
+        <argsstring>(sycl::queue &amp;q, void *dst_host, const void *src_device, std::int64_t block_count, std::int64_t src_stride_in_bytes, std::int64_t block_size_in_bytes, const event_vector &amp;deps={})</argsstring>
+        <name>gather_device2host</name>
+        <qualifiedname>oneapi::dal::backend::gather_device2host</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>dst_host</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>src_device</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>block_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>src_stride_in_bytes</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>block_size_in_bytes</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" line="81" column="13" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" declline="81" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="transfer_8hpp_1a7080b2bbaded1980dd497b13e339035f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event scatter_host2device</definition>
+        <argsstring>(sycl::queue &amp;q, void *dst_device, const void *src_host, std::int64_t block_count, std::int64_t dst_stride_in_bytes, std::int64_t block_size_in_bytes, const event_vector &amp;deps={})</argsstring>
+        <name>scatter_host2device</name>
+        <qualifiedname>oneapi::dal::backend::scatter_host2device</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>dst_device</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>src_host</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>block_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>dst_stride_in_bytes</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>block_size_in_bytes</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" line="89" column="13" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" declline="89" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="transfer_8hpp_1aad4d06721a89ef5076d34b04f5b1e6a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event scatter_host2device_blocking</definition>
+        <argsstring>(sycl::queue &amp;q, void *dst_device, const void *src_host, std::int64_t block_count, std::int64_t dst_stride_in_bytes, std::int64_t block_size_in_bytes, const event_vector &amp;deps={})</argsstring>
+        <name>scatter_host2device_blocking</name>
+        <qualifiedname>oneapi::dal::backend::scatter_host2device_blocking</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>dst_device</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>src_host</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>block_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>dst_stride_in_bytes</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>block_size_in_bytes</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" line="96" column="13" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp" declline="96" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/atomic.hpp" line="25" column="1"/>
+  </compounddef>
+</doxygen>

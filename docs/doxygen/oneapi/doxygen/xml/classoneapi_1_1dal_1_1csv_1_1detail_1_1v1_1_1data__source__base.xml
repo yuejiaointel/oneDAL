@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::csv::detail::v1::data_source_base</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1csv_1_1v1_1_1data__source" prot="public" virt="non-virtual">data_source&lt; Float &gt;</derivedcompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ad88429f40869091f2215c1effe6dea3b" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__tag" kindref="compound">data_source_tag</ref></type>
+        <definition>using tag_t =  data_source_tag</definition>
+        <argsstring></argsstring>
+        <name>tag_t</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::tag_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="38" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a05d8e2e8874fd9da9725d8238354b014" prot="protected" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; data_source_impl &gt;</type>
+        <definition>dal::detail::pimpl&lt;data_source_impl&gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="63" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ab1376af27b67d4bad767fe593af62b80" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>data_source_base</definition>
+        <argsstring>(const char *file_name)</argsstring>
+        <name>data_source_base</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::data_source_base</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>file_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="40" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a300760c0b0969a796ca52c26cec5ed0f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char get_delimiter</definition>
+        <argsstring>() const</argsstring>
+        <name>get_delimiter</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::get_delimiter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="42" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ac63532c13533cc7955b37c359c7c0d4b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool get_parse_header</definition>
+        <argsstring>() const</argsstring>
+        <name>get_parse_header</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::get_parse_header</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="46" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a72a48b7371522d369c1b5da142e6b2c9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string get_file_name</definition>
+        <argsstring>() const</argsstring>
+        <name>get_file_name</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::get_file_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="50" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a1cf11b9a540e8778aeff001f8d693bb7" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>char</type>
+        <definition>char get_delimiter_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_delimiter_impl</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::get_delimiter_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a5c9823f1834f3397f37e954bed5c2c01" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool get_parse_header_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_parse_header_impl</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::get_parse_header_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ad46eaeff57710385b61e4be929bcdfdf" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * get_file_name_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_file_name_impl</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::get_file_name_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="57" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ab019d4f597329b891efd8c0513d6e2f8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_delimiter_impl</definition>
+        <argsstring>(char value)</argsstring>
+        <name>set_delimiter_impl</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::set_delimiter_impl</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="59" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a3ce48da926cd645b32704ae05a95be9d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_parse_header_impl</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>set_parse_header_impl</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::set_parse_header_impl</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="60" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1af256a4a59485ae4d61dff31938c355ff" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_file_name_impl</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>set_file_name_impl</name>
+        <qualifiedname>oneapi::dal::csv::detail::v1::data_source_base::set_file_name_impl</qualifiedname>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="61" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>data_source_base</label>
+        <link refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>data_source&lt; Float &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1csv_1_1v1_1_1data__source"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>data_source_base</label>
+        <link refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" line="36" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/common.hpp" bodystart="36" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ab1376af27b67d4bad767fe593af62b80" prot="public" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>data_source_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a300760c0b0969a796ca52c26cec5ed0f" prot="public" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>get_delimiter</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a1cf11b9a540e8778aeff001f8d693bb7" prot="protected" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>get_delimiter_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a72a48b7371522d369c1b5da142e6b2c9" prot="public" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>get_file_name</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ad46eaeff57710385b61e4be929bcdfdf" prot="protected" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>get_file_name_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ac63532c13533cc7955b37c359c7c0d4b" prot="public" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>get_parse_header</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a5c9823f1834f3397f37e954bed5c2c01" prot="protected" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>get_parse_header_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a05d8e2e8874fd9da9725d8238354b014" prot="protected" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ab019d4f597329b891efd8c0513d6e2f8" prot="protected" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>set_delimiter_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1af256a4a59485ae4d61dff31938c355ff" prot="protected" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>set_file_name_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1a3ce48da926cd645b32704ae05a95be9d" prot="protected" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>set_parse_header_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base_1ad88429f40869091f2215c1effe6dea3b" prot="public" virt="non-virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::csv::detail::v1::data_source_base</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

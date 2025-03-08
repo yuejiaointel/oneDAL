@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1knn_1_1v1_1_1model" kind="class" language="C++" prot="private">
+    <compoundname>oneapi::dal::knn::v1::model</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1a400dda27e31b8c65d80214d03ef5dbd4" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1model__impl" kindref="compound">detail::model_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::model_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::knn::v1::model::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="370" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="370" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1af758be52317607e28c2b633561d322f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>()</argsstring>
+        <name>model</name>
+        <qualifiedname>oneapi::dal::knn::v1::model::model</qualifiedname>
+        <briefdescription>
+<para>Creates a new instance of the class with the default property values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="363" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1a290e88ba907919d82bb04d157b44713a" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serialize</definition>
+        <argsstring>(dal::detail::output_archive &amp;ar) const</argsstring>
+        <name>serialize</name>
+        <qualifiedname>oneapi::dal::knn::v1::model::serialize</qualifiedname>
+        <param>
+          <type>dal::detail::output_archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="366" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1ac29265dd84768a21a5874c7721957456" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void deserialize</definition>
+        <argsstring>(dal::detail::input_archive &amp;ar)</argsstring>
+        <name>deserialize</name>
+        <qualifiedname>oneapi::dal::knn::v1::model::deserialize</qualifiedname>
+        <param>
+          <type>dal::detail::input_archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="367" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1a1b066fec85eaf7b15e1bbde8a1c9594d" prot="private" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>(const std::shared_ptr&lt; detail::model_impl&lt; Task &gt; &gt; &amp;impl)</argsstring>
+        <name>model</name>
+        <qualifiedname>oneapi::dal::knn::v1::model::model</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1model__impl" kindref="compound">detail::model_impl</ref>&lt; Task &gt; &gt; &amp;</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="369" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies type of the problem to solve. Can be :expr:<computeroutput>task::classification</computeroutput>, :expr:<computeroutput>task::search</computeroutput> and :expr:<computeroutput>task::regression</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>model&lt; Task &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>model&lt; Task &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="356" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="356" bodyend="371"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1ac29265dd84768a21a5874c7721957456" prot="private" virt="non-virtual"><scope>oneapi::dal::knn::v1::model</scope><name>deserialize</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1a400dda27e31b8c65d80214d03ef5dbd4" prot="private" virt="non-virtual"><scope>oneapi::dal::knn::v1::model</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::v1::model</scope><name>model</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1a1b066fec85eaf7b15e1bbde8a1c9594d" prot="private" virt="non-virtual"><scope>oneapi::dal::knn::v1::model</scope><name>model</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1model_1a290e88ba907919d82bb04d157b44713a" prot="private" virt="non-virtual"><scope>oneapi::dal::knn::v1::model</scope><name>serialize</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::knn::v1::model</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

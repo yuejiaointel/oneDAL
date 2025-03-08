@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="undirected__adjacency__vector__graph_8hpp" kind="file" language="C++">
+    <compoundname>undirected_adjacency_vector_graph.hpp</compoundname>
+    <includes refid="graph_2common_8hpp" local="yes">oneapi/dal/graph/common.hpp</includes>
+    <includes local="yes">oneapi/dal/graph/detail/container.hpp</includes>
+    <includes local="yes">oneapi/dal/graph/detail/undirected_adjacency_vector_graph_impl.hpp</includes>
+    <includedby refid="algo_2connected__components_2common_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/common.hpp</includedby>
+    <includedby refid="algo_2jaccard_2common_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/jaccard/common.hpp</includedby>
+    <includedby refid="algo_2louvain_2common_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp</includedby>
+    <includedby refid="algo_2subgraph__isomorphism_2common_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp</includedby>
+    <includedby refid="algo_2triangle__counting_2common_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>oneapi/dal/common.hpp</label>
+        <link refid="common_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>oneapi/dal/graph/common.hpp</label>
+        <link refid="graph_2common_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/graph/undirected_adjacency_vector_graph.hpp</label>
+        <link refid="undirected__adjacency__vector__graph_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>cstdint</label>
+      </node>
+      <node id="6">
+        <label>oneapi/dal/detail/common.hpp</label>
+      </node>
+      <node id="7">
+        <label>oneapi/dal/graph/detail/common.hpp</label>
+      </node>
+      <node id="8">
+        <label>oneapi/dal/graph/detail/container.hpp</label>
+      </node>
+      <node id="9">
+        <label>oneapi/dal/graph/detail/undirected_adjacency_vector_graph_impl.hpp</label>
+      </node>
+      <node id="5">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components.hpp</label>
+        <link refid="connected__components_8hpp"/>
+      </node>
+      <node id="2">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/common.hpp</label>
+        <link refid="algo_2connected__components_2common_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning.hpp</label>
+        <link refid="algo_2connected__components_2vertex__partitioning_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp</label>
+        <link refid="connected__components_2vertex__partitioning__types_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/jaccard.hpp</label>
+        <link refid="jaccard_8hpp"/>
+      </node>
+      <node id="6">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/jaccard/common.hpp</label>
+        <link refid="algo_2jaccard_2common_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/jaccard/vertex_similarity.hpp</label>
+        <link refid="algo_2jaccard_2vertex__similarity_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/jaccard/vertex_similarity_types.hpp</label>
+        <link refid="vertex__similarity__types_8hpp"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain.hpp</label>
+        <link refid="louvain_8hpp"/>
+      </node>
+      <node id="10">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp</label>
+        <link refid="algo_2louvain_2common_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/vertex_partitioning.hpp</label>
+        <link refid="algo_2louvain_2vertex__partitioning_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/vertex_partitioning_types.hpp</label>
+        <link refid="louvain_2vertex__partitioning__types_8hpp"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism.hpp</label>
+        <link refid="subgraph__isomorphism_8hpp"/>
+      </node>
+      <node id="14">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp</label>
+        <link refid="algo_2subgraph__isomorphism_2common_8hpp_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/graph_matching.hpp</label>
+        <link refid="algo_2subgraph__isomorphism_2graph__matching_8hpp_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/graph_matching_types.hpp</label>
+        <link refid="graph__matching__types_8hpp"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting.hpp</label>
+        <link refid="triangle__counting_8hpp"/>
+      </node>
+      <node id="18">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp</label>
+        <link refid="algo_2triangle__counting_2common_8hpp_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking.hpp</label>
+        <link refid="algo_2triangle__counting_2vertex__ranking_8hpp_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp</label>
+        <link refid="vertex__ranking__types_8hpp"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/graph/undirected_adjacency_vector_graph.hpp</label>
+        <link refid="undirected__adjacency__vector__graph_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1undirected__adjacency__vector__graph" prot="public">oneapi::dal::preview::undirected_adjacency_vector_graph</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1preview_1_1graph__traits_3_01undirected__adjacency__vector__graph_3_01_veaeefcc580bef4ccbbcff000f76e8d7e6" prot="public">oneapi::dal::preview::graph_traits&lt; undirected_adjacency_vector_graph&lt; VertexValue, EdgeValue, GraphValue, IndexType, Allocator &gt; &gt;</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview">oneapi::dal::preview</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains the declaration of the undirected adjacency array graph </para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/graph/undirected_adjacency_vector_graph.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1transposed__ndorder_3_01ndorder_1_1c_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::primitives::transposed_ndorder&lt; ndorder::c &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1transposed__ndorder_3_01ndorder_1_1c_01_4_1a884efbb00d4ed417b0d6682dd86514c3" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr ndorder</type>
+        <definition>constexpr ndorder value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>oneapi::dal::backend::primitives::transposed_ndorder&lt; ndorder::c &gt;::value</qualifiedname>
+        <initializer>= ndorder::f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="37" column="30" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="36" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="36" bodyend="38"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1transposed__ndorder_3_01ndorder_1_1c_01_4_1a884efbb00d4ed417b0d6682dd86514c3" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::transposed_ndorder&lt; ndorder::c &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

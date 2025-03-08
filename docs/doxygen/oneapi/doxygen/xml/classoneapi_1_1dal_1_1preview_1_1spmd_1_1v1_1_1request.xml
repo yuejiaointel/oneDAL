@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::preview::spmd::v1::request</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1a918e8d3eff6badc1a3b7985e5669b25b" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> &gt;</type>
+        <definition>dal::detail::pimpl&lt;request_iface&gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::request::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="59" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1a53ddb717c4a283b82d354b02a6a71a59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>request</definition>
+        <argsstring>()</argsstring>
+        <name>request</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::request::request</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="42" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1aa3b21853f890838c88d047d6c2786917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wait</definition>
+        <argsstring>()</argsstring>
+        <name>wait</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::request::wait</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="44" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1a4672f1faf8a657510f2aec2647b595ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool test</definition>
+        <argsstring>()</argsstring>
+        <name>test</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::request::test</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="50" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="50" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1a63c0e39df6adcbfae02e24f850c93c92" prot="private" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>request</definition>
+        <argsstring>(request_iface *impl)</argsstring>
+        <name>request</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::request::request</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> *</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="58" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="58" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>request</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>request</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="38" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="38" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1a918e8d3eff6badc1a3b7985e5669b25b" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::spmd::v1::request</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1a53ddb717c4a283b82d354b02a6a71a59" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::spmd::v1::request</scope><name>request</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1a63c0e39df6adcbfae02e24f850c93c92" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::spmd::v1::request</scope><name>request</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1a4672f1faf8a657510f2aec2647b595ef" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::spmd::v1::request</scope><name>test</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request_1aa3b21853f890838c88d047d6c2786917" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::spmd::v1::request</scope><name>wait</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::request</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

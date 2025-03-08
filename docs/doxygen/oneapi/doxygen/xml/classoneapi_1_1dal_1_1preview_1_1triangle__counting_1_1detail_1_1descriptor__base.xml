@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::preview::triangle_counting::detail::descriptor_base</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1descriptor" prot="public" virt="non-virtual">descriptor&lt; Float, Method, Task, Allocator &gt;</derivedcompoundref>
+    <includes refid="algo_2triangle__counting_2common_8hpp" local="no">common.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval><ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1task_1_1local" kindref="compound">task::by_default</ref></defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__tag" kindref="compound">descriptor_tag</ref></type>
+        <definition>using tag_t =  descriptor_tag</definition>
+        <argsstring></argsstring>
+        <name>tag_t</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::tag_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="69" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1aef34e23d4cca9aba8d78eeb0ae8fcd2e" prot="public" static="no">
+        <type>float</type>
+        <definition>using float_t =  float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="70" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a29eb320b4d42767b5e12ba9dbae02a26" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1method_1_1ordered__count" kindref="compound">method::by_default</ref></type>
+        <definition>using method_t =  method::by_default</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="71" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="72" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="protected" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__impl" kindref="compound">descriptor_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;descriptor_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="83" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>descriptor_base</definition>
+        <argsstring>()</argsstring>
+        <name>descriptor_base</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::descriptor_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="74" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a3019578741a9dbb19c5a8a12b55d6e59" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>kind</type>
+        <definition>kind get_kind</definition>
+        <argsstring>() const</argsstring>
+        <name>get_kind</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::get_kind</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="76" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a60f56438f39af41a156679f855ada93c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>relabel</type>
+        <definition>relabel get_relabel</definition>
+        <argsstring>() const</argsstring>
+        <name>get_relabel</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::get_relabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="77" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a506b42fa29602a415003d43ed99cfb65" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_kind</definition>
+        <argsstring>(kind value)</argsstring>
+        <name>set_kind</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::set_kind</qualifiedname>
+        <param>
+          <type>kind</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="80" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a435161520455053ab06b8548cddedcdf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_relabel</definition>
+        <argsstring>(relabel value)</argsstring>
+        <name>set_relabel</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::descriptor_base::set_relabel</qualifiedname>
+        <param>
+          <type>relabel</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="81" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The base class for the Triangle Counting algorithm descriptor. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1descriptor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="65" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="65" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1aef34e23d4cca9aba8d78eeb0ae8fcd2e" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a3019578741a9dbb19c5a8a12b55d6e59" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>get_kind</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a60f56438f39af41a156679f855ada93c" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>get_relabel</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="protected" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a29eb320b4d42767b5e12ba9dbae02a26" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a506b42fa29602a415003d43ed99cfb65" prot="protected" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>set_kind</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a435161520455053ab06b8548cddedcdf" prot="protected" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>set_relabel</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::preview::triangle_counting::detail::descriptor_base</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

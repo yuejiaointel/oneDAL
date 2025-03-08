@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_92219c947164cc78659d1e2f5f8fc2e8" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv</compoundname>
+    <innerdir refid="dir_08b668c79c564231a8a64851218b73c5">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/backend</innerdir>
+    <innerfile refid="io_2csv_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="io_2csv_2read_8hpp">read.hpp</innerfile>
+    <innerfile refid="read__types_8hpp">read_types.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/"/>
+  </compounddef>
+</doxygen>

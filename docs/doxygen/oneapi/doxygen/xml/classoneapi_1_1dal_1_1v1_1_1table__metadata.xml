@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1v1_1_1table__metadata" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::v1::table_metadata</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a63a7df24fd556bf8c28b47883a91bf9b" prot="private" static="no" mutable="no">
+        <type>detail::pimpl&lt; detail::table_metadata_impl &gt;</type>
+        <definition>detail::pimpl&lt;detail::table_metadata_impl&gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="76" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a0ed09befbee210aa14dda59232035575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>table_metadata</definition>
+        <argsstring>()</argsstring>
+        <name>table_metadata</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::table_metadata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates the metadata instance without information about the features. The :literal:<computeroutput>feature_count</computeroutput> should be set to zero. The :literal:<computeroutput>data_type</computeroutput> and :literal:<computeroutput>feature_type</computeroutput> properties should not be initialized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="47" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a3dd783c1a3cf32f3ab496cdc325ba74e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>table_metadata</definition>
+        <argsstring>(const dal::array&lt; data_type &gt; &amp;dtypes, const dal::array&lt; feature_type &gt; &amp;ftypes)</argsstring>
+        <name>table_metadata</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::table_metadata</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; data_type &gt; &amp;</type>
+          <declname>dtypes</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; feature_type &gt; &amp;</type>
+          <declname>ftypes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates the metadata instance from external information about the data types and the feature types. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dtypes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data types of the features. Assigned into the :literal:<computeroutput>data_type</computeroutput> property. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ftypes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The feature types. Assigned into the :literal:<computeroutput>feature_type</computeroutput> property. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para>:expr:<computeroutput>dtypes.get_count() == ftypes.get_count()</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="54" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1aa1ebb43260233bb5bf7ea5d7bb87f93a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_feature_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_feature_count</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::get_feature_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of features that metadata contains information about <simplesect kind="invariant"><para>:literal:<computeroutput>feature_count &gt;= 0</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="58" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a0768eaed6def047c3663402b12affce1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const feature_type &amp;</type>
+        <definition>const feature_type &amp; get_feature_type</definition>
+        <argsstring>(std::int64_t feature_index) const</argsstring>
+        <name>get_feature_type</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::get_feature_type</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>feature_index</declname>
+        </param>
+        <briefdescription>
+<para>Feature types in the metadata object. Should be within the range <computeroutput>[0, feature_count)</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="61" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a63520696c73c62a5fbf79aa96bb77bba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const data_type &amp;</type>
+        <definition>const data_type &amp; get_data_type</definition>
+        <argsstring>(std::int64_t feature_index) const</argsstring>
+        <name>get_data_type</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::get_data_type</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>feature_index</declname>
+        </param>
+        <briefdescription>
+<para>Data types of the features in the metadata object. Should be within the range <computeroutput>[0, feature_count)</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="64" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a9d5ae632c6670e6632a64e0473c65095" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; data_type &gt; &amp;</type>
+        <definition>const dal::array&lt; data_type &gt; &amp; get_data_types</definition>
+        <argsstring>() const</argsstring>
+        <name>get_data_types</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::get_data_types</qualifiedname>
+        <briefdescription>
+<para>Get data types of features in bulk. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="67" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1ac4b10732cab3d085773de498d1aacd9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; feature_type &gt; &amp;</type>
+        <definition>const dal::array&lt; feature_type &gt; &amp; get_feature_types</definition>
+        <argsstring>() const</argsstring>
+        <name>get_feature_types</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::get_feature_types</qualifiedname>
+        <briefdescription>
+<para>Get feature types in bulk. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="70" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a86c4da98691368e7a8078cab5d5b073e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serialize</definition>
+        <argsstring>(detail::output_archive &amp;ar) const</argsstring>
+        <name>serialize</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::serialize</qualifiedname>
+        <param>
+          <type>detail::output_archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="73" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a6fb4a5ab3780ffb50ce420d82ee5629f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void deserialize</definition>
+        <argsstring>(detail::input_archive &amp;ar)</argsstring>
+        <name>deserialize</name>
+        <qualifiedname>oneapi::dal::v1::table_metadata::deserialize</qualifiedname>
+        <param>
+          <type>detail::input_archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="74" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" line="39" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/common.hpp" bodystart="39" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a6fb4a5ab3780ffb50ce420d82ee5629f" prot="private" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>deserialize</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a63520696c73c62a5fbf79aa96bb77bba" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>get_data_type</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a9d5ae632c6670e6632a64e0473c65095" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>get_data_types</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1aa1ebb43260233bb5bf7ea5d7bb87f93a" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>get_feature_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a0768eaed6def047c3663402b12affce1" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>get_feature_type</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1ac4b10732cab3d085773de498d1aacd9f" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>get_feature_types</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a63a7df24fd556bf8c28b47883a91bf9b" prot="private" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a86c4da98691368e7a8078cab5d5b073e" prot="private" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>serialize</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a0ed09befbee210aa14dda59232035575" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>table_metadata</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1table__metadata_1a3dd783c1a3cf32f3ab496cdc325ba74e" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::table_metadata</scope><name>table_metadata</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

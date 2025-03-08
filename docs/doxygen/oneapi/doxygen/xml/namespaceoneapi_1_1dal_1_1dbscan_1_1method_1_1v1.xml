@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1dbscan_1_1method_1_1v1" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::dbscan::method::v1</compoundname>
+    <innerclass refid="structoneapi_1_1dal_1_1dbscan_1_1method_1_1v1_1_1brute__force" prot="public">oneapi::dal::dbscan::method::v1::brute_force</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="algo_2dbscan_2common_8hpp_1a7872282c952e0e66b74297e8c8086bdc" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1dbscan_1_1method_1_1v1_1_1brute__force" kindref="compound">brute_force</ref></type>
+        <definition>using by_default =  brute_force</definition>
+        <argsstring></argsstring>
+        <name>by_default</name>
+        <qualifiedname>oneapi::dal::dbscan::method::v1::by_default</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" line="44" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" line="41" column="1"/>
+  </compounddef>
+</doxygen>

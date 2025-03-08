@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1decision__forest_1_1v2" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::decision_forest::v2</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1decision__forest_1_1v2_1_1train__input" prot="private">oneapi::dal::decision_forest::v2::train_input</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="221" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base" kind="class" language="C++" prot="private">
+    <compoundname>oneapi::dal::preview::shortest_paths::detail::descriptor_base</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1descriptor" prot="public" virt="non-virtual">descriptor&lt; Float, Method, Task, Allocator &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval><ref refid="structoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1task_1_1one__to__all" kindref="compound">task::by_default</ref></defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" static="no">
+        <type>descriptor_tag</type>
+        <definition>using tag_t =  descriptor_tag</definition>
+        <argsstring></argsstring>
+        <name>tag_t</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::tag_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="120" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1aef34e23d4cca9aba8d78eeb0ae8fcd2e" prot="public" static="no">
+        <type>float</type>
+        <definition>using float_t =  float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="121" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a29eb320b4d42767b5e12ba9dbae02a26" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1method_1_1delta__stepping" kindref="compound">method::by_default</ref></type>
+        <definition>using method_t =  method::by_default</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="122" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="123" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="protected" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; descriptor_impl&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;descriptor_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="136" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="136" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>descriptor_base</definition>
+        <argsstring>()</argsstring>
+        <name>descriptor_base</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::descriptor_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="125" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a31407527742d128bf5005b9d5afa7e89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_source</definition>
+        <argsstring>() const</argsstring>
+        <name>get_source</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::get_source</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="127" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1accf61c3366425fa61b1bf89d5bfe6aa9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_delta</definition>
+        <argsstring>() const</argsstring>
+        <name>get_delta</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::get_delta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="128" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1abaf7449e94d8e9121453402042d7fcf9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+        <definition>optional_result_id &amp; get_optional_results</definition>
+        <argsstring>() const</argsstring>
+        <name>get_optional_results</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::get_optional_results</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="129" column="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a38701133e1805cda773d3306d2268fa9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_source</definition>
+        <argsstring>(std::int64_t source_vertex)</argsstring>
+        <name>set_source</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::set_source</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>source_vertex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="132" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a2c7ad15314e0b25acbdc1b9d1614b9b0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_delta</definition>
+        <argsstring>(double delta)</argsstring>
+        <name>set_delta</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::set_delta</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="133" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a16f311ee540744b3943e022c139a8a8d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_optional_results</definition>
+        <argsstring>(const optional_result_id &amp;optional_results)</argsstring>
+        <name>set_optional_results</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::descriptor_base::set_optional_results</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+          <declname>optional_results</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="134" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The base class for the Shortest Paths algorithm descriptor. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1descriptor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="116" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="116" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1aef34e23d4cca9aba8d78eeb0ae8fcd2e" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1accf61c3366425fa61b1bf89d5bfe6aa9" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>get_delta</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1abaf7449e94d8e9121453402042d7fcf9" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>get_optional_results</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a31407527742d128bf5005b9d5afa7e89" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>get_source</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="protected" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a29eb320b4d42767b5e12ba9dbae02a26" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a2c7ad15314e0b25acbdc1b9d1614b9b0" prot="protected" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>set_delta</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a16f311ee540744b3943e022c139a8a8d" prot="protected" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>set_optional_results</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a38701133e1805cda773d3306d2268fa9" prot="protected" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>set_source</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::preview::shortest_paths::detail::descriptor_base</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

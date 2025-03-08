@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::preview::louvain::descriptor</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1detail_1_1descriptor__base" prot="public" virt="non-virtual">oneapi::dal::preview::louvain::detail::descriptor_base&lt; task::by_default &gt;</basecompoundref>
+    <includes refid="algo_2louvain_2common_8hpp" local="no">common.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+        <defval>float</defval>
+      </param>
+      <param>
+        <type>typename Method</type>
+        <defval><ref refid="structoneapi_1_1dal_1_1preview_1_1louvain_1_1method_1_1fast" kindref="compound">method::by_default</ref></defval>
+      </param>
+      <param>
+        <type>typename Task</type>
+        <defval><ref refid="structoneapi_1_1dal_1_1preview_1_1louvain_1_1task_1_1vertex__partitioning" kindref="compound">task::by_default</ref></defval>
+      </param>
+      <param>
+        <type>typename Allocator</type>
+        <defval>std::allocator&lt;char&gt;</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1detail_1_1descriptor__base" kindref="compound">detail::descriptor_base</ref>&lt; Task &gt;</type>
+        <definition>using base_t =  detail::descriptor_base&lt;Task&gt;</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="89" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" static="no">
+        <type>Float</type>
+        <definition>using float_t =  Float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="92" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" static="no">
+        <type>Method</type>
+        <definition>using method_t =  Method</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="93" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="94" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a9ec6905ca67ce4f654e5998427e14aaa" prot="public" static="no">
+        <type>Allocator</type>
+        <definition>using allocator_t =  Allocator</definition>
+        <argsstring></argsstring>
+        <name>allocator_t</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::allocator_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="95" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a5911860eaf6040e8418c2fb81166c26c" prot="private" static="no" mutable="no">
+        <type>Allocator</type>
+        <definition>Allocator alloc_</definition>
+        <argsstring></argsstring>
+        <name>alloc_</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::alloc_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="160" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="160" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a6ebc0effe8fb0fc482400ed160e926ed" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>descriptor</definition>
+        <argsstring>(const Allocator &amp;allocator=std::allocator&lt; char &gt;())</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::descriptor</qualifiedname>
+        <param>
+          <type>const Allocator &amp;</type>
+          <declname>allocator</declname>
+          <defval>std::allocator&lt; char &gt;()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="97" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a4d5b1b8ea76ea67bad2ae31c097c12cb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_accuracy_threshold</definition>
+        <argsstring>() const</argsstring>
+        <name>get_accuracy_threshold</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::get_accuracy_threshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the threshold for the stop condition of the local moving phase of the algorithm</para>
+<para><simplesect kind="remark"><para>default = 0.0001 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="105" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a610d8963488c37b15a3b0e18ff934c9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_accuracy_threshold</definition>
+        <argsstring>(double accuracy_threshold)</argsstring>
+        <name>set_accuracy_threshold</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::set_accuracy_threshold</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>accuracy_threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the threshold for the stop condition of the local moving phase of the algorithm</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">accuracy_threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>modularity threshold value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="invariant"><para>:expr:<computeroutput>accuracy_threshold &gt;= 0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 0.0001 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="115" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1afc2b191bc7ebeab266053db7cfe9f5b3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_resolution</definition>
+        <argsstring>() const</argsstring>
+        <name>get_resolution</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::get_resolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns resolution parameter in the modularity formula</para>
+<para><simplesect kind="remark"><para>default = 1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="123" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a700fa86e7e496d3856a54db5eef5db88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_resolution</definition>
+        <argsstring>(double resolution)</argsstring>
+        <name>set_resolution</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::set_resolution</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets resolution parameter in the modularity formula</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">resolution</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Resolution parameter in the modularity formula </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="invariant"><para>:expr:<computeroutput>resolution &gt;= 0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="132" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a57e2171b7b37120bb3b32de0551c25ad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_max_iteration_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_max_iteration_count</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::get_max_iteration_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the maximum number of iterations of the Louvain algorithm</para>
+<para><simplesect kind="remark"><para>default = 10 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="140" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="140" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a4c2b4f246dba34c2555774671d0ba8f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_max_iteration_count</definition>
+        <argsstring>(std::int64_t max_iteration_count)</argsstring>
+        <name>set_max_iteration_count</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::set_max_iteration_count</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>max_iteration_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the maximum number of iterations of the Louvain algorithm</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">max_iteration_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximum number of iterations of the Louvain algorithm </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="invariant"><para>:expr:<computeroutput>max_iteration_count &gt;= 0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 10 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="150" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="150" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a6deaa3dedf4035053ca4723ef0e0a993" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Allocator</type>
+        <definition>Allocator get_allocator</definition>
+        <argsstring>() const</argsstring>
+        <name>get_allocator</name>
+        <qualifiedname>oneapi::dal::preview::louvain::descriptor::get_allocator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="155" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="155" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class for the Louvain algorithm descriptor</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Float</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data type of the result </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The algorithm method </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The task to solve by the algorithm </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Allocator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Custom allocator for all memory management inside the algorithm </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1detail_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1detail_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" line="85" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/louvain/common.hpp" bodystart="85" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a5911860eaf6040e8418c2fb81166c26c" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>alloc_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a9ec6905ca67ce4f654e5998427e14aaa" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>allocator_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a6ebc0effe8fb0fc482400ed160e926ed" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1detail_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a4d5b1b8ea76ea67bad2ae31c097c12cb" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>get_accuracy_threshold</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a6deaa3dedf4035053ca4723ef0e0a993" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>get_allocator</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a57e2171b7b37120bb3b32de0551c25ad" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>get_max_iteration_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1afc2b191bc7ebeab266053db7cfe9f5b3" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>get_resolution</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1detail_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="protected" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a610d8963488c37b15a3b0e18ff934c9b" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>set_accuracy_threshold</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a4c2b4f246dba34c2555774671d0ba8f3" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>set_max_iteration_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1a700fa86e7e496d3856a54db5eef5db88" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>set_resolution</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1detail_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::preview::louvain::descriptor</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

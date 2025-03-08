@@ -1,0 +1,2069 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::primitives::ndarray</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview" prot="public" virt="non-virtual">ndview&lt; T, axis_count, order &gt;</basecompoundref>
+    <includes refid="ndarray_8hpp" local="no">ndarray.hpp</includes>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1_1array__deleter" prot="private">oneapi::dal::backend::primitives::ndarray::array_deleter</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>std::int64_t</type>
+        <declname>axis_count</declname>
+        <defname>axis_count</defname>
+      </param>
+      <param>
+        <type>ndorder</type>
+        <declname>order</declname>
+        <defname>order</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a9ab492a276efcd94edfa6c61118566e9" prot="private" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview" kindref="compound">ndview</ref>&lt; T, axis_count, order &gt;</type>
+        <definition>using base =  ndview&lt;T, axis_count, order&gt;</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="730" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="730" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a982501974169bacc9bb6abc1ee3aaa54" prot="private" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt;</type>
+        <definition>using shape_t =  ndshape&lt;axis_count&gt;</definition>
+        <argsstring></argsstring>
+        <name>shape_t</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::shape_t</qualifiedname>
+        <briefdescription>
+<para>Type of the object holding the multidimensional array shape. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="733" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a96eefa451864e755c4809599c07808af" prot="private" static="no">
+        <type>dal::detail::shared&lt; T &gt;</type>
+        <definition>using shared_t =  dal::detail::shared&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>shared_t</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::shared_t</qualifiedname>
+        <briefdescription>
+<para>Type of a shared pointer to :literal:<computeroutput>T</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="736" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a5856bdba272f9edd6d71d258c8a7c1b8" prot="private" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::remove_const_t&lt; T &gt; &gt;</type>
+        <definition>using array_t =  dal::array&lt;std::remove_const_t&lt;T&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>array_t</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::array_t</qualifiedname>
+        <briefdescription>
+<para>Type of the array with elements of type :literal:<computeroutput>T</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="739" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="739" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a97bbe6cf5a4fbb8c181800d644dd91fe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename</type>
+          </param>
+          <param>
+            <type>std::int64_t</type>
+          </param>
+          <param>
+            <type>ndorder</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class ndarray</definition>
+        <argsstring></argsstring>
+        <name>ndarray</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::ndarray</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="728" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="728" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1acc964a2b31bdbd4363851d677959b2b9" prot="private" static="no" mutable="no">
+        <type>shared_t</type>
+        <definition>shared_t data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::data_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1333" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1333" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ae9df87f0ff78274832f18387ad94ce26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ndarray</definition>
+        <argsstring>()=default</argsstring>
+        <name>ndarray</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::ndarray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="752" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a2546352db171e390c9d7bb4f1b14a10f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview" kindref="compound">base</ref> &amp;</type>
+        <definition>const base &amp; get_view</definition>
+        <argsstring>() const</argsstring>
+        <name>get_view</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::get_view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get ndview sub-object of the ndarray.</para>
+<para><simplesect kind="return"><para>The ndview sub-object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1039" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1039" bodyend="1041"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a71a7959f57acf3f6250881db5c8336c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref></type>
+        <definition>array_t flatten</definition>
+        <argsstring>() const</argsstring>
+        <name>flatten</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::flatten</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get 1d dal::array that shares the ownership on the data block of this ndarray.</para>
+<para><simplesect kind="return"><para>The 1d dal::array that contains all the data from this multidimentional array. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1046" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1046" bodyend="1048"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aae4944e438cd75c9f5bfcde4a02543de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref></type>
+        <definition>array_t flatten</definition>
+        <argsstring>(sycl::queue &amp;q, const event_vector &amp;deps={}) const</argsstring>
+        <name>flatten</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::flatten</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get 1d dal::array that shares the ownership on the SYCL* USM data block of this ndarray.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of events that the operation depends on.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The 1d dal::array that contains all the USM data from this multidimentional array. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1057" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1057" bodyend="1060"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aaf23b70530701962855e4abdeea019a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto t</definition>
+        <argsstring>() const</argsstring>
+        <name>t</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get transposed multidimensional array. The shape and strides of the transposed multidimensional array are swapped.</para>
+<para>The data is not copied: The transposed ndarray shares the ownership on the data block with the original ndarray.</para>
+<para><simplesect kind="return"><para>The transposed multidimensional array. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1070" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1070" bodyend="1076"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ab1f07aafff16e46d8657b9aba2c6829a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>std::int64_t</type>
+            <declname>new_axis_count</declname>
+            <defname>new_axis_count</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto reshape</definition>
+        <argsstring>(const ndshape&lt; new_axis_count &gt; &amp;new_shape) const</argsstring>
+        <name>reshape</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::reshape</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; new_axis_count &gt; &amp;</type>
+          <declname>new_shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the multidimensional array reshaped to the requested shape. The total number of elements in the reshaped array must remain the same. The data is not copied: the reshaped ndarray shares the ownership on the data block with the original ndarray.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>new_axis_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of dimensions in the reshaped multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>new_shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the reshaped multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The reshaped multidimensional array. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1089" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1089" bodyend="1093"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a68d389d7c00f8fc5a824cf92a2bb4aa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fill</definition>
+        <argsstring>(T value)</argsstring>
+        <name>fill</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::fill</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fill multidimensional array with a scalar value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The scalar value to fill the array with. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1098" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1098" bodyend="1103"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a1300083066789ef602457ec70add6f38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event fill</definition>
+        <argsstring>(sycl::queue &amp;q, T value, const event_vector &amp;deps={})</argsstring>
+        <name>fill</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::fill</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fill multidimensional array with a scalar value.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The scalar value to fill the array with. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of events that the operation depends on.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The SYCL* event object indicating the availability of the array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1114" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1114" bodyend="1121"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a5c6f198fa320525f3f433cd2bca04de2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void arange</definition>
+        <argsstring>()</argsstring>
+        <name>arange</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::arange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fill multidimensional array with the values from a sequence 0, 1, 2, ..., N-1, where N is the total number of elements in the array. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1126" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1126" bodyend="1131"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a53c79d9927d287365b66eefa4b0e968a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event arange</definition>
+        <argsstring>(sycl::queue &amp;q, const event_vector &amp;deps={})</argsstring>
+        <name>arange</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::arange</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fill multidimensional array with the values from a sequence 0, 1, 2, ..., N-1, where N is the total number of elements in the array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of events that the operation depends on.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The SYCL* event object indicating the availability of the array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1142" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1142" bodyend="1152"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aef28a5e92ea7454e17a50c1a4acb77e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void assign</definition>
+        <argsstring>(const T *source_ptr, std::int64_t source_count)</argsstring>
+        <name>assign</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::assign</qualifiedname>
+        <param>
+          <type>const T *</type>
+          <declname>source_ptr</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>source_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy the values from the input pointer to a memory block into multidimensional array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>source_ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pointer to a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements in the input memory block. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1159" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1159" bodyend="1164"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ac5d8ae3bcb21d065669c4535d03c9338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event assign</definition>
+        <argsstring>(sycl::queue &amp;q, const T *source_ptr, std::int64_t source_count, const event_vector &amp;deps={})</argsstring>
+        <name>assign</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::assign</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>source_ptr</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>source_count</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy the values from the input pointer to SYCL* USM memory block into multidimensional array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source_ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pointer to a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements in the input memory block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of events that the operation depends on.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The SYCL* event object indicating the availability of the array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1176" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1176" bodyend="1184"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a7023bc1d1fc07f09cc0329c9cb572a2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event assign_from_host</definition>
+        <argsstring>(sycl::queue &amp;q, const T *source_ptr, std::int64_t source_count, const event_vector &amp;deps={})</argsstring>
+        <name>assign_from_host</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::assign_from_host</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>source_ptr</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>source_count</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy the values from the input pointer to a memory block allocated on host into multidimensional array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source_ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pointer to a homogeneous data block allocated in host memory. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>source_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements in the input memory block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of events that the operation depends on.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The SYCL* event object indicating the availability of the array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1196" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1196" bodyend="1208"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a6936ac5a1b018bebf199bba7cdf2bf26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event assign</definition>
+        <argsstring>(sycl::queue &amp;q, const ndarray &amp;src, const event_vector &amp;deps={})</argsstring>
+        <name>assign</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::assign</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy the values from the input multidimensional array into this multidimensional array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The multidimensional array to copy data from. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of events that the operation depends on.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The SYCL* event object indicating the availability of the array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1219" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1219" bodyend="1223"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a1ffb48166e0ac798e8b9f205c32f4ca6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::event</type>
+        <definition>sycl::event assign_from_host</definition>
+        <argsstring>(sycl::queue &amp;q, const ndarray &amp;src, const event_vector &amp;deps={})</argsstring>
+        <name>assign_from_host</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::assign_from_host</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy the values from the input multidimensional array containing data allocated on host into this multidimensional array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The multidimensional array to copy data from. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of events that the operation depends on.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The SYCL* event object indicating the availability of the array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1234" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1234" bodyend="1240"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1af9e0e9a675cbf98b16b37ceba1edb132" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>ndarray slice</definition>
+        <argsstring>(std::int64_t offset, std::int64_t count, std::int64_t axis=0) const</argsstring>
+        <name>slice</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::slice</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>axis</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a slice of the multidimensional array along the specified axis. The slice is a view into the original multidimensional array. The data is not copied: The sliced ndarray shares the ownership on the data block.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The offset along the specified axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements along the specified axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>axis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The axis to slice along. Only axis <computeroutput>0</computeroutput> is supported.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The multidimensional array with a data slice. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1252" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1252" bodyend="1270"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aba1093af77b0beef34f551350452e902" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref> &gt;</type>
+        <definition>std::vector&lt; ndarray &gt; split</definition>
+        <argsstring>(std::int64_t fold_count, std::int64_t axis=0) const</argsstring>
+        <name>split</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::split</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>fold_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>axis</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Split a multidimensional array into multiple slices along the specified axis. The slices are views into the original multidimensional array. The data is not copied: The sliced ndarrays share the ownership on the data block.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fold_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of slices to split the multidimensional array into. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>axis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The axis to split along. Only axis <computeroutput>0</computeroutput> is supported.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A vector of multidimensional arrays with data slices. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1282" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1282" bodyend="1308"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aa70c78dab95cabe33c39c24aefb6bc04" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Deleter</type>
+            <defval>dal::detail::empty_delete&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap</definition>
+        <argsstring>(T *data, const shape_t &amp;shape, Deleter &amp;&amp;deleter=Deleter{})</argsstring>
+        <name>wrap</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>Deleter &amp;&amp;</type>
+          <declname>deleter</declname>
+          <defval>Deleter{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new multidimensional array instance by passing the pointer to externally-defined memory block for mutable data.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Deleter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of a deleter called on <computeroutput>data</computeroutput> when the last ndarray that refers it is out of the scope.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pointer to a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deleter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The deleter that is called on the <computeroutput>data</computeroutput> when the last ndarray that refers it is out of the scope.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="767" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="767" bodyend="770"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a2bf9c02bfc8c3410aa66d8a88000caa4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Deleter</type>
+            <defval>dal::detail::empty_delete&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap</definition>
+        <argsstring>(const T *data, const shape_t &amp;shape, Deleter &amp;&amp;deleter=Deleter{})</argsstring>
+        <name>wrap</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap</qualifiedname>
+        <param>
+          <type>const T *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>Deleter &amp;&amp;</type>
+          <declname>deleter</declname>
+          <defval>Deleter{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new multidimensional array instance by passing the pointer to externally-defined memory block for immutable data.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Deleter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of a deleter called on <computeroutput>data</computeroutput> when the last ndarray that refers it is out of the scope.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pointer to a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deleter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The deleter that is called on the <computeroutput>data</computeroutput> when the last ndarray that refers it is out of the scope.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="785" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="785" bodyend="788"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ad1ed8188dabaab7c6214f943f15457b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap</definition>
+        <argsstring>(const shared_t &amp;data, const shape_t &amp;shape)</argsstring>
+        <name>wrap</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap</qualifiedname>
+        <param>
+          <type>const shared_t &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new multidimensional array instance by passing the shared pointer to externally-defined memory block for mutable data.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shared pointer to a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="797" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="797" bodyend="799"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a637afe26800bacbd9f463c8b3dafa643" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap</definition>
+        <argsstring>(shared_t &amp;&amp;data, const shape_t &amp;shape)</argsstring>
+        <name>wrap</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap</qualifiedname>
+        <param>
+          <type>shared_t &amp;&amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new multidimensional array instance by moving a shared pointer to externally-defined memory block for mutable data.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>R-value reference to the shared pointer to a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="808" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="808" bodyend="810"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a5569fd33f7f8b632c8a6cd024efc389f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap</definition>
+        <argsstring>(const array_t &amp;ary, const shape_t &amp;shape)</argsstring>
+        <name>wrap</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref> &amp;</type>
+          <declname>ary</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new multidimensional array instance from an immutable array. The created multidimensional array shares data ownership with the given array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The array that stores a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="819" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="819" bodyend="822"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1adf4fb3e6eda922bb777676a431c4accf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap</definition>
+        <argsstring>(array_t &amp;&amp;ary, const shape_t &amp;shape)</argsstring>
+        <name>wrap</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref> &amp;&amp;</type>
+          <declname>ary</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new multidimensional array instance by moving an immutable input array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The r-value reference to array that stores a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="830" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="830" bodyend="834"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aa3fc7af3ef7a909f973730a7c32527d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap</definition>
+        <argsstring>(const array_t &amp;ary)</argsstring>
+        <name>wrap</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref> &amp;</type>
+          <declname>ary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a 1d ndarray instance from an immutable array. The created ndarray shares data ownership with the given array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The array that stores a homogeneous data block.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new 1d ndarray instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="842" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="842" bodyend="845"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a2f9d608e745af0f4e9451fb7278c45a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap</definition>
+        <argsstring>(array_t &amp;&amp;ary)</argsstring>
+        <name>wrap</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref> &amp;&amp;</type>
+          <declname>ary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a 1d ndarray instance by moving an immutable input array. The created ndarray shares data ownership with the given array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The r-value reference to array that stores a homogeneous data block.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new 1d ndarray instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="853" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="853" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a456c452acb61f907eb880fab32f23509" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap_mutable</definition>
+        <argsstring>(const array_t &amp;ary, const shape_t &amp;shape)</argsstring>
+        <name>wrap_mutable</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap_mutable</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref> &amp;</type>
+          <declname>ary</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new multidimensional array instance from a mutable array. The created multidimensional array shares data ownership with the given array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The array that stores a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="866" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="866" bodyend="870"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1afa91ec725ddf058219d050f2dd06cdef" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap_mutable</definition>
+        <argsstring>(array_t &amp;&amp;ary, const shape_t &amp;shape)</argsstring>
+        <name>wrap_mutable</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap_mutable</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref> &amp;&amp;</type>
+          <declname>ary</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new multidimensional array instance by moving a mutable input array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The r-value reference to array that stores a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="878" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="878" bodyend="883"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aeab317d1d0dc0cd3792d8cd97063b5fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap_mutable</definition>
+        <argsstring>(const array_t &amp;ary)</argsstring>
+        <name>wrap_mutable</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap_mutable</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref> &amp;</type>
+          <declname>ary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a 1d ndarray instance from a mutable array. The created ndarray shares data ownership with the given array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The array that stores a homogeneous data block.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new 1d ndarray instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="891" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="891" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ab28baed03e76264bf0ac8b25f927d35c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray wrap_mutable</definition>
+        <argsstring>(array_t &amp;&amp;ary)</argsstring>
+        <name>wrap_mutable</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::wrap_mutable</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array_t</ref> &amp;&amp;</type>
+          <declname>ary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a 1d ndarray instance by moving a mutable input array. The created ndarray shares data ownership with the given array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ary</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The array that stores a homogeneous data block.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new 1d ndarray instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="902" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="902" bodyend="906"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1afdf37fed1323d69486099d883ce7155d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray empty</definition>
+        <argsstring>(const shape_t &amp;shape)</argsstring>
+        <name>empty</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::empty</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an uninitialized multidimensional array of a requested shape.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="913" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="913" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aa643d87d497248344705644a68c42c6b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray copy</definition>
+        <argsstring>(const T *data, const shape_t &amp;shape)</argsstring>
+        <name>copy</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::copy</qualifiedname>
+        <param>
+          <type>const T *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a multidimensional array of the requested shape and copies the values from the input pointer to a memory block into that multidimensional array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pointer to a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="927" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="927" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1af55f7786a84f9ae19d54e8edfe5800fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray zeros</definition>
+        <argsstring>(const shape_t &amp;shape)</argsstring>
+        <name>zeros</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::zeros</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a multidimensional array of the requested shape and fills it with zeros.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="938" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="938" bodyend="942"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aebfe6d69419e90751f2ad680fd2c0e10" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref></type>
+        <definition>static ndarray empty</definition>
+        <argsstring>(const sycl::queue &amp;q, const shape_t &amp;shape, const sycl::usm::alloc &amp;alloc_kind=sycl::usm::alloc::shared)</argsstring>
+        <name>empty</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::empty</qualifiedname>
+        <param>
+          <type>const sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>const sycl::usm::alloc &amp;</type>
+          <declname>alloc_kind</declname>
+          <defval>sycl::usm::alloc::shared</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an uninitialized multidimensional array of a requested shape with the elements stored in SYCL* USM.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alloc_kind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The kind of USM to be allocated.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new multidimensional array instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="953" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="953" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1af1d5dbe397a583170dfd08d819fac686" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::tuple&lt; <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref>, sycl::event &gt;</type>
+        <definition>static std::tuple&lt; ndarray, sycl::event &gt; copy</definition>
+        <argsstring>(sycl::queue &amp;q, const T *data, const shape_t &amp;shape, const sycl::usm::alloc &amp;alloc_kind=sycl::usm::alloc::shared)</argsstring>
+        <name>copy</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::copy</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>const sycl::usm::alloc &amp;</type>
+          <declname>alloc_kind</declname>
+          <defval>sycl::usm::alloc::shared</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a multidimensional array of the requested shape with the elements stored in SYCL* USM and copies the values from the input pointer to a memory block into that multidimensional array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pointer to a homogeneous data block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alloc_kind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The kind of USM to be allocated.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A tuple with the created multidimensional array and the SYCL* event object indicating the availability of the resulting array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="971" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="971" bodyend="979"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a8c8f443e556abdde00f5dbdaae5932e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::tuple&lt; <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref>, sycl::event &gt;</type>
+        <definition>static std::tuple&lt; ndarray, sycl::event &gt; full</definition>
+        <argsstring>(sycl::queue &amp;q, const shape_t &amp;shape, const T &amp;value, const sycl::usm::alloc &amp;alloc_kind=sycl::usm::alloc::shared, const event_vector &amp;deps={})</argsstring>
+        <name>full</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::full</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const sycl::usm::alloc &amp;</type>
+          <declname>alloc_kind</declname>
+          <defval>sycl::usm::alloc::shared</defval>
+        </param>
+        <param>
+          <type>const event_vector &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a multidimensional array of the requested shape with the elements stored in SYCL* USM and fills it with a scalar value provided.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The scalar value to fill the array with. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alloc_kind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The kind of USM to be allocated. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vector of events that the operation depends on.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A tuple with the created multidimensional array and the SYCL* event object indicating the availability of the resulting array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="992" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="992" bodyend="1001"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a25ad8226d4f7967a790da02fe6feda3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::tuple&lt; <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref>, sycl::event &gt;</type>
+        <definition>static std::tuple&lt; ndarray, sycl::event &gt; zeros</definition>
+        <argsstring>(sycl::queue &amp;q, const shape_t &amp;shape, const sycl::usm::alloc &amp;alloc_kind=sycl::usm::alloc::shared)</argsstring>
+        <name>zeros</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::zeros</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>const sycl::usm::alloc &amp;</type>
+          <declname>alloc_kind</declname>
+          <defval>sycl::usm::alloc::shared</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a multidimensional array of the requested shape with the elements stored in SYCL* USM and fills it with zeros.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alloc_kind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The kind of USM to be allocated.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A tuple with the created multidimensional array and the SYCL* event object indicating the availability of the resulting array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1012" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1012" bodyend="1017"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a8d121461a589f790ac62ffea68cf5ac7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::tuple&lt; <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref>, sycl::event &gt;</type>
+        <definition>static std::tuple&lt; ndarray, sycl::event &gt; ones</definition>
+        <argsstring>(sycl::queue &amp;q, const shape_t &amp;shape, const sycl::usm::alloc &amp;alloc_kind=sycl::usm::alloc::shared)</argsstring>
+        <name>ones</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::ones</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>const sycl::usm::alloc &amp;</type>
+          <declname>alloc_kind</declname>
+          <defval>sycl::usm::alloc::shared</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a multidimensional array of the requested shape with the elements stored in SYCL* USM and fills it with ones.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shape of the created multidimensional array. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alloc_kind</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The kind of USM to be allocated.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A tuple with the created multidimensional array and the SYCL* event object indicating the availability of the resulting array for reading and writing. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1028" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1028" bodyend="1033"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a0023152bce4ba0d886361e6a9d99002d" prot="private" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ndarray</definition>
+        <argsstring>(const shared_t &amp;data, const shape_t &amp;shape, const shape_t &amp;strides)</argsstring>
+        <name>ndarray</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::ndarray</qualifiedname>
+        <param>
+          <type>const shared_t &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>strides</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1312" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1312" bodyend="1314"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a2f89621913e64007a0784fe4423991e4" prot="private" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ndarray</definition>
+        <argsstring>(shared_t &amp;&amp;data, const shape_t &amp;shape, const shape_t &amp;strides)</argsstring>
+        <name>ndarray</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::ndarray</qualifiedname>
+        <param>
+          <type>shared_t &amp;&amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>strides</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1316" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1316" bodyend="1318"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a7f95463b2bd0253db5d54e8257fc4a02" prot="private" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ndarray</definition>
+        <argsstring>(const shared_t &amp;data, const shape_t &amp;shape)</argsstring>
+        <name>ndarray</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::ndarray</qualifiedname>
+        <param>
+          <type>const shared_t &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1320" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1320" bodyend="1322"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a69b31ee4df6c7c3f5f6763eb09c8f45c" prot="private" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ndarray</definition>
+        <argsstring>(shared_t &amp;&amp;data, const shape_t &amp;shape)</argsstring>
+        <name>ndarray</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::ndarray</qualifiedname>
+        <param>
+          <type>shared_t &amp;&amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">shape_t</ref> &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1324" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1324" bodyend="1326"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a8b4aa3845854a35642894110eedb500d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray" kindref="compound">ndarray</ref> &amp;</type>
+        <definition>ndarray &amp; set_mutability</definition>
+        <argsstring>(bool data_is_mutable)</argsstring>
+        <name>set_mutability</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray::set_mutability</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>data_is_mutable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="1328" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="1328" bodyend="1331"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Multidimensional array</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the memory block elements within the multidimensional array.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>axis_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of dimensions in the multidimensional array. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>order</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Row-major or column-major order of the 2-dimensional array. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ndarray&lt; T, axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ndarray_base&lt; axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ndview&lt; T, axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ndarray&lt; T, axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ndarray_base&lt; axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ndview&lt; T, axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="726" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="726" bodyend="1334"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a5c6f198fa320525f3f433cd2bca04de2" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>arange</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a53c79d9927d287365b66eefa4b0e968a" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>arange</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a5856bdba272f9edd6d71d258c8a7c1b8" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>array_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aef28a5e92ea7454e17a50c1a4acb77e5" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>assign</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ac5d8ae3bcb21d065669c4535d03c9338" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>assign</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a6936ac5a1b018bebf199bba7cdf2bf26" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>assign</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a7023bc1d1fc07f09cc0329c9cb572a2c" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>assign_from_host</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a1ffb48166e0ac798e8b9f205c32f4ca6" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>assign_from_host</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1af462120a8f9bdd699f60880458fca3b7" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>at</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a2fe56907fb023d41bd798fd9dfea35b4" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>at</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1aa5804e6e4f67d0a11581eeaa1fee590f" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>at</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1adab934b51d5aeeadb9f36c98d18cc6c7" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>at</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a394f1641deb6e1c2e17220f508f609c9" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>at_device</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a9319dcbeae4a1112bf1789c7379e6d2c" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>at_device</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a487e7a87b98c3940a0dbb65b77952a50" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>axis_count_v</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a9ab492a276efcd94edfa6c61118566e9" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>base</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1ac7b37f39f0e385cd59329305f578441c" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>begin</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1adb4798c44786932152ffed99a02b95e0" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>cbegin</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a3d252ae2f71dc834828ac0cddeda6fe9" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>cend</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a1e67c90a30a3b5c417a1c75bbe05c7a9" prot="protected" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>check_if_strides_are_default</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1af9e6f3dc1d39495617ac9e05aff08c01" prot="protected" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>check_reshape_conditions</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aa643d87d497248344705644a68c42c6b" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>copy</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1af1d5dbe397a583170dfd08d819fac686" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>copy</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1acc964a2b31bdbd4363851d677959b2b9" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>data_</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1afdf37fed1323d69486099d883ce7155d" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>empty</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aebfe6d69419e90751f2ad680fd2c0e10" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>empty</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a5d87a5631a59d35a69a091a73f8aa0ab" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>end</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a68d389d7c00f8fc5a824cf92a2bb4aa9" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>fill</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a1300083066789ef602457ec70add6f38" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>fill</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a71a7959f57acf3f6250881db5c8336c5" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>flatten</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aae4944e438cd75c9f5bfcde4a02543de" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>flatten</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a8c8f443e556abdde00f5dbdaae5932e2" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>full</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a9335fbdb67f9c1ac315718cf0f581b8b" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_col_slice</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a3469aa510a6f2614bc925dfaa581d7d7" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1aee15a0766b933712d9ee24cf6afe7ce0" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a3628771fc9d1936334c6aa7530cc41f2" prot="protected" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_default_strides</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1ae9b9b86ea8b39bd31c4da6eeaece7a03" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_dimension</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a5c3eb63b2e1624d00bd5f3cf843da2ee" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_flat_index</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a640e66e58bbe6c590d43ad503100c007" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_leading_stride</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a11817a99df7e5d0ccbbbe985e6333103" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_mutable_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a6b5068b06d2cbba73b0351f20d9c6efa" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_order</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1af4105f13bf9d49fe547705cfc5b0d9ad" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_row_slice</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1add8b1ca78e1f7495188c8835020d22e5" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_shape</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a136d6ad7971db9450567f98af73adaa6" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_slice</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a87a0fc3f51eb0fa8469980dab14dccb7" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_stride</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a6357c3905cdfdbbb306ccedf7f3952b0" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_strides</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a2546352db171e390c9d7bb4f1b14a10f" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>get_view</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a4914db31d0bdfd71c1b99d5c214cfce5" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>has_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a2c74ad84603fcf644f78cf837d99aa01" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>has_mutable_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a97bbe6cf5a4fbb8c181800d644dd91fe" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndarray</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ae9df87f0ff78274832f18387ad94ce26" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndarray</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a0023152bce4ba0d886361e6a9d99002d" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndarray</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a2f89621913e64007a0784fe4423991e4" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndarray</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a7f95463b2bd0253db5d54e8257fc4a02" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndarray</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a69b31ee4df6c7c3f5f6763eb09c8f45c" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndarray</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a0f76e0aaee0118e124cceecb1f71d798" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndarray_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1aab64f5a9bb5edb1615cb980d001acb21" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndarray_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a0dfb01dcb05713da4db9aaee77e3d420" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndarray_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a546b78dc2832b034e5d9eabdaf547729" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndview</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a225ce8a25dd0503c44555bba6f1b83fe" prot="protected" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndview</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a4473364b0ad8aaa3dbd3eac6a1b629b4" prot="protected" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndview</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1ae50c1acb17918757d1082b23db06a3e6" prot="protected" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndview</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a14dd78b293a84aca775304f671929d9b" prot="protected" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ndview</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a8d121461a589f790ac62ffea68cf5ac7" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>ones</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1adf8738f5de788bf2f2f10773ba97eb1e" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>prefetch</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ab1f07aafff16e46d8657b9aba2c6829a" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>reshape</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a8b4aa3845854a35642894110eedb500d" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>set_mutability</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a982501974169bacc9bb6abc1ee3aaa54" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>shape_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a96eefa451864e755c4809599c07808af" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>shared_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1af9e0e9a675cbf98b16b37ceba1edb132" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>slice</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aba1093af77b0beef34f551350452e902" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>split</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aaf23b70530701962855e4abdeea019a2" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>t</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a2252bacdf73c8475e52b2cfe575fae0b" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>to_device</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1ad3c67de38eb34d9ae0fdb9ed76ef3ed8" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>to_host</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aa70c78dab95cabe33c39c24aefb6bc04" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a2bf9c02bfc8c3410aa66d8a88000caa4" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ad1ed8188dabaab7c6214f943f15457b2" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a637afe26800bacbd9f463c8b3dafa643" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a5569fd33f7f8b632c8a6cd024efc389f" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1adf4fb3e6eda922bb777676a431c4accf" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aa3fc7af3ef7a909f973730a7c32527d4" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a2f9d608e745af0f4e9451fb7278c45a5" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1afe9556154b3e69353c11fac042ac060f" prot="public" virt="non-virtual" ambiguityscope="ndview&lt; T, axis_count, order &gt;::"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a632edd263e583024a202a83a6fc05f10" prot="public" virt="non-virtual" ambiguityscope="ndview&lt; T, axis_count, order &gt;::"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a415c4d0c0624b5c25d3acecddb9d9d88" prot="public" virt="non-virtual" ambiguityscope="ndview&lt; T, axis_count, order &gt;::"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a409a636d3803ccae1b1fe4ff65d07187" prot="public" virt="non-virtual" ambiguityscope="ndview&lt; T, axis_count, order &gt;::"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a4c67d48dd746ca1da8dd329a2ed904ee" prot="public" virt="non-virtual" ambiguityscope="ndview&lt; T, axis_count, order &gt;::"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a456c452acb61f907eb880fab32f23509" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap_mutable</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1afa91ec725ddf058219d050f2dd06cdef" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap_mutable</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1aeab317d1d0dc0cd3792d8cd97063b5fd" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap_mutable</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1ab28baed03e76264bf0ac8b25f927d35c" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap_mutable</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a2bcd654afffbf85428f147bfdb5721d8" prot="public" virt="non-virtual" ambiguityscope="ndview&lt; T, axis_count, order &gt;::"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap_mutable</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a9e74ec734603a87de83ecb567356c58b" prot="public" virt="non-virtual" ambiguityscope="ndview&lt; T, axis_count, order &gt;::"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap_mutable</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview_1a147bd666b3f85c311547ec388feeb832" prot="public" virt="non-virtual" ambiguityscope="ndview&lt; T, axis_count, order &gt;::"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>wrap_mutable</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1af55f7786a84f9ae19d54e8edfe5800fd" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>zeros</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray_1a25ad8226d4f7967a790da02fe6feda3e" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>zeros</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::backend::primitives::ndarray</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

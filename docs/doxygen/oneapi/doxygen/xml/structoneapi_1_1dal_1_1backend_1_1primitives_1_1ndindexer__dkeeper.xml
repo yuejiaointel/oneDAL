@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::primitives::ndindexer_dkeeper</compoundname>
+    <derivedcompoundref refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base" prot="public" virt="non-virtual">ndindexer_base&lt; order, std::int64_t &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base" prot="public" virt="non-virtual">ndindexer_base&lt; order, Index &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Index</type>
+        <defval>std::int64_t</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1ae727dc96a12da6998818f50df8f66a6c" prot="public" static="no" mutable="no">
+        <type>const Index</type>
+        <definition>const Index width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndindexer_dkeeper::width</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="44" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1ad903030ebef878c7dbf18fa0c1b23059" prot="public" static="no" mutable="no">
+        <type>const Index</type>
+        <definition>const Index height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndindexer_dkeeper::height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="45" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1adb513d07bee6fb39b6b8b4f755d9910b" prot="public" static="no" mutable="no">
+        <type>const Index</type>
+        <definition>const Index stride</definition>
+        <argsstring></argsstring>
+        <name>stride</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndindexer_dkeeper::stride</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="46" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1afe083b95033f1c50b40f23032c019d78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ndindexer_dkeeper</definition>
+        <argsstring>(Index h, Index w, Index s)</argsstring>
+        <name>ndindexer_dkeeper</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndindexer_dkeeper::ndindexer_dkeeper</qualifiedname>
+        <param>
+          <type>Index</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>Index</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>Index</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="26" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="26" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1a3024206e2b49ae5ed61b36a8a2f9bc8d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check</definition>
+        <argsstring>(const Index &amp;row, const Index &amp;col) const</argsstring>
+        <name>check</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndindexer_dkeeper::check</qualifiedname>
+        <param>
+          <type>const Index &amp;</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>const Index &amp;</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="37" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="37" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ndindexer_base&lt; order, std::int64_t &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ndindexer_dkeeper&lt; Index &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper"/>
+      </node>
+      <node id="4">
+        <label>ndindexer&lt; Type, order, Index &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ndindexer_base&lt; order, Index &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" line="25" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp" bodystart="25" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1a3024206e2b49ae5ed61b36a8a2f9bc8d" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_dkeeper</scope><name>check</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1ad903030ebef878c7dbf18fa0c1b23059" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_dkeeper</scope><name>height</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1afe083b95033f1c50b40f23032c019d78" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_dkeeper</scope><name>ndindexer_dkeeper</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1adb513d07bee6fb39b6b8b4f755d9910b" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_dkeeper</scope><name>stride</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper_1ae727dc96a12da6998818f50df8f66a6c" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndindexer_dkeeper</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

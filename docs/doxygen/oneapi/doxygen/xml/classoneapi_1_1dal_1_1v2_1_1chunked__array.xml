@@ -1,0 +1,1159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1v2_1_1chunked__array" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::v2::chunked_array</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chunked_array_base</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a9535834677648e288e79e5f6a4cb63f2" prot="private" static="no">
+        <type>detail::chunked_array_base</type>
+        <definition>using base_t =  detail::chunked_array_base</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="30" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1ac4cb2fbdec251fad52624bfaa993d00c" prot="public" static="no">
+        <type>T</type>
+        <definition>using data_t =  T</definition>
+        <argsstring></argsstring>
+        <name>data_t</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::data_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="43" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a6769caf572605b0788f7e59333bb5e5a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class array</definition>
+        <argsstring></argsstring>
+        <name>array</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::array</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="33" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a07323db83dd0c8796d61522b233f4d85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>class</type>
+        <definition>friend class detail::array_impl</definition>
+        <argsstring></argsstring>
+        <name>detail::array_impl</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::array_impl</qualifiedname>
+        <param>
+          <type>detail::array_impl</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="36" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a3cd82be4876e076d56031c561b8247dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>chunked_array</definition>
+        <argsstring>(chunked_array &amp;&amp;array)</argsstring>
+        <name>chunked_array</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::chunked_array</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref> &amp;&amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="47" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a1ef39193b2f44f93204c875a97a14cd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>chunked_array</definition>
+        <argsstring>(const chunked_array &amp;array)</argsstring>
+        <name>chunked_array</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::chunked_array</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref> &amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+<para>Zero copy construct <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="51" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a6bda5ad8862adda35e5e263c6b5d362b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref> &amp;</type>
+        <definition>chunked_array &amp; operator=</definition>
+        <argsstring>(chunked_array &amp;&amp;array)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref> &amp;&amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="55" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a8a2704390111c04f63a0ecd2fcef9dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref> &amp;</type>
+        <definition>chunked_array &amp; operator=</definition>
+        <argsstring>(const chunked_array &amp;array)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref> &amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="59" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a4ba80507ad8966993ff76be8d3c4863e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>~chunked_array</definition>
+        <argsstring>()=default</argsstring>
+        <name>~chunked_array</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::~chunked_array</qualifiedname>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="62" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1adf9d03a237d077f587822a0311b6eae2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>chunked_array</definition>
+        <argsstring>(std::int64_t chunk_count)</argsstring>
+        <name>chunked_array</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::chunked_array</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>chunk_count</declname>
+        </param>
+        <briefdescription>
+<para>Constructs an empty <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> with unpopulated chunks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chunk_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of empty chunks in the constructed <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="68" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1ae7aa9e124fae13e7f1580ae70ec9847a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>chunked_array</definition>
+        <argsstring>(dal::array&lt; T &gt; &amp;&amp;array)</argsstring>
+        <name>chunked_array</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::chunked_array</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; T &gt; &amp;&amp;</type>
+          <declname>array</declname>
+        </param>
+        <briefdescription>
+<para>Consumes one contiguous array and converts it to a <ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Particular array source </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="73" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="73" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a07191f8fe3bda507bc836569bc2aa54d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Arrays</declname>
+            <defname>Arrays</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>chunked_array</definition>
+        <argsstring>(Arrays &amp;&amp;... arrays)</argsstring>
+        <name>chunked_array</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::chunked_array</qualifiedname>
+        <param>
+          <type>Arrays &amp;&amp;...</type>
+          <declname>arrays</declname>
+        </param>
+        <briefdescription>
+<para>Construct <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> from list of arrays of the same type or rather <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput>s. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>...Arrays</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Types of arrays </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>...arrays</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Constant references to arrays </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="81" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a020f9ee96bc6923729f39a0608a53eed" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename Alloc</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; flatten</definition>
+        <argsstring>(const Policy &amp;policy, const Alloc &amp;alloc) const</argsstring>
+        <name>flatten</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::flatten</qualifiedname>
+        <param>
+          <type>const Policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const Alloc &amp;</type>
+          <declname>alloc</declname>
+        </param>
+        <briefdescription>
+<para>Constructs dense array from current <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should be either <computeroutput>default_host or</computeroutput>data_parallel<computeroutput>policy @tparam Alloc Either</computeroutput>host_allocator<computeroutput>or</computeroutput>data_parallel_allocator<computeroutput> to allocate</computeroutput>byte_t<computeroutput> @param policy Particular instance of policy @param alloc Particular instance of allocator @return Contiguous array of type</computeroutput>T<computeroutput> @todo Optimize to support zero copy in case of contiguous array disguised as a</computeroutput>chunked_array` </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="93" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="93" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1ae8874e95ce25dca97d15c09b4f804d37" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Policy</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; flatten</definition>
+        <argsstring>(const Policy &amp;policy) const</argsstring>
+        <name>flatten</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::flatten</qualifiedname>
+        <param>
+          <type>const Policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+<para>Constructs dense array from current <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should be either <computeroutput>default_host or</computeroutput>data_parallel<computeroutput>policy @param policy Particular instance of policy @return Contiguous array of type</computeroutput>T` </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="106" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a96256809a5f83133b5e4836f2d953666" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; flatten</definition>
+        <argsstring>() const</argsstring>
+        <name>flatten</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::flatten</qualifiedname>
+        <briefdescription>
+<para>Constructs dense array from current <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Contiguous array allocated on host with default allocator </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="113" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a4083bd47d7078723ca2e7b83c1968191" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; flatten</definition>
+        <argsstring>(const detail::data_parallel_policy &amp;policy, const std::vector&lt; sycl::event &gt; &amp;deps) const</argsstring>
+        <name>flatten</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::flatten</qualifiedname>
+        <param>
+          <type>const detail::data_parallel_policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; sycl::event &gt; &amp;</type>
+          <declname>deps</declname>
+        </param>
+        <briefdescription>
+<para>Constructs dense array from current <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Particular instance of <computeroutput>data_parallel_policy</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data dependency list </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Contiguous array allocated on <computeroutput>shared</computeroutput> memory </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="123" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="123" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1aff4eb5c652978da1ef66aabef14c3e39" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; flatten</definition>
+        <argsstring>(sycl::queue &amp;queue, sycl::usm::alloc alloc=sycl::usm::alloc::shared, const std::vector&lt; sycl::event &gt; &amp;deps={}) const</argsstring>
+        <name>flatten</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::flatten</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>sycl::usm::alloc</type>
+          <declname>alloc</declname>
+          <defval>sycl::usm::alloc::shared</defval>
+        </param>
+        <param>
+          <type>const std::vector&lt; sycl::event &gt; &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Constructs dense array from current <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>queue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Queue that represent device backend </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alloc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of USM allocation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data dependency list </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Contiguous array allocated according to <computeroutput>alloc</computeroutput> value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="134" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="134" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1acf6a4ff9daf1e50c67f58c434f23773b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename Alloc</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; const T * &gt;</type>
+        <definition>array&lt; const T * &gt; get_data</definition>
+        <argsstring>(const Policy &amp;policy, const Alloc &amp;alloc) const</argsstring>
+        <name>get_data</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_data</qualifiedname>
+        <param>
+          <type>const Policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const Alloc &amp;</type>
+          <declname>alloc</declname>
+        </param>
+        <briefdescription>
+<para>Returns array of pointers to data chunks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Defines how an output array will be allocated </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Alloc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Defines where an output array will be allocated </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specific instance of policy </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alloc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specific instance of allocator </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array of pointers to memory spans </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="152" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a6eeaaebcf5aa31fddbca35c2738f243c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Policy</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; const T * &gt;</type>
+        <definition>array&lt; const T * &gt; get_data</definition>
+        <argsstring>(const Policy &amp;policy) const</argsstring>
+        <name>get_data</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_data</qualifiedname>
+        <param>
+          <type>const Policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="161" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1abb5bb652d372bd9c9172c7b17cbd65b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; const T * &gt;</type>
+        <definition>array&lt; const T * &gt; get_data</definition>
+        <argsstring>() const</argsstring>
+        <name>get_data</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_data</qualifiedname>
+        <briefdescription>
+<para>Constructs array of pointers to data chunks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array of pointers allocated on host device </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="168" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="168" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a5c49a528969f1a4aff344fbda8a8354e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; const T * &gt;</type>
+        <definition>array&lt; const T * &gt; get_data</definition>
+        <argsstring>(const detail::data_parallel_policy &amp;policy, const std::vector&lt; sycl::event &gt; &amp;deps) const</argsstring>
+        <name>get_data</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_data</qualifiedname>
+        <param>
+          <type>const detail::data_parallel_policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; sycl::event &gt; &amp;</type>
+          <declname>deps</declname>
+        </param>
+        <briefdescription>
+<para>Returns pointer to immutable data chunks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>policy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data parallel policy to describe device </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of data dependencies </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array of pointers to the immutable data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="178" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="178" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a3341c6c7b7ad7eaa572a7d6c27814b48" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; const T * &gt;</type>
+        <definition>array&lt; const T * &gt; get_data</definition>
+        <argsstring>(sycl::queue &amp;queue, sycl::usm::alloc alloc=sycl::usm::alloc::shared, const std::vector&lt; sycl::event &gt; &amp;deps={}) const</argsstring>
+        <name>get_data</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_data</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>sycl::usm::alloc</type>
+          <declname>alloc</declname>
+          <defval>sycl::usm::alloc::shared</defval>
+        </param>
+        <param>
+          <type>const std::vector&lt; sycl::event &gt; &amp;</type>
+          <declname>deps</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Constructs array of pointers to the data chunks. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>queue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><computeroutput>sycl::queue</computeroutput> storing information abot the device </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alloc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of memory allocation for the result </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of data dependencies </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array of pointers located on the device </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="189" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="189" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a0886504da23e20425a493cb782cf1387" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; get_chunk</definition>
+        <argsstring>(std::int64_t chunk) const</argsstring>
+        <name>get_chunk</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_chunk</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>chunk</declname>
+        </param>
+        <briefdescription>
+<para>Provides access to the chunk as dense array of the same type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chunk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of chunk in question </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Dense array representing chunk </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="204" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="204" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a935b41067f79f0175e3622af3a696379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref>&lt; T &gt; &amp;</type>
+        <definition>chunked_array&lt; T &gt; &amp; set_chunk</definition>
+        <argsstring>(std::int64_t i, const array&lt; T &gt; &amp;arr)</argsstring>
+        <name>set_chunk</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::set_chunk</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt; &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <briefdescription>
+<para>Sets particular chunk. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of chunk to be set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>arr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array that will be casted to the chunk </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Reference to the same <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+</simplesect>
+<simplesect kind="note"><para>Can be relatively slow since <computeroutput>offsets</computeroutput> of chunks will be reconstructed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="216" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="216" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a3469aa510a6f2614bc925dfaa581d7d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_count</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_count</qualifiedname>
+        <briefdescription>
+<para>Computes number of elements of type <computeroutput>T</computeroutput> in the particular instance of <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="pre"><para>The <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> should be valid namely <computeroutput>carray.valid() == true</computeroutput> </para>
+</simplesect>
+<simplesect kind="return"><para>Number of elements in current <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="226" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="226" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a8a7aeff051e6661169a3a582acf26989" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref>&lt; T &gt;</type>
+        <definition>chunked_array&lt; T &gt; get_slice</definition>
+        <argsstring>(std::int64_t first, std::int64_t last) const</argsstring>
+        <name>get_slice</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_slice</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+<para>Constructs slice of data from current <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="pre"><para>The <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref></computeroutput> should be valid namely <computeroutput>carray.valid() == true</computeroutput> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>first</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the first element of slice </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>last</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index after the last element in slice </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Newly constructed <computeroutput>chunked array</computeroutput> pointing to the same memory </para>
+</simplesect>
+<simplesect kind="note"><para>Zero copy, however - not that performant since require iterating throw all chunks </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="241" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="241" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1aaa51bea642dd1c4f03ac251c0977f84b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Arrays</declname>
+            <defname>Arrays</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref> &amp;</type>
+        <definition>chunked_array &amp; append</definition>
+        <argsstring>(const Arrays &amp;... arrays)</argsstring>
+        <name>append</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::append</qualifiedname>
+        <param>
+          <type>const Arrays &amp;...</type>
+          <declname>arrays</declname>
+        </param>
+        <briefdescription>
+<para>Appends multiple arrays to the current one each can be an instance of either <computeroutput>array&lt;T&gt;</computeroutput> or rather <computeroutput><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref>&lt;T&gt;</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="256" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="256" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1aaf815f95d1b99eaa0036446465fe29c0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_contiguous</definition>
+        <argsstring>() const</argsstring>
+        <name>is_contiguous</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::is_contiguous</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="271" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="271" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1aed8a93f6461e4d50ac7f561d478afaee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool have_same_policies</definition>
+        <argsstring>() const</argsstring>
+        <name>have_same_policies</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::have_same_policies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="275" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="275" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1adb289d0c74991991537e9cac26ea37d6" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool validate</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>validate</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::validate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="279" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="279" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1abddde0f8e2ebc9209d325775e800532e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_size_in_bytes</definition>
+        <argsstring>() const</argsstring>
+        <name>get_size_in_bytes</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_size_in_bytes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="283" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="283" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a7ee5f0cc46b50054ef2f20709523261b" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_chunk_count</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>get_chunk_count</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_chunk_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="287" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="287" bodyend="289"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a2e626a0a6f98d4f628d43d9d38e5d7d7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" kindref="compound">chunked_array</ref>&lt; T &gt;</type>
+        <definition>static chunked_array&lt; T &gt; make</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>make</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::make</qualifiedname>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="292" column="33" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="292" bodyend="294"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1ad627ea5ec28fe471318112ea0dd36cfc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>chunked_array</definition>
+        <argsstring>(const chunked_array_base &amp;other)</argsstring>
+        <name>chunked_array</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::chunked_array</qualifiedname>
+        <param>
+          <type>const chunked_array_base &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="297" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="297" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a452b6e28a944db197bcf151516e964c5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>chunked_array</definition>
+        <argsstring>(chunked_array_base &amp;&amp;other)</argsstring>
+        <name>chunked_array</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::chunked_array</qualifiedname>
+        <param>
+          <type>chunked_array_base &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="299" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="299" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a86c4da98691368e7a8078cab5d5b073e" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void serialize</definition>
+        <argsstring>(detail::output_archive &amp;ar) const</argsstring>
+        <name>serialize</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::serialize</qualifiedname>
+        <param>
+          <type>detail::output_archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+<para>Private methode to store content into memory single span. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Will call <computeroutput>flatten</computeroutput> function on host </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="305" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="305" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a6fb4a5ab3780ffb50ce420d82ee5629f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void deserialize</definition>
+        <argsstring>(detail::input_archive &amp;ar)</argsstring>
+        <name>deserialize</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::deserialize</qualifiedname>
+        <param>
+          <type>detail::input_archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+<para>Private method to restore content inplace. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Will construct a single chunk backend </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="313" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="313" bodyend="319"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a0500998d40ad5d9420442061456de6f6" prot="protected" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr data_type</type>
+        <definition>static constexpr data_type get_dtype</definition>
+        <argsstring>()</argsstring>
+        <name>get_dtype</name>
+        <qualifiedname>oneapi::dal::v2::chunked_array::get_dtype</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="321" column="32" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="321" bodyend="323"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>chunked_array&lt; T &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1v2_1_1chunked__array"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>chunked_array_base</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>chunked_array&lt; T &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1v2_1_1chunked__array"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>chunked_array_base</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" line="27" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp" bodystart="27" bodyend="324"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1aaa51bea642dd1c4f03ac251c0977f84b" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>append</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a6769caf572605b0788f7e59333bb5e5a" prot="private" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>array</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a9535834677648e288e79e5f6a4cb63f2" prot="private" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a3cd82be4876e076d56031c561b8247dd" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>chunked_array</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a1ef39193b2f44f93204c875a97a14cd7" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>chunked_array</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1adf9d03a237d077f587822a0311b6eae2" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>chunked_array</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1ae7aa9e124fae13e7f1580ae70ec9847a" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>chunked_array</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a07191f8fe3bda507bc836569bc2aa54d" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>chunked_array</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1ad627ea5ec28fe471318112ea0dd36cfc" prot="protected" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>chunked_array</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a452b6e28a944db197bcf151516e964c5" prot="protected" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>chunked_array</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1ac4cb2fbdec251fad52624bfaa993d00c" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>data_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a6fb4a5ab3780ffb50ce420d82ee5629f" prot="protected" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>deserialize</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a07323db83dd0c8796d61522b233f4d85" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>detail::array_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a020f9ee96bc6923729f39a0608a53eed" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>flatten</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1ae8874e95ce25dca97d15c09b4f804d37" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>flatten</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a96256809a5f83133b5e4836f2d953666" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>flatten</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a4083bd47d7078723ca2e7b83c1968191" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>flatten</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1aff4eb5c652978da1ef66aabef14c3e39" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>flatten</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a0886504da23e20425a493cb782cf1387" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_chunk</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a7ee5f0cc46b50054ef2f20709523261b" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_chunk_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a3469aa510a6f2614bc925dfaa581d7d7" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1acf6a4ff9daf1e50c67f58c434f23773b" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a6eeaaebcf5aa31fddbca35c2738f243c" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1abb5bb652d372bd9c9172c7b17cbd65b0" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a5c49a528969f1a4aff344fbda8a8354e" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a3341c6c7b7ad7eaa572a7d6c27814b48" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a0500998d40ad5d9420442061456de6f6" prot="protected" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_dtype</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1abddde0f8e2ebc9209d325775e800532e" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_size_in_bytes</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a8a7aeff051e6661169a3a582acf26989" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>get_slice</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1aed8a93f6461e4d50ac7f561d478afaee" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>have_same_policies</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1aaf815f95d1b99eaa0036446465fe29c0" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>is_contiguous</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a2e626a0a6f98d4f628d43d9d38e5d7d7" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>make</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a6bda5ad8862adda35e5e263c6b5d362b" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>operator=</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a8a2704390111c04f63a0ecd2fcef9dc2" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>operator=</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a86c4da98691368e7a8078cab5d5b073e" prot="protected" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>serialize</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a935b41067f79f0175e3622af3a696379" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>set_chunk</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1adb289d0c74991991537e9cac26ea37d6" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>validate</name></member>
+      <member refid="classoneapi_1_1dal_1_1v2_1_1chunked__array_1a4ba80507ad8966993ff76be8d3c4863e" prot="public" virt="non-virtual"><scope>oneapi::dal::v2::chunked_array</scope><name>~chunked_array</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

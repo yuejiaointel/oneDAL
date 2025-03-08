@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;</compoundname>
+    <includes refid="dispatcher_8hpp" local="no">dispatcher.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CpuKernel</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4_1ad32e24bd0c1aa7950c182cc85bd720be" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto operator()</definition>
+        <argsstring>(const detail::host_policy &amp;policy, Args &amp;&amp;... args) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;::operator()</qualifiedname>
+        <param>
+          <type>const detail::host_policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="184" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="184" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4_1a8c462f2d6282379416f2044dde892b95" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto operator()</definition>
+        <argsstring>(const detail::spmd_host_policy &amp;policy, Args &amp;&amp;... args) const -&gt; cpu_kernel_return_t&lt; CpuKernel, Args... &gt;</argsstring>
+        <name>operator()</name>
+        <qualifiedname>oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;::operator()</qualifiedname>
+        <param>
+          <type>const detail::spmd_host_policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="189" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="189" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4_1a0e0f6ba966dc31b94060850df3d42dad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto operator()</definition>
+        <argsstring>(const detail::data_parallel_policy &amp;policy, Args &amp;&amp;... args) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;::operator()</qualifiedname>
+        <param>
+          <type>const detail::data_parallel_policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="199" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="199" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4_1ae4c70987b6a6245990d5beddf7a3d12a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto operator()</definition>
+        <argsstring>(const detail::spmd_data_parallel_policy &amp;policy, Args &amp;&amp;... args) const -&gt; cpu_kernel_return_t&lt; CpuKernel, Args... &gt;</argsstring>
+        <name>operator()</name>
+        <qualifiedname>oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;::operator()</qualifiedname>
+        <param>
+          <type>const detail::spmd_data_parallel_policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="216" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="216" bodyend="222"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Dispatcher for the case of only CPU and single-node algorithm. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="182" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="182" bodyend="224"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4_1ad32e24bd0c1aa7950c182cc85bd720be" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;</scope><name>operator()</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4_1a8c462f2d6282379416f2044dde892b95" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;</scope><name>operator()</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4_1a0e0f6ba966dc31b94060850df3d42dad" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;</scope><name>operator()</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1kernel__dispatcher_3_01kernel__spec_3_01single__node__cpu__kernel_00_01_cpu_kernel_01_4_01_4_1ae4c70987b6a6245990d5beddf7a3d12a" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::kernel_dispatcher&lt; kernel_spec&lt; single_node_cpu_kernel, CpuKernel &gt; &gt;</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

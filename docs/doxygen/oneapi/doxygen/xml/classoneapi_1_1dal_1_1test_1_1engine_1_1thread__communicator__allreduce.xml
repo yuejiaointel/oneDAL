@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::thread_communicator_allreduce</compoundname>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1_1buffer__info" prot="public">oneapi::dal::test::engine::thread_communicator_allreduce::buffer_info</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a200cd649fd2d140afe2fbe0435e9e2fb" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__context" kindref="compound">thread_communicator_context</ref> &amp;</type>
+        <definition>thread_communicator_context&amp; ctx_</definition>
+        <argsstring></argsstring>
+        <name>ctx_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::ctx_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="253" column="33" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1aa42704e5aa229f236d0bee3e42f8cc06" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__barrier" kindref="compound">thread_communicator_barrier</ref></type>
+        <definition>thread_communicator_barrier barrier_</definition>
+        <argsstring></argsstring>
+        <name>barrier_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::barrier_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="254" column="33" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a802cf25f36bab2667447af8435eebdce" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1_1buffer__info" kindref="compound">buffer_info</ref> &gt;</type>
+        <definition>std::vector&lt;buffer_info&gt; send_buffers_</definition>
+        <argsstring></argsstring>
+        <name>send_buffers_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::send_buffers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="255" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="255" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a5b9bc00ade9a4a7340b62b14c007ebc9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>thread_communicator_allreduce</definition>
+        <argsstring>(thread_communicator_context &amp;ctx)</argsstring>
+        <name>thread_communicator_allreduce</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::thread_communicator_allreduce</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__context" kindref="compound">thread_communicator_context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="241" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="241" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a2a3ce5eff0ad8cd1060dcd358afbcf0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void operator()</definition>
+        <argsstring>(const byte_t *send_buf, byte_t *recv_buf, std::int64_t count, const data_type &amp;dtype, const spmd::reduce_op &amp;op)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::operator()</qualifiedname>
+        <param>
+          <type>const byte_t *</type>
+          <declname>send_buf</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>recv_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>const spmd::reduce_op &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="246" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a16b09e9667ff9a2a9adad00d3c98a890" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void reduce</definition>
+        <argsstring>(const byte_t *src, byte_t *dst, std::int64_t count, const data_type &amp;dtype, const spmd::reduce_op &amp;op)</argsstring>
+        <name>reduce</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::reduce</qualifiedname>
+        <param>
+          <type>const byte_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>const spmd::reduce_op &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="257" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1ae69f03dd59713e6ae3ff6d57736d28c7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void fill_by_op_id</definition>
+        <argsstring>(byte_t *dst, std::int64_t count, const data_type &amp;dtype, const spmd::reduce_op &amp;op_id)</argsstring>
+        <name>fill_by_op_id</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::fill_by_op_id</qualifiedname>
+        <param>
+          <type>byte_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>const spmd::reduce_op &amp;</type>
+          <declname>op_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="263" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1afbcaf2a33825b2bd9d92e5f7ba4b0c37" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void reduce_impl</definition>
+        <argsstring>(const byte_t *src, byte_t *dst, std::int64_t count, const spmd::reduce_op &amp;op)</argsstring>
+        <name>reduce_impl</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::reduce_impl</qualifiedname>
+        <param>
+          <type>const byte_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const spmd::reduce_op &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="269" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1ab6dfd7a589a885370dcc2fbe731e3f4a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void fill_with_zeros_impl</definition>
+        <argsstring>(byte_t *dst, std::int64_t count)</argsstring>
+        <name>fill_with_zeros_impl</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::fill_with_zeros_impl</qualifiedname>
+        <param>
+          <type>byte_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="275" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a1e162133afa26a9e10a586c5fe77639b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void fill_with_min_impl</definition>
+        <argsstring>(byte_t *dst, std::int64_t count)</argsstring>
+        <name>fill_with_min_impl</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::fill_with_min_impl</qualifiedname>
+        <param>
+          <type>byte_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="278" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a5b46d57700a6215e23fadc1e0ccb4212" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void fill_with_max_impl</definition>
+        <argsstring>(byte_t *dst, std::int64_t count)</argsstring>
+        <name>fill_with_max_impl</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::fill_with_max_impl</qualifiedname>
+        <param>
+          <type>byte_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="281" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a9d86049c99eec46457a2c0a26602db38" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool data_blocks_has_intersection</definition>
+        <argsstring>(const byte_t *x, const byte_t *y, std::int64_t count)</argsstring>
+        <name>data_blocks_has_intersection</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allreduce::data_blocks_has_intersection</qualifiedname>
+        <param>
+          <type>const byte_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const byte_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="283" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="283" bodyend="289"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="234" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="234" bodyend="290"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1aa42704e5aa229f236d0bee3e42f8cc06" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>barrier_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a200cd649fd2d140afe2fbe0435e9e2fb" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>ctx_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a9d86049c99eec46457a2c0a26602db38" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>data_blocks_has_intersection</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1ae69f03dd59713e6ae3ff6d57736d28c7" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>fill_by_op_id</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a5b46d57700a6215e23fadc1e0ccb4212" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>fill_with_max_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a1e162133afa26a9e10a586c5fe77639b" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>fill_with_min_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1ab6dfd7a589a885370dcc2fbe731e3f4a" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>fill_with_zeros_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a2a3ce5eff0ad8cd1060dcd358afbcf0f" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>operator()</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a16b09e9667ff9a2a9adad00d3c98a890" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>reduce</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1afbcaf2a33825b2bd9d92e5f7ba4b0c37" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>reduce_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a802cf25f36bab2667447af8435eebdce" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>send_buffers_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce_1a5b9bc00ade9a4a7340b62b14c007ebc9" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allreduce</scope><name>thread_communicator_allreduce</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

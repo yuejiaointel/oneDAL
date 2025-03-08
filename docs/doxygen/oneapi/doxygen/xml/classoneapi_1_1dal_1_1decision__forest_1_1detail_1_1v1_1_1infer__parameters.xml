@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_forest::detail::v1::infer_parameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">system_parameters</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a384b24bf6924e513e6a21df4279bbbf4" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="structoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters__impl" kindref="compound">infer_parameters_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;infer_parameters_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="72" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1ab3a9464b5563cb3fdafa8f5578e71cc5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>infer_parameters</definition>
+        <argsstring>()</argsstring>
+        <name>infer_parameters</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::infer_parameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="39" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a885844a01d40dda1a617f573a0763fe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>infer_parameters</definition>
+        <argsstring>(infer_parameters &amp;&amp;)=default</argsstring>
+        <name>infer_parameters</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::infer_parameters</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters" kindref="compound">infer_parameters</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="40" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1aeba5b04ba2008167c53de59137b45291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>infer_parameters</definition>
+        <argsstring>(const infer_parameters &amp;)=default</argsstring>
+        <name>infer_parameters</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::infer_parameters</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters" kindref="compound">infer_parameters</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="41" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1aa86836d82b0058ec7e10d4f2045f7ad8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_block_size</definition>
+        <argsstring>() const</argsstring>
+        <name>get_block_size</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::get_block_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="43" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a3d0835c7a3ad0adf7a87075c7eb6bd6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_block_size</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_block_size</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::set_block_size</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="44" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1ae3287cfcafd7a61cf9bbdc01d4d77c8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_min_trees_for_threading</definition>
+        <argsstring>() const</argsstring>
+        <name>get_min_trees_for_threading</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::get_min_trees_for_threading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="49" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a2e6faf1e95aaadfc7e6a05b6eab93790" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_min_trees_for_threading</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_min_trees_for_threading</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::set_min_trees_for_threading</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="50" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1aa41b7585ead849fbbbcd0f31be890b51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_min_number_of_rows_for_vect_seq_compute</definition>
+        <argsstring>() const</argsstring>
+        <name>get_min_number_of_rows_for_vect_seq_compute</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::get_min_number_of_rows_for_vect_seq_compute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="55" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a6899650f4928ea68e24d3cd6a99e442b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_min_number_of_rows_for_vect_seq_compute</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_min_number_of_rows_for_vect_seq_compute</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::set_min_number_of_rows_for_vect_seq_compute</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="56" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a63ca0c6c4f8bfb3e739e4cf6d0cde532" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_scale_factor_for_vect_parallel_compute</definition>
+        <argsstring>() const</argsstring>
+        <name>get_scale_factor_for_vect_parallel_compute</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::get_scale_factor_for_vect_parallel_compute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="61" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a998b4823064c3a1a19536c9af4daa117" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_scale_factor_for_vect_parallel_compute</definition>
+        <argsstring>(double val)</argsstring>
+        <name>set_scale_factor_for_vect_parallel_compute</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::set_scale_factor_for_vect_parallel_compute</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="62" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1ac731a9817dcc793846aecedfbc61a651" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_block_size_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_block_size_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::set_block_size_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a9615d0574cfcba60ee59ff6dde7ffb7f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_min_trees_for_threading_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_min_trees_for_threading_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::set_min_trees_for_threading_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a09e74ead7939a9d367ff42094797490c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_min_number_of_rows_for_vect_seq_compute_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_min_number_of_rows_for_vect_seq_compute_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::set_min_number_of_rows_for_vect_seq_compute_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="70" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a58527e5fd207509d248739a0047030ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_scale_factor_for_vect_parallel_compute_impl</definition>
+        <argsstring>(double val)</argsstring>
+        <name>set_scale_factor_for_vect_parallel_compute_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::infer_parameters::set_scale_factor_for_vect_parallel_compute_impl</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="71" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>system_parameters</label>
+      </node>
+      <node id="1">
+        <label>infer_parameters&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>system_parameters</label>
+      </node>
+      <node id="1">
+        <label>infer_parameters&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" line="37" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp" bodystart="37" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1aa86836d82b0058ec7e10d4f2045f7ad8" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>get_block_size</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1aa41b7585ead849fbbbcd0f31be890b51" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>get_min_number_of_rows_for_vect_seq_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1ae3287cfcafd7a61cf9bbdc01d4d77c8c" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>get_min_trees_for_threading</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a63ca0c6c4f8bfb3e739e4cf6d0cde532" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>get_scale_factor_for_vect_parallel_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a384b24bf6924e513e6a21df4279bbbf4" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1ab3a9464b5563cb3fdafa8f5578e71cc5" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>infer_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a885844a01d40dda1a617f573a0763fe3" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>infer_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1aeba5b04ba2008167c53de59137b45291" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>infer_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a3d0835c7a3ad0adf7a87075c7eb6bd6d" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>set_block_size</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1ac731a9817dcc793846aecedfbc61a651" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>set_block_size_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a6899650f4928ea68e24d3cd6a99e442b" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>set_min_number_of_rows_for_vect_seq_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a09e74ead7939a9d367ff42094797490c" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>set_min_number_of_rows_for_vect_seq_compute_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a2e6faf1e95aaadfc7e6a05b6eab93790" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>set_min_trees_for_threading</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a9615d0574cfcba60ee59ff6dde7ffb7f" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>set_min_trees_for_threading_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a998b4823064c3a1a19536c9af4daa117" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>set_scale_factor_for_vect_parallel_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters_1a58527e5fd207509d248739a0047030ca" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::infer_parameters</scope><name>set_scale_factor_for_vect_parallel_compute_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

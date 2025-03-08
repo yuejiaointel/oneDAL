@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_df511e5bd85cec96854b39d5e1c27aa8" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp</compoundname>
+    <innerdir refid="dir_f63809d64f2b88867c3d8ebebcf59bf3">/home/runner/work/oneDAL/oneDAL/cpp/oneapi</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/"/>
+  </compounddef>
+</doxygen>

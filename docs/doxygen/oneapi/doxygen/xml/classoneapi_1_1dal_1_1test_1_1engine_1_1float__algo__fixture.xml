@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::float_algo_fixture</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture" prot="public" virt="non-virtual">algo_fixture</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" static="no">
+        <type>Float</type>
+        <definition>using float_t =  Float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::test::engine::float_algo_fixture::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="101" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a7ae0ebe89b0dc86c3febaead54efdd44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool not_float64_friendly</definition>
+        <argsstring>()</argsstring>
+        <name>not_float64_friendly</name>
+        <qualifiedname>oneapi::dal::test::engine::float_algo_fixture::not_float64_friendly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="103" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a6be1d4cc18b35cecc28a4883638e9204" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1table__id" kindref="compound">table_id</ref></type>
+        <definition>table_id get_homogen_table_id</definition>
+        <argsstring>() const</argsstring>
+        <name>get_homogen_table_id</name>
+        <qualifiedname>oneapi::dal::test::engine::float_algo_fixture::get_homogen_table_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="108" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="108" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>float_algo_fixture&lt; Float &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>float_algo_fixture&lt; Float &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="99" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="99" bodyend="111"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a94f22290cc3d23e51bf7d30d569628ce" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a98e68b95a18f894c9705226a01f3619c" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>finalize_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a1ddff1057e1c77615717643fabd710da" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>finalize_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a6be1d4cc18b35cecc28a4883638e9204" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>get_homogen_table_id</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1ad5b4f390efae39c68f92df90353b5ca8" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>get_policy</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1a2db053a584a93e0d852f86ee02750992" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>get_queue</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a1769a758869aeeed2df2d90ad6c5bd7b" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>infer</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a7ae0ebe89b0dc86c3febaead54efdd44" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>not_float64_friendly</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1ac3c45f1572b279a5d6f74a6548d0a104" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>partial_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a6d64f595fca38a8c16bce504ce20b0c2" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>partial_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1afcb54598e7c58188a35c3eb79d54bed4" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>partial_train_with_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a78b584fe4368d4320992381407f46b5c" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a596f6a2f2ffff25aa8ffa9b4151f7257" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::float_algo_fixture</scope><name>train_with_parameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor" kind="class" language="C++" prot="private">
+    <compoundname>oneapi::dal::finiteness_checker::v1::descriptor</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1finiteness__checker_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">oneapi::dal::finiteness_checker::detail::v1::descriptor_base&lt; task::by_default &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+        <defval>float</defval>
+      </param>
+      <param>
+        <type>typename Method</type>
+        <defval>method::by_default</defval>
+      </param>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1finiteness__checker_1_1detail_1_1v1_1_1descriptor__base" kindref="compound">detail::descriptor_base</ref>&lt; Task &gt;</type>
+        <definition>using base_t =  detail::descriptor_base&lt;Task&gt;</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::finiteness_checker::v1::descriptor::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" line="115" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" bodystart="115" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" static="no">
+        <type>Float</type>
+        <definition>using float_t =  Float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::finiteness_checker::v1::descriptor::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" line="118" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" static="no">
+        <type>Method</type>
+        <definition>using method_t =  Method</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::finiteness_checker::v1::descriptor::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" line="119" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::finiteness_checker::v1::descriptor::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" line="120" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1ab7a522e6e7597d3e83a05582d5798018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>descriptor</definition>
+        <argsstring>()=default</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>oneapi::dal::finiteness_checker::v1::descriptor::descriptor</qualifiedname>
+        <briefdescription>
+<para>Creates a new instance of the class with the default property values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" line="123" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1a01af7cdc31673b26cbe00e8038bfa9c2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool get_allow_NaN</definition>
+        <argsstring>() const</argsstring>
+        <name>get_allow_NaN</name>
+        <qualifiedname>oneapi::dal::finiteness_checker::v1::descriptor::get_allow_NaN</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>default = False </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" line="126" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1a4a1fa606825ede471410eef77790f1b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_allow_NaN</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>set_allow_NaN</name>
+        <qualifiedname>oneapi::dal::finiteness_checker::v1::descriptor::set_allow_NaN</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" line="130" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" bodystart="130" bodyend="133"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Float</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The floating-point type that the algorithm uses for intermediate computations. Can be :expr:<computeroutput>float</computeroutput> or :expr:<computeroutput>double</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies an implementation of algorithm. Can be :expr:<computeroutput>method::dense</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies the type of the problem to solve. Can be :expr:<computeroutput>task::compute</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1finiteness__checker_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1finiteness__checker_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" line="110" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/finiteness_checker/common.hpp" bodystart="110" bodyend="134"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" virt="non-virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1ab7a522e6e7597d3e83a05582d5798018" prot="public" virt="non-virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1finiteness__checker_1_1detail_1_1v1_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" virt="non-virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" virt="non-virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1a01af7cdc31673b26cbe00e8038bfa9c2" prot="public" virt="non-virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>get_allow_NaN</name></member>
+      <member refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" virt="non-virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1a4a1fa606825ede471410eef77790f1b4" prot="public" virt="non-virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>set_allow_NaN</name></member>
+      <member refid="classoneapi_1_1dal_1_1finiteness__checker_1_1detail_1_1v1_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" virt="non-virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::finiteness_checker::v1::descriptor</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

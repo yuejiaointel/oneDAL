@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::preview::subgraph_isomorphism::descriptor</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail_1_1descriptor__base" prot="public" virt="non-virtual">oneapi::dal::preview::subgraph_isomorphism::detail::descriptor_base&lt; task::by_default &gt;</basecompoundref>
+    <includes refid="algo_2subgraph__isomorphism_2common_8hpp" local="no">common.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+        <defval>float</defval>
+      </param>
+      <param>
+        <type>typename Method</type>
+        <defval><ref refid="structoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1method_1_1fast" kindref="compound">method::by_default</ref></defval>
+      </param>
+      <param>
+        <type>typename Task</type>
+        <defval><ref refid="structoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1task_1_1compute" kindref="compound">task::by_default</ref></defval>
+      </param>
+      <param>
+        <type>typename Allocator</type>
+        <defval>std::allocator&lt;char&gt;</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail_1_1descriptor__base" kindref="compound">detail::descriptor_base</ref>&lt; Task &gt;</type>
+        <definition>using base_t =  detail::descriptor_base&lt;Task&gt;</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="112" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" static="no">
+        <type>Float</type>
+        <definition>using float_t =  Float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="115" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" static="no">
+        <type>Method</type>
+        <definition>using method_t =  Method</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="116" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="117" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a9ec6905ca67ce4f654e5998427e14aaa" prot="public" static="no">
+        <type>Allocator</type>
+        <definition>using allocator_t =  Allocator</definition>
+        <argsstring></argsstring>
+        <name>allocator_t</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::allocator_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="118" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="118" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a5911860eaf6040e8418c2fb81166c26c" prot="private" static="no" mutable="no">
+        <type>Allocator</type>
+        <definition>Allocator alloc_</definition>
+        <argsstring></argsstring>
+        <name>alloc_</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::alloc_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="162" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="162" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1aec93074f2eb6d7337047fe452ff46861" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>descriptor</definition>
+        <argsstring>(Allocator allocator=std::allocator&lt; char &gt;())</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::descriptor</qualifiedname>
+        <param>
+          <type>Allocator</type>
+          <declname>allocator</declname>
+          <defval>std::allocator&lt; char &gt;()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="120" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="120" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a3019578741a9dbb19c5a8a12b55d6e59" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>kind</type>
+        <definition>kind get_kind</definition>
+        <argsstring>() const</argsstring>
+        <name>get_kind</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::get_kind</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The kind of subgraph to be isomorphic to the pattern graph. Can be :expr:<computeroutput>kind::induced</computeroutput> or :expr:<computeroutput>kind::non_induced</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="126" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a54cf4c7f9c90a70c49f2b3c81f2b24d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_kind</definition>
+        <argsstring>(kind value)</argsstring>
+        <name>set_kind</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::set_kind</qualifiedname>
+        <param>
+          <type>kind</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="130" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a047aeeaea812f425c0e1c5facb3bba4e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool get_semantic_match</definition>
+        <argsstring>() const</argsstring>
+        <name>get_semantic_match</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::get_semantic_match</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The flag that specifies if semantic search is required in Subgraph Isomorphism computation. If true, vertex labels are considered. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="137" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="137" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1ac4de9331d73951791c7f23f893a68107" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_semantic_match</definition>
+        <argsstring>(bool semantic_match)</argsstring>
+        <name>set_semantic_match</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::set_semantic_match</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>semantic_match</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="141" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1ab8683435f40a41d9cb9651242e77e706" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_max_match_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_max_match_count</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::get_max_match_count</qualifiedname>
+        <briefdescription>
+<para>The maximum number of matchings to search in Subgraph Isomorphism computation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="147" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="147" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a6b4bf0fd30bea2268ac41ae4804112fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_max_match_count</definition>
+        <argsstring>(std::int64_t max_match_count)</argsstring>
+        <name>set_max_match_count</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::set_max_match_count</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>max_match_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="151" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a6deaa3dedf4035053ca4723ef0e0a993" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Allocator</type>
+        <definition>Allocator get_allocator</definition>
+        <argsstring>() const</argsstring>
+        <name>get_allocator</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::descriptor::get_allocator</qualifiedname>
+        <briefdescription>
+<para>Returns a copy of the allocator used in the algorithm for internal memory management. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="157" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="157" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class for the Subgraph Isomorphism algorithm descriptor</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Float</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This parameter is not used for Subgraph Isomorphism algorithm. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies the implementation of the algorithm. Can be :expr:<computeroutput><ref refid="structoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1method_1_1fast" kindref="compound">method::fast</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies the type of the problem to solve. Can be :expr:<computeroutput><ref refid="structoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1task_1_1compute" kindref="compound">task::compute</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Allocator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Custom allocator for all memory management inside the algorithm. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="108" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="108" bodyend="163"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a5911860eaf6040e8418c2fb81166c26c" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>alloc_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a9ec6905ca67ce4f654e5998427e14aaa" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>allocator_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1aec93074f2eb6d7337047fe452ff46861" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a6deaa3dedf4035053ca4723ef0e0a993" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>get_allocator</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a3019578741a9dbb19c5a8a12b55d6e59" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>get_kind</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1ab8683435f40a41d9cb9651242e77e706" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>get_max_match_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a047aeeaea812f425c0e1c5facb3bba4e" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>get_semantic_match</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="protected" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a54cf4c7f9c90a70c49f2b3c81f2b24d2" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>set_kind</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1a6b4bf0fd30bea2268ac41ae4804112fc" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>set_max_match_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1ac4de9331d73951791c7f23f893a68107" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>set_semantic_match</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::preview::subgraph_isomorphism::descriptor</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

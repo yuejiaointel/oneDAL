@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="spmd_2mpi_2communicator_8hpp" kind="file" language="C++">
+    <compoundname>communicator.hpp</compoundname>
+    <includes local="yes">oneapi/dal/detail/mpi/communicator.hpp</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/mpi/communicator.hpp</label>
+        <link refid="spmd_2mpi_2communicator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>oneapi/dal/detail/mpi/communicator.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1backend_1_1mpi" prot="public">oneapi::dal::preview::spmd::backend::mpi</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview">oneapi::dal::preview</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1spmd">oneapi::dal::preview::spmd</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1spmd_1_1backend">oneapi::dal::preview::spmd::backend</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/mpi/communicator.hpp"/>
+  </compounddef>
+</doxygen>

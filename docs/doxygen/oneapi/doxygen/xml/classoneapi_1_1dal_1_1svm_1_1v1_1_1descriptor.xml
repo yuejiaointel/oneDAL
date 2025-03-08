@@ -1,0 +1,679 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor" kind="class" language="C++" prot="private">
+    <compoundname>oneapi::dal::svm::v1::descriptor</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">oneapi::dal::svm::detail::v1::descriptor_base&lt; task::by_default &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+        <defval>float</defval>
+      </param>
+      <param>
+        <type>typename Method</type>
+        <defval>method::by_default</defval>
+      </param>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+      <param>
+        <type>typename Kernel</type>
+        <defval>linear_kernel::descriptor&lt;Float&gt;</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base" kindref="compound">detail::descriptor_base</ref>&lt; Task &gt;</type>
+        <definition>using base_t =  detail::descriptor_base&lt;Task&gt;</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="239" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="239" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" static="no">
+        <type>Float</type>
+        <definition>using float_t =  Float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="242" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" static="no">
+        <type>Method</type>
+        <definition>using method_t =  Method</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="243" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="244" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ab6209f369ffd79fae25e18f48efb0993" prot="public" static="no">
+        <type>Kernel</type>
+        <definition>using kernel_t =  Kernel</definition>
+        <argsstring></argsstring>
+        <name>kernel_t</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::kernel_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="245" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="245" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a5baca91aec390913fe89905b43068024" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>descriptor</definition>
+        <argsstring>(const Kernel &amp;kernel=kernel_t{})</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::descriptor</qualifiedname>
+        <param>
+          <type>const Kernel &amp;</type>
+          <declname>kernel</declname>
+          <defval>kernel_t{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new instance of the class with the given descriptor of the kernel function <simplesect kind="remark"><para>default = :literal:<computeroutput>kernel</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="250" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="250" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a399965aa6357f599b23f4026f311be1a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Kernel &amp;</type>
+        <definition>const Kernel &amp; get_kernel</definition>
+        <argsstring>() const</argsstring>
+        <name>get_kernel</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_kernel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The descriptor of kernel function $K(x, y)$. Can be :expr:<computeroutput>linear_kernel::descriptor</computeroutput> or :expr:<computeroutput>polynomial_kernel::descriptor</computeroutput> or :expr:<computeroutput>rbf_kernel::descriptor</computeroutput> or :expr:<computeroutput>sigmoid_kernel::descriptor</computeroutput>. <simplesect kind="remark"><para>default = :literal:<computeroutput>kernel</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="259" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="259" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1abf9fec9ce64ffd72f9977581a06aeb3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_kernel</definition>
+        <argsstring>(const Kernel &amp;kernel)</argsstring>
+        <name>set_kernel</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_kernel</qualifiedname>
+        <param>
+          <type>const Kernel &amp;</type>
+          <declname>kernel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="265" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="265" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a1082ce7ba38377d89c8f009e7390f30a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_c_available_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double get_c</definition>
+        <argsstring>() const</argsstring>
+        <name>get_c</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The upper bound $C$ in constraints of the quadratic optimization problem. Used with :expr:<computeroutput>task::classification</computeroutput>, :expr:<computeroutput>task::regression</computeroutput>, and :expr:<computeroutput>task::nu_regression</computeroutput>. <simplesect kind="invariant"><para>:expr:<computeroutput>c &gt; 0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="277" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="277" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a8ca59550e428f1e8f2afae7f7921e77f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_c_available_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_c</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_c</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_c</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="282" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="282" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a57e2171b7b37120bb3b32de0551c25ad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_max_iteration_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_max_iteration_count</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_max_iteration_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum number of iterations $T$ <simplesect kind="invariant"><para>:expr:<computeroutput>max_iteration_count &gt;= 0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 100000 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="290" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="290" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1af65da25164e137a3a43dfc9b35db1734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_max_iteration_count</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_max_iteration_count</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_max_iteration_count</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="294" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="294" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a4d5b1b8ea76ea67bad2ae31c097c12cb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_accuracy_threshold</definition>
+        <argsstring>() const</argsstring>
+        <name>get_accuracy_threshold</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_accuracy_threshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The threshold $\varepsilon$ for the stop condition <simplesect kind="invariant"><para>:expr:<computeroutput>accuracy_threshold &gt;= 0.0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 0.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="302" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="302" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ace8bb7a88cf29109378d12b59b571750" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_accuracy_threshold</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_accuracy_threshold</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_accuracy_threshold</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="306" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="306" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ae70d80dadc978cdd1f6ebbdd36e152ab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_cache_size</definition>
+        <argsstring>() const</argsstring>
+        <name>get_cache_size</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_cache_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The size of cache (in megabytes) for storing the values of the kernel matrix. <simplesect kind="invariant"><para>:expr:<computeroutput>cache_size &gt;= 0.0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 200.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="315" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="315" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a8a99c2afde8d42ae66325c01e703b670" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_cache_size</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_cache_size</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_cache_size</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="319" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="319" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aab931e4d98e084104333777b9cbe6da0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_tau</definition>
+        <argsstring>() const</argsstring>
+        <name>get_tau</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_tau</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The threshold parameter $\tau$ for computing the quadratic coefficient. <simplesect kind="invariant"><para>:expr:<computeroutput>tau &gt; 0.0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 1e-6 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="327" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="327" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1afcb48c4295e4129d23e600c23f47deb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_tau</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_tau</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_tau</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="331" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="331" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aaff8fce837effe52553068db629636b2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool get_shrinking</definition>
+        <argsstring>() const</argsstring>
+        <name>get_shrinking</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_shrinking</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A flag that enables the use of a shrinking optimization technique. Used with :expr:<computeroutput>method::smo</computeroutput> split-finding method only. <simplesect kind="remark"><para>default = true </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="339" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="339" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a59fc9b0267d5ae1cdf243ce64f44cced" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_shrinking</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>set_shrinking</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_shrinking</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="343" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="343" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a78831edf1737f68189548d2ef2834b89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_classification_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_class_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_class_count</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_class_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of classes. Used with :expr:<computeroutput>task::classification</computeroutput> and :expr:<computeroutput>task::nu_classification</computeroutput>. <simplesect kind="invariant"><para>:expr:<computeroutput>class_count &gt;= 2</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 2 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="353" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="353" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aa614c0cd15d96279462daacdbc6a6437" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_classification_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_class_count</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_class_count</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_class_count</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="358" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="358" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1afe3ab7fa787de1c2ca10bd159a9cdf1a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_epsilon_available_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double get_epsilon</definition>
+        <argsstring>() const</argsstring>
+        <name>get_epsilon</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_epsilon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The epsilon. Used with :expr:<computeroutput>task::regression</computeroutput> only. <simplesect kind="invariant"><para>:expr:<computeroutput>epsilon &gt;= 0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 0.1 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="367" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="367" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aa07a2a62d7cafeea727e69181ab73bfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_epsilon_available_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_epsilon</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_epsilon</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_epsilon</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="372" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="372" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ab28a2e385fd7b2a6d9185f92ac73ce4a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_nu_task_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double get_nu</definition>
+        <argsstring>() const</argsstring>
+        <name>get_nu</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::get_nu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The nu. Used with :expr:<computeroutput>task::nu_classification</computeroutput> and :expr:<computeroutput>task::nu_regression</computeroutput>. <simplesect kind="invariant"><para>:expr:<computeroutput>0 &lt; nu &lt;= 1</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 0.5 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="382" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="382" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a70bcf3727b941d3b9566058bf5df293f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_nu_task_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_nu</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_nu</name>
+        <qualifiedname>oneapi::dal::svm::v1::descriptor::set_nu</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="387" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="387" bodyend="390"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Float</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The floating-point type that the algorithm uses for intermediate computations. Can be :expr:<computeroutput>float</computeroutput> or :expr:<computeroutput>double</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies an implementation of algorithm. Can be :expr:<computeroutput>method::thunder</computeroutput> or :expr:<computeroutput>method::smo</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies the type of the problem to solve. Can be :expr:<computeroutput>task::classification</computeroutput>, :expr:<computeroutput>task::nu_classification</computeroutput>, :expr:<computeroutput>task::regression</computeroutput>, or :expr:<computeroutput>task::nu_regression</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task, Kernel &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>descriptor&lt; Float, Method, Task, Kernel &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" line="227" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp" bodystart="227" bodyend="391"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aed7ae7b9dd22484c6a5fb198f3efe7bd" prot="private" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a5baca91aec390913fe89905b43068024" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a333e9d737d949d25de772e584edac671" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ab4b1884ff8187c712cf3347e2d3196be" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a4d5b1b8ea76ea67bad2ae31c097c12cb" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_accuracy_threshold</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a1082ce7ba38377d89c8f009e7390f30a" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_c</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ae70d80dadc978cdd1f6ebbdd36e152ab" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_cache_size</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a78831edf1737f68189548d2ef2834b89" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_class_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a851e0b9cf83c39180bff66981656ded9" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_class_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1afe3ab7fa787de1c2ca10bd159a9cdf1a" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_epsilon</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1ac258d131c5b774e6b19e3956a92afe68" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_epsilon_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a399965aa6357f599b23f4026f311be1a" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_kernel</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a580753b18805962b5bd35bd204de0e7c" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_kernel_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a57e2171b7b37120bb3b32de0551c25ad" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_max_iteration_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ab28a2e385fd7b2a6d9185f92ac73ce4a" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_nu</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1ae1bb5195878ebb5a91c64f2c22a736b7" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_nu_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aaff8fce837effe52553068db629636b2" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_shrinking</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aab931e4d98e084104333777b9cbe6da0" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>get_tau</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ab6209f369ffd79fae25e18f48efb0993" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>kernel_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a3135d750ae3bc9d9ea1dc3684ba55382" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ace8bb7a88cf29109378d12b59b571750" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_accuracy_threshold</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a840e3ad17592d9385680223feead3618" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_accuracy_threshold_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a8ca59550e428f1e8f2afae7f7921e77f" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_c</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1ae580a0530b80a27f1fedea5a21ef8ee5" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_c_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a8a99c2afde8d42ae66325c01e703b670" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_cache_size</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a1785add07a0fb73b07e8763c00c69f46" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_cache_size_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aa614c0cd15d96279462daacdbc6a6437" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_class_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a8eb8e7912e26ace0a894daf9c2c052c2" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_class_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1aa07a2a62d7cafeea727e69181ab73bfd" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_epsilon</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1ab1a82217472dc439b16de85180a55ced" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_epsilon_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1abf9fec9ce64ffd72f9977581a06aeb3e" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_kernel</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1aa5d6bb2600c9b99af9c918e7c596b021" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_kernel_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1af65da25164e137a3a43dfc9b35db1734" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_max_iteration_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a3309b2b39ee3eb908662e57e94f6f7ce" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_max_iteration_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a70bcf3727b941d3b9566058bf5df293f" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_nu</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a42d5e1798c790cae12666e3f50a78f65" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_nu_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1a59fc9b0267d5ae1cdf243ce64f44cced" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_shrinking</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a9dc97b5ae5adeac337399cb4184cdbf9" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_shrinking_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1afcb48c4295e4129d23e600c23f47deb8" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_tau</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a5c3f184f30236bfef65e4b8b05faf9e8" prot="protected" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>set_tau_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::svm::v1::descriptor</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

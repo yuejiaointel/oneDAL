@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1knn_1_1v1" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::knn::v1</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1descriptor" prot="private">oneapi::dal::knn::v1::descriptor</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1infer__input" prot="public">oneapi::dal::knn::v1::infer_input</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1infer__result" prot="public">oneapi::dal::knn::v1::infer_result</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1model" prot="private">oneapi::dal::knn::v1::model</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1train__input" prot="public">oneapi::dal::knn::v1::train_input</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1train__result" prot="public">oneapi::dal::knn::v1::train_result</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="algo_2knn_2common_8hpp_1a803614c8cf2192d8fedfd34edc287efc" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>voting_mode</name>
+        <qualifiedname>oneapi::dal::knn::v1::voting_mode</qualifiedname>
+        <enumvalue id="algo_2knn_2common_8hpp_1a803614c8cf2192d8fedfd34edc287efcaa489ffed938ef1b9e86889bc413501ee" prot="public">
+          <name>uniform</name>
+          <briefdescription>
+<para>Uniform weights for neighbors for prediction voting. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="algo_2knn_2common_8hpp_1a803614c8cf2192d8fedfd34edc287efcaa74ec9c5b6882f79e32a8fbd8da90c1b" prot="public">
+          <name>distance</name>
+          <briefdescription>
+<para>Weight neighbors by the inverse of their distance. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Weight function used in prediction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="30" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" bodystart="30" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/common.hpp" line="28" column="1"/>
+  </compounddef>
+</doxygen>

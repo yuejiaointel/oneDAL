@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>oneapi::dal::test::engine::dataframe_builder_action</compoundname>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__allocate" prot="public" virt="non-virtual">dataframe_builder_action_allocate</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill" prot="public" virt="non-virtual">dataframe_builder_action_fill</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__diag" prot="public" virt="non-virtual">dataframe_builder_action_fill_diag</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal" prot="public" virt="non-virtual">dataframe_builder_action_fill_normal</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__uniform" prot="public" virt="non-virtual">dataframe_builder_action_fill_uniform</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__read__external__dataset" prot="public" virt="non-virtual">dataframe_builder_action_read_external_dataset</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action_1a13985ca70ed008ad2f73e32358ac0119" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ~dataframe_builder_action</definition>
+        <argsstring>()=default</argsstring>
+        <name>~dataframe_builder_action</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_action::~dataframe_builder_action</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="227" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action_1af1220488559c485bea42e376dc30c02b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string get_opcode</definition>
+        <argsstring>() const =0</argsstring>
+        <name>get_opcode</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_action::get_opcode</qualifiedname>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__allocate_1a64f8c0526425a55b20d0766f0cc1b34c">get_opcode</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__uniform_1a64f8c0526425a55b20d0766f0cc1b34c">get_opcode</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a64f8c0526425a55b20d0766f0cc1b34c">get_opcode</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill_1a64f8c0526425a55b20d0766f0cc1b34c">get_opcode</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__diag_1a64f8c0526425a55b20d0766f0cc1b34c">get_opcode</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__read__external__dataset_1a64f8c0526425a55b20d0766f0cc1b34c">get_opcode</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="228" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action_1afb246fead1d2494e8dc00dfbca68b6f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__impl" kindref="compound">dataframe_impl</ref> *</type>
+        <definition>virtual dataframe_impl * execute</definition>
+        <argsstring>(dataframe_impl *df) const =0</argsstring>
+        <name>execute</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_action::execute</qualifiedname>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__allocate_1a48ee88d26a34aceff1855ebe873a9d16">execute</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__uniform_1a48ee88d26a34aceff1855ebe873a9d16">execute</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a48ee88d26a34aceff1855ebe873a9d16">execute</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill_1a48ee88d26a34aceff1855ebe873a9d16">execute</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__diag_1a48ee88d26a34aceff1855ebe873a9d16">execute</reimplementedby>
+        <reimplementedby refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__read__external__dataset_1a48ee88d26a34aceff1855ebe873a9d16">execute</reimplementedby>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__impl" kindref="compound">dataframe_impl</ref> *</type>
+          <declname>df</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="229" column="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>dataframe_builder_action</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action"/>
+      </node>
+      <node id="2">
+        <label>dataframe_builder_action_allocate</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__allocate"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>dataframe_builder_action_fill</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>dataframe_builder_action_fill_diag</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__diag"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>dataframe_builder_action_fill_normal</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>dataframe_builder_action_fill_uniform</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__uniform"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>dataframe_builder_action_read_external_dataset</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__read__external__dataset"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="225" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" bodystart="225" bodyend="230"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action_1afb246fead1d2494e8dc00dfbca68b6f9" prot="public" virt="pure-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action</scope><name>execute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action_1af1220488559c485bea42e376dc30c02b" prot="public" virt="pure-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action</scope><name>get_opcode</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action_1a13985ca70ed008ad2f73e32358ac0119" prot="public" virt="virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action</scope><name>~dataframe_builder_action</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

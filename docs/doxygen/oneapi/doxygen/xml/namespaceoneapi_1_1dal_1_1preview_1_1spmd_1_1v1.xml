@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1preview_1_1spmd_1_1v1" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::preview::spmd::v1</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communication__error" prot="public">oneapi::dal::preview::spmd::v1::communication_error</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" prot="public">oneapi::dal::preview::spmd::v1::communicator</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface" prot="public">oneapi::dal::preview::spmd::v1::communicator_iface</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base" prot="public">oneapi::dal::preview::spmd::v1::communicator_iface_base</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1coworker__error" prot="public">oneapi::dal::preview::spmd::v1::coworker_error</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1error__holder" prot="public">oneapi::dal::preview::spmd::v1::error_holder</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1interface__selector" prot="public">oneapi::dal::preview::spmd::v1::interface_selector</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1interface__selector_3_01device__memory__access_1_1usm_01_4" prot="public">oneapi::dal::preview::spmd::v1::interface_selector&lt; device_memory_access::usm &gt;</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request" prot="public">oneapi::dal::preview::spmd::v1::request</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" prot="public">oneapi::dal::preview::spmd::v1::request_iface</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="spmd_2common_8hpp_1ad736cc9768ab53a61547ee02906adf62" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>reduce_op</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::reduce_op</qualifiedname>
+        <enumvalue id="spmd_2common_8hpp_1ad736cc9768ab53a61547ee02906adf62a2ffe4e77325d9a7152f7086ea7aa5114" prot="public">
+          <name>max</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="spmd_2common_8hpp_1ad736cc9768ab53a61547ee02906adf62ad8bd79cc131920d5de426f914d17405a" prot="public">
+          <name>min</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="spmd_2common_8hpp_1ad736cc9768ab53a61547ee02906adf62a1d623b89683f9ce4e074de1676d12416" prot="public">
+          <name>sum</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/common.hpp" line="39" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/common.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="spmd_2common_8hpp_1a91197fa3fe20dd95a7c4d32e546bd5b5" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; dal::detail::is_one_of_v&lt; T, <ref refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1device__memory__access_1_1v1_1_1usm" kindref="compound">device_memory_access::usm</ref> &gt; &gt;</type>
+        <definition>using enable_if_device_memory_accessible_t =  std::enable_if_t&lt;dal::detail::is_one_of_v&lt;T, device_memory_access::usm&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_device_memory_accessible_t</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::enable_if_device_memory_accessible_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/common.hpp" line="42" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/common.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="spmd_2common_8hpp_1a6bd9ed041866e45b858918d7d6227207" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; dal::detail::is_one_of_v&lt; T, <ref refid="structoneapi_1_1dal_1_1preview_1_1spmd_1_1device__memory__access_1_1v1_1_1none" kindref="compound">device_memory_access::none</ref> &gt; &gt;</type>
+        <definition>using enable_if_device_memory_not_accessible_t =  std::enable_if_t&lt;dal::detail::is_one_of_v&lt;T, device_memory_access::none&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_device_memory_not_accessible_t</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::enable_if_device_memory_not_accessible_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/common.hpp" line="46" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/common.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/common.hpp" line="37" column="1"/>
+  </compounddef>
+</doxygen>

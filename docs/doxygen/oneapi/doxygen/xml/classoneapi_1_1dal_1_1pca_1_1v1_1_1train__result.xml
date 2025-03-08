@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::pca::v1::train_result</compoundname>
+    <includes refid="pca_2train__types_8hpp" local="no">train_types.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="81" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a64720e38d6d42cce23a73988c6f62a62" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1pca_1_1detail_1_1v1_1_1train__result__impl" kindref="compound">detail::train_result_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::train_result_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="172" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="172" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a88c5cfbeed393e8157984e8f363a742e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>train_result</definition>
+        <argsstring>()</argsstring>
+        <name>train_result</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::train_result</qualifiedname>
+        <briefdescription>
+<para>Creates a new instance of the class with the default property values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="84" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aed93252c7fe8d01d26c8cac811ba808d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_eigenvectors</definition>
+        <argsstring>() const</argsstring>
+        <name>get_eigenvectors</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::get_eigenvectors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An $r \times p$ table with the eigenvectors. Each row contains one eigenvector. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+<simplesect kind="invariant"><para>:expr:<computeroutput>eigenvectors == model.eigenvectors</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="90" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aa54704fc32c657d1bcd6dce9545600a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_eigenvectors</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_eigenvectors</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_eigenvectors</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="92" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a0e452e22f1bf6bf46d565874f7f8c50e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const model&lt; Task &gt; &amp;</type>
+        <definition>const model&lt; Task &gt; &amp; get_model</definition>
+        <argsstring>() const</argsstring>
+        <name>get_model</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::get_model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The trained PCA model <simplesect kind="remark"><para>default = model&lt;Task&gt;{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="98" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1ad899d600d76249b78bfaaa25f64a1247" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_model</definition>
+        <argsstring>(const model&lt; Task &gt; &amp;value)</argsstring>
+        <name>set_model</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_model</qualifiedname>
+        <param>
+          <type>const model&lt; Task &gt; &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="100" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a0ac0c6b567c56584399bd2299cbae36c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_eigenvalues</definition>
+        <argsstring>() const</argsstring>
+        <name>get_eigenvalues</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::get_eigenvalues</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times r$ table that contains the eigenvalues for for the first :literal:<computeroutput>r</computeroutput> features. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="108" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a1f0b123a234a7345d59dab1ee42b9451" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_eigenvalues</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_eigenvalues</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_eigenvalues</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="110" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aea46a26789f5f0e38a67119e3779cf40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_variances</definition>
+        <argsstring>() const</argsstring>
+        <name>get_variances</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::get_variances</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times r$ table that contains the variances for the first :literal:<computeroutput>r</computeroutput> features. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="118" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a6c9794181667530b8ac5e09e37290204" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_variances</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_variances</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_variances</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="120" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a0e7455b5fa898dac5bff998d391a2552" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_means</definition>
+        <argsstring>() const</argsstring>
+        <name>get_means</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::get_means</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times r$ table that contains the mean values for the first :literal:<computeroutput>r</computeroutput> features. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="128" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a91d736955dfc45e58f2a7a837f9f71fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_means</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_means</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_means</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="130" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a3fb9480b343ff686a8f904b22f2b83fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_singular_values</definition>
+        <argsstring>() const</argsstring>
+        <name>get_singular_values</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::get_singular_values</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times r$ table that contains the singular values for the first :literal:<computeroutput>r</computeroutput> features. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="137" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a29d50c353723dc0e8581bab6fc0b93be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_singular_values</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_singular_values</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_singular_values</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="139" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1af38b6a2fdadef56b3c8f4cc880ec3869" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_explained_variances_ratio</definition>
+        <argsstring>() const</argsstring>
+        <name>get_explained_variances_ratio</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::get_explained_variances_ratio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times r$ table that contains the explained variances values for the first :literal:<computeroutput>r</computeroutput> features. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="146" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a9973df6391da7c13dbad150218ac2bf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_explained_variances_ratio</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_explained_variances_ratio</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_explained_variances_ratio</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="148" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aae512207ea39169712675b94c956b637" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1pca_1_1result__option__id" kindref="compound">result_option_id</ref> &amp;</type>
+        <definition>const result_option_id &amp; get_result_options</definition>
+        <argsstring>() const</argsstring>
+        <name>get_result_options</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::get_result_options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Result options that indicates availability of the properties <simplesect kind="remark"><para>default = default_result_options&lt;Task&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="154" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a1317ed1a05aa0795155a380496ee48e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_result_options</definition>
+        <argsstring>(const result_option_id &amp;value)</argsstring>
+        <name>set_result_options</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_result_options</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1pca_1_1result__option__id" kindref="compound">result_option_id</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="156" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="156" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1af694f9b254bbbe5d8345e464d0b20b80" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_model_impl</definition>
+        <argsstring>(const model&lt; Task &gt; &amp;)</argsstring>
+        <name>set_model_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_model_impl</qualifiedname>
+        <param>
+          <type>const model&lt; Task &gt; &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="162" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a056917c5b617b72ca68dfc6b297422e7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_eigenvalues_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_eigenvalues_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_eigenvalues_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="163" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a112e79753c4d8b652b182c4f91b4cbb3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_eigenvectors_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_eigenvectors_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_eigenvectors_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="164" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a5e1d53ce418c2710194480da5303e0b3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_variances_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_variances_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_variances_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="165" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a59f01583cc7ddc89b06d5afbce9d90b0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_means_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_means_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_means_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="166" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aa60bcfe8ef7483d2fd8631a78e3a106a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_explained_variances_ratio_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_explained_variances_ratio_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_explained_variances_ratio_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="167" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1afde49eaf2d261f26631f2084521028a4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_singular_values_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_singular_values_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_singular_values_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="168" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1ac16dbbb5d08315a227bdbfefa53bbf0d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_result_options_impl</definition>
+        <argsstring>(const result_option_id &amp;)</argsstring>
+        <name>set_result_options_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::train_result::set_result_options_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1pca_1_1result__option__id" kindref="compound">result_option_id</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="169" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies type of the problem to solve. Can be :expr:<computeroutput>task::dim_reduction</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="77" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="77" bodyend="173"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a0ac0c6b567c56584399bd2299cbae36c" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>get_eigenvalues</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aed93252c7fe8d01d26c8cac811ba808d" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>get_eigenvectors</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1af38b6a2fdadef56b3c8f4cc880ec3869" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>get_explained_variances_ratio</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a0e7455b5fa898dac5bff998d391a2552" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>get_means</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a0e452e22f1bf6bf46d565874f7f8c50e" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>get_model</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aae512207ea39169712675b94c956b637" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>get_result_options</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a3fb9480b343ff686a8f904b22f2b83fc" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>get_singular_values</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aea46a26789f5f0e38a67119e3779cf40" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>get_variances</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a64720e38d6d42cce23a73988c6f62a62" prot="private" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a1f0b123a234a7345d59dab1ee42b9451" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_eigenvalues</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a056917c5b617b72ca68dfc6b297422e7" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_eigenvalues_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aa54704fc32c657d1bcd6dce9545600a9" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_eigenvectors</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a112e79753c4d8b652b182c4f91b4cbb3" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_eigenvectors_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a9973df6391da7c13dbad150218ac2bf0" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_explained_variances_ratio</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1aa60bcfe8ef7483d2fd8631a78e3a106a" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_explained_variances_ratio_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a91d736955dfc45e58f2a7a837f9f71fa" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_means</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a59f01583cc7ddc89b06d5afbce9d90b0" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_means_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1ad899d600d76249b78bfaaa25f64a1247" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_model</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1af694f9b254bbbe5d8345e464d0b20b80" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_model_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a1317ed1a05aa0795155a380496ee48e3" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_result_options</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1ac16dbbb5d08315a227bdbfefa53bbf0d" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_result_options_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a29d50c353723dc0e8581bab6fc0b93be" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_singular_values</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1afde49eaf2d261f26631f2084521028a4" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_singular_values_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a6c9794181667530b8ac5e09e37290204" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_variances</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a5e1d53ce418c2710194480da5303e0b3" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>set_variances_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__result_1a88c5cfbeed393e8157984e8f363a742e" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::train_result</scope><name>train_result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

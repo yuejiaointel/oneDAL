@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::sigmoid_kernel::v1::compute_input</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <includes refid="sigmoid__kernel_2compute__types_8hpp" local="no">compute_types.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::sigmoid_kernel::v1::compute_input::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="46" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1acce2108834068711eca45e711c44a59b" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1detail_1_1v1_1_1compute__input__impl" kindref="compound">detail::compute_input_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::compute_input_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::sigmoid_kernel::v1::compute_input::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="76" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1aca45b8a54ee15b2b2b14e844663c893a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>compute_input</definition>
+        <argsstring>(const table &amp;x, const table &amp;y)</argsstring>
+        <name>compute_input</name>
+        <qualifiedname>oneapi::dal::sigmoid_kernel::v1::compute_input::compute_input</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new instance of the class with the given :literal:<computeroutput>x</computeroutput> and :literal:<computeroutput>y</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="49" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1adad04ca8cc971ac6102ce5f790bda0ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_x</definition>
+        <argsstring>() const</argsstring>
+        <name>get_x</name>
+        <qualifiedname>oneapi::dal::sigmoid_kernel::v1::compute_input::get_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An $n \times p$ table with the data x, where each row stores one feature vector. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="54" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1a4523b0b363d4d33a2d16231eb055fc65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_x</definition>
+        <argsstring>(const table &amp;data)</argsstring>
+        <name>set_x</name>
+        <qualifiedname>oneapi::dal::sigmoid_kernel::v1::compute_input::set_x</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="56" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1a30f22a9084628f81a3464eacaf541a83" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_y</definition>
+        <argsstring>() const</argsstring>
+        <name>get_y</name>
+        <qualifiedname>oneapi::dal::sigmoid_kernel::v1::compute_input::get_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An $m \times p$ table with the data y, where each row stores one feature vector. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="64" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1a94bad8641717aaf0b155a8503f9128f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_y</definition>
+        <argsstring>(const table &amp;data)</argsstring>
+        <name>set_y</name>
+        <qualifiedname>oneapi::dal::sigmoid_kernel::v1::compute_input::set_y</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="66" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1aab06ba307d9bf7f09ec2ddd332ee1559" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_x_impl</definition>
+        <argsstring>(const table &amp;data)</argsstring>
+        <name>set_x_impl</name>
+        <qualifiedname>oneapi::dal::sigmoid_kernel::v1::compute_input::set_x_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="72" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1a7559734984d96c149f8aabc20a626a92" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_y_impl</definition>
+        <argsstring>(const table &amp;data)</argsstring>
+        <name>set_y_impl</name>
+        <qualifiedname>oneapi::dal::sigmoid_kernel::v1::compute_input::set_y_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="73" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies the type of the problem to solve. Can be :expr:<computeroutput>task::compute</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" line="42" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/sigmoid_kernel/compute_types.hpp" bodystart="42" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1aca45b8a54ee15b2b2b14e844663c893a" prot="public" virt="non-virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>compute_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1adad04ca8cc971ac6102ce5f790bda0ee" prot="public" virt="non-virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>get_x</name></member>
+      <member refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1a30f22a9084628f81a3464eacaf541a83" prot="public" virt="non-virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>get_y</name></member>
+      <member refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1acce2108834068711eca45e711c44a59b" prot="private" virt="non-virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1a4523b0b363d4d33a2d16231eb055fc65" prot="public" virt="non-virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>set_x</name></member>
+      <member refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1aab06ba307d9bf7f09ec2ddd332ee1559" prot="protected" virt="non-virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>set_x_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1a94bad8641717aaf0b155a8503f9128f3" prot="public" virt="non-virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>set_y</name></member>
+      <member refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1a7559734984d96c149f8aabc20a626a92" prot="protected" virt="non-virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>set_y_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::sigmoid_kernel::v1::compute_input</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

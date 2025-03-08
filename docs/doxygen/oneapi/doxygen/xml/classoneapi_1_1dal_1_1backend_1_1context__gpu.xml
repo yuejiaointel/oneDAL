@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1backend_1_1context__gpu" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::context_gpu</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider" prot="public" virt="non-virtual">communicator_provider&lt; spmd::device_memory_access::usm &gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1backend_1_1context__gpu_1a2c92873cf39eaf81795caff405ffb046" prot="private" static="no" mutable="no">
+        <type>sycl::queue &amp;</type>
+        <definition>sycl::queue&amp; queue_</definition>
+        <argsstring></argsstring>
+        <name>queue_</name>
+        <qualifiedname>oneapi::dal::backend::context_gpu::queue_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="130" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1context__gpu_1a9045f8e5e34dcdaa4df635d071ecf56f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>context_gpu</definition>
+        <argsstring>(const detail::data_parallel_policy &amp;policy)</argsstring>
+        <name>context_gpu</name>
+        <qualifiedname>oneapi::dal::backend::context_gpu::context_gpu</qualifiedname>
+        <param>
+          <type>const detail::data_parallel_policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="119" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1context__gpu_1a12fbcd6f5ad10922e28c199afbd9767f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>context_gpu</definition>
+        <argsstring>(const detail::spmd_data_parallel_policy &amp;policy)</argsstring>
+        <name>context_gpu</name>
+        <qualifiedname>oneapi::dal::backend::context_gpu::context_gpu</qualifiedname>
+        <param>
+          <type>const detail::spmd_data_parallel_policy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="121" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="121" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1context__gpu_1af018e1aa4d79aef1b27ab5aee9f9d1ce" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>sycl::queue &amp;</type>
+        <definition>sycl::queue &amp; get_queue</definition>
+        <argsstring>() const</argsstring>
+        <name>get_queue</name>
+        <qualifiedname>oneapi::dal::backend::context_gpu::get_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="125" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="125" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>communicator_provider&lt; spmd::device_memory_access::usm &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>context_gpu</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1context__gpu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>communicator_provider&lt; spmd::device_memory_access::usm &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>context_gpu</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1context__gpu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="117" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="117" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1aaef9f1a785d4bb9fb647e6ebc71cb76d" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::context_gpu</scope><name>communicator_provider</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1ac7712309714c086614b685f76c9078d9" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::context_gpu</scope><name>communicator_provider</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1context__gpu_1a9045f8e5e34dcdaa4df635d071ecf56f" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::context_gpu</scope><name>context_gpu</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1context__gpu_1a12fbcd6f5ad10922e28c199afbd9767f" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::context_gpu</scope><name>context_gpu</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1a855f13bec0c398eb54e39ccebb423673" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::context_gpu</scope><name>get_communicator</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1context__gpu_1af018e1aa4d79aef1b27ab5aee9f9d1ce" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::context_gpu</scope><name>get_queue</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1context__gpu_1a2c92873cf39eaf81795caff405ffb046" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::context_gpu</scope><name>queue_</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::backend::context_gpu</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">system_parameters</basecompoundref>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a0198a3273552a2ed4f52ce52f69ade61" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="structoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters__impl" kindref="compound">train_parameters_impl</ref>&lt; <ref refid="structoneapi_1_1dal_1_1decision__forest_1_1task_1_1v1_1_1regression" kindref="compound">task::regression</ref> &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;train_parameters_impl&lt;task::regression&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="67" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1aeda5df9c1d6a0322e430e9fac6906a96" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>train_parameters</definition>
+        <argsstring>()</argsstring>
+        <name>train_parameters</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;::train_parameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="41" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1ac7b247d0b97f88b24ffbf87c17876e67" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_min_part_coefficient</definition>
+        <argsstring>() const</argsstring>
+        <name>get_min_part_coefficient</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;::get_min_part_coefficient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiplier that defines the minimum work size for a thread to be assigned a separate task. For example, the value 4 means that a thread will be assigned a separate task that processes at least 4 topmost levels of a tree. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="46" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1abbbaab0d4ffbd1c289376dbbeb9836a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_min_part_coefficient</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_min_part_coefficient</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;::set_min_part_coefficient</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="47" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a155ccfafd3d68041d0a670c23e9ec2ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_min_size_coefficient</definition>
+        <argsstring>() const</argsstring>
+        <name>get_min_size_coefficient</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;::get_min_size_coefficient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiplier that defines the minimum work size for a thread to be assigned a separate task. For example, the value 24000 means that a thread will be assigned a separate task that processes a 8-level tree built on at least 1000 observations and 10 features. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="55" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a5e664c953228697a21123d29b049ac0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_min_size_coefficient</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_min_size_coefficient</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;::set_min_size_coefficient</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="56" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1ae9e9cf8ae72281bb9b0237ee57c9f07a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_ranges</definition>
+        <argsstring>() const</argsstring>
+        <name>check_ranges</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;::check_ranges</qualifiedname>
+        <briefdescription>
+<para>Check that the hyperparameters of the algorithm belong to the expected ranges. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="62" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a886b962bfe79a4e3b19be5635faec4ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_min_part_coefficient_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_min_part_coefficient_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;::set_min_part_coefficient_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="65" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a111d33ec4a4e754c517a945fe54fec86" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_min_size_coefficient_impl</definition>
+        <argsstring>(std::int64_t val)</argsstring>
+        <name>set_min_size_coefficient_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;::set_min_size_coefficient_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="66" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>system_parameters</label>
+      </node>
+      <node id="1">
+        <label>train_parameters&lt; task::regression &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>system_parameters</label>
+      </node>
+      <node id="1">
+        <label>train_parameters&lt; task::regression &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" line="39" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/train_types.hpp" bodystart="39" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1ae9e9cf8ae72281bb9b0237ee57c9f07a" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</scope><name>check_ranges</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1ac7b247d0b97f88b24ffbf87c17876e67" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</scope><name>get_min_part_coefficient</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a155ccfafd3d68041d0a670c23e9ec2ba" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</scope><name>get_min_size_coefficient</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a0198a3273552a2ed4f52ce52f69ade61" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1abbbaab0d4ffbd1c289376dbbeb9836a9" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</scope><name>set_min_part_coefficient</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a886b962bfe79a4e3b19be5635faec4ef" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</scope><name>set_min_part_coefficient_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a5e664c953228697a21123d29b049ac0e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</scope><name>set_min_size_coefficient</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1a111d33ec4a4e754c517a945fe54fec86" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</scope><name>set_min_size_coefficient_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters_3_01task_1_1regression_01_4_1aeda5df9c1d6a0322e430e9fac6906a96" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::train_parameters&lt; task::regression &gt;</scope><name>train_parameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

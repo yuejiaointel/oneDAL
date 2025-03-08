@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="test_2engine_2mkl_2blas_8hpp" kind="file" language="C++">
+    <compoundname>blas.hpp</compoundname>
+    <includes local="no">cstdint</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/mkl/blas.hpp</label>
+        <link refid="test_2engine_2mkl_2blas_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1test">oneapi::dal::test</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1test_1_1engine">oneapi::dal::test::engine</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1test_1_1engine_1_1mkl">oneapi::dal::test::engine::mkl</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/mkl/blas.hpp"/>
+  </compounddef>
+</doxygen>

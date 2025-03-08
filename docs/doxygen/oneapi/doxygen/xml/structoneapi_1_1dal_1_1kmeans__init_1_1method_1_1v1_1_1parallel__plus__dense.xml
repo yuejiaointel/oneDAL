@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1kmeans__init_1_1method_1_1v1_1_1parallel__plus__dense" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::kmeans_init::method::v1::parallel_plus_dense</compoundname>
+    <includes refid="algo_2kmeans__init_2common_8hpp" local="no">common.hpp</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Tag-type that denotes :ref:<computeroutput><ref refid="structoneapi_1_1dal_1_1kmeans__init_1_1method_1_1v1_1_1parallel__plus__dense" kindref="compound">parallel_plus_dense</ref> &lt;kmeans_init_c_math_parallel_plus_dense&gt;</computeroutput> computational method. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/common.hpp" line="55" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/common.hpp" bodystart="55" bodyend="55"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

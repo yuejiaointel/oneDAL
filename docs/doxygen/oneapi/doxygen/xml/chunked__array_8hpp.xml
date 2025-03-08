@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="chunked__array_8hpp" kind="file" language="C++">
+    <compoundname>chunked_array.hpp</compoundname>
+    <includes refid="array_8hpp" local="yes">oneapi/dal/array.hpp</includes>
+    <includes local="yes">oneapi/dal/detail/common.hpp</includes>
+    <includes local="yes">oneapi/dal/detail/chunked_array_impl.hpp</includes>
+    <includedby refid="heterogen_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/heterogen.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>oneapi/dal/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp</label>
+        <link refid="chunked__array_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>oneapi/dal/detail/array_impl.hpp</label>
+      </node>
+      <node id="5">
+        <label>oneapi/dal/detail/chunked_array_impl.hpp</label>
+      </node>
+      <node id="4">
+        <label>oneapi/dal/detail/common.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp</label>
+        <link refid="chunked__array_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/heterogen.hpp</label>
+        <link refid="heterogen_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classoneapi_1_1dal_1_1v2_1_1chunked__array" prot="public">oneapi::dal::v2::chunked_array</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1v2">oneapi::dal::v2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/chunked_array.hpp"/>
+  </compounddef>
+</doxygen>

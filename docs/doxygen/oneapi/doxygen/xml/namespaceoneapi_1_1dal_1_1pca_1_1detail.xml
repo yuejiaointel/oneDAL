@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1pca_1_1detail" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::pca::detail</compoundname>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1pca_1_1detail_1_1v1">oneapi::dal::pca::detail::v1</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="algo_2pca_2common_8hpp_1aecf4b23db427e326ed0194f8c95f5e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1pca_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_eigenvectors_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_eigenvectors_id</name>
+        <qualifiedname>oneapi::dal::pca::detail::get_eigenvectors_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" line="87" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" declline="87" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2pca_2common_8hpp_1aeb6701243cf56e913c8b508948023f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1pca_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_eigenvalues_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_eigenvalues_id</name>
+        <qualifiedname>oneapi::dal::pca::detail::get_eigenvalues_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" line="88" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" declline="88" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2pca_2common_8hpp_1a54996aff06fdf8016d6f5287b93dbf0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1pca_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_variances_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_variances_id</name>
+        <qualifiedname>oneapi::dal::pca::detail::get_variances_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" line="89" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" declline="89" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2pca_2common_8hpp_1a1ae92e330f781b9a28203849da28ed6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1pca_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_means_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_means_id</name>
+        <qualifiedname>oneapi::dal::pca::detail::get_means_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" line="90" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" declline="90" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2pca_2common_8hpp_1a1bd7cc2ad91f8cd407e72c837c5cfbfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1pca_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_singular_values_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_singular_values_id</name>
+        <qualifiedname>oneapi::dal::pca::detail::get_singular_values_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" line="91" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" declline="91" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2pca_2common_8hpp_1a6091ca5e45e3fde2b9c02274b77105a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1pca_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>ONEDAL_EXPORT result_option_id get_explained_variances_ratio_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_explained_variances_ratio_id</name>
+        <qualifiedname>oneapi::dal::pca::detail::get_explained_variances_ratio_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" line="92" column="32" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" declline="92" declcolumn="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" line="85" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1train__parameters__cpu_3_01_float_00_013650fb37bb2e5bf0f39acdc2c0770621" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_forest::parameters::train_parameters_cpu&lt; Float, Method, task::classification &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+      </param>
+      <param>
+        <type>typename Method</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1train__parameters__cpu_3_01_float_00_013650fb37bb2e5bf0f39acdc2c0770621_1a5a3874814d97a9676c20fc7ec634670e" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1decision__forest_1_1task_1_1v1_1_1classification" kindref="compound">task::classification</ref></type>
+        <definition>using task_t =  task::classification</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::parameters::train_parameters_cpu&lt; Float, Method, task::classification &gt;::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/train_parameters.hpp" line="74" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/train_parameters.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1train__parameters__cpu_3_01_float_00_013650fb37bb2e5bf0f39acdc2c0770621_1af0380a14de1c60f6b98da5ce67aa1c9d" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters" kindref="compound">detail::train_parameters</ref>&lt; <ref refid="structoneapi_1_1dal_1_1decision__forest_1_1task_1_1v1_1_1classification" kindref="compound">task_t</ref> &gt;</type>
+        <definition>using params_t =  detail::train_parameters&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>params_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::parameters::train_parameters_cpu&lt; Float, Method, task::classification &gt;::params_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/train_parameters.hpp" line="75" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/train_parameters.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1train__parameters__cpu_3_01_float_00_013650fb37bb2e5bf0f39acdc2c0770621_1ac04406605056d4932c965a4d2899be8a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1train__parameters" kindref="compound">params_t</ref></type>
+        <definition>params_t operator()</definition>
+        <argsstring>(const context_cpu &amp;ctx, const detail::descriptor_base&lt; task_t &gt; &amp;desc, const train_input&lt; task_t &gt; &amp;input) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>oneapi::dal::decision_forest::parameters::train_parameters_cpu&lt; Float, Method, task::classification &gt;::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1context__cpu" kindref="compound">context_cpu</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base" kindref="compound">detail::descriptor_base</ref>&lt; <ref refid="structoneapi_1_1dal_1_1decision__forest_1_1task_1_1v1_1_1classification" kindref="compound">task_t</ref> &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const train_input&lt; <ref refid="structoneapi_1_1dal_1_1decision__forest_1_1task_1_1v1_1_1classification" kindref="compound">task_t</ref> &gt; &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/train_parameters.hpp" line="76" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/train_parameters.hpp" bodystart="76" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/train_parameters.hpp" line="73" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/train_parameters.hpp" bodystart="73" bodyend="87"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1train__parameters__cpu_3_01_float_00_013650fb37bb2e5bf0f39acdc2c0770621_1ac04406605056d4932c965a4d2899be8a" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::parameters::train_parameters_cpu&lt; Float, Method, task::classification &gt;</scope><name>operator()</name></member>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1train__parameters__cpu_3_01_float_00_013650fb37bb2e5bf0f39acdc2c0770621_1af0380a14de1c60f6b98da5ce67aa1c9d" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::parameters::train_parameters_cpu&lt; Float, Method, task::classification &gt;</scope><name>params_t</name></member>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1train__parameters__cpu_3_01_float_00_013650fb37bb2e5bf0f39acdc2c0770621_1a5a3874814d97a9676c20fc7ec634670e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::parameters::train_parameters_cpu&lt; Float, Method, task::classification &gt;</scope><name>task_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

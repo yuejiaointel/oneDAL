@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1backend_1_1communicator__event" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::communicator_event</compoundname>
+    <includes refid="backend_2communicator_8hpp" local="no">communicator.hpp</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1backend_1_1communicator__event_1a1229e8220b95aa6ee70b5a31a63dd8f0" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request" kindref="compound">spmd::request</ref></type>
+        <definition>spmd::request public_req_</definition>
+        <argsstring></argsstring>
+        <name>public_req_</name>
+        <qualifiedname>oneapi::dal::backend::communicator_event::public_req_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" line="49" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1communicator__event_1a2fbaf76e1cc3726e3e33c1da951b7ba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>communicator_event</definition>
+        <argsstring>()=default</argsstring>
+        <name>communicator_event</name>
+        <qualifiedname>oneapi::dal::backend::communicator_event::communicator_event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" line="40" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1communicator__event_1a2ffad0d9327f2f097ac7ef41bc2856cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>communicator_event</definition>
+        <argsstring>(const spmd::request &amp;req)</argsstring>
+        <name>communicator_event</name>
+        <qualifiedname>oneapi::dal::backend::communicator_event::communicator_event</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request" kindref="compound">spmd::request</ref> &amp;</type>
+          <declname>req</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" line="41" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1communicator__event_1a3f757f5c602e8d79a8012121c64e90d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>communicator_event</definition>
+        <argsstring>(spmd::request &amp;&amp;req)</argsstring>
+        <name>communicator_event</name>
+        <qualifiedname>oneapi::dal::backend::communicator_event::communicator_event</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request" kindref="compound">spmd::request</ref> &amp;&amp;</type>
+          <declname>req</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" line="42" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1communicator__event_1aa3b21853f890838c88d047d6c2786917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wait</definition>
+        <argsstring>()</argsstring>
+        <name>wait</name>
+        <qualifiedname>oneapi::dal::backend::communicator_event::wait</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" line="44" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" bodystart="44" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Wrapper over public SPMD request. The event-like object seems more natural to data-parallel algorithms which are built on top of SYCL events. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" line="38" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/communicator.hpp" bodystart="38" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__event_1a2fbaf76e1cc3726e3e33c1da951b7ba6" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::communicator_event</scope><name>communicator_event</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__event_1a2ffad0d9327f2f097ac7ef41bc2856cb" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::communicator_event</scope><name>communicator_event</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__event_1a3f757f5c602e8d79a8012121c64e90d6" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::communicator_event</scope><name>communicator_event</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__event_1a1229e8220b95aa6ee70b5a31a63dd8f0" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::communicator_event</scope><name>public_req_</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__event_1aa3b21853f890838c88d047d6c2786917" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::communicator_event</scope><name>wait</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

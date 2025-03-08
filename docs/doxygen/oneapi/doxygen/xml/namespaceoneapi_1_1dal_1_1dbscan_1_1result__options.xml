@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1dbscan_1_1result__options" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::dbscan::result_options</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1dbscan_1_1result__options_1aa747c8d70d7a400bfc61d15a9552f61a" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1dbscan_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id responses</definition>
+        <argsstring></argsstring>
+        <name>responses</name>
+        <qualifiedname>oneapi::dal::dbscan::result_options::responses</qualifiedname>
+        <initializer>= detail::get_responses_id()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" line="73" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1dbscan_1_1result__options_1aff967c5349226ae57a19143cce00ea51" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1dbscan_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id core_observation_indices</definition>
+        <argsstring></argsstring>
+        <name>core_observation_indices</name>
+        <qualifiedname>oneapi::dal::dbscan::result_options::core_observation_indices</qualifiedname>
+        <initializer>= detail::get_core_observation_indices_id()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" line="74" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1dbscan_1_1result__options_1ac6b9df55942d1ee12935c817c07e9b8e" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1dbscan_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id core_observations</definition>
+        <argsstring></argsstring>
+        <name>core_observations</name>
+        <qualifiedname>oneapi::dal::dbscan::result_options::core_observations</qualifiedname>
+        <initializer>= detail::get_core_observations_id()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" line="75" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1dbscan_1_1result__options_1a811562ab3e97f35ce2708205a2da3f37" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1dbscan_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id core_flags</definition>
+        <argsstring></argsstring>
+        <name>core_flags</name>
+        <qualifiedname>oneapi::dal::dbscan::result_options::core_flags</qualifiedname>
+        <initializer>= detail::get_core_flags_id()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" line="76" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Result options are used to define what should algorithm return </para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/common.hpp" line="71" column="1"/>
+  </compounddef>
+</doxygen>

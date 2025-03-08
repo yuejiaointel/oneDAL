@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::preview::triangle_counting::detail</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base" prot="public">oneapi::dal::preview::triangle_counting::detail::descriptor_base</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__impl" prot="public">oneapi::dal::preview::triangle_counting::detail::descriptor_impl</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__tag" prot="public">oneapi::dal::preview::triangle_counting::detail::descriptor_tag</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="algo_2triangle__counting_2common_8hpp_1a086726f1d75b9a5bd1a440c22dc66c66" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; dal::detail::is_one_of_v&lt; T, <ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1task_1_1local" kindref="compound">task::local</ref>, <ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1task_1_1local__and__global" kindref="compound">task::local_and_global</ref> &gt; &gt;</type>
+        <definition>using enable_if_local_t =  std::enable_if_t&lt;dal::detail::is_one_of_v&lt;T, task::local, task::local_and_global&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_local_t</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::enable_if_local_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="49" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="algo_2triangle__counting_2common_8hpp_1a1538ac3d48def98af589c2424ed5a641" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; dal::detail::is_one_of_v&lt; T, <ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1task_1_1global" kindref="compound">task::global</ref>, <ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1task_1_1local__and__global" kindref="compound">task::local_and_global</ref> &gt; &gt;</type>
+        <definition>using enable_if_global_t =  std::enable_if_t&lt;dal::detail::is_one_of_v&lt;T, task::global, task::local_and_global&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_global_t</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::enable_if_global_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="53" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="algo_2triangle__counting_2common_8hpp_1a3b3e82243e00896c3e86b8443806f31b" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Method</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_method</definition>
+        <argsstring></argsstring>
+        <name>is_valid_method</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::is_valid_method</qualifiedname>
+        <initializer>= dal::detail::is_one_of_v&lt;Method, <ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1method_1_1ordered__count" kindref="compound">method::ordered_count</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="57" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2triangle__counting_2common_8hpp_1aed3f40067c50f1a4d99267508d2ae867" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Task</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_task</definition>
+        <argsstring></argsstring>
+        <name>is_valid_task</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::is_valid_task</qualifiedname>
+        <initializer>=
+    dal::detail::is_one_of_v&lt;Task, <ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1task_1_1global" kindref="compound">task::global</ref>, <ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1task_1_1local__and__global" kindref="compound">task::local_and_global</ref>, <ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1task_1_1local" kindref="compound">task::local</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="60" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2triangle__counting_2common_8hpp_1aab4f6978e976404943259d1000797fa2" prot="private" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Graph</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_graph</definition>
+        <argsstring></argsstring>
+        <name>is_valid_graph</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::detail::is_valid_graph</qualifiedname>
+        <initializer>=
+    dal::detail::is_one_of_v&lt;Graph,
+                             <ref refid="classoneapi_1_1dal_1_1preview_1_1undirected__adjacency__vector__graph" kindref="compound">undirected_adjacency_vector_graph</ref>&lt;<ref refid="graph_2common_8hpp_1a1933379d791b18e5ec3d6f420cde4fa7" kindref="member">vertex_user_value_type</ref>&lt;Graph&gt;,
+                                                               <ref refid="graph_2common_8hpp_1a36458ca5980ef2078a5e103bb72d9045" kindref="member">edge_user_value_type</ref>&lt;Graph&gt;,
+                                                               <ref refid="graph_2common_8hpp_1a13dd90c3adb5d84c35df70e8cb61e78b" kindref="member">graph_user_value_type</ref>&lt;Graph&gt;,
+                                                               <ref refid="graph_2common_8hpp_1aa0e48eb31e74e964fc38f9cb29798b21" kindref="member">vertex_type</ref>&lt;Graph&gt;,
+                                                               <ref refid="graph_2common_8hpp_1a19323e49d6f89339c83559a3083662d3" kindref="member">graph_allocator</ref>&lt;Graph&gt;&gt;&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="143" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="143" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="42" column="1"/>
+  </compounddef>
+</doxygen>

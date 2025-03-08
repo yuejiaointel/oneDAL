@@ -1,0 +1,950 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_forest::detail::v1::descriptor_base</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" prot="public" virt="non-virtual">descriptor&lt; Float, Method, Task &gt;</derivedcompoundref>
+    <includes refid="algo_2decision__forest_2common_8hpp" local="no">common.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__tag" kindref="compound">descriptor_tag</ref></type>
+        <definition>using tag_t =  descriptor_tag</definition>
+        <argsstring></argsstring>
+        <name>tag_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::tag_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="212" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aef34e23d4cca9aba8d78eeb0ae8fcd2e" prot="public" static="no">
+        <type>float</type>
+        <definition>using float_t =  float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="213" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a29eb320b4d42767b5e12ba9dbae02a26" prot="public" static="no">
+        <type>method::by_default</type>
+        <definition>using method_t =  method::by_default</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="214" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="215" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="215" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__impl" kindref="compound">descriptor_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;descriptor_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="283" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="283" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>descriptor_base</definition>
+        <argsstring>()</argsstring>
+        <name>descriptor_base</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::descriptor_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="217" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a28b1c130c2522e4c5f27cb6587629150" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_observations_per_tree_fraction</definition>
+        <argsstring>() const</argsstring>
+        <name>get_observations_per_tree_fraction</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_observations_per_tree_fraction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="219" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ae5ef9d5bf81cf69100aedefb40a01b54" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_impurity_threshold</definition>
+        <argsstring>() const</argsstring>
+        <name>get_impurity_threshold</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_impurity_threshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="220" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ac9862493efbdc6a9953cf9044f64d44a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_min_weight_fraction_in_leaf_node</definition>
+        <argsstring>() const</argsstring>
+        <name>get_min_weight_fraction_in_leaf_node</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_min_weight_fraction_in_leaf_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="221" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a509d825bef8a7b2555c905cedb761b58" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_min_impurity_decrease_in_split_node</definition>
+        <argsstring>() const</argsstring>
+        <name>get_min_impurity_decrease_in_split_node</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_min_impurity_decrease_in_split_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="222" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abbd3c88cd36a89e75a6a641a33fbdb5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_tree_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_tree_count</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_tree_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="223" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abd9f5f68d9c139ca65a0e9f2397b886e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_features_per_node</definition>
+        <argsstring>() const</argsstring>
+        <name>get_features_per_node</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_features_per_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="224" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a3148339da2b2384fc9957824c06f52ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_max_tree_depth</definition>
+        <argsstring>() const</argsstring>
+        <name>get_max_tree_depth</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_max_tree_depth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="225" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a3b98f7b86fd58f9538bf9252f2d9a101" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_min_observations_in_leaf_node</definition>
+        <argsstring>() const</argsstring>
+        <name>get_min_observations_in_leaf_node</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_min_observations_in_leaf_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="226" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ae634490ba0d200e824f305dc61111879" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_min_observations_in_split_node</definition>
+        <argsstring>() const</argsstring>
+        <name>get_min_observations_in_split_node</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_min_observations_in_split_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="227" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1af0dfc808c7acdcd6f5e355c4abcf39e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_max_leaf_nodes</definition>
+        <argsstring>() const</argsstring>
+        <name>get_max_leaf_nodes</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_max_leaf_nodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="228" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aad51f766b6ad530341b72541837c78ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_max_bins</definition>
+        <argsstring>() const</argsstring>
+        <name>get_max_bins</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_max_bins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="229" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1acb09cc5c37f362e4237107de6c334921" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_min_bin_size</definition>
+        <argsstring>() const</argsstring>
+        <name>get_min_bin_size</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_min_bin_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="230" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ae773845c0870b5ad8b7f5f9d4eabd003" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool get_memory_saving_mode</definition>
+        <argsstring>() const</argsstring>
+        <name>get_memory_saving_mode</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_memory_saving_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="231" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a5a8b02c20ccb088e3bb6560d0ea16605" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool get_bootstrap</definition>
+        <argsstring>() const</argsstring>
+        <name>get_bootstrap</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_bootstrap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="232" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abb39db04444e907946a51aaf97566cf2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>splitter_mode</type>
+        <definition>splitter_mode get_splitter_mode</definition>
+        <argsstring>() const</argsstring>
+        <name>get_splitter_mode</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_splitter_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="233" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a7362d71c648e1b61a5f2168c74048ff3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>error_metric_mode</type>
+        <definition>error_metric_mode get_error_metric_mode</definition>
+        <argsstring>() const</argsstring>
+        <name>get_error_metric_mode</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_error_metric_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="234" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a4e33424925e8aaf68fdf0f3bc53d3761" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>variable_importance_mode</type>
+        <definition>variable_importance_mode get_variable_importance_mode</definition>
+        <argsstring>() const</argsstring>
+        <name>get_variable_importance_mode</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_variable_importance_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="235" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a78831edf1737f68189548d2ef2834b89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>enable_if_classification_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_class_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_class_count</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_class_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="238" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="238" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a0788b1aa1d4db5a702e10731d3a3e28e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>enable_if_classification_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>infer_mode</type>
+        <definition>infer_mode get_infer_mode</definition>
+        <argsstring>() const</argsstring>
+        <name>get_infer_mode</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_infer_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="243" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="243" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a8224d65994553011056f809528c253f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>enable_if_classification_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>voting_mode</type>
+        <definition>voting_mode get_voting_mode</definition>
+        <argsstring>() const</argsstring>
+        <name>get_voting_mode</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_voting_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="248" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="248" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1adb970b3b9100f7556869855a0133bfb7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_seed</definition>
+        <argsstring>() const</argsstring>
+        <name>get_seed</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_seed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="252" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ae8f8aa912d3bcfa075f44cafd8e33770" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_observations_per_tree_fraction_impl</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_observations_per_tree_fraction_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_observations_per_tree_fraction_impl</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="255" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a52dd9fec3f345da785ebba6209de4439" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_impurity_threshold_impl</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_impurity_threshold_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_impurity_threshold_impl</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="256" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aa585beb9a8b1066afa73037c7c9ae9ae" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_min_weight_fraction_in_leaf_node_impl</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_min_weight_fraction_in_leaf_node_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_min_weight_fraction_in_leaf_node_impl</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="257" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abc33968f3507be37ac15740dc547b7b6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_min_impurity_decrease_in_split_node_impl</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_min_impurity_decrease_in_split_node_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_min_impurity_decrease_in_split_node_impl</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="258" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a7e1823c7fd3fbf6b01f50c20c2ba9602" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_tree_count_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_tree_count_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_tree_count_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="259" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a1b482eaec77c184a66a2eea3a03c6973" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_features_per_node_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_features_per_node_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_features_per_node_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="260" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a8e7a638f02c8307fdb7ac44720a3ab3a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_max_tree_depth_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_max_tree_depth_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_max_tree_depth_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="261" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a7aea46dfdf38e05dc4f7916297d72f7c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_min_observations_in_leaf_node_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_min_observations_in_leaf_node_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_min_observations_in_leaf_node_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="262" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a61113cefd9df8eb175e4c2137655dfa3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_min_observations_in_split_node_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_min_observations_in_split_node_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_min_observations_in_split_node_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="263" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a00ac412cfbf8aa973fc30e0f081caed3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_max_leaf_nodes_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_max_leaf_nodes_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_max_leaf_nodes_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="264" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a64bfd78004e3e90846b07e50a6668210" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_max_bins_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_max_bins_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_max_bins_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="265" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a4ddb52c13cfad052adc84dc7b2df6370" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_min_bin_size_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_min_bin_size_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_min_bin_size_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="266" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a39608796bf42527bbdaea58983853e78" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_memory_saving_mode_impl</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>set_memory_saving_mode_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_memory_saving_mode_impl</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="267" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a92633ddf5b24042a4e2f45999e116b5b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_bootstrap_impl</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>set_bootstrap_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_bootstrap_impl</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="268" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a4f45005bce5a7ffe43c6a4cf26b44e3c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_splitter_mode_impl</definition>
+        <argsstring>(splitter_mode value)</argsstring>
+        <name>set_splitter_mode_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_splitter_mode_impl</qualifiedname>
+        <param>
+          <type>splitter_mode</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="269" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a250a8df93cd36a55186f4851661292a6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_error_metric_mode_impl</definition>
+        <argsstring>(error_metric_mode value)</argsstring>
+        <name>set_error_metric_mode_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_error_metric_mode_impl</qualifiedname>
+        <param>
+          <type>error_metric_mode</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="270" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a2cae1fe708a5ea80a020d4825bd16c0b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_variable_importance_mode_impl</definition>
+        <argsstring>(variable_importance_mode value)</argsstring>
+        <name>set_variable_importance_mode_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_variable_importance_mode_impl</qualifiedname>
+        <param>
+          <type>variable_importance_mode</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="271" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a3b9f59d828a39414cf74be9bedb39233" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_class_count_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_class_count_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_class_count_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="272" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a5e314954a9024053165df21a5004f574" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_infer_mode_impl</definition>
+        <argsstring>(infer_mode value)</argsstring>
+        <name>set_infer_mode_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_infer_mode_impl</qualifiedname>
+        <param>
+          <type>infer_mode</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="273" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ab243acc28574a2b697dec34bf65ed142" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_voting_mode_impl</definition>
+        <argsstring>(voting_mode value)</argsstring>
+        <name>set_voting_mode_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_voting_mode_impl</qualifiedname>
+        <param>
+          <type>voting_mode</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="274" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a851e0b9cf83c39180bff66981656ded9" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_class_count_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_class_count_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_class_count_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="276" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a1481deffba15212765656caa44594aa8" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>infer_mode</type>
+        <definition>infer_mode get_infer_mode_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_infer_mode_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_infer_mode_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="277" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aea142230d8b15196520c4fcdb1af2bbc" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>voting_mode</type>
+        <definition>voting_mode get_voting_mode_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_voting_mode_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::get_voting_mode_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="278" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aa77ad445e598f6612d0739a93d4b45da" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_seed_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_seed_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::descriptor_base::set_seed_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="280" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies the type of the problem to solve. Can be :expr:<computeroutput>task::classification</computeroutput> or :expr:<computeroutput>task::regression</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>descriptor&lt; Float, Method, Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="207" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="207" bodyend="284"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aef34e23d4cca9aba8d78eeb0ae8fcd2e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a5a8b02c20ccb088e3bb6560d0ea16605" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_bootstrap</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a78831edf1737f68189548d2ef2834b89" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_class_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a851e0b9cf83c39180bff66981656ded9" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_class_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a7362d71c648e1b61a5f2168c74048ff3" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_error_metric_mode</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abd9f5f68d9c139ca65a0e9f2397b886e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_features_per_node</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ae5ef9d5bf81cf69100aedefb40a01b54" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_impurity_threshold</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a0788b1aa1d4db5a702e10731d3a3e28e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_infer_mode</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a1481deffba15212765656caa44594aa8" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_infer_mode_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aad51f766b6ad530341b72541837c78ee" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_max_bins</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1af0dfc808c7acdcd6f5e355c4abcf39e4" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_max_leaf_nodes</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a3148339da2b2384fc9957824c06f52ad" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_max_tree_depth</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ae773845c0870b5ad8b7f5f9d4eabd003" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_memory_saving_mode</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1acb09cc5c37f362e4237107de6c334921" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_min_bin_size</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a509d825bef8a7b2555c905cedb761b58" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_min_impurity_decrease_in_split_node</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a3b98f7b86fd58f9538bf9252f2d9a101" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_min_observations_in_leaf_node</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ae634490ba0d200e824f305dc61111879" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_min_observations_in_split_node</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ac9862493efbdc6a9953cf9044f64d44a" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_min_weight_fraction_in_leaf_node</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a28b1c130c2522e4c5f27cb6587629150" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_observations_per_tree_fraction</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1adb970b3b9100f7556869855a0133bfb7" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_seed</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abb39db04444e907946a51aaf97566cf2" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_splitter_mode</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abbd3c88cd36a89e75a6a641a33fbdb5d" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_tree_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a4e33424925e8aaf68fdf0f3bc53d3761" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_variable_importance_mode</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a8224d65994553011056f809528c253f4" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_voting_mode</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aea142230d8b15196520c4fcdb1af2bbc" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>get_voting_mode_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a29eb320b4d42767b5e12ba9dbae02a26" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a92633ddf5b24042a4e2f45999e116b5b" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_bootstrap_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a3b9f59d828a39414cf74be9bedb39233" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_class_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a250a8df93cd36a55186f4851661292a6" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_error_metric_mode_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a1b482eaec77c184a66a2eea3a03c6973" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_features_per_node_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a52dd9fec3f345da785ebba6209de4439" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_impurity_threshold_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a5e314954a9024053165df21a5004f574" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_infer_mode_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a64bfd78004e3e90846b07e50a6668210" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_max_bins_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a00ac412cfbf8aa973fc30e0f081caed3" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_max_leaf_nodes_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a8e7a638f02c8307fdb7ac44720a3ab3a" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_max_tree_depth_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a39608796bf42527bbdaea58983853e78" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_memory_saving_mode_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a4ddb52c13cfad052adc84dc7b2df6370" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_min_bin_size_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1abc33968f3507be37ac15740dc547b7b6" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_min_impurity_decrease_in_split_node_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a7aea46dfdf38e05dc4f7916297d72f7c" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_min_observations_in_leaf_node_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a61113cefd9df8eb175e4c2137655dfa3" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_min_observations_in_split_node_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aa585beb9a8b1066afa73037c7c9ae9ae" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_min_weight_fraction_in_leaf_node_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ae8f8aa912d3bcfa075f44cafd8e33770" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_observations_per_tree_fraction_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1aa77ad445e598f6612d0739a93d4b45da" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_seed_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a4f45005bce5a7ffe43c6a4cf26b44e3c" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_splitter_mode_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a7e1823c7fd3fbf6b01f50c20c2ba9602" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_tree_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a2cae1fe708a5ea80a020d4825bd16c0b" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_variable_importance_mode_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ab243acc28574a2b697dec34bf65ed142" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>set_voting_mode_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::decision_forest::detail::v1::descriptor_base</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

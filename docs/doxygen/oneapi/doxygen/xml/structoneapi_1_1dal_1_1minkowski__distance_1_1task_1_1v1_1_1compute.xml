@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1minkowski__distance_1_1task_1_1v1_1_1compute" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::minkowski_distance::task::v1::compute</compoundname>
+    <includes refid="algo_2minkowski__distance_2common_8hpp" local="no">common.hpp</includes>
+    <briefdescription>
+<para>Tag-type that parameterizes entities that are used to compute distances. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/minkowski_distance/common.hpp" line="28" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/minkowski_distance/common.hpp" bodystart="28" bodyend="28"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

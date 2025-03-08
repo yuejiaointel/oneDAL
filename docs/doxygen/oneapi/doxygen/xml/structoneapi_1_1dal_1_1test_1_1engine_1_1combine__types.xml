@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::combine_types</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Head</type>
+      </param>
+      <param>
+        <type>typename...</type>
+        <declname>Tail</declname>
+        <defname>Tail</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a4dae72e171d1f246d09685d8b44cf86f" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename Tuple</type>
+          </param>
+        </templateparamlist>
+        <type>decltype(compress_tuple(std::declval&lt; Tuple &gt;()))</type>
+        <definition>using compress_tuple_t =  decltype(compress_tuple(std::declval&lt;Tuple&gt;()))</definition>
+        <argsstring></argsstring>
+        <name>compress_tuple_t</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types::compress_tuple_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="90" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a089e71b506b97b128921149cf2d0c1c6" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename Tuple</type>
+          </param>
+        </templateparamlist>
+        <type>decltype(compress_tuples(std::declval&lt; Tuple &gt;()))</type>
+        <definition>using compress_tuples_t =  decltype(compress_tuples(std::declval&lt;Tuple&gt;()))</definition>
+        <argsstring></argsstring>
+        <name>compress_tuples_t</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types::compress_tuples_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="98" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a4f49169158fb828aa5cc6d75c2c22e9c" prot="private" static="no">
+        <type>typename <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types" kindref="compound">combine_types</ref>&lt; Tail... &gt;::type</type>
+        <definition>using combined_tail_t =  typename combine_types&lt;Tail...&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>combined_tail_t</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types::combined_tail_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="100" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a4cecc1322fb6249dcc769931e2fa763c" prot="private" static="no">
+        <type>typename <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types" kindref="compound">combine_types</ref>&lt; Head, combined_tail_t &gt;::type</type>
+        <definition>using combined_head_t =  typename combine_types&lt;Head, combined_tail_t&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>combined_head_t</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types::combined_head_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="101" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a520c1891fdf3884fec44cbf9c2ef9dbb" prot="public" static="no">
+        <type>compress_tuples_t&lt; combined_head_t &gt;</type>
+        <definition>using type =  compress_tuples_t&lt;combined_head_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="104" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="104" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a79d48af2f49306fd60e514fc6ff86752" prot="private" static="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>static constexpr auto compress_tuple</definition>
+        <argsstring>(std::tuple&lt; T, std::tuple&lt; Args... &gt; &gt;) -&gt; std::tuple&lt; T, Args... &gt;</argsstring>
+        <name>compress_tuple</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types::compress_tuple</qualifiedname>
+        <param>
+          <type>std::tuple&lt; T, std::tuple&lt; Args... &gt; &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="85" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1abd3116d94b712b98bac51fed80e31803" prot="private" static="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Tuples</declname>
+            <defname>Tuples</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr auto</type>
+        <definition>static constexpr auto compress_tuples</definition>
+        <argsstring>(std::tuple&lt; Tuples... &gt;) -&gt; std::tuple&lt; compress_tuple_t&lt; Tuples &gt;... &gt;</argsstring>
+        <name>compress_tuples</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types::compress_tuples</qualifiedname>
+        <param>
+          <type>std::tuple&lt; Tuples... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="93" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="82" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="82" bodyend="105"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a4cecc1322fb6249dcc769931e2fa763c" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types</scope><name>combined_head_t</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a4f49169158fb828aa5cc6d75c2c22e9c" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types</scope><name>combined_tail_t</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a79d48af2f49306fd60e514fc6ff86752" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types</scope><name>compress_tuple</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a4dae72e171d1f246d09685d8b44cf86f" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types</scope><name>compress_tuple_t</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1abd3116d94b712b98bac51fed80e31803" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types</scope><name>compress_tuples</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a089e71b506b97b128921149cf2d0c1c6" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types</scope><name>compress_tuples_t</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_1a520c1891fdf3884fec44cbf9c2ef9dbb" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

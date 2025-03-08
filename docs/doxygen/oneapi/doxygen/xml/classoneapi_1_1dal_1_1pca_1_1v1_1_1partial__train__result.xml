@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::pca::v1::partial_train_result</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="180" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="180" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ab6baa2ac2a4faaee0506a5bd9ddc5969" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1pca_1_1detail_1_1v1_1_1partial__train__result__impl" kindref="compound">detail::partial_train_result_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::partial_train_result_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="227" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="227" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a19998d2cba8e414b372856452a6dec87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>partial_train_result</definition>
+        <argsstring>()</argsstring>
+        <name>partial_train_result</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::partial_train_result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="182" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a6592dce386fbd6922162b142360c6d76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_n_rows</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_n_rows</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::get_partial_n_rows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The nobs value. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="186" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a32a52426fd260db74cceea046557427a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_n_rows</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_n_rows</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::set_partial_n_rows</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="188" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a7cdd8aa3a36f636ef186afc5b9c5b3d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_crossproduct</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_crossproduct</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::get_partial_crossproduct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The crossproduct matrix. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="195" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a0a8b7e11e6dd9139318ca69d2e0f6eb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_crossproduct</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_crossproduct</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::set_partial_crossproduct</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="197" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="197" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ae788a83136358f1500fdff6afdbc88e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_sum</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_sum</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::get_partial_sum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sums. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="204" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a62114a0ba910dc976e368a534260b57f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_sum</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_sum</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::set_partial_sum</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="206" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a1d9b0d026dd6be07ed7bd49a6d1220d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_auxiliary_table_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_auxiliary_table_count</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::get_auxiliary_table_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="211" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a81c8262ee6f9c25ff057b527fb7a6f24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_auxiliary_table</definition>
+        <argsstring>(const std::int64_t) const</argsstring>
+        <name>get_auxiliary_table</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::get_auxiliary_table</qualifiedname>
+        <param>
+          <type>const std::int64_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="213" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ae27e7da6b3d0b162159a611072289668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_auxiliary_table</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_auxiliary_table</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::set_auxiliary_table</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="215" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="215" bodyend="218"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1aa3a831080796e95b809c175c41f2b8fd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_n_rows_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_n_rows_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::set_partial_n_rows_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="221" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ade365af2eb6630d66ba6888b909aaa37" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_crossproduct_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_crossproduct_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::set_partial_crossproduct_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="222" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a7a2c212969bc997df240df381eca480d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_sum_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_sum_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::set_partial_sum_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="223" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a8624b6b7f2b45e23a0488e0127bc0716" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_auxiliary_table_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_auxiliary_table_impl</name>
+        <qualifiedname>oneapi::dal::pca::v1::partial_train_result::set_auxiliary_table_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="224" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>partial_train_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>partial_train_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" line="176" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/train_types.hpp" bodystart="176" bodyend="228"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a81c8262ee6f9c25ff057b527fb7a6f24" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>get_auxiliary_table</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a1d9b0d026dd6be07ed7bd49a6d1220d0" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>get_auxiliary_table_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a7cdd8aa3a36f636ef186afc5b9c5b3d8" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>get_partial_crossproduct</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a6592dce386fbd6922162b142360c6d76" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>get_partial_n_rows</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ae788a83136358f1500fdff6afdbc88e0" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>get_partial_sum</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ab6baa2ac2a4faaee0506a5bd9ddc5969" prot="private" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a19998d2cba8e414b372856452a6dec87" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>partial_train_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ae27e7da6b3d0b162159a611072289668" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>set_auxiliary_table</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a8624b6b7f2b45e23a0488e0127bc0716" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>set_auxiliary_table_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a0a8b7e11e6dd9139318ca69d2e0f6eb5" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>set_partial_crossproduct</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ade365af2eb6630d66ba6888b909aaa37" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>set_partial_crossproduct_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a32a52426fd260db74cceea046557427a" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>set_partial_n_rows</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1aa3a831080796e95b809c175c41f2b8fd" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>set_partial_n_rows_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a62114a0ba910dc976e368a534260b57f" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>set_partial_sum</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1a7a2c212969bc997df240df381eca480d" prot="protected" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>set_partial_sum_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::pca::v1::partial_train_result</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

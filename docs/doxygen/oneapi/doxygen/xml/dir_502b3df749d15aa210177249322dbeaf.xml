@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_502b3df749d15aa210177249322dbeaf" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm</compoundname>
+    <innerfile refid="algo_2svm_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="algo_2svm_2infer_8hpp">infer.hpp</innerfile>
+    <innerfile refid="svm_2infer__types_8hpp">infer_types.hpp</innerfile>
+    <innerfile refid="algo_2svm_2train_8hpp">train.hpp</innerfile>
+    <innerfile refid="svm_2train__types_8hpp">train_types.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/"/>
+  </compounddef>
+</doxygen>

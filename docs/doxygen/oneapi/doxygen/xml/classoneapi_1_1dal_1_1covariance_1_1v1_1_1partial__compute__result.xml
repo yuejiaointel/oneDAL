@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result" kind="class" language="C++" prot="private">
+    <compoundname>oneapi::dal::covariance::v1::partial_compute_result</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="159" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1af0d992051f44315450f4e159ef67a6f4" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1covariance_1_1detail_1_1v1_1_1partial__compute__result__impl" kindref="compound">detail::partial_compute_result_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::partial_compute_result_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="196" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" bodystart="196" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a56c7acc0ddfc3b066350d61104fa3e39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>partial_compute_result</definition>
+        <argsstring>()</argsstring>
+        <name>partial_compute_result</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::partial_compute_result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="161" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a6592dce386fbd6922162b142360c6d76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_n_rows</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_n_rows</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::get_partial_n_rows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The nobs value. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="165" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a32a52426fd260db74cceea046557427a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_n_rows</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_n_rows</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::set_partial_n_rows</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="167" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" bodystart="167" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a7cdd8aa3a36f636ef186afc5b9c5b3d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_crossproduct</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_crossproduct</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::get_partial_crossproduct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The crossproduct matrix. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="174" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a0a8b7e11e6dd9139318ca69d2e0f6eb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_crossproduct</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_crossproduct</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::set_partial_crossproduct</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="176" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1ae788a83136358f1500fdff6afdbc88e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_sum</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_sum</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::get_partial_sum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sums. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="183" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a62114a0ba910dc976e368a534260b57f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_sum</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_sum</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::set_partial_sum</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="185" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" bodystart="185" bodyend="188"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1aa3a831080796e95b809c175c41f2b8fd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_n_rows_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_n_rows_impl</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::set_partial_n_rows_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="191" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1ade365af2eb6630d66ba6888b909aaa37" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_crossproduct_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_crossproduct_impl</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::set_partial_crossproduct_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="192" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a7a2c212969bc997df240df381eca480d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_sum_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_sum_impl</name>
+        <qualifiedname>oneapi::dal::covariance::v1::partial_compute_result::set_partial_sum_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="193" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>partial_compute_result&lt; Task &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>partial_compute_result&lt; Task &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" line="155" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/compute_types.hpp" bodystart="155" bodyend="197"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a7cdd8aa3a36f636ef186afc5b9c5b3d8" prot="public" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>get_partial_crossproduct</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a6592dce386fbd6922162b142360c6d76" prot="public" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>get_partial_n_rows</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1ae788a83136358f1500fdff6afdbc88e0" prot="public" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>get_partial_sum</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1af0d992051f44315450f4e159ef67a6f4" prot="private" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a56c7acc0ddfc3b066350d61104fa3e39" prot="public" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>partial_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a0a8b7e11e6dd9139318ca69d2e0f6eb5" prot="public" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>set_partial_crossproduct</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1ade365af2eb6630d66ba6888b909aaa37" prot="protected" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>set_partial_crossproduct_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a32a52426fd260db74cceea046557427a" prot="public" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>set_partial_n_rows</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1aa3a831080796e95b809c175c41f2b8fd" prot="protected" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>set_partial_n_rows_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a62114a0ba910dc976e368a534260b57f" prot="public" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>set_partial_sum</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1a7a2c212969bc997df240df381eca480d" prot="protected" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>set_partial_sum_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1covariance_1_1v1_1_1partial__compute__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::covariance::v1::partial_compute_result</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

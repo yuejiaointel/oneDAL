@@ -1,0 +1,717 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::knn::test::knn_test</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture" prot="public" virt="non-virtual">oneapi::dal::test::engine::crtp_algo_fixture&lt; TestType, Derived &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename TestType</type>
+      </param>
+      <param>
+        <type>typename Derived</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1ad8e497c0a637020e38f23327009fa9b2" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture" kindref="compound">te::crtp_algo_fixture</ref>&lt; TestType, Derived &gt;</type>
+        <definition>using base_t =  te::crtp_algo_fixture&lt;TestType, Derived&gt;</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="49" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1ac326cc316db45ea7e8a439c7b06c4cb1" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 0, TestType &gt;</type>
+        <definition>using float_t =  std::tuple_element_t&lt;0, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="50" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a8f837853131c68aace349d86d5190e55" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 1, TestType &gt;</type>
+        <definition>using method_t =  std::tuple_element_t&lt;1, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="51" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1ae4137093aa967ae02d7f4db2aeb5e2fe" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 2, TestType &gt;</type>
+        <definition>using task_t =  std::tuple_element_t&lt;2, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="52" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1aba59959e42585be1ad0c4086f0d3bb03" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1train__result" kindref="compound">train_result</ref>&lt; task_t &gt;</type>
+        <definition>using train_result_t =  train_result&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>train_result_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::train_result_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="53" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a929626a5d9455a2f6474dbdb90c657b9" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1train__input" kindref="compound">train_input</ref>&lt; task_t &gt;</type>
+        <definition>using train_input_t =  train_input&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>train_input_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::train_input_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="54" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a07fb6a00bc9e61c32cfdf479cca31961" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1infer__result" kindref="compound">infer_result</ref>&lt; task_t &gt;</type>
+        <definition>using infer_result_t =  infer_result&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>infer_result_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::infer_result_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="55" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1af194a22e3be152a0db54a02072c73843" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1infer__input" kindref="compound">infer_input</ref>&lt; task_t &gt;</type>
+        <definition>using infer_input_t =  infer_input&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>infer_input_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::infer_input_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="56" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a83b7c829c83dd3e25c3839ff3fa240a3" prot="public" static="no">
+        <type>oneapi::dal::minkowski_distance::descriptor&lt;&gt;</type>
+        <definition>using default_distance_t =  oneapi::dal::minkowski_distance::descriptor&lt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>default_distance_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::default_distance_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="58" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1aa2328efc059cf6e931ffa6ea352960fa" prot="public" static="no">
+        <type>oneapi::dal::knn::voting_mode</type>
+        <definition>using voting_t =  oneapi::dal::knn::voting_mode</definition>
+        <argsstring></argsstring>
+        <name>voting_t</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::voting_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="60" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1ac5ce21ce3037e07f5ea16d4f7773e586" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr voting_t</type>
+        <definition>constexpr voting_t default_voting</definition>
+        <argsstring></argsstring>
+        <name>default_voting</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::default_voting</qualifiedname>
+        <initializer>= voting_t::uniform</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="61" column="38" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a5cfc663e5345211e26c9582012b94233" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_kd_tree</definition>
+        <argsstring></argsstring>
+        <name>is_kd_tree</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::is_kd_tree</qualifiedname>
+        <initializer>= std::is_same_v&lt;method_t, <ref refid="structoneapi_1_1dal_1_1knn_1_1method_1_1v1_1_1kd__tree" kindref="compound">knn::method::kd_tree</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="82" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a4058d7fa8cb0efb9d88d9019b7610d9a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_brute_force</definition>
+        <argsstring></argsstring>
+        <name>is_brute_force</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::is_brute_force</qualifiedname>
+        <initializer>= std::is_same_v&lt;method_t, <ref refid="structoneapi_1_1dal_1_1knn_1_1method_1_1v1_1_1brute__force" kindref="compound">knn::method::brute_force</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="83" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1aed5a49d8c53b98c8771d272f35b868ae" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename D</type>
+            <defval>default_distance_t</defval>
+          </param>
+          <param>
+            <type>typename T</type>
+            <defval>knn::task::by_default</defval>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto get_descriptor</definition>
+        <argsstring>(std::int64_t override_class_count, std::int64_t override_neighbor_count, D distance=D{}, voting_t voting=default_voting, T task=T{}) const</argsstring>
+        <name>get_descriptor</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::get_descriptor</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>override_class_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>override_neighbor_count</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>distance</declname>
+          <defval>D{}</defval>
+        </param>
+        <param>
+          <type>voting_t</type>
+          <declname>voting</declname>
+          <defval>default_voting</defval>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>task</declname>
+          <defval>T{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="64" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="64" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1abe1d92ae18843ac5edfcd4f2898cbb41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool not_available_on_device</definition>
+        <argsstring>()</argsstring>
+        <name>not_available_on_device</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::not_available_on_device</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="85" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a99ad71bc2ae50fd70d3d2b985642a281" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Distance</type>
+            <defval>default_distance_t</defval>
+          </param>
+        </templateparamlist>
+        <type>float_t</type>
+        <definition>float_t classification</definition>
+        <argsstring>(const table &amp;train_data, const table &amp;train_responses, const table &amp;infer_data, const table &amp;infer_responses, const std::int64_t n_classes, const std::int64_t n_neighbors, const Distance distance=Distance{}, const voting_t voting=default_voting, const float_t tolerance=float_t(1.e-5))</argsstring>
+        <name>classification</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::classification</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>train_data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>train_responses</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>infer_data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>infer_responses</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>n_classes</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>n_neighbors</declname>
+        </param>
+        <param>
+          <type>const Distance</type>
+          <declname>distance</declname>
+          <defval>Distance{}</defval>
+        </param>
+        <param>
+          <type>const voting_t</type>
+          <declname>voting</declname>
+          <defval>default_voting</defval>
+        </param>
+        <param>
+          <type>const float_t</type>
+          <declname>tolerance</declname>
+          <defval>float_t(1.e-5)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="90" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="90" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a9e9a30ecf37ecae237624d74ca48a659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Distance</type>
+            <defval>default_distance_t</defval>
+          </param>
+        </templateparamlist>
+        <type>float_t</type>
+        <definition>float_t regression</definition>
+        <argsstring>(const table &amp;train_data, const table &amp;train_responses, const table &amp;infer_data, const table &amp;infer_responses, const std::int64_t n_neighbors, const Distance distance=Distance{}, const voting_t voting=default_voting)</argsstring>
+        <name>regression</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::regression</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>train_data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>train_responses</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>infer_data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>infer_responses</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>n_neighbors</declname>
+        </param>
+        <param>
+          <type>const Distance</type>
+          <declname>distance</declname>
+          <defval>Distance{}</defval>
+        </param>
+        <param>
+          <type>const voting_t</type>
+          <declname>voting</declname>
+          <defval>default_voting</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="120" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="120" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a649d5dc81b952b995663526ada832dee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Task</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void exact_nearest_indices_check</definition>
+        <argsstring>(const table &amp;train_data, const table &amp;infer_data, const knn::infer_result&lt; Task &gt; &amp;result)</argsstring>
+        <name>exact_nearest_indices_check</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::exact_nearest_indices_check</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>train_data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>infer_data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1infer__result" kindref="compound">knn::infer_result</ref>&lt; Task &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="149" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="149" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a29c25a95c43481395d594f23ba334925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Task</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void check_nans</definition>
+        <argsstring>(const knn::infer_result&lt; Task &gt; &amp;result)</argsstring>
+        <name>check_nans</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::check_nans</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1infer__result" kindref="compound">knn::infer_result</ref>&lt; Task &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="239" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="239" bodyend="244"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a92f0ccba89aae2a74c61431177316d37" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>static auto naive_knn_search</definition>
+        <argsstring>(const table &amp;train_data, const table &amp;infer_data)</argsstring>
+        <name>naive_knn_search</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::naive_knn_search</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>train_data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>infer_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="181" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="181" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1aa270eeba2ee73b87f3d389f90c0a42ef" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>static auto distances</definition>
+        <argsstring>(const table &amp;train_data, const table &amp;infer_data)</argsstring>
+        <name>distances</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::distances</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>train_data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>infer_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="188" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="188" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a90a02d316be529ca1c91f459d00592e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>static auto argsort</definition>
+        <argsstring>(const table &amp;distances)</argsstring>
+        <name>argsort</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::argsort</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="209" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="209" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a65afde06485082f48f3ba394b1ec9d70" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>static auto arange</definition>
+        <argsstring>(std::int64_t from, std::int64_t to)</argsstring>
+        <name>arange</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::arange</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="227" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="227" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a7a6e26229cc3903c711ec60188127f93" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>static auto arange</definition>
+        <argsstring>(std::int64_t to)</argsstring>
+        <name>arange</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::arange</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="234" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="234" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1abfee3dddfb790617a794380bb1d7960b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Task</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>static auto unpack_result</definition>
+        <argsstring>(const knn::infer_result&lt; Task &gt; &amp;result)</argsstring>
+        <name>unpack_result</name>
+        <qualifiedname>oneapi::dal::knn::test::knn_test::unpack_result</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1infer__result" kindref="compound">knn::infer_result</ref>&lt; Task &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="247" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="247" bodyend="250"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>float_algo_fixture&lt; std::tuple_element_t&lt; 0, TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>knn_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>crtp_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>crtp_base_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>float_algo_fixture&lt; std::tuple_element_t&lt; 0, TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>knn_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>default_voting</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>crtp_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>crtp_base_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+      <node id="7">
+        <label>voting_mode</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" line="47" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp" bodystart="47" bodyend="251"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a65afde06485082f48f3ba394b1ec9d70" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>arange</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a7a6e26229cc3903c711ec60188127f93" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>arange</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a90a02d316be529ca1c91f459d00592e4" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>argsort</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1ad8e497c0a637020e38f23327009fa9b2" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a29c25a95c43481395d594f23ba334925" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>check_nans</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a99ad71bc2ae50fd70d3d2b985642a281" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>classification</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a94f22290cc3d23e51bf7d30d569628ce" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a7512faf980955c840eda7d26ff607134" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afe2fd9a0e7f017a0593fc2e062f96280" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>compute_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a846e74572aabf08ac8ec1b55aa9865e7" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>compute_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a83b7c829c83dd3e25c3839ff3fa240a3" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>default_distance_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1ac5ce21ce3037e07f5ea16d4f7773e586" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>default_voting</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ad89ea821951f979c65f34120555f1ebf" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>derived</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a7a703a9d746f80d1f1bb684274e9054b" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>derived_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1aa270eeba2ee73b87f3d389f90c0a42ef" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>distances</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a649d5dc81b952b995663526ada832dee" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>exact_nearest_indices_check</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a98e68b95a18f894c9705226a01f3619c" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>finalize_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1af509567b3a24d60f43ac5e68225df6ea" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>finalize_compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1ab78b4384841a391350222d38a71989ca" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>finalize_compute_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a91ee6fceea739e3b3dde9a295f84fbbf" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>finalize_compute_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a1ddff1057e1c77615717643fabd710da" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>finalize_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ab63fb783388a7caab10158bbe1c4f320" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>finalize_train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fb19ae9f8ecaf3c4e521391fb560bde" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>finalize_train_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a6f7983b21f53d22485e6fef1af3bbf92" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>finalize_train_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1ac326cc316db45ea7e8a439c7b06c4cb1" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1aed5a49d8c53b98c8771d272f35b868ae" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>get_descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a6be1d4cc18b35cecc28a4883638e9204" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>get_homogen_table_id</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1ad5b4f390efae39c68f92df90353b5ca8" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>get_policy</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1a2db053a584a93e0d852f86ee02750992" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>get_queue</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a1769a758869aeeed2df2d90ad6c5bd7b" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>infer</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1af194a22e3be152a0db54a02072c73843" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>infer_input_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a99902a786318586ae7135865bd37504a" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>infer_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a07fb6a00bc9e61c32cfdf479cca31961" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>infer_result_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afa99ce660b78dc6381d265d6bc5c0ac4" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>infer_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1aab4216cdc871583a7ae486c5a3cbf34f" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>infer_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a4058d7fa8cb0efb9d88d9019b7610d9a" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>is_brute_force</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a5cfc663e5345211e26c9582012b94233" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>is_kd_tree</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a163bd2487ff1fd422798cd3bd9fbbdb1" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>merge_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1af0c5aa299637b51f9f770fd5318149f2" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>merge_compute_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a14cc53d7c932692aa33e4ddff6937437" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>merge_finalize_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a3411c600dcc18c2fcff5930e43474ed9" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>merge_finalize_compute_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1aab5e6e48d85bec4329368ff5ab783234" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>merge_finalize_train_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1aa7f33d78b74650dd71d9512e5e6213ae" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>merge_infer_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a46370c114f72f7cbf3e12022f1e8ea94" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>merge_infer_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a928e7542d7a3f0bdb9bf71ec1fac1314" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>merge_train_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a96895ee7ca7beb657d42d7f44cc0e505" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>merge_train_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a8f837853131c68aace349d86d5190e55" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a92f0ccba89aae2a74c61431177316d37" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>naive_knn_search</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1abe1d92ae18843ac5edfcd4f2898cbb41" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>not_available_on_device</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a7ae0ebe89b0dc86c3febaead54efdd44" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>not_float64_friendly</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ac3c45f1572b279a5d6f74a6548d0a104" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>partial_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a8d74106df88dca7a52c1e0efd268617e" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>partial_compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a6d64f595fca38a8c16bce504ce20b0c2" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>partial_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a376eff5b483f54b63c186b7c294fd950" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>partial_train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1afcb54598e7c58188a35c3eb79d54bed4" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>partial_train_with_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a9e9a30ecf37ecae237624d74ca48a659" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>regression</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a815bc11016e94bfc56362972bf4899c3" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>split_compute_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a681ab37ab9bbb635dfda6c3e32093216" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>split_compute_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a59f28edc3d1d2dc30eae5d23c2f6ced0" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>split_finalize_compute_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a4a3cdda7f9b045718e8119c1130d96b7" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>split_finalize_compute_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ae8f43835cbbdafdfd1006ac4bcf1b002" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>split_finalize_train_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a15b054f68d10cca541ef19f3c93aedc9" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>split_infer_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a3be0322fad50f3ff364db8673245e6e9" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>split_infer_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a817835eeb02cc5122cc38408d5f46c14" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>split_train_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1abc343e4dec6108c883424787bf6ca4e6" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>split_train_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1ae4137093aa967ae02d7f4db2aeb5e2fe" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a78b584fe4368d4320992381407f46b5c" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>train</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1a929626a5d9455a2f6474dbdb90c657b9" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>train_input_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ae66f1418bb3c5e55678da710125bebef" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1aba59959e42585be1ad0c4086f0d3bb03" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>train_result_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a3bc6bb64c716348cea45a78f281843be" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>train_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fc841dae09ff56d51ecdeeb678139dd" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>train_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a596f6a2f2ffff25aa8ffa9b4151f7257" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>train_with_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1abfee3dddfb790617a794380bb1d7960b" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>unpack_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test_1aa2328efc059cf6e931ffa6ea352960fa" prot="public" virt="non-virtual"><scope>oneapi::dal::knn::test::knn_test</scope><name>voting_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

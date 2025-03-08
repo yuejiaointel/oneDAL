@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1preview_1_1shortest__paths" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::preview::shortest_paths</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1descriptor" prot="public">oneapi::dal::preview::shortest_paths::descriptor</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" prot="public">oneapi::dal::preview::shortest_paths::optional_result_id</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1traverse__input" prot="public">oneapi::dal::preview::shortest_paths::traverse_input</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1traverse__result" prot="public">oneapi::dal::preview::shortest_paths::traverse_result</innerclass>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail">oneapi::dal::preview::shortest_paths::detail</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1method">oneapi::dal::preview::shortest_paths::method</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__results">oneapi::dal::preview::shortest_paths::optional_results</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1task">oneapi::dal::preview::shortest_paths::task</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="algo_2shortest__paths_2common_8hpp_1a48ffa053febafb304980c821ce0dd98d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref></type>
+        <definition>optional_result_id operator|</definition>
+        <argsstring>(const optional_result_id &amp;lhs, const optional_result_id &amp;rhs)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::operator|</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="64" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2shortest__paths_2common_8hpp_1abfe3c0a1139eed902654b934b8381c62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref></type>
+        <definition>optional_result_id operator&amp;</definition>
+        <argsstring>(const optional_result_id &amp;lhs, const optional_result_id &amp;rhs)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::operator&amp;</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="68" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2shortest__paths_2common_8hpp_1a6c15fd54c0ef23337b0a9332ed68c1e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref></type>
+        <definition>optional_result_id operator==</definition>
+        <argsstring>(const optional_result_id &amp;lhs, const optional_result_id &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="72" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2shortest__paths_2common_8hpp_1a136bfdcb61770146361d1b1cfcebb393" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref></type>
+        <definition>optional_result_id operator!=</definition>
+        <argsstring>(const optional_result_id &amp;lhs, const optional_result_id &amp;rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="76" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="76" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="23" column="1"/>
+  </compounddef>
+</doxygen>

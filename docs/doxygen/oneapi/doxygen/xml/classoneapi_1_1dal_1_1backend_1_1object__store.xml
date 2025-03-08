@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1backend_1_1object__store" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::object_store</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1backend_1_1object__store_1a63e93c2e46e4d1559c0d9f2b997b39fb" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classoneapi_1_1dal_1_1v1_1_1base" kindref="compound">base</ref> * &gt;</type>
+        <definition>using container_t =  std::vector&lt;base*&gt;</definition>
+        <argsstring></argsstring>
+        <name>container_t</name>
+        <qualifiedname>oneapi::dal::backend::object_store::container_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="307" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="307" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1backend_1_1object__store_1a734b981678c0c635ee93ba5a5c271986" prot="private" static="no" mutable="no">
+        <type>container_t</type>
+        <definition>container_t container_</definition>
+        <argsstring></argsstring>
+        <name>container_</name>
+        <qualifiedname>oneapi::dal::backend::object_store::container_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="325" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="325" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1object__store_1a588f138c70c32486d01c33da5088faea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>~object_store</definition>
+        <argsstring>()</argsstring>
+        <name>~object_store</name>
+        <qualifiedname>oneapi::dal::backend::object_store::~object_store</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="309" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="309" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1object__store_1a231b5f12abfd3f00ef9c78ed168914ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void add</definition>
+        <argsstring>(T &amp;&amp;obj)</argsstring>
+        <name>add</name>
+        <qualifiedname>oneapi::dal::backend::object_store::add</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="316" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="316" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1object__store_1ac8bb3912a3ce86b15842e79d0b421204" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>oneapi::dal::backend::object_store::clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="320" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="320" bodyend="322"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>object_store</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1object__store"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>object_store</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1object__store"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="305" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="305" bodyend="326"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1object__store_1a231b5f12abfd3f00ef9c78ed168914ad" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::object_store</scope><name>add</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1object__store_1ac8bb3912a3ce86b15842e79d0b421204" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::object_store</scope><name>clear</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1object__store_1a734b981678c0c635ee93ba5a5c271986" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::object_store</scope><name>container_</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1object__store_1a63e93c2e46e4d1559c0d9f2b997b39fb" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::object_store</scope><name>container_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::backend::object_store</scope><name>~base</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1object__store_1a588f138c70c32486d01c33da5088faea" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::object_store</scope><name>~object_store</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

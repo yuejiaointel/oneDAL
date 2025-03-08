@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1backend_1_1communicator__provider" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::communicator_provider</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename MemoryAccessKind</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1ab8597fdaacef7a87e6ccdc7ca3b52e71" prot="private" static="no" mutable="yes">
+        <type>std::unique_ptr&lt; <ref refid="classoneapi_1_1dal_1_1backend_1_1communicator" kindref="compound">communicator</ref>&lt; MemoryAccessKind &gt; &gt;</type>
+        <definition>std::unique_ptr&lt;communicator&lt;MemoryAccessKind&gt; &gt; comm_</definition>
+        <argsstring></argsstring>
+        <name>comm_</name>
+        <qualifiedname>oneapi::dal::backend::communicator_provider::comm_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="88" column="29" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1aaef9f1a785d4bb9fb647e6ebc71cb76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>communicator_provider</definition>
+        <argsstring>()=default</argsstring>
+        <name>communicator_provider</name>
+        <qualifiedname>oneapi::dal::backend::communicator_provider::communicator_provider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="76" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1ac7712309714c086614b685f76c9078d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>communicator_provider</definition>
+        <argsstring>(const communicator&lt; MemoryAccessKind &gt; &amp;comm)</argsstring>
+        <name>communicator_provider</name>
+        <qualifiedname>oneapi::dal::backend::communicator_provider::communicator_provider</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1communicator" kindref="compound">communicator</ref>&lt; MemoryAccessKind &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="77" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="77" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1a855f13bec0c398eb54e39ccebb423673" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1communicator" kindref="compound">communicator</ref>&lt; MemoryAccessKind &gt; &amp;</type>
+        <definition>const communicator&lt; MemoryAccessKind &gt; &amp; get_communicator</definition>
+        <argsstring>() const</argsstring>
+        <name>get_communicator</name>
+        <qualifiedname>oneapi::dal::backend::communicator_provider::get_communicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="80" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="80" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>communicator_provider&lt; MemoryAccessKind &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>communicator_provider&lt; MemoryAccessKind &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" line="74" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/dispatcher.hpp" bodystart="74" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1ab8597fdaacef7a87e6ccdc7ca3b52e71" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::communicator_provider</scope><name>comm_</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1aaef9f1a785d4bb9fb647e6ebc71cb76d" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::communicator_provider</scope><name>communicator_provider</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1ac7712309714c086614b685f76c9078d9" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::communicator_provider</scope><name>communicator_provider</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider_1a855f13bec0c398eb54e39ccebb423673" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::communicator_provider</scope><name>get_communicator</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::backend::communicator_provider</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

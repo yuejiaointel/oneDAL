@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1infer__parameters__cpu" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_forest::parameters::infer_parameters_cpu</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+      </param>
+      <param>
+        <type>typename Method</type>
+      </param>
+      <param>
+        <type>typename Task</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1infer__parameters__cpu_1ad8b6940ee4b8ea11080c763809ec8e1b" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters" kindref="compound">detail::infer_parameters</ref>&lt; Task &gt;</type>
+        <definition>using params_t =  detail::infer_parameters&lt;Task&gt;</definition>
+        <argsstring></argsstring>
+        <name>params_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::parameters::infer_parameters_cpu::params_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/infer_parameters.hpp" line="43" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/infer_parameters.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1infer__parameters__cpu_1ace54782442a6197b1f394e1b579262cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters" kindref="compound">params_t</ref></type>
+        <definition>params_t operator()</definition>
+        <argsstring>(const context_cpu &amp;ctx, const detail::descriptor_base&lt; Task &gt; &amp;desc, const infer_input&lt; Task &gt; &amp;input) const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>oneapi::dal::decision_forest::parameters::infer_parameters_cpu::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1context__cpu" kindref="compound">context_cpu</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base" kindref="compound">detail::descriptor_base</ref>&lt; Task &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const infer_input&lt; Task &gt; &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/infer_parameters.hpp" line="44" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/infer_parameters.hpp" bodystart="44" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/infer_parameters.hpp" line="42" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/infer_parameters.hpp" bodystart="42" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1infer__parameters__cpu_1ace54782442a6197b1f394e1b579262cd" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::parameters::infer_parameters_cpu</scope><name>operator()</name></member>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1parameters_1_1infer__parameters__cpu_1ad8b6940ee4b8ea11080c763809ec8e1b" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::parameters::infer_parameters_cpu</scope><name>params_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

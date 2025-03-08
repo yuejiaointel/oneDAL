@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1detail_1_1v1_1_1read__ops_3_01_object_00_01_data_source_00_01dal_1_1csv_13c4f6c8aaf79d8b01aa501e6f320a82a" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::detail::v1::read_ops&lt; Object, DataSource, dal::csv::detail::data_source_tag &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">dal::csv::detail::read_ops&lt; Object, DataSource &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Object</type>
+      </param>
+      <param>
+        <type>typename DataSource</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>read_ops&lt; Object, DataSource &gt;</label>
+      </node>
+      <node id="1">
+        <label>read_ops&lt; Object, DataSource, dal::csv::detail::data_source_tag &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1detail_1_1v1_1_1read__ops_3_01_object_00_01_data_source_00_01dal_1_1csv_13c4f6c8aaf79d8b01aa501e6f320a82a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>read_ops&lt; Object, DataSource &gt;</label>
+      </node>
+      <node id="1">
+        <label>read_ops&lt; Object, DataSource, dal::csv::detail::data_source_tag &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1detail_1_1v1_1_1read__ops_3_01_object_00_01_data_source_00_01dal_1_1csv_13c4f6c8aaf79d8b01aa501e6f320a82a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/read.hpp" line="27" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/read.hpp" bodystart="28" bodyend="28"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

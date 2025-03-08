@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_8286f2001567d72e3111974b34250512" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table</compoundname>
+    <innerfile refid="column__accessor_8hpp">column_accessor.hpp</innerfile>
+    <innerfile refid="table_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="csr_8hpp">csr.hpp</innerfile>
+    <innerfile refid="csr__accessor_8hpp">csr_accessor.hpp</innerfile>
+    <innerfile refid="heterogen_8hpp">heterogen.hpp</innerfile>
+    <innerfile refid="homogen_8hpp">homogen.hpp</innerfile>
+    <innerfile refid="row__accessor_8hpp">row_accessor.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/"/>
+  </compounddef>
+</doxygen>

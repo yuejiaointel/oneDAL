@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::preview::spmd::ccl_info</compoundname>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1af908148cbb0a1dae5e54467b912f09c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class de::singleton&lt; ccl_info &gt;</definition>
+        <argsstring></argsstring>
+        <name>de::singleton&lt; ccl_info &gt;</name>
+        <qualifiedname>oneapi::dal::preview::spmd::ccl_info::singleton&lt; ccl_info &gt;</qualifiedname>
+        <param>
+          <type>de::singleton&lt; <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info" kindref="compound">ccl_info</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" line="1" column="0" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1a6e0351be282b4febc0e249106e615218" prot="public" static="no" mutable="no">
+        <type>ccl::shared_ptr_class&lt; ccl::kvs &gt;</type>
+        <definition>ccl::shared_ptr_class&lt;ccl::kvs&gt; kvs</definition>
+        <argsstring></argsstring>
+        <name>kvs</name>
+        <qualifiedname>oneapi::dal::preview::spmd::ccl_info::kvs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" line="53" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1a6cfd95afd0afebd625b889fb6e58371c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int rank</definition>
+        <argsstring></argsstring>
+        <name>rank</name>
+        <qualifiedname>oneapi::dal::preview::spmd::ccl_info::rank</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" line="54" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1a6659879e15eafa8eac3c46091de249cf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int rank_count</definition>
+        <argsstring></argsstring>
+        <name>rank_count</name>
+        <qualifiedname>oneapi::dal::preview::spmd::ccl_info::rank_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" line="55" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1a5cd5cefa448f4ba5dbe1edf5eff31ea5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ccl_info</definition>
+        <argsstring>()</argsstring>
+        <name>ccl_info</name>
+        <qualifiedname>oneapi::dal::preview::spmd::ccl_info::ccl_info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" line="37" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" bodystart="37" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" line="33" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/ccl/communicator.hpp" bodystart="33" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1a5cd5cefa448f4ba5dbe1edf5eff31ea5" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::spmd::ccl_info</scope><name>ccl_info</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1af908148cbb0a1dae5e54467b912f09c0" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::spmd::ccl_info</scope><name>de::singleton&lt; ccl_info &gt;</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1a6e0351be282b4febc0e249106e615218" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::spmd::ccl_info</scope><name>kvs</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1a6cfd95afd0afebd625b889fb6e58371c" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::spmd::ccl_info</scope><name>rank</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1ccl__info_1a6659879e15eafa8eac3c46091de249cf" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::spmd::ccl_info</scope><name>rank_count</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

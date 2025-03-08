@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_abbf7c2f9986b8f916c56afc4cb43cb6" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives</compoundname>
+    <innerfile refid="backend_2primitives_2blas_8hpp">blas.hpp</innerfile>
+    <innerfile refid="backend_2primitives_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="debug_8hpp">debug.hpp</innerfile>
+    <innerfile refid="distance_8hpp">distance.hpp</innerfile>
+    <innerfile refid="distributed_8hpp">distributed.hpp</innerfile>
+    <innerfile refid="element__wise_8hpp">element_wise.hpp</innerfile>
+    <innerfile refid="heap_8hpp">heap.hpp</innerfile>
+    <innerfile refid="lapack_8hpp">lapack.hpp</innerfile>
+    <innerfile refid="backend_2primitives_2loops_8hpp">loops.hpp</innerfile>
+    <innerfile refid="ndarray_8hpp">ndarray.hpp</innerfile>
+    <innerfile refid="ndindexer_8hpp">ndindexer.hpp</innerfile>
+    <innerfile refid="ndshape_8hpp">ndshape.hpp</innerfile>
+    <innerfile refid="backend_2primitives_2objective__function_8hpp">objective_function.hpp</innerfile>
+    <innerfile refid="optimizers_8hpp">optimizers.hpp</innerfile>
+    <innerfile refid="placement_8hpp">placement.hpp</innerfile>
+    <innerfile refid="reduction_8hpp">reduction.hpp</innerfile>
+    <innerfile refid="backend_2primitives_2regression_8hpp">regression.hpp</innerfile>
+    <innerfile refid="search_8hpp">search.hpp</innerfile>
+    <innerfile refid="selection_8hpp">selection.hpp</innerfile>
+    <innerfile refid="sort_8hpp">sort.hpp</innerfile>
+    <innerfile refid="sparse__blas_8hpp">sparse_blas.hpp</innerfile>
+    <innerfile refid="split__table_8hpp">split_table.hpp</innerfile>
+    <innerfile refid="stat_8hpp">stat.hpp</innerfile>
+    <innerfile refid="utils_8hpp">utils.hpp</innerfile>
+    <innerfile refid="voting_8hpp">voting.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/"/>
+  </compounddef>
+</doxygen>

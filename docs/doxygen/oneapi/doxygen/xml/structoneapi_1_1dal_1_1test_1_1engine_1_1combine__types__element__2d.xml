@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::combine_types_element_2d</compoundname>
+    <templateparamlist>
+      <param>
+        <type>std::size_t</type>
+        <declname>index</declname>
+        <defname>index</defname>
+      </param>
+      <param>
+        <type>typename TupleX</type>
+      </param>
+      <param>
+        <type>typename TupleY</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1a22422fe0d7ae410a70fe19f73b945663" prot="public" static="no">
+        <type>std::tuple&lt; std::tuple_element_t&lt; i, TupleX &gt;, std::tuple_element_t&lt; j, TupleY &gt; &gt;</type>
+        <definition>using type =  std::tuple&lt;std::tuple_element_t&lt;i, TupleX&gt;, std::tuple_element_t&lt;j, TupleY&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types_element_2d::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="75" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1a9d83c9c4034dfa152039ccbd290dfc0d" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t count_x</definition>
+        <argsstring></argsstring>
+        <name>count_x</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types_element_2d::count_x</qualifiedname>
+        <initializer>= std::tuple_size_v&lt;TupleX&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="66" column="34" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1a4b93929e5be784904e2a12d45b62fdd1" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t count_y</definition>
+        <argsstring></argsstring>
+        <name>count_y</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types_element_2d::count_y</qualifiedname>
+        <initializer>= std::tuple_size_v&lt;TupleY&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="67" column="34" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1aaa79aac71ff4471c9407ef243e0966b6" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types_element_2d::i</qualifiedname>
+        <initializer>= index / count_y</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="68" column="34" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1a996a986496afcfd41b89774920220069" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t j</definition>
+        <argsstring></argsstring>
+        <name>j</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types_element_2d::j</qualifiedname>
+        <initializer>= index % count_y</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="69" column="34" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="64" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="64" bodyend="76"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1a9d83c9c4034dfa152039ccbd290dfc0d" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types_element_2d</scope><name>count_x</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1a4b93929e5be784904e2a12d45b62fdd1" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types_element_2d</scope><name>count_y</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1aaa79aac71ff4471c9407ef243e0966b6" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types_element_2d</scope><name>i</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1a996a986496afcfd41b89774920220069" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types_element_2d</scope><name>j</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d_1a22422fe0d7ae410a70fe19f73b945663" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::combine_types_element_2d</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

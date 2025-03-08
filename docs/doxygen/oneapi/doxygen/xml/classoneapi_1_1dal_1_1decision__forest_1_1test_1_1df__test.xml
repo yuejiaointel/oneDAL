@@ -1,0 +1,931 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_forest::test::df_test</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture" prot="public" virt="non-virtual">oneapi::dal::test::engine::crtp_algo_fixture&lt; TestType, Derived &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename TestType</type>
+      </param>
+      <param>
+        <type>typename Derived</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ad8e497c0a637020e38f23327009fa9b2" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture" kindref="compound">te::crtp_algo_fixture</ref>&lt; TestType, Derived &gt;</type>
+        <definition>using base_t =  te::crtp_algo_fixture&lt;TestType, Derived&gt;</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="45" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ac326cc316db45ea7e8a439c7b06c4cb1" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 0, TestType &gt;</type>
+        <definition>using float_t =  std::tuple_element_t&lt;0, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="46" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a8f837853131c68aace349d86d5190e55" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 1, TestType &gt;</type>
+        <definition>using method_t =  std::tuple_element_t&lt;1, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="47" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ae4137093aa967ae02d7f4db2aeb5e2fe" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 2, TestType &gt;</type>
+        <definition>using task_t =  std::tuple_element_t&lt;2, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="48" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1acbf9bd192ec58a9c2496b2b274497c1b" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" kindref="compound">df::descriptor</ref>&lt; float_t, method_t, task_t &gt;</type>
+        <definition>using descriptor_t =  df::descriptor&lt;float_t, method_t, task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>descriptor_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::descriptor_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="49" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a2627509df9dce81929e9307361a0d291" prot="public" static="no">
+        <type>df::train_input&lt; task_t &gt;</type>
+        <definition>using train_input_t =  df::train_input&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>train_input_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::train_input_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="50" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1abd213dea0f30d1740156d7c748325a05" prot="public" static="no">
+        <type>df::train_result&lt; task_t &gt;</type>
+        <definition>using train_result_t =  df::train_result&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>train_result_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::train_result_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="51" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a518022325a3b2acb886c07ab3106b6d4" prot="public" static="no">
+        <type>df::infer_input&lt; task_t &gt;</type>
+        <definition>using infer_input_t =  df::infer_input&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>infer_input_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::infer_input_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="52" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a732c289d76e1902e9a4b9973141fa3c9" prot="public" static="no">
+        <type>df::infer_result&lt; task_t &gt;</type>
+        <definition>using infer_result_t =  df::infer_result&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>infer_result_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::infer_result_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="53" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a3f89b69ab7dd6c96eb1f90a3784a36fc" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model" kindref="compound">df::model</ref>&lt; task_t &gt;</type>
+        <definition>using model_t =  df::model&lt;task_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>model_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::model_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="54" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a503751a6fbea09050104e2fcf39c065d" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 0, TestType &gt;</type>
+        <definition>using Float =  std::tuple_element_t&lt;0, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>Float</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::Float</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="55" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a50b4c3f41902bc7ed62f072dfbf833fa" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 1, TestType &gt;</type>
+        <definition>using Method =  std::tuple_element_t&lt;1, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>Method</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::Method</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="56" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ab7d84d1c629edc10359feea07178763e" prot="public" static="no">
+        <type>std::tuple_element_t&lt; 2, TestType &gt;</type>
+        <definition>using Task =  std::tuple_element_t&lt;2, TestType&gt;</definition>
+        <argsstring></argsstring>
+        <name>Task</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::Task</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="57" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a974b448c3d0a13d483d36ef15de369b5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double eps</definition>
+        <argsstring></argsstring>
+        <name>eps</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::eps</qualifiedname>
+        <initializer>= 1e-10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="472" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="472" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a8cd1f5f221a71e88af4b51125bb21d63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_gpu</definition>
+        <argsstring>()</argsstring>
+        <name>is_gpu</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::is_gpu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="59" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1abe1d92ae18843ac5edfcd4f2898cbb41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool not_available_on_device</definition>
+        <argsstring>()</argsstring>
+        <name>not_available_on_device</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::not_available_on_device</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="63" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ab0e5e310fff78a590b1ffc74362f6d4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto get_default_descriptor</definition>
+        <argsstring>()</argsstring>
+        <name>get_default_descriptor</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_default_descriptor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="68" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a5f44405ae96685a21b0cc1a1b25c17ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto get_cls_dataframe_base</definition>
+        <argsstring>()</argsstring>
+        <name>get_cls_dataframe_base</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_cls_dataframe_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="72" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="72" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a958221d69f7025a8efe66025e86f3c04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto get_cls_dataframe_weighted_base</definition>
+        <argsstring>()</argsstring>
+        <name>get_cls_dataframe_weighted_base</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_cls_dataframe_weighted_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="97" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="97" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a8fc1acd4c5088f35d74a90ac845f195d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto get_cls_dataframe</definition>
+        <argsstring>(std::string ds_name, double required_accuracy)</argsstring>
+        <name>get_cls_dataframe</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_cls_dataframe</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>ds_name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>required_accuracy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="128" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="128" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a34d167a1cfb1175d445e6d75b6bb94b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto get_reg_dataframe_base</definition>
+        <argsstring>()</argsstring>
+        <name>get_reg_dataframe_base</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_reg_dataframe_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="139" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="139" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a347912879150130fc2fbce24bdb87ecb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto get_reg_dataframe_weighted_base</definition>
+        <argsstring>()</argsstring>
+        <name>get_reg_dataframe_weighted_base</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_reg_dataframe_weighted_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="170" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="170" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a9c7ac65e7ac450612ac5f506fe3a7d5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto get_reg_dataframe</definition>
+        <argsstring>(std::string ds_name, double required_mse, double required_mae)</argsstring>
+        <name>get_reg_dataframe</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_reg_dataframe</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>ds_name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>required_mse</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>required_mae</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="202" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="202" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a7c5aa0f5ede288a96af2a1c07d19eaac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto train_base_checks</definition>
+        <argsstring>(const df::descriptor&lt; Float, Method, Task &gt; &amp;desc, const te::dataframe &amp;data, const te::table_id &amp;data_table_id)</argsstring>
+        <name>train_base_checks</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::train_base_checks</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" kindref="compound">df::descriptor</ref>&lt; Float, Method, Task &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1table__id" kindref="compound">te::table_id</ref> &amp;</type>
+          <declname>data_table_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="215" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="215" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a33a599bfacc0d7cf19d6f2bb7feb090b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto train_weighted_base_checks</definition>
+        <argsstring>(const df::descriptor&lt; Float, Method, Task &gt; &amp;desc, const te::dataframe &amp;data, const te::table_id &amp;data_table_id)</argsstring>
+        <name>train_weighted_base_checks</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::train_weighted_base_checks</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" kindref="compound">df::descriptor</ref>&lt; Float, Method, Task &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1table__id" kindref="compound">te::table_id</ref> &amp;</type>
+          <declname>data_table_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="227" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="227" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a59bfda21f031ac5d761d35e856015546" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto infer_base_checks</definition>
+        <argsstring>(const df::descriptor&lt; Float, Method, Task &gt; &amp;desc, const te::dataframe &amp;data, const te::table_id &amp;data_table_id, const df::model&lt; Task &gt; &amp;model, const std::list&lt; checker_info&lt; double &gt; &gt; &amp;checker_list)</argsstring>
+        <name>infer_base_checks</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::infer_base_checks</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" kindref="compound">df::descriptor</ref>&lt; Float, Method, Task &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1table__id" kindref="compound">te::table_id</ref> &amp;</type>
+          <declname>data_table_id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model" kindref="compound">df::model</ref>&lt; Task &gt; &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>const std::list&lt; <ref refid="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1checker__info" kindref="compound">checker_info</ref>&lt; double &gt; &gt; &amp;</type>
+          <declname>checker_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="242" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="242" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a1c3f52166e29725be56decb0d1423cdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Checker</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void model_traverse_check</definition>
+        <argsstring>(const df::model&lt; Task &gt; &amp;model, Checker &amp;&amp;check)</argsstring>
+        <name>model_traverse_check</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::model_traverse_check</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model" kindref="compound">df::model</ref>&lt; Task &gt; &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>Checker &amp;&amp;</type>
+          <declname>check</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="267" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="267" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a7e8f041fcc384e7a78ee359b5ee3244f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_trees_node_min_sample_count</definition>
+        <argsstring>(const df::model&lt; Task &gt; &amp;model, std::int64_t min_observations_in_leaf_node)</argsstring>
+        <name>check_trees_node_min_sample_count</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::check_trees_node_min_sample_count</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model" kindref="compound">df::model</ref>&lt; Task &gt; &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>min_observations_in_leaf_node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="275" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="275" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1abc97e3e773b9b6b041c20ae601474083" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_train_shapes</definition>
+        <argsstring>(const df::descriptor&lt; Float, Method, Task &gt; &amp;desc, const te::dataframe &amp;data, const df::train_result&lt; Task &gt; &amp;result)</argsstring>
+        <name>check_train_shapes</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::check_train_shapes</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" kindref="compound">df::descriptor</ref>&lt; Float, Method, Task &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const df::train_result&lt; Task &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="285" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="285" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a89c2a0550cbff1b1eb5939ecfa05edf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_infer_shapes</definition>
+        <argsstring>(const df::descriptor&lt; Float, Method, Task &gt; &amp;desc, const te::dataframe &amp;data, const df::infer_result&lt; Task &gt; &amp;result)</argsstring>
+        <name>check_infer_shapes</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::check_infer_shapes</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" kindref="compound">df::descriptor</ref>&lt; Float, Method, Task &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const df::infer_result&lt; Task &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="319" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="319" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a8f5aa99b4a08520a1492901d5a1a8490" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_var_importance_matches_required</definition>
+        <argsstring>(const df::descriptor&lt; Float, Method, Task &gt; &amp;desc, const df::train_result&lt; Task &gt; &amp;train_result, const te::dataframe &amp;var_imp_data, const te::table_id &amp;data_table_id, double accuracy_threshold)</argsstring>
+        <name>check_var_importance_matches_required</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::check_var_importance_matches_required</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" kindref="compound">df::descriptor</ref>&lt; Float, Method, Task &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const df::train_result&lt; Task &gt; &amp;</type>
+          <declname>train_result</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">te::dataframe</ref> &amp;</type>
+          <declname>var_imp_data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1table__id" kindref="compound">te::table_id</ref> &amp;</type>
+          <declname>data_table_id</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>accuracy_threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="346" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="346" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a45922a1412a283a4b98f6d1875aa137b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_oob_err_matches_required</definition>
+        <argsstring>(const df::descriptor&lt; Float, Method, Task &gt; &amp;desc, const df::train_result&lt; Task &gt; &amp;train_result, double required_oob_error, double accuracy_threshold)</argsstring>
+        <name>check_oob_err_matches_required</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::check_oob_err_matches_required</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" kindref="compound">df::descriptor</ref>&lt; Float, Method, Task &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const df::train_result&lt; Task &gt; &amp;</type>
+          <declname>train_result</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>required_oob_error</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>accuracy_threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="375" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="375" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ae7fb7fc1eb268e5b3ef065874439b7c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_oob_err_matches_oob_err_per_observation</definition>
+        <argsstring>(const df::descriptor&lt; Float, Method, Task &gt; &amp;desc, const df::train_result&lt; Task &gt; &amp;train_result, double accuracy_threshold)</argsstring>
+        <name>check_oob_err_matches_oob_err_per_observation</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::check_oob_err_matches_oob_err_per_observation</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor" kindref="compound">df::descriptor</ref>&lt; Float, Method, Task &gt; &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const df::train_result&lt; Task &gt; &amp;</type>
+          <declname>train_result</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>accuracy_threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="390" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="390" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1aa9dca6c0022208b8fe5b516a3842ea91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1checker__info" kindref="compound">checker_info</ref>&lt; double &gt;</type>
+        <definition>checker_info&lt; double &gt; get_cls_checker</definition>
+        <argsstring>(double required_accuracy)</argsstring>
+        <name>get_cls_checker</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_cls_checker</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>required_accuracy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="419" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="419" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ac75e131edbca631e5e2049f75007baf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1checker__info" kindref="compound">checker_info</ref>&lt; double &gt;</type>
+        <definition>checker_info&lt; double &gt; get_mse_checker</definition>
+        <argsstring>(double required_accuracy)</argsstring>
+        <name>get_mse_checker</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_mse_checker</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>required_accuracy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="425" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="425" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a7639ec5fd8840267ac6501dad9b9181e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1checker__info" kindref="compound">checker_info</ref>&lt; double &gt;</type>
+        <definition>checker_info&lt; double &gt; get_mae_checker</definition>
+        <argsstring>(double required_accuracy)</argsstring>
+        <name>get_mae_checker</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::get_mae_checker</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>required_accuracy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="429" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="429" bodyend="431"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a53e8bedcc37d0e9e0c73965894a2c84e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double calculate_classification_error</definition>
+        <argsstring>(const dal::table &amp;infer_responses, const dal::table &amp;ground_truth)</argsstring>
+        <name>calculate_classification_error</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::calculate_classification_error</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">dal::table</ref> &amp;</type>
+          <declname>infer_responses</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">dal::table</ref> &amp;</type>
+          <declname>ground_truth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="433" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="433" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a5882fa1d008a52e2da8172cfc4e8142a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double calculate_mse</definition>
+        <argsstring>(const dal::v1::table &amp;infer_responses, const dal::v1::table &amp;ground_truth)</argsstring>
+        <name>calculate_mse</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::calculate_mse</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">dal::v1::table</ref> &amp;</type>
+          <declname>infer_responses</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">dal::v1::table</ref> &amp;</type>
+          <declname>ground_truth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="446" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="446" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a583fc7b7a486a35e3c23bffffa11ad3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double calculate_mae</definition>
+        <argsstring>(const dal::v1::table &amp;infer_responses, const dal::v1::table &amp;ground_truth)</argsstring>
+        <name>calculate_mae</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::df_test::calculate_mae</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">dal::v1::table</ref> &amp;</type>
+          <declname>infer_responses</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">dal::v1::table</ref> &amp;</type>
+          <declname>ground_truth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="458" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="458" bodyend="469"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>df_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>float_algo_fixture&lt; std::tuple_element_t&lt; 0, TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>crtp_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>crtp_base_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>df_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>float_algo_fixture&lt; std::tuple_element_t&lt; 0, TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>crtp_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>crtp_base_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="43" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="43" bodyend="473"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ad8e497c0a637020e38f23327009fa9b2" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a53e8bedcc37d0e9e0c73965894a2c84e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>calculate_classification_error</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a583fc7b7a486a35e3c23bffffa11ad3e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>calculate_mae</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a5882fa1d008a52e2da8172cfc4e8142a" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>calculate_mse</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a89c2a0550cbff1b1eb5939ecfa05edf8" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>check_infer_shapes</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ae7fb7fc1eb268e5b3ef065874439b7c1" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>check_oob_err_matches_oob_err_per_observation</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a45922a1412a283a4b98f6d1875aa137b" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>check_oob_err_matches_required</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1abc97e3e773b9b6b041c20ae601474083" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>check_train_shapes</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a7e8f041fcc384e7a78ee359b5ee3244f" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>check_trees_node_min_sample_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a8f5aa99b4a08520a1492901d5a1a8490" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>check_var_importance_matches_required</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a94f22290cc3d23e51bf7d30d569628ce" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a7512faf980955c840eda7d26ff607134" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afe2fd9a0e7f017a0593fc2e062f96280" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>compute_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a846e74572aabf08ac8ec1b55aa9865e7" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>compute_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ad89ea821951f979c65f34120555f1ebf" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>derived</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a7a703a9d746f80d1f1bb684274e9054b" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>derived_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1acbf9bd192ec58a9c2496b2b274497c1b" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>descriptor_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a974b448c3d0a13d483d36ef15de369b5" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>eps</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a98e68b95a18f894c9705226a01f3619c" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>finalize_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1af509567b3a24d60f43ac5e68225df6ea" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>finalize_compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1ab78b4384841a391350222d38a71989ca" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>finalize_compute_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a91ee6fceea739e3b3dde9a295f84fbbf" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>finalize_compute_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a1ddff1057e1c77615717643fabd710da" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>finalize_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ab63fb783388a7caab10158bbe1c4f320" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>finalize_train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fb19ae9f8ecaf3c4e521391fb560bde" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>finalize_train_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a6f7983b21f53d22485e6fef1af3bbf92" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>finalize_train_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a503751a6fbea09050104e2fcf39c065d" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>Float</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ac326cc316db45ea7e8a439c7b06c4cb1" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1aa9dca6c0022208b8fe5b516a3842ea91" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_cls_checker</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a8fc1acd4c5088f35d74a90ac845f195d" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_cls_dataframe</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a5f44405ae96685a21b0cc1a1b25c17ae" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_cls_dataframe_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a958221d69f7025a8efe66025e86f3c04" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_cls_dataframe_weighted_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ab0e5e310fff78a590b1ffc74362f6d4e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_default_descriptor</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a6be1d4cc18b35cecc28a4883638e9204" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_homogen_table_id</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a7639ec5fd8840267ac6501dad9b9181e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_mae_checker</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ac75e131edbca631e5e2049f75007baf1" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_mse_checker</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1ad5b4f390efae39c68f92df90353b5ca8" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_policy</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1a2db053a584a93e0d852f86ee02750992" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_queue</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a9c7ac65e7ac450612ac5f506fe3a7d5e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_reg_dataframe</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a34d167a1cfb1175d445e6d75b6bb94b8" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_reg_dataframe_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a347912879150130fc2fbce24bdb87ecb" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>get_reg_dataframe_weighted_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a1769a758869aeeed2df2d90ad6c5bd7b" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>infer</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a59bfda21f031ac5d761d35e856015546" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>infer_base_checks</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a518022325a3b2acb886c07ab3106b6d4" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>infer_input_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a99902a786318586ae7135865bd37504a" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>infer_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a732c289d76e1902e9a4b9973141fa3c9" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>infer_result_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afa99ce660b78dc6381d265d6bc5c0ac4" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>infer_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1aab4216cdc871583a7ae486c5a3cbf34f" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>infer_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a8cd1f5f221a71e88af4b51125bb21d63" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>is_gpu</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a163bd2487ff1fd422798cd3bd9fbbdb1" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>merge_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1af0c5aa299637b51f9f770fd5318149f2" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>merge_compute_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a14cc53d7c932692aa33e4ddff6937437" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>merge_finalize_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a3411c600dcc18c2fcff5930e43474ed9" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>merge_finalize_compute_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1aab5e6e48d85bec4329368ff5ab783234" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>merge_finalize_train_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1aa7f33d78b74650dd71d9512e5e6213ae" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>merge_infer_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a46370c114f72f7cbf3e12022f1e8ea94" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>merge_infer_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a928e7542d7a3f0bdb9bf71ec1fac1314" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>merge_train_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a96895ee7ca7beb657d42d7f44cc0e505" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>merge_train_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a50b4c3f41902bc7ed62f072dfbf833fa" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>Method</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a8f837853131c68aace349d86d5190e55" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a3f89b69ab7dd6c96eb1f90a3784a36fc" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>model_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a1c3f52166e29725be56decb0d1423cdd" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>model_traverse_check</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1abe1d92ae18843ac5edfcd4f2898cbb41" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>not_available_on_device</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a7ae0ebe89b0dc86c3febaead54efdd44" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>not_float64_friendly</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ac3c45f1572b279a5d6f74a6548d0a104" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>partial_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a8d74106df88dca7a52c1e0efd268617e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>partial_compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a6d64f595fca38a8c16bce504ce20b0c2" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>partial_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a376eff5b483f54b63c186b7c294fd950" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>partial_train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1afcb54598e7c58188a35c3eb79d54bed4" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>partial_train_with_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a815bc11016e94bfc56362972bf4899c3" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>split_compute_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a681ab37ab9bbb635dfda6c3e32093216" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>split_compute_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a59f28edc3d1d2dc30eae5d23c2f6ced0" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>split_finalize_compute_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a4a3cdda7f9b045718e8119c1130d96b7" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>split_finalize_compute_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ae8f43835cbbdafdfd1006ac4bcf1b002" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>split_finalize_train_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a15b054f68d10cca541ef19f3c93aedc9" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>split_infer_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a3be0322fad50f3ff364db8673245e6e9" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>split_infer_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a817835eeb02cc5122cc38408d5f46c14" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>split_train_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1abc343e4dec6108c883424787bf6ca4e6" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>split_train_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ab7d84d1c629edc10359feea07178763e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>Task</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1ae4137093aa967ae02d7f4db2aeb5e2fe" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a78b584fe4368d4320992381407f46b5c" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>train</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a7c5aa0f5ede288a96af2a1c07d19eaac" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>train_base_checks</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a2627509df9dce81929e9307361a0d291" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>train_input_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ae66f1418bb3c5e55678da710125bebef" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1abd213dea0f30d1740156d7c748325a05" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>train_result_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a3bc6bb64c716348cea45a78f281843be" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>train_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fc841dae09ff56d51ecdeeb678139dd" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>train_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test_1a33a599bfacc0d7cf19d6f2bb7feb090b" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>train_weighted_base_checks</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a596f6a2f2ffff25aa8ffa9b4151f7257" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::df_test</scope><name>train_with_parameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

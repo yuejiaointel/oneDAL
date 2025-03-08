@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::preview::subgraph_isomorphism</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor" prot="public">oneapi::dal::preview::subgraph_isomorphism::descriptor</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1graph__matching__input" prot="public">oneapi::dal::preview::subgraph_isomorphism::graph_matching_input</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1graph__matching__result" prot="public">oneapi::dal::preview::subgraph_isomorphism::graph_matching_result</innerclass>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail">oneapi::dal::preview::subgraph_isomorphism::detail</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1method">oneapi::dal::preview::subgraph_isomorphism::method</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1task">oneapi::dal::preview::subgraph_isomorphism::task</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="algo_2subgraph__isomorphism_2common_8hpp_1aaf25ee7e2306d78c74ec7bc48f092e81" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>kind</name>
+        <qualifiedname>oneapi::dal::preview::subgraph_isomorphism::kind</qualifiedname>
+        <enumvalue id="algo_2subgraph__isomorphism_2common_8hpp_1aaf25ee7e2306d78c74ec7bc48f092e81af5de71d700360ae4451bcd7cac04c888" prot="public">
+          <name>induced</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Search for an induced subgraph isomorphic to the pattern graph. All existing and non-existing edges in a subgraph are considered. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="algo_2subgraph__isomorphism_2common_8hpp_1aaf25ee7e2306d78c74ec7bc48f092e81a88f600baa44eddedb8b93ca3ab872588" prot="public">
+          <name>non_induced</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Search for a non-induced subgraph isomorphic to the pattern graph. Only existing edges in a subgraph are considered. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The kinds of subgraphs to search for in a target graph. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="41" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" bodystart="41" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/subgraph_isomorphism/common.hpp" line="22" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dataframe__common_8hpp" kind="file" language="C++">
+    <compoundname>dataframe_common.hpp</compoundname>
+    <includes local="no">any</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">optional</includes>
+    <includes refid="array_8hpp" local="yes">oneapi/dal/array.hpp</includes>
+    <includes refid="table_2common_8hpp" local="yes">oneapi/dal/table/common.hpp</includes>
+    <includes refid="test_2engine_2common_8hpp" local="yes">oneapi/dal/test/engine/common.hpp</includes>
+    <includes refid="csv_8hpp" local="yes">oneapi/dal/io/csv.hpp</includes>
+    <includedby refid="dataframe_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe.hpp</includedby>
+    <includedby refid="dataframe__actions_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>oneapi/dal/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>oneapi/dal/common.hpp</label>
+        <link refid="common_8hpp_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>oneapi/dal/compute.hpp</label>
+        <link refid="compute_8hpp_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>oneapi/dal/exceptions.hpp</label>
+        <link refid="exceptions_8hpp_source"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>oneapi/dal/finalize_compute.hpp</label>
+        <link refid="finalize__compute_8hpp_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>oneapi/dal/finalize_train.hpp</label>
+        <link refid="finalize__train_8hpp_source"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>oneapi/dal/graph/common.hpp</label>
+        <link refid="graph_2common_8hpp"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>oneapi/dal/infer.hpp</label>
+        <link refid="infer_8hpp_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>oneapi/dal/io/csv.hpp</label>
+        <link refid="csv_8hpp_source"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>oneapi/dal/io/csv/common.hpp</label>
+        <link refid="io_2csv_2common_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>oneapi/dal/io/csv/read.hpp</label>
+        <link refid="io_2csv_2read_8hpp_source"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>oneapi/dal/io/csv/read_types.hpp</label>
+        <link refid="read__types_8hpp_source"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>oneapi/dal/partial_compute.hpp</label>
+        <link refid="partial__compute_8hpp_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>oneapi/dal/partial_train.hpp</label>
+        <link refid="partial__train_8hpp_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>oneapi/dal/read.hpp</label>
+        <link refid="read_8hpp_source"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>oneapi/dal/spmd/common.hpp</label>
+        <link refid="spmd_2common_8hpp_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>oneapi/dal/spmd/communicator.hpp</label>
+        <link refid="spmd_2communicator_8hpp_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>oneapi/dal/spmd/exceptions.hpp</label>
+        <link refid="spmd_2exceptions_8hpp_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>oneapi/dal/table/common.hpp</label>
+        <link refid="table_2common_8hpp_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>oneapi/dal/test/engine/catch.hpp</label>
+        <link refid="catch_8hpp_source"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>oneapi/dal/test/engine/common.hpp</label>
+        <link refid="test_2engine_2common_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>oneapi/dal/test/engine/config.hpp</label>
+        <link refid="config_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp</label>
+        <link refid="dataframe__common_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>oneapi/dal/test/engine/macro.hpp</label>
+        <link refid="macro_8hpp_source"/>
+      </node>
+      <node id="49">
+        <label>oneapi/dal/test/engine/type_traits.hpp</label>
+        <link refid="type__traits_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>oneapi/dal/train.hpp</label>
+        <link refid="train_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>any</label>
+      </node>
+      <node id="46">
+        <label>catch2/catch_all.hpp</label>
+      </node>
+      <node id="25">
+        <label>cstdint</label>
+      </node>
+      <node id="16">
+        <label>fmt/core.h</label>
+      </node>
+      <node id="14">
+        <label>iostream</label>
+      </node>
+      <node id="5">
+        <label>memory</label>
+      </node>
+      <node id="42">
+        <label>new</label>
+      </node>
+      <node id="8">
+        <label>oneapi/dal/detail/array_impl.hpp</label>
+      </node>
+      <node id="22">
+        <label>oneapi/dal/detail/common.hpp</label>
+      </node>
+      <node id="32">
+        <label>oneapi/dal/detail/compute_ops.hpp</label>
+      </node>
+      <node id="28">
+        <label>oneapi/dal/detail/error_messages.hpp</label>
+      </node>
+      <node id="36">
+        <label>oneapi/dal/detail/finalize_compute_ops.hpp</label>
+      </node>
+      <node id="40">
+        <label>oneapi/dal/detail/finalize_train_ops.hpp</label>
+      </node>
+      <node id="30">
+        <label>oneapi/dal/detail/infer_ops.hpp</label>
+      </node>
+      <node id="58">
+        <label>oneapi/dal/detail/memory.hpp</label>
+      </node>
+      <node id="34">
+        <label>oneapi/dal/detail/partial_compute_ops.hpp</label>
+      </node>
+      <node id="38">
+        <label>oneapi/dal/detail/partial_train_ops.hpp</label>
+      </node>
+      <node id="60">
+        <label>oneapi/dal/detail/read_ops.hpp</label>
+      </node>
+      <node id="11">
+        <label>oneapi/dal/detail/serialization.hpp</label>
+      </node>
+      <node id="19">
+        <label>oneapi/dal/detail/spmd_policy.hpp</label>
+      </node>
+      <node id="18">
+        <label>oneapi/dal/detail/train_ops.hpp</label>
+      </node>
+      <node id="56">
+        <label>oneapi/dal/graph/detail/common.hpp</label>
+      </node>
+      <node id="57">
+        <label>oneapi/dal/graph/detail/container.hpp</label>
+      </node>
+      <node id="52">
+        <label>oneapi/dal/io/csv/detail/read_ops.hpp</label>
+      </node>
+      <node id="10">
+        <label>oneapi/dal/table/detail/table_iface.hpp</label>
+      </node>
+      <node id="6">
+        <label>optional</label>
+      </node>
+      <node id="43">
+        <label>stdexcept</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="21">
+        <label>sycl/sycl.hpp</label>
+      </node>
+      <node id="44">
+        <label>system_error</label>
+      </node>
+      <node id="13">
+        <label>tuple</label>
+      </node>
+      <node id="15">
+        <label>type_traits</label>
+      </node>
+      <node id="26">
+        <label>utility</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/test/fixture.hpp</label>
+        <link refid="basic__statistics_2test_2fixture_8hpp_source"/>
+      </node>
+      <node id="4">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/covariance/test/fixture.hpp</label>
+        <link refid="covariance_2test_2fixture_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/test/data.hpp</label>
+        <link refid="dbscan_2test_2data_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/test/fixture.hpp</label>
+        <link refid="dbscan_2test_2fixture_8hpp_source"/>
+      </node>
+      <node id="16">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/test/spmd_backend_fixture.hpp</label>
+        <link refid="dbscan_2test_2spmd__backend__fixture_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/test/spmd_backend_template.hpp</label>
+        <link refid="dbscan_2test_2spmd__backend__template_8hpp_source"/>
+      </node>
+      <node id="17">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp</label>
+        <link refid="decision__forest_2test_2fixture_8hpp_source"/>
+      </node>
+      <node id="8">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/test/data.hpp</label>
+        <link refid="kmeans_2test_2data_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/test/fixture.hpp</label>
+        <link refid="kmeans_2test_2fixture_8hpp_source"/>
+      </node>
+      <node id="10">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/test/spmd_backend_fixture.hpp</label>
+        <link refid="kmeans_2test_2spmd__backend__fixture_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans/test/spmd_backend_template.hpp</label>
+        <link refid="kmeans_2test_2spmd__backend__template_8hpp_source"/>
+      </node>
+      <node id="18">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/test/fixture.hpp</label>
+        <link refid="kmeans__init_2test_2fixture_8hpp_source"/>
+      </node>
+      <node id="19">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/knn/test/fixture.hpp</label>
+        <link refid="knn_2test_2fixture_8hpp_source"/>
+      </node>
+      <node id="20">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/test/fixture.hpp</label>
+        <link refid="linear__regression_2test_2fixture_8hpp_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/test/spmd_backend_template.hpp</label>
+        <link refid="linear__regression_2test_2spmd__backend__template_8hpp_source"/>
+      </node>
+      <node id="22">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/test/fixture.hpp</label>
+        <link refid="logistic__regression_2test_2fixture_8hpp_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/test/spmd_fixture.hpp</label>
+        <link refid="spmd__fixture_8hpp_source"/>
+      </node>
+      <node id="12">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/objective_function/test/fixture.hpp</label>
+        <link refid="objective__function_2test_2fixture_8hpp_source"/>
+      </node>
+      <node id="13">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/test/fixture.hpp</label>
+        <link refid="pca_2test_2fixture_8hpp_source"/>
+      </node>
+      <node id="2">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe.hpp</label>
+        <link refid="dataframe_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp</label>
+        <link refid="dataframe__actions_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp</label>
+        <link refid="dataframe__common_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp</label>
+        <link refid="dataframe__math_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp</label>
+        <link refid="fixtures_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1table__id" prot="public">oneapi::dal::test::engine::table_id</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__impl" prot="public">oneapi::dal::test::engine::dataframe_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" prot="public">oneapi::dal::test::engine::dataframe</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action" prot="public">oneapi::dal::test::engine::dataframe_builder_action</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__program" prot="public">oneapi::dal::test::engine::dataframe_builder_program</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl" prot="public">oneapi::dal::test::engine::dataframe_builder_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder" prot="public">oneapi::dal::test::engine::dataframe_builder</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1test">oneapi::dal::test</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1test_1_1engine">oneapi::dal::test::engine</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dataframe__common_8hpp_1a42ac10a0214c730bffb2e2ee13f6ffd1" prot="public" static="no">
+        <name>GENERATE_DATAFRAME</name>
+        <param><defname>...</defname></param>
+        <initializer>    GENERATE_COPY(as&lt;<ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder" kindref="compound">oneapi::dal::test::engine::dataframe_builder</ref>&gt;{}, __VA_ARGS__).build()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="32" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" bodystart="32" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::primitives::ndarray_base</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview" prot="public" virt="non-virtual">ndview&lt; T, axis_count, order &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>std::int64_t</type>
+        <declname>axis_count</declname>
+        <defname>axis_count</defname>
+      </param>
+      <param>
+        <type>ndorder</type>
+        <declname>order</declname>
+        <defname>order</defname>
+        <defval>ndorder::c</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a487e7a87b98c3940a0dbb65b77952a50" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::int64_t</type>
+        <definition>constexpr std::int64_t axis_count_v</definition>
+        <argsstring></argsstring>
+        <name>axis_count_v</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::axis_count_v</qualifiedname>
+        <initializer>= axis_count</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="54" column="35" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a40fea616a0589a5002cc70c51981bf96" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt;</type>
+        <definition>ndshape&lt;axis_count&gt; shape_</definition>
+        <argsstring></argsstring>
+        <name>shape_</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::shape_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="166" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1aa82e47098279cbe80d22ed80747b2aab" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt;</type>
+        <definition>ndshape&lt;axis_count&gt; strides_</definition>
+        <argsstring></argsstring>
+        <name>strides_</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::strides_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="167" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="167" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a0f76e0aaee0118e124cceecb1f71d798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ndarray_base</definition>
+        <argsstring>()=default</argsstring>
+        <name>ndarray_base</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::ndarray_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="56" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1aab64f5a9bb5edb1615cb980d001acb21" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ndarray_base</definition>
+        <argsstring>(const ndshape&lt; axis_count &gt; &amp;shape, const ndshape&lt; axis_count &gt; &amp;strides)</argsstring>
+        <name>ndarray_base</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::ndarray_base</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt; &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt; &amp;</type>
+          <declname>strides</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="58" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="58" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a0dfb01dcb05713da4db9aaee77e3d420" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ndarray_base</definition>
+        <argsstring>(const ndshape&lt; axis_count &gt; &amp;shape)</argsstring>
+        <name>ndarray_base</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::ndarray_base</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt; &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="77" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="77" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a6b5068b06d2cbba73b0351f20d9c6efa" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr ndorder</type>
+        <definition>constexpr ndorder get_order</definition>
+        <argsstring>() const</argsstring>
+        <name>get_order</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::get_order</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="80" column="23" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1add8b1ca78e1f7495188c8835020d22e5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt; &amp;</type>
+        <definition>const ndshape&lt; axis_count &gt; &amp; get_shape</definition>
+        <argsstring>() const</argsstring>
+        <name>get_shape</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::get_shape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="84" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a6357c3905cdfdbbb306ccedf7f3952b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt; &amp;</type>
+        <definition>const ndshape&lt; axis_count &gt; &amp; get_strides</definition>
+        <argsstring>() const</argsstring>
+        <name>get_strides</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::get_strides</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="88" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1ae9b9b86ea8b39bd31c4da6eeaece7a03" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_dimension</definition>
+        <argsstring>(std::int64_t axis) const</argsstring>
+        <name>get_dimension</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::get_dimension</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="92" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a87a0fc3f51eb0fa8469980dab14dccb7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_stride</definition>
+        <argsstring>(std::int64_t axis) const</argsstring>
+        <name>get_stride</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::get_stride</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="96" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a640e66e58bbe6c590d43ad503100c007" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_leading_stride</definition>
+        <argsstring>() const</argsstring>
+        <name>get_leading_stride</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::get_leading_stride</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="100" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="100" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a3469aa510a6f2614bc925dfaa581d7d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_count</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::get_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="110" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a5c3eb63b2e1624d00bd5f3cf843da2ee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Indices</declname>
+            <defname>Indices</defname>
+          </param>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_flat_index</definition>
+        <argsstring>(Indices &amp;&amp;... indices) const</argsstring>
+        <name>get_flat_index</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::get_flat_index</qualifiedname>
+        <param>
+          <type>Indices &amp;&amp;...</type>
+          <declname>indices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="115" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="115" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a3628771fc9d1936334c6aa7530cc41f2" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt;</type>
+        <definition>static ndshape&lt; axis_count &gt; get_default_strides</definition>
+        <argsstring>(const ndshape&lt; axis_count &gt; &amp;shape)</argsstring>
+        <name>get_default_strides</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::get_default_strides</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndshape" kindref="compound">ndshape</ref>&lt; axis_count &gt; &amp;</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="131" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="131" bodyend="153"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a1e67c90a30a3b5c417a1c75bbe05c7a9" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_if_strides_are_default</definition>
+        <argsstring>() const</argsstring>
+        <name>check_if_strides_are_default</name>
+        <qualifiedname>oneapi::dal::backend::primitives::ndarray_base::check_if_strides_are_default</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="155" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="155" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ndarray_base&lt; axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ndview&lt; T, axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ndarray_base&lt; axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" line="49" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndarray.hpp" bodystart="49" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a487e7a87b98c3940a0dbb65b77952a50" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>axis_count_v</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a1e67c90a30a3b5c417a1c75bbe05c7a9" prot="protected" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>check_if_strides_are_default</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a3469aa510a6f2614bc925dfaa581d7d7" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>get_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a3628771fc9d1936334c6aa7530cc41f2" prot="protected" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>get_default_strides</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1ae9b9b86ea8b39bd31c4da6eeaece7a03" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>get_dimension</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a5c3eb63b2e1624d00bd5f3cf843da2ee" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>get_flat_index</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a640e66e58bbe6c590d43ad503100c007" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>get_leading_stride</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a6b5068b06d2cbba73b0351f20d9c6efa" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>get_order</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1add8b1ca78e1f7495188c8835020d22e5" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>get_shape</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a87a0fc3f51eb0fa8469980dab14dccb7" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>get_stride</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a6357c3905cdfdbbb306ccedf7f3952b0" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>get_strides</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a0f76e0aaee0118e124cceecb1f71d798" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>ndarray_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1aab64f5a9bb5edb1615cb980d001acb21" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>ndarray_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a0dfb01dcb05713da4db9aaee77e3d420" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>ndarray_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1a40fea616a0589a5002cc70c51981bf96" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>shape_</name></member>
+      <member refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base_1aa82e47098279cbe80d22ed80747b2aab" prot="private" virt="non-virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>strides_</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::backend::primitives::ndarray_base</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

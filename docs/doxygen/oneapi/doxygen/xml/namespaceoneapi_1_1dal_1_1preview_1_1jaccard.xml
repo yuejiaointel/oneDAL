@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1preview_1_1jaccard" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::preview::jaccard</compoundname>
+    <innerclass refid="structoneapi_1_1dal_1_1preview_1_1jaccard_1_1caching__builder" prot="public">oneapi::dal::preview::jaccard::caching_builder</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1jaccard_1_1descriptor" prot="public">oneapi::dal::preview::jaccard::descriptor</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1jaccard_1_1vertex__similarity__input" prot="public">oneapi::dal::preview::jaccard::vertex_similarity_input</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1jaccard_1_1vertex__similarity__result" prot="public">oneapi::dal::preview::jaccard::vertex_similarity_result</innerclass>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1jaccard_1_1detail">oneapi::dal::preview::jaccard::detail</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1jaccard_1_1method">oneapi::dal::preview::jaccard::method</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1preview_1_1jaccard_1_1task">oneapi::dal::preview::jaccard::task</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/jaccard/common.hpp" line="22" column="1"/>
+  </compounddef>
+</doxygen>

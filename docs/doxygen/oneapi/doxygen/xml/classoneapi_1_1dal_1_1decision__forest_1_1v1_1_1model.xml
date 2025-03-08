@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_forest::v1::model</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <includes refid="algo_2decision__forest_2common_8hpp" local="no">common.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1af6752b05b00b9f28930767b0f1226386" prot="private" static="no">
+        <type>detail::decision_tree_task_map_t&lt; Task &gt;</type>
+        <definition>using dtree_task_t =  detail::decision_tree_task_map_t&lt;Task&gt;</definition>
+        <argsstring></argsstring>
+        <name>dtree_task_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::dtree_task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="617" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="617" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1ae7a90e3838a557230d9c58170590daa6" prot="private" static="no">
+        <type>detail::decision_tree_visitor_ptr&lt; Task &gt;</type>
+        <definition>using dtree_visitor_iface_t =  detail::decision_tree_visitor_ptr&lt;Task&gt;</definition>
+        <argsstring></argsstring>
+        <name>dtree_visitor_iface_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::dtree_visitor_iface_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="618" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="618" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="621" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="621" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a400dda27e31b8c65d80214d03ef5dbd4" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1model__impl" kindref="compound">detail::model_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::model_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="707" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="707" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1af758be52317607e28c2b633561d322f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>()</argsstring>
+        <name>model</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::model</qualifiedname>
+        <briefdescription>
+<para>Creates a new instance of the class with the default property values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="624" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1abbd3c88cd36a89e75a6a641a33fbdb5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_tree_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_tree_count</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::get_tree_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of trees in the forest. <simplesect kind="invariant"><para>:expr:<computeroutput>tree_count &gt; 0</computeroutput> </para>
+</simplesect>
+<simplesect kind="remark"><para>default = 100 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="629" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a78831edf1737f68189548d2ef2834b89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_classification_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_class_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_class_count</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::get_class_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The class count. Used with :expr:<computeroutput>oneapi::dal::decision_forest::task::classification</computeroutput> only. <simplesect kind="remark"><para>default = 2 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="634" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="634" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1af6beed2b429e8bee80c1f440bb2181f6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Visitor</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void traverse_depth_first</definition>
+        <argsstring>(std::int64_t tree_idx, Visitor &amp;&amp;visitor) const</argsstring>
+        <name>traverse_depth_first</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::traverse_depth_first</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>tree_idx</declname>
+        </param>
+        <param>
+          <type>Visitor &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs Depth First Traversal of i-th tree <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tree_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the tree to traverse </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">visitor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This functor gets notified when tree nodes are visited, via corresponding operators: bool operator()(const decision_forest::split_node_info&lt;Task&gt;&amp;) bool operator()(const decision_forest::leaf_node_info&lt;Task&gt;&amp;) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="644" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="644" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a2a8f2fe48cdc46365a43dca0cf02b45c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename Visitor</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void traverse_depth_first</definition>
+        <argsstring>(T &amp;&amp;visitor_array) const</argsstring>
+        <name>traverse_depth_first</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::traverse_depth_first</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>visitor_array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs Depth First Traversal for all trees <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">visitor_array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This an array of functors which are notified when tree nodes are visited, via corresponding operators: bool operator()(const decision_forest::split_node_info&lt;Task&gt;&amp;) bool operator()(const decision_forest::leaf_node_info&lt;Task&gt;&amp;) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="656" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="656" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a0d14fcb38f2060c5fd0e5f5e82255282" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Visitor</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void traverse_breadth_first</definition>
+        <argsstring>(std::int64_t tree_idx, Visitor &amp;&amp;visitor) const</argsstring>
+        <name>traverse_breadth_first</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::traverse_breadth_first</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>tree_idx</declname>
+        </param>
+        <param>
+          <type>Visitor &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs Breadth First Traversal of i-th tree <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tree_idx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the tree to traverse </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">visitor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This functor gets notified when tree nodes are visited, via corresponding operators: bool operator()(const decision_forest::split_node_info&lt;Task&gt;&amp;) bool operator()(const decision_forest::leaf_node_info&lt;Task&gt;&amp;) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="673" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="673" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a460d416e1859cb1ff8ca4f7966ea91f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename Visitor</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void traverse_breadth_first</definition>
+        <argsstring>(T &amp;&amp;visitor_array) const</argsstring>
+        <name>traverse_breadth_first</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::traverse_breadth_first</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>visitor_array</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs Breadth First Traversal for all trees <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">visitor_array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This an array of functors which are notified when tree nodes are visited, via corresponding operators: bool operator()(const decision_forest::split_node_info&lt;Task&gt;&amp;) bool operator()(const decision_forest::leaf_node_info&lt;Task&gt;&amp;) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="685" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="685" bodyend="694"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a851e0b9cf83c39180bff66981656ded9" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_class_count_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_class_count_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::get_class_count_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="697" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a2e114b4592ae3018ba645a2275f116dd" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void traverse_depth_first_impl</definition>
+        <argsstring>(std::int64_t tree_idx, dtree_visitor_iface_t &amp;&amp;visitor) const</argsstring>
+        <name>traverse_depth_first_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::traverse_depth_first_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>tree_idx</declname>
+        </param>
+        <param>
+          <type>dtree_visitor_iface_t &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="699" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a42013a3dd42f916d3ce5feef778752ba" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void traverse_breadth_first_impl</definition>
+        <argsstring>(std::int64_t tree_idx, dtree_visitor_iface_t &amp;&amp;visitor) const</argsstring>
+        <name>traverse_breadth_first_impl</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::traverse_breadth_first_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>tree_idx</declname>
+        </param>
+        <param>
+          <type>dtree_visitor_iface_t &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="700" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a290e88ba907919d82bb04d157b44713a" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void serialize</definition>
+        <argsstring>(dal::detail::output_archive &amp;ar) const</argsstring>
+        <name>serialize</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::serialize</qualifiedname>
+        <param>
+          <type>dal::detail::output_archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="703" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1ac29265dd84768a21a5874c7721957456" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void deserialize</definition>
+        <argsstring>(dal::detail::input_archive &amp;ar)</argsstring>
+        <name>deserialize</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::deserialize</qualifiedname>
+        <param>
+          <type>dal::detail::input_archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="704" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a1b066fec85eaf7b15e1bbde8a1c9594d" prot="private" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>model</definition>
+        <argsstring>(const std::shared_ptr&lt; detail::model_impl&lt; Task &gt; &gt; &amp;impl)</argsstring>
+        <name>model</name>
+        <qualifiedname>oneapi::dal::decision_forest::v1::model::model</qualifiedname>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1model__impl" kindref="compound">detail::model_impl</ref>&lt; Task &gt; &gt; &amp;</type>
+          <declname>impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="706" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies the type of the problem to solve. Can be :expr:<computeroutput>task::classification</computeroutput> or :expr:<computeroutput>task::regression</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>model&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>model&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="612" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="612" bodyend="708"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1ac29265dd84768a21a5874c7721957456" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>deserialize</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1af6752b05b00b9f28930767b0f1226386" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>dtree_task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1ae7a90e3838a557230d9c58170590daa6" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>dtree_visitor_iface_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a78831edf1737f68189548d2ef2834b89" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>get_class_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a851e0b9cf83c39180bff66981656ded9" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>get_class_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1abbd3c88cd36a89e75a6a641a33fbdb5d" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>get_tree_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a400dda27e31b8c65d80214d03ef5dbd4" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1af758be52317607e28c2b633561d322f6" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>model</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a1b066fec85eaf7b15e1bbde8a1c9594d" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>model</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a290e88ba907919d82bb04d157b44713a" prot="private" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>serialize</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a0d14fcb38f2060c5fd0e5f5e82255282" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>traverse_breadth_first</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a460d416e1859cb1ff8ca4f7966ea91f5" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>traverse_breadth_first</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a42013a3dd42f916d3ce5feef778752ba" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>traverse_breadth_first_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1af6beed2b429e8bee80c1f440bb2181f6" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>traverse_depth_first</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a2a8f2fe48cdc46365a43dca0cf02b45c" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>traverse_depth_first</name></member>
+      <member refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model_1a2e114b4592ae3018ba645a2275f116dd" prot="protected" virt="non-virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>traverse_depth_first_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::decision_forest::v1::model</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

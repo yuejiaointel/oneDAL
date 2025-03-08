@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::crtp_algo_fixture</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture" prot="public" virt="non-virtual">oneapi::dal::test::engine::crtp_base_algo_fixture&lt; TestType, Derived &gt;</basecompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1linear__regression_1_1test_1_1lr__test" prot="public" virt="non-virtual">lr_test&lt; TestType, lr_spmd_test&lt; TestType &gt; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1logistic__regression_1_1test_1_1log__reg__test" prot="public" virt="non-virtual">log_reg_test&lt; TestType, log_reg_spmd_test&lt; TestType &gt; &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test" prot="public" virt="non-virtual">basic_statistics_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1covariance_1_1test_1_1covariance__test" prot="public" virt="non-virtual">covariance_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1dbscan_1_1test_1_1dbscan__test" prot="public" virt="non-virtual">dbscan_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test" prot="public" virt="non-virtual">df_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1kmeans_1_1test_1_1kmeans__test" prot="public" virt="non-virtual">kmeans_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1kmeans__init_1_1test_1_1kmeans__init__test" prot="public" virt="non-virtual">kmeans_init_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test" prot="public" virt="non-virtual">knn_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1linear__regression_1_1test_1_1lr__test" prot="public" virt="non-virtual">lr_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1logistic__regression_1_1test_1_1log__reg__test" prot="public" virt="non-virtual">log_reg_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1objective__function_1_1test_1_1logloss__test" prot="public" virt="non-virtual">logloss_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1pca_1_1test_1_1pca__test" prot="public" virt="non-virtual">pca_test&lt; TestType, Derived &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename TestType</type>
+      </param>
+      <param>
+        <type>typename Derived</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a3bc6bb64c716348cea45a78f281843be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto train_via_spmd_threads</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>train_via_spmd_threads</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::train_via_spmd_threads</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="292" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="292" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fc841dae09ff56d51ecdeeb678139dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto train_via_spmd_threads_and_merge</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>train_via_spmd_threads_and_merge</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::train_via_spmd_threads_and_merge</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="321" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="321" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fb19ae9f8ecaf3c4e521391fb560bde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto finalize_train_via_spmd_threads</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>finalize_train_via_spmd_threads</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::finalize_train_via_spmd_threads</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="333" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="333" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a6f7983b21f53d22485e6fef1af3bbf92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto finalize_train_via_spmd_threads_and_merge</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>finalize_train_via_spmd_threads_and_merge</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::finalize_train_via_spmd_threads_and_merge</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="364" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="364" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afe2fd9a0e7f017a0593fc2e062f96280" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto compute_via_spmd_threads</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>compute_via_spmd_threads</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::compute_via_spmd_threads</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="376" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="376" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a846e74572aabf08ac8ec1b55aa9865e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto compute_via_spmd_threads_and_merge</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>compute_via_spmd_threads_and_merge</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::compute_via_spmd_threads_and_merge</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="407" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="407" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1ab78b4384841a391350222d38a71989ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto finalize_compute_via_spmd_threads</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>finalize_compute_via_spmd_threads</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::finalize_compute_via_spmd_threads</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="419" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="419" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a91ee6fceea739e3b3dde9a295f84fbbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto finalize_compute_via_spmd_threads_and_merge</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>finalize_compute_via_spmd_threads_and_merge</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::finalize_compute_via_spmd_threads_and_merge</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="450" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="450" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afa99ce660b78dc6381d265d6bc5c0ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto infer_via_spmd_threads</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>infer_via_spmd_threads</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::infer_via_spmd_threads</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="462" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="462" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1aab4216cdc871583a7ae486c5a3cbf34f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Descriptor</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto infer_via_spmd_threads_and_merge</definition>
+        <argsstring>(std::int64_t thread_count, const Descriptor &amp;desc, Args &amp;&amp;... args)</argsstring>
+        <name>infer_via_spmd_threads_and_merge</name>
+        <qualifiedname>oneapi::dal::test::engine::crtp_algo_fixture::infer_via_spmd_threads_and_merge</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>thread_count</declname>
+        </param>
+        <param>
+          <type>const Descriptor &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="491" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="491" bodyend="500"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>crtp_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>float_algo_fixture&lt; std::tuple_element_t&lt; 0, TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>log_reg_test&lt; TestType, log_reg_spmd_test&lt; TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1logistic__regression_1_1test_1_1log__reg__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>lr_test&lt; TestType, lr_spmd_test&lt; TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__regression_1_1test_1_1lr__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>basic_statistics_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1test_1_1basic__statistics__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>covariance_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1covariance_1_1test_1_1covariance__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>dbscan_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1dbscan_1_1test_1_1dbscan__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>df_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1test_1_1df__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>kmeans_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1kmeans_1_1test_1_1kmeans__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>kmeans_init_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1kmeans__init_1_1test_1_1kmeans__init__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>knn_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1knn_1_1test_1_1knn__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>lr_spmd_test&lt; TestType &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__regression_1_1test_1_1lr__spmd__test"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>lr_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__regression_1_1test_1_1lr__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>log_reg_spmd_test&lt; TestType &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1logistic__regression_1_1test_1_1log__reg__spmd__test"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>log_reg_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1logistic__regression_1_1test_1_1log__reg__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>logloss_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1objective__function_1_1test_1_1logloss__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>pca_test&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1pca_1_1test_1_1pca__test"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>crtp_base_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>crtp_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>float_algo_fixture&lt; std::tuple_element_t&lt; 0, TestType &gt; &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>algo_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>crtp_base_algo_fixture&lt; TestType, Derived &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>policy_fixture</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" line="286" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/fixtures.hpp" bodystart="286" bodyend="501"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a47e0976672a17441594551ce187a42fb" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a94f22290cc3d23e51bf7d30d569628ce" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a7512faf980955c840eda7d26ff607134" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afe2fd9a0e7f017a0593fc2e062f96280" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>compute_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a846e74572aabf08ac8ec1b55aa9865e7" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>compute_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ad89ea821951f979c65f34120555f1ebf" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>derived</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a7a703a9d746f80d1f1bb684274e9054b" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>derived_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a98e68b95a18f894c9705226a01f3619c" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>finalize_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1af509567b3a24d60f43ac5e68225df6ea" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>finalize_compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1ab78b4384841a391350222d38a71989ca" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>finalize_compute_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a91ee6fceea739e3b3dde9a295f84fbbf" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>finalize_compute_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a1ddff1057e1c77615717643fabd710da" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>finalize_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ab63fb783388a7caab10158bbe1c4f320" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>finalize_train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fb19ae9f8ecaf3c4e521391fb560bde" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>finalize_train_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a6f7983b21f53d22485e6fef1af3bbf92" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>finalize_train_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ac326cc316db45ea7e8a439c7b06c4cb1" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a6be1d4cc18b35cecc28a4883638e9204" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>get_homogen_table_id</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1ad5b4f390efae39c68f92df90353b5ca8" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>get_policy</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture_1a2db053a584a93e0d852f86ee02750992" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>get_queue</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a1769a758869aeeed2df2d90ad6c5bd7b" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>infer</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a99902a786318586ae7135865bd37504a" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>infer_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1afa99ce660b78dc6381d265d6bc5c0ac4" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>infer_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1aab4216cdc871583a7ae486c5a3cbf34f" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>infer_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a163bd2487ff1fd422798cd3bd9fbbdb1" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>merge_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1af0c5aa299637b51f9f770fd5318149f2" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>merge_compute_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a14cc53d7c932692aa33e4ddff6937437" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>merge_finalize_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a3411c600dcc18c2fcff5930e43474ed9" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>merge_finalize_compute_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1aab5e6e48d85bec4329368ff5ab783234" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>merge_finalize_train_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1aa7f33d78b74650dd71d9512e5e6213ae" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>merge_infer_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a46370c114f72f7cbf3e12022f1e8ea94" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>merge_infer_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a928e7542d7a3f0bdb9bf71ec1fac1314" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>merge_train_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a96895ee7ca7beb657d42d7f44cc0e505" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>merge_train_result_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture_1a7ae0ebe89b0dc86c3febaead54efdd44" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>not_float64_friendly</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ac3c45f1572b279a5d6f74a6548d0a104" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>partial_compute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a8d74106df88dca7a52c1e0efd268617e" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>partial_compute_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a6d64f595fca38a8c16bce504ce20b0c2" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>partial_train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a376eff5b483f54b63c186b7c294fd950" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>partial_train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1afcb54598e7c58188a35c3eb79d54bed4" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>partial_train_with_parameters</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a815bc11016e94bfc56362972bf4899c3" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>split_compute_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a681ab37ab9bbb635dfda6c3e32093216" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>split_compute_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a59f28edc3d1d2dc30eae5d23c2f6ced0" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>split_finalize_compute_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a4a3cdda7f9b045718e8119c1130d96b7" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>split_finalize_compute_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ae8f43835cbbdafdfd1006ac4bcf1b002" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>split_finalize_train_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a15b054f68d10cca541ef19f3c93aedc9" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>split_infer_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a3be0322fad50f3ff364db8673245e6e9" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>split_infer_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a817835eeb02cc5122cc38408d5f46c14" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>split_train_input</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1abc343e4dec6108c883424787bf6ca4e6" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>split_train_input_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1a78b584fe4368d4320992381407f46b5c" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>train</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture_1ae66f1418bb3c5e55678da710125bebef" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>train_override</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a3bc6bb64c716348cea45a78f281843be" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>train_via_spmd_threads</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture_1a9fc841dae09ff56d51ecdeeb678139dd" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>train_via_spmd_threads_and_merge</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture_1a596f6a2f2ffff25aa8ffa9b4151f7257" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::crtp_algo_fixture</scope><name>train_with_parameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="transfer_8hpp" kind="file" language="C++">
+    <compoundname>transfer.hpp</compoundname>
+    <includes refid="array_8hpp" local="yes">oneapi/dal/array.hpp</includes>
+    <includes local="yes">oneapi/dal/backend/memory.hpp</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>oneapi/dal/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp</label>
+        <link refid="transfer_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>oneapi/dal/backend/memory.hpp</label>
+      </node>
+      <node id="3">
+        <label>oneapi/dal/detail/array_impl.hpp</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1backend">oneapi::dal::backend</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/transfer.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1965 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1test_1_1engine" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::test::engine</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1algo__fixture" prot="public">oneapi::dal::test::engine::algo_fixture</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics" prot="public">oneapi::dal::test::engine::basic_statistics</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1ccl__backend" prot="public">oneapi::dal::test::engine::ccl_backend</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types" prot="public">oneapi::dal::test::engine::combine_types</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_3_01_first_00_01_second_01_4" prot="public">oneapi::dal::test::engine::combine_types&lt; First, Second &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types_3_01_tuple_01_4" prot="public">oneapi::dal::test::engine::combine_types&lt; Tuple &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d" prot="public">oneapi::dal::test::engine::combine_types_element_2d</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__algo__fixture" prot="public">oneapi::dal::test::engine::crtp_algo_fixture</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__base__algo__fixture" prot="public">oneapi::dal::test::engine::crtp_base_algo_fixture</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1crtp__spmd__backend__algo__fixture" prot="public">oneapi::dal::test::engine::crtp_spmd_backend_algo_fixture</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs" prot="public">oneapi::dal::test::engine::csr_make_blobs</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder" prot="public">oneapi::dal::test::engine::csr_table_builder</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" prot="public">oneapi::dal::test::engine::dataframe</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder" prot="public">oneapi::dal::test::engine::dataframe_builder</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action" prot="public">oneapi::dal::test::engine::dataframe_builder_action</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__allocate" prot="public">oneapi::dal::test::engine::dataframe_builder_action_allocate</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill" prot="public">oneapi::dal::test::engine::dataframe_builder_action_fill</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__diag" prot="public">oneapi::dal::test::engine::dataframe_builder_action_fill_diag</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal" prot="public">oneapi::dal::test::engine::dataframe_builder_action_fill_normal</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__uniform" prot="public">oneapi::dal::test::engine::dataframe_builder_action_fill_uniform</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__read__external__dataset" prot="public">oneapi::dal::test::engine::dataframe_builder_action_read_external_dataset</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__impl" prot="public">oneapi::dal::test::engine::dataframe_builder_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__program" prot="public">oneapi::dal::test::engine::dataframe_builder_program</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__impl" prot="public">oneapi::dal::test::engine::dataframe_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" prot="public">oneapi::dal::test::engine::device_test_policy</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dummy__table" prot="public">oneapi::dal::test::engine::dummy_table</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dummy__table__impl" prot="public">oneapi::dal::test::engine::dummy_table_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1float__algo__fixture" prot="public">oneapi::dal::test::engine::float_algo_fixture</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1global__config" prot="public">oneapi::dal::test::engine::global_config</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1global__setup__action" prot="public">oneapi::dal::test::engine::global_setup_action</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" prot="public">oneapi::dal::test::engine::host_test_policy</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry" prot="public">oneapi::dal::test::engine::mock_archive_entry</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state" prot="public">oneapi::dal::test::engine::mock_archive_state</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader" prot="public">oneapi::dal::test::engine::mock_archive_state_reader</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__input__archive" prot="public">oneapi::dal::test::engine::mock_input_archive</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__output__archive" prot="public">oneapi::dal::test::engine::mock_output_archive</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1mpi__backend" prot="public">oneapi::dal::test::engine::mpi_backend</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1policy__fixture" prot="public">oneapi::dal::test::engine::policy_fixture</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1table__id" prot="public">oneapi::dal::test::engine::table_id</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1test__queue__provider" prot="public">oneapi::dal::test::engine::test_queue_provider</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator" prot="public">oneapi::dal::test::engine::thread_communicator</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather" prot="public">oneapi::dal::test::engine::thread_communicator_allgather</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgatherv" prot="public">oneapi::dal::test::engine::thread_communicator_allgatherv</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allreduce" prot="public">oneapi::dal::test::engine::thread_communicator_allreduce</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__barrier" prot="public">oneapi::dal::test::engine::thread_communicator_barrier</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__bcast" prot="public">oneapi::dal::test::engine::thread_communicator_bcast</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__context" prot="public">oneapi::dal::test::engine::thread_communicator_context</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__gather" prot="public">oneapi::dal::test::engine::thread_communicator_gather</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__impl" prot="public">oneapi::dal::test::engine::thread_communicator_impl</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__sendrecv__replace" prot="public">oneapi::dal::test::engine::thread_communicator_sendrecv_replace</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1type2str" prot="public">oneapi::dal::test::engine::type2str</innerclass>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1test_1_1engine_1_1linalg">oneapi::dal::test::engine::linalg</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1test_1_1engine_1_1mkl">oneapi::dal::test::engine::mkl</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="dataframe__common_8hpp_1a09be444f6ae9bf4fcfd1ae9bdd26f248" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>table_kind</name>
+        <qualifiedname>oneapi::dal::test::engine::table_kind</qualifiedname>
+        <enumvalue id="dataframe__common_8hpp_1a09be444f6ae9bf4fcfd1ae9bdd26f248a85a725885c97a18495b9bbaab7a51f98" prot="public">
+          <name>homogen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="35" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="enum" id="dataframe__common_8hpp_1a923620da88c6bbc006d2d8b11770ed30" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>table_float_type</name>
+        <qualifiedname>oneapi::dal::test::engine::table_float_type</qualifiedname>
+        <enumvalue id="dataframe__common_8hpp_1a923620da88c6bbc006d2d8b11770ed30a512dc597be7ae761876315165dc8bd2e" prot="public">
+          <name>f32</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dataframe__common_8hpp_1a923620da88c6bbc006d2d8b11770ed30a714b98e0a797e8f119f257a4ab802f86" prot="public">
+          <name>f64</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" line="37" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_common.hpp" bodystart="37" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="type__traits_8hpp_1a4f340e5ca2f47c544fbd3e30b2141f5f" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>std::size_t</type>
+            <declname>index</declname>
+            <defname>index</defname>
+          </param>
+          <param>
+            <type>typename TupleX</type>
+          </param>
+          <param>
+            <type>typename TupleY</type>
+          </param>
+        </templateparamlist>
+        <type>typename <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types__element__2d" kindref="compound">combine_types_element_2d</ref>&lt; index, TupleX, TupleY &gt;::type</type>
+        <definition>using combine_types_element_2d_t =  typename combine_types_element_2d&lt;index, TupleX, TupleY&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>combine_types_element_2d_t</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types_element_2d_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="79" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="type__traits_8hpp_1a9ffca898126bac014d821eba7cba630b" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Tuples</declname>
+            <defname>Tuples</defname>
+          </param>
+        </templateparamlist>
+        <type>typename <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1combine__types" kindref="compound">combine_types</ref>&lt; Tuples... &gt;::type</type>
+        <definition>using combine_types_t =  typename combine_types&lt;Tuples...&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>combine_types_t</name>
+        <qualifiedname>oneapi::dal::test::engine::combine_types_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" line="125" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/type_traits.hpp" bodystart="125" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="ccl__global_8hpp_1a9c0c22a1b8a591cae96473b8bdb1d61d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::none &gt;</type>
+        <definition>spmd::communicator&lt; spmd::device_memory_access::none &gt; get_global_ccl_host_communicator</definition>
+        <argsstring>()</argsstring>
+        <name>get_global_ccl_host_communicator</name>
+        <qualifiedname>oneapi::dal::test::engine::get_global_ccl_host_communicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/ccl_global.hpp" line="27" column="20" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/ccl_global.hpp" declline="27" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="ccl__global_8hpp_1a905b8c0e1f00b759c137a3c9fc8c0254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::usm &gt;</type>
+        <definition>spmd::communicator&lt; spmd::device_memory_access::usm &gt; get_global_ccl_device_communicator</definition>
+        <argsstring>(sycl::queue &amp;)</argsstring>
+        <name>get_global_ccl_device_communicator</name>
+        <qualifiedname>oneapi::dal::test::engine::get_global_ccl_device_communicator</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/ccl_global.hpp" line="29" column="20" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/ccl_global.hpp" declline="29" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a801d74e2b0c8628c046c323abd26ad4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void register_global_setup</definition>
+        <argsstring>(const std::string &amp;name, global_setup_action *action)</argsstring>
+        <name>register_global_setup</name>
+        <qualifiedname>oneapi::dal::test::engine::register_global_setup</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1global__setup__action" kindref="compound">global_setup_action</ref> *</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="163" column="6" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" declline="163" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a67f69dcb46f2e60e9d783d5e46ac505c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init_global_setup_actions</definition>
+        <argsstring>(const global_config &amp;config)</argsstring>
+        <name>init_global_setup_actions</name>
+        <qualifiedname>oneapi::dal::test::engine::init_global_setup_actions</qualifiedname>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1global__config" kindref="compound">global_config</ref> &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="165" column="6" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" declline="165" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a5959896416f61649db2b44621ff22d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tear_down_global_setup_actions</definition>
+        <argsstring>()</argsstring>
+        <name>tear_down_global_setup_actions</name>
+        <qualifiedname>oneapi::dal::test::engine::tear_down_global_setup_actions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="167" column="6" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" declline="167" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1acb349e76e197de0ddfcad53907d26b48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto train</definition>
+        <argsstring>(host_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>train</name>
+        <qualifiedname>oneapi::dal::test::engine::train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="185" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="185" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a1c0da0b39585a33a2d0e927361d7fa78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto infer</definition>
+        <argsstring>(host_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>infer</name>
+        <qualifiedname>oneapi::dal::test::engine::infer</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="190" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="190" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1ae9d10b645624715a6995a32a27b65f5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto compute</definition>
+        <argsstring>(host_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>compute</name>
+        <qualifiedname>oneapi::dal::test::engine::compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="195" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="195" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a67f4bd3caef7a32cef72dcd752c6cdfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto partial_compute</definition>
+        <argsstring>(host_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>partial_compute</name>
+        <qualifiedname>oneapi::dal::test::engine::partial_compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="200" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="200" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a4fbf319c71fb6f43fff5e7829f312ab9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto finalize_compute</definition>
+        <argsstring>(host_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>finalize_compute</name>
+        <qualifiedname>oneapi::dal::test::engine::finalize_compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="205" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="205" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1af08bb69f7ae5b567541c757da52f6c6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto partial_train</definition>
+        <argsstring>(host_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>partial_train</name>
+        <qualifiedname>oneapi::dal::test::engine::partial_train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="210" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="210" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1ad0e7f02a27478a6e32aaad806dbafcd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto finalize_train</definition>
+        <argsstring>(host_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>finalize_train</name>
+        <qualifiedname>oneapi::dal::test::engine::finalize_train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="215" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="215" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1aef471bef35c7b1f9b6bdb8f904eeb057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const sycl::queue &amp;</type>
+        <definition>const sycl::queue &amp; get_global_queue</definition>
+        <argsstring>()</argsstring>
+        <name>get_global_queue</name>
+        <qualifiedname>oneapi::dal::test::engine::get_global_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="244" column="26" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="244" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a1b1ad93bb66b90d927faa6d28fab2e14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto train</definition>
+        <argsstring>(device_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>train</name>
+        <qualifiedname>oneapi::dal::test::engine::train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="273" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="273" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a36fd72bbb45e8bc65b9e0debdb57ad31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto infer</definition>
+        <argsstring>(device_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>infer</name>
+        <qualifiedname>oneapi::dal::test::engine::infer</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="278" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="278" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a87d2199077a0537e582c08fa7ccbffca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto compute</definition>
+        <argsstring>(device_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>compute</name>
+        <qualifiedname>oneapi::dal::test::engine::compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="283" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="283" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a7515a31901373580e948bf0e4ab47f66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto partial_compute</definition>
+        <argsstring>(device_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>partial_compute</name>
+        <qualifiedname>oneapi::dal::test::engine::partial_compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="288" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="288" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a30338719ce76dfb8a871884480aa0d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto finalize_compute</definition>
+        <argsstring>(device_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>finalize_compute</name>
+        <qualifiedname>oneapi::dal::test::engine::finalize_compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="293" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="293" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a4f25732df828195592a438ff507901bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto partial_train</definition>
+        <argsstring>(device_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>partial_train</name>
+        <qualifiedname>oneapi::dal::test::engine::partial_train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="298" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="298" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2common_8hpp_1a415c5e5cbb64f19d6853031ec49056b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto finalize_train</definition>
+        <argsstring>(device_test_policy &amp;policy, Args &amp;&amp;... args)</argsstring>
+        <name>finalize_train</name>
+        <qualifiedname>oneapi::dal::test::engine::finalize_train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" line="303" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/common.hpp" bodystart="303" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="config_8hpp_1ae8e22967c293e4c318641c66aa6bc7c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void global_setup</definition>
+        <argsstring>(const global_config &amp;config)</argsstring>
+        <name>global_setup</name>
+        <qualifiedname>oneapi::dal::test::engine::global_setup</qualifiedname>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1global__config" kindref="compound">global_config</ref> &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/config.hpp" line="27" column="6" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/config.hpp" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="config_8hpp_1af0557ca6c98278a9e43576df64c8298a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void global_cleanup</definition>
+        <argsstring>()</argsstring>
+        <name>global_cleanup</name>
+        <qualifiedname>oneapi::dal::test::engine::global_cleanup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/config.hpp" line="29" column="6" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/config.hpp" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="csr__table__builder_8hpp_1a698387a182306fb69754a7c2bf6c4608" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>float</defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1csr__table" kindref="compound">csr_table</ref></type>
+        <definition>csr_table copy_data_to_csr</definition>
+        <argsstring>(const dal::array&lt; Float &gt; &amp;data, const dal::array&lt; std::int64_t &gt; &amp;column_indices, const dal::array&lt; std::int64_t &gt; &amp;row_offsets, const sparse_indexing indexing, const std::int64_t column_count, const std::int64_t row_count)</argsstring>
+        <name>copy_data_to_csr</name>
+        <qualifiedname>oneapi::dal::test::engine::copy_data_to_csr</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Float &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>column_indices</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>row_offsets</declname>
+        </param>
+        <param>
+          <type>const sparse_indexing</type>
+          <declname>indexing</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>column_count</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>row_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="23" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="23" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="csr__table__builder_8hpp_1acea1ba5b8f90f71b0832505c4886e20f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>float</defval>
+          </param>
+        </templateparamlist>
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Float &gt;</type>
+        <definition>const dal::array&lt; Float &gt; copy_data_to_dense_array</definition>
+        <argsstring>(const dal::array&lt; Float &gt; &amp;data, const dal::array&lt; std::int64_t &gt; &amp;column_indices, const dal::array&lt; std::int64_t &gt; &amp;row_offsets, const sparse_indexing indexing, const std::int64_t column_count, const std::int64_t row_count)</argsstring>
+        <name>copy_data_to_dense_array</name>
+        <qualifiedname>oneapi::dal::test::engine::copy_data_to_dense_array</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Float &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>column_indices</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>row_offsets</declname>
+        </param>
+        <param>
+          <type>const sparse_indexing</type>
+          <declname>indexing</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>column_count</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>row_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="55" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="55" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="csr__table__builder_8hpp_1ad90753f211c46a0649b5c04b761bacab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>float</defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1homogen__table" kindref="compound">homogen_table</ref></type>
+        <definition>homogen_table copy_data_to_dense</definition>
+        <argsstring>(const dal::array&lt; Float &gt; &amp;data, const dal::array&lt; std::int64_t &gt; &amp;column_indices, const dal::array&lt; std::int64_t &gt; &amp;row_offsets, const sparse_indexing indexing, const std::int64_t column_count, const std::int64_t row_count)</argsstring>
+        <name>copy_data_to_dense</name>
+        <qualifiedname>oneapi::dal::test::engine::copy_data_to_dense</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Float &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>column_indices</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>row_offsets</declname>
+        </param>
+        <param>
+          <type>const sparse_indexing</type>
+          <declname>indexing</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>column_count</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>row_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="81" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="81" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="csr__table__builder_8hpp_1a83794cabca39996cb2070c035d2b15b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>float</defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1csr__table" kindref="compound">csr_table</ref></type>
+        <definition>csr_table copy_data_to_csr</definition>
+        <argsstring>(sycl::queue &amp;queue, const dal::array&lt; Float &gt; &amp;data, const dal::array&lt; std::int64_t &gt; &amp;column_indices, const dal::array&lt; std::int64_t &gt; &amp;row_offsets, const sparse_indexing indexing, const std::int64_t column_count, const std::int64_t row_count)</argsstring>
+        <name>copy_data_to_csr</name>
+        <qualifiedname>oneapi::dal::test::engine::copy_data_to_csr</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Float &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>column_indices</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>row_offsets</declname>
+        </param>
+        <param>
+          <type>const sparse_indexing</type>
+          <declname>indexing</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>column_count</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>row_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="98" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="98" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="csr__table__builder_8hpp_1a2f77ea276397af3a912cba65f35ce2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>float</defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1homogen__table" kindref="compound">homogen_table</ref></type>
+        <definition>homogen_table copy_data_to_dense</definition>
+        <argsstring>(sycl::queue &amp;queue, const dal::array&lt; Float &gt; &amp;data, const dal::array&lt; std::int64_t &gt; &amp;column_indices, const dal::array&lt; std::int64_t &gt; &amp;row_offsets, const sparse_indexing indexing, const std::int64_t column_count, const std::int64_t row_count)</argsstring>
+        <name>copy_data_to_dense</name>
+        <qualifiedname>oneapi::dal::test::engine::copy_data_to_dense</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Float &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>column_indices</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt; &amp;</type>
+          <declname>row_offsets</declname>
+        </param>
+        <param>
+          <type>const sparse_indexing</type>
+          <declname>indexing</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>column_count</declname>
+        </param>
+        <param>
+          <type>const std::int64_t</type>
+          <declname>row_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="128" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="128" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="dataframe__math_8hpp_1a60258b74ed37bcfacd138e9bd75027b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics" kindref="compound">basic_statistics</ref>&lt; Float &gt;</type>
+        <definition>basic_statistics&lt; Float &gt; compute_basic_statistics</definition>
+        <argsstring>(const dataframe &amp;df)</argsstring>
+        <name>compute_basic_statistics</name>
+        <qualifiedname>oneapi::dal::test::engine::compute_basic_statistics</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe" kindref="compound">dataframe</ref> &amp;</type>
+          <declname>df</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" line="44" column="18" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" declline="44" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2math_8hpp_1abf59c80c2c92995166b7a29bed760094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double get_tolerance</definition>
+        <argsstring>(double f32_tol, double f64_tol)</argsstring>
+        <name>get_tolerance</name>
+        <qualifiedname>oneapi::dal::test::engine::get_tolerance</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>f32_tol</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f64_tol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" line="25" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" bodystart="25" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2math_8hpp_1a1a75e4f8be27f3bf2199ea5b62347a4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double get_tolerance_for_sum</definition>
+        <argsstring>(std::int64_t element_count)</argsstring>
+        <name>get_tolerance_for_sum</name>
+        <qualifiedname>oneapi::dal::test::engine::get_tolerance_for_sum</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>element_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" line="41" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2math_8hpp_1a7b4faa8ef1b8e7a779389374e3d6464b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Reference</type>
+          </param>
+          <param>
+            <type>typename Actual</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double l_inf_norm</definition>
+        <argsstring>(const Reference &amp;ref, const Actual &amp;actual)</argsstring>
+        <name>l_inf_norm</name>
+        <qualifiedname>oneapi::dal::test::engine::l_inf_norm</qualifiedname>
+        <param>
+          <type>const Reference &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const Actual &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" line="48" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" bodystart="48" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2math_8hpp_1afe08ea91c346f0bcd588eccd36883214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Reference</type>
+          </param>
+          <param>
+            <type>typename Actual</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double abs_error</definition>
+        <argsstring>(const Reference &amp;ref, const Actual &amp;actual)</argsstring>
+        <name>abs_error</name>
+        <qualifiedname>oneapi::dal::test::engine::abs_error</qualifiedname>
+        <param>
+          <type>const Reference &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const Actual &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" line="55" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2math_8hpp_1ad01f87796ccc34649cd7d901f74a98ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Reference</type>
+          </param>
+          <param>
+            <type>typename Actual</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double rel_error</definition>
+        <argsstring>(const Reference &amp;ref, const Actual &amp;actual, double tol)</argsstring>
+        <name>rel_error</name>
+        <qualifiedname>oneapi::dal::test::engine::rel_error</qualifiedname>
+        <param>
+          <type>const Reference &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const Actual &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" line="62" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2math_8hpp_1a4dbfafb57e13f3ff3002bf3ecb5623d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Container</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool has_nans</definition>
+        <argsstring>(const Container &amp;container)</argsstring>
+        <name>has_nans</name>
+        <qualifiedname>oneapi::dal::test::engine::has_nans</qualifiedname>
+        <param>
+          <type>const Container &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" line="69" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" bodystart="69" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2math_8hpp_1a5ab04f2e5e41a253b62b8f52e2ab0e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Container</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool has_no_nans</definition>
+        <argsstring>(const Container &amp;container)</argsstring>
+        <name>has_no_nans</name>
+        <qualifiedname>oneapi::dal::test::engine::has_no_nans</qualifiedname>
+        <param>
+          <type>const Container &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" line="83" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/math.hpp" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classification_8hpp_1ab1b0e7c7e9e4e380fad84f883826190a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>double</defval>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto accuracy_score</definition>
+        <argsstring>(const table &amp;groundtruth, const table &amp;prediction, const Float tolerance=Float(0))</argsstring>
+        <name>accuracy_score</name>
+        <qualifiedname>oneapi::dal::test::engine::accuracy_score</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>groundtruth</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>prediction</declname>
+        </param>
+        <param>
+          <type>const Float</type>
+          <declname>tolerance</declname>
+          <defval>Float(0)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/classification.hpp" line="28" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/classification.hpp" bodystart="28" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="clustering_8hpp_1a30423441013b1a38d429b0633f3786d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>double</defval>
+          </param>
+        </templateparamlist>
+        <type>Float</type>
+        <definition>Float davies_bouldin_index</definition>
+        <argsstring>(const table &amp;data, const table &amp;centroids, const table &amp;assignments)</argsstring>
+        <name>davies_bouldin_index</name>
+        <qualifiedname>oneapi::dal::test::engine::davies_bouldin_index</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>centroids</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>assignments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/clustering.hpp" line="29" column="7" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/clustering.hpp" bodystart="29" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="clustering_8hpp_1affd92d6386e8fe9723bc738186a2ed74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>double</defval>
+          </param>
+        </templateparamlist>
+        <type>Float</type>
+        <definition>Float davies_bouldin_index</definition>
+        <argsstring>(const table &amp;data, const table &amp;assignments)</argsstring>
+        <name>davies_bouldin_index</name>
+        <qualifiedname>oneapi::dal::test::engine::davies_bouldin_index</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>assignments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/clustering.hpp" line="95" column="7" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/clustering.hpp" bodystart="95" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="clustering_8hpp_1ae0b0625e3970c42d401de2b6560b6160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>double</defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></type>
+        <definition>table centers_of_mass</definition>
+        <argsstring>(const table &amp;data, const table &amp;assignments, std::int64_t cluster_count)</argsstring>
+        <name>centers_of_mass</name>
+        <qualifiedname>oneapi::dal::test::engine::centers_of_mass</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>assignments</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>cluster_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/clustering.hpp" line="180" column="7" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/clustering.hpp" bodystart="180" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2metrics_2regression_8hpp_1a6832feee331709ea0f458eeaa7afb3e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+            <defval>double</defval>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto mse_score</definition>
+        <argsstring>(const table &amp;groundtruth, const table &amp;prediction)</argsstring>
+        <name>mse_score</name>
+        <qualifiedname>oneapi::dal::test::engine::mse_score</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>groundtruth</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>prediction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/regression.hpp" line="28" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/metrics/regression.hpp" bodystart="28" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="mpi__global_8hpp_1a002af3d1d3f7c0f18b30a79d94ed312b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::none &gt;</type>
+        <definition>spmd::communicator&lt; spmd::device_memory_access::none &gt; get_global_mpi_host_communicator</definition>
+        <argsstring>()</argsstring>
+        <name>get_global_mpi_host_communicator</name>
+        <qualifiedname>oneapi::dal::test::engine::get_global_mpi_host_communicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/mpi_global.hpp" line="26" column="20" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/mpi_global.hpp" declline="26" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="mpi__global_8hpp_1a90fa845db03c81be69fecf7f7af2457a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::usm &gt;</type>
+        <definition>spmd::communicator&lt; spmd::device_memory_access::usm &gt; get_global_mpi_device_communicator</definition>
+        <argsstring>(sycl::queue &amp;)</argsstring>
+        <name>get_global_mpi_device_communicator</name>
+        <qualifiedname>oneapi::dal::test::engine::get_global_mpi_device_communicator</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/mpi_global.hpp" line="28" column="20" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/mpi_global.hpp" declline="28" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2serialization_8hpp_1aab9e46c7b09984c3bcf89b3b0de12903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+            <defval>T</defval>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void serialize_deserialize</definition>
+        <argsstring>(const T &amp;original, U &amp;deserialized)</argsstring>
+        <name>serialize_deserialize</name>
+        <qualifiedname>oneapi::dal::test::engine::serialize_deserialize</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>original</declname>
+        </param>
+        <param>
+          <type>U &amp;</type>
+          <declname>deserialized</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="177" column="6" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="177" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="test_2engine_2serialization_8hpp_1a13a94aa0b7af93824cd8bc667c202626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T serialize_deserialize</definition>
+        <argsstring>(const T &amp;original)</argsstring>
+        <name>serialize_deserialize</name>
+        <qualifiedname>oneapi::dal::test::engine::serialize_deserialize</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>original</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="190" column="3" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="190" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1a87b9aa712c7ebb0cd65e703323f6410c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_train</definition>
+        <argsstring>(host_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::none &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_train</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::none &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="25" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="25" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1a318b8e7e5a051a231b67e80dd10bbeca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_train</definition>
+        <argsstring>(device_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::usm &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_train</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::usm &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="35" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1ab73a001a9ede9e41abab9415cb36f219" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_finalize_train</definition>
+        <argsstring>(host_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::none &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_finalize_train</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_finalize_train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::none &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="45" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1a30590ac981d567885dff7d34ee73903c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_finalize_train</definition>
+        <argsstring>(device_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::usm &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_finalize_train</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_finalize_train</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::usm &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="54" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1a62ef7403388e44bf8a18c16836214db8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_infer</definition>
+        <argsstring>(host_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::none &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_infer</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_infer</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::none &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="64" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1a3c44c291d43d18d70cbf8f491649b9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_infer</definition>
+        <argsstring>(device_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::usm &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_infer</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_infer</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::usm &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="73" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="73" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1aeb87818dddd7eae090608069538281ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_compute</definition>
+        <argsstring>(host_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::none &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_compute</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::none &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="83" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1adbfd4a24a90ede7ea592f7393e85bc95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_compute</definition>
+        <argsstring>(device_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::usm &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_compute</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::usm &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="92" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="92" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1a3ef9e94d3a199c2b2146067ac0871b87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_finalize_compute</definition>
+        <argsstring>(host_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::none &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_finalize_compute</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_finalize_compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::none &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="102" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="102" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="spmd_8hpp_1a6ee7cb7470fa1928abff73fa5b1bfca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto spmd_finalize_compute</definition>
+        <argsstring>(device_test_policy &amp;policy, const spmd::communicator&lt; spmd::device_memory_access::usm &gt; &amp;comm, Args &amp;&amp;... args)</argsstring>
+        <name>spmd_finalize_compute</name>
+        <qualifiedname>oneapi::dal::test::engine::spmd_finalize_compute</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" kindref="compound">spmd::communicator</ref>&lt; spmd::device_memory_access::usm &gt; &amp;</type>
+          <declname>comm</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" line="111" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/spmd.hpp" bodystart="111" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="tables_8hpp_1a9bd6657627eb3a38a3dd676e4d054769" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_if_metadata_equal</definition>
+        <argsstring>(const table_metadata &amp;actual, const table_metadata &amp;reference)</argsstring>
+        <name>check_if_metadata_equal</name>
+        <qualifiedname>oneapi::dal::test::engine::check_if_metadata_equal</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table__metadata" kindref="compound">table_metadata</ref> &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table__metadata" kindref="compound">table_metadata</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" line="26" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="tables_8hpp_1a819672114727cc575eddfc52ab1d3ac8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Data</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void check_if_table_content_equal</definition>
+        <argsstring>(const table &amp;actual, const table &amp;reference)</argsstring>
+        <name>check_if_table_content_equal</name>
+        <qualifiedname>oneapi::dal::test::engine::check_if_table_content_equal</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" line="35" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" bodystart="35" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="tables_8hpp_1a0c82de84e6501809dc12589c5fc93276" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void check_if_table_content_equal_approx</definition>
+        <argsstring>(const table &amp;actual, const table &amp;reference, double tolerance)</argsstring>
+        <name>check_if_table_content_equal_approx</name>
+        <qualifiedname>oneapi::dal::test::engine::check_if_table_content_equal_approx</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tolerance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" line="51" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" bodystart="51" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="tables_8hpp_1abcf005dd9a14d1f0c2687678c0c6c92b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Data</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void check_if_tables_equal</definition>
+        <argsstring>(const table &amp;actual, const table &amp;reference)</argsstring>
+        <name>check_if_tables_equal</name>
+        <qualifiedname>oneapi::dal::test::engine::check_if_tables_equal</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" line="75" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="tables_8hpp_1a9eb3164d51e8965c2df40061f28ba2b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void check_if_tables_equal_approx</definition>
+        <argsstring>(const table &amp;actual, const table &amp;reference, double tolerance)</argsstring>
+        <name>check_if_tables_equal_approx</name>
+        <qualifiedname>oneapi::dal::test::engine::check_if_tables_equal_approx</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>actual</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tolerance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" line="86" column="13" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" bodystart="86" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="tables_8hpp_1acaea746626041cf401ebd61f8730d6ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; get_table_block</definition>
+        <argsstring>(host_test_policy &amp;, const table &amp;t, const range &amp;row_range)</argsstring>
+        <name>get_table_block</name>
+        <qualifiedname>oneapi::dal::test::engine::get_table_block</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1v1_1_1range" kindref="compound">range</ref> &amp;</type>
+          <declname>row_range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" line="99" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="tables_8hpp_1af40c854e8c1871d9864687e9ffd7489e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; T &gt;</type>
+        <definition>array&lt; T &gt; get_table_block</definition>
+        <argsstring>(device_test_policy &amp;p, const table &amp;t, const range &amp;row_range)</argsstring>
+        <name>get_table_block</name>
+        <qualifiedname>oneapi::dal::test::engine::get_table_block</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1v1_1_1range" kindref="compound">range</ref> &amp;</type>
+          <declname>row_range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" line="105" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="tables_8hpp_1ac088e9760d0962973cee5fa68d126e9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+          <param>
+            <type>typename TestPolicy</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &gt;</type>
+        <definition>std::vector&lt; table &gt; split_table_by_rows</definition>
+        <argsstring>(TestPolicy &amp;policy, const table &amp;t, std::int64_t split_count)</argsstring>
+        <name>split_table_by_rows</name>
+        <qualifiedname>oneapi::dal::test::engine::split_table_by_rows</qualifiedname>
+        <param>
+          <type>TestPolicy &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>split_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" line="111" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" bodystart="111" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="tables_8hpp_1ab559b29846db59e15081676e2829f7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></type>
+        <definition>table stack_tables_by_rows</definition>
+        <argsstring>(const std::vector&lt; table &gt; &amp;tables)</argsstring>
+        <name>stack_tables_by_rows</name>
+        <qualifiedname>oneapi::dal::test::engine::stack_tables_by_rows</qualifiedname>
+        <param>
+          <type>const std::vector&lt; <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &gt; &amp;</type>
+          <declname>tables</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" line="143" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/tables.hpp" bodystart="143" bodyend="171"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/ccl_global.hpp" line="24" column="1"/>
+  </compounddef>
+</doxygen>

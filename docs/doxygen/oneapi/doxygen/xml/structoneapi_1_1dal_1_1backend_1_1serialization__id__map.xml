@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1backend_1_1serialization__id__map" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::serialization_id_map</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Tag</type>
+      </param>
+      <param>
+        <type>std::uint64_t</type>
+        <declname>SerializationId</declname>
+        <defname>SerializationId</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1backend_1_1serialization__id__map_1a8779b09d5c265b601094c8275d29b618" prot="public" static="no">
+        <type>Tag</type>
+        <definition>using tag_t =  Tag</definition>
+        <argsstring></argsstring>
+        <name>tag_t</name>
+        <qualifiedname>oneapi::dal::backend::serialization_id_map::tag_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="66" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1backend_1_1serialization__id__map_1accda6eefeb18d362d1835c1f22dda616" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::uint64_t</type>
+        <definition>constexpr std::uint64_t serialization_id_v</definition>
+        <argsstring></argsstring>
+        <name>serialization_id_v</name>
+        <qualifiedname>oneapi::dal::backend::serialization_id_map::serialization_id_v</qualifiedname>
+        <initializer>= SerializationId</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="67" column="36" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="65" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="65" bodyend="68"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1serialization__id__map_1accda6eefeb18d362d1835c1f22dda616" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::serialization_id_map</scope><name>serialization_id_v</name></member>
+      <member refid="structoneapi_1_1dal_1_1backend_1_1serialization__id__map_1a8779b09d5c265b601094c8275d29b618" prot="public" virt="non-virtual"><scope>oneapi::dal::backend::serialization_id_map</scope><name>tag_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

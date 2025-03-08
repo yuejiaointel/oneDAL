@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_9cd6dd41eee2f0a9ea817ad02150fe91" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression</compoundname>
+    <innerdir refid="dir_cf22216fa0836eb4843e603150a7f4e0">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/parameters</innerdir>
+    <innerdir refid="dir_b2f83a70fd3c6c0cf5d4d97ecccb5632">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/test</innerdir>
+    <innerfile refid="algo_2linear__regression_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="algo_2linear__regression_2finalize__train_8hpp">finalize_train.hpp</innerfile>
+    <innerfile refid="algo_2linear__regression_2infer_8hpp">infer.hpp</innerfile>
+    <innerfile refid="linear__regression_2infer__types_8hpp">infer_types.hpp</innerfile>
+    <innerfile refid="algo_2linear__regression_2partial__train_8hpp">partial_train.hpp</innerfile>
+    <innerfile refid="algo_2linear__regression_2train_8hpp">train.hpp</innerfile>
+    <innerfile refid="linear__regression_2train__types_8hpp">train_types.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/linear_regression/"/>
+  </compounddef>
+</doxygen>

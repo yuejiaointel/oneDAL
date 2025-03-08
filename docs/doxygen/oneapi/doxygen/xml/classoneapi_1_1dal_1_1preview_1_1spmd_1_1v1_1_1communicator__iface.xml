@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>oneapi::dal::preview::spmd::v1::communicator_iface</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base" prot="public" virt="non-virtual">communicator_iface_base</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a8de648eb055ab54bcc16d6e46c83243d" prot="public" static="no">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base" kindref="compound">communicator_iface_base</ref></type>
+        <definition>using base_t =  communicator_iface_base</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::base_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="105" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a1aa5c7fb7073d58c21aedc7074fc2d8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> *</type>
+        <definition>virtual request_iface * bcast</definition>
+        <argsstring>(sycl::queue &amp;q, byte_t *send_buf, std::int64_t count, const data_type &amp;dtype, const std::vector&lt; sycl::event &gt; &amp;deps, std::int64_t root)=0</argsstring>
+        <name>bcast</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::bcast</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>send_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; sycl::event &gt; &amp;</type>
+          <declname>deps</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="115" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1af7a8c4220dcc799ad289302d66f53ccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> *</type>
+        <definition>virtual request_iface * allgatherv</definition>
+        <argsstring>(sycl::queue &amp;q, const byte_t *send_buf, std::int64_t send_count, byte_t *recv_buf, const std::int64_t *recv_counts_host, const std::int64_t *displs_host, const data_type &amp;dtype, const std::vector&lt; sycl::event &gt; &amp;deps)=0</argsstring>
+        <name>allgatherv</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::allgatherv</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const byte_t *</type>
+          <declname>send_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>send_count</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>recv_buf</declname>
+        </param>
+        <param>
+          <type>const std::int64_t *</type>
+          <declname>recv_counts_host</declname>
+        </param>
+        <param>
+          <type>const std::int64_t *</type>
+          <declname>displs_host</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; sycl::event &gt; &amp;</type>
+          <declname>deps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="121" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a74c6b2c702f15c853688ca112c8a1282" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> *</type>
+        <definition>virtual request_iface * allreduce</definition>
+        <argsstring>(sycl::queue &amp;q, const byte_t *send_buf, byte_t *recv_buf, std::int64_t count, const data_type &amp;dtype, const reduce_op &amp;op, const std::vector&lt; sycl::event &gt; &amp;deps)=0</argsstring>
+        <name>allreduce</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::allreduce</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>const byte_t *</type>
+          <declname>send_buf</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>recv_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>const reduce_op &amp;</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; sycl::event &gt; &amp;</type>
+          <declname>deps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="129" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a63525efb4783662f239880d651ef6163" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> *</type>
+        <definition>virtual request_iface * sendrecv_replace</definition>
+        <argsstring>(sycl::queue &amp;q, byte_t *buf, std::int64_t count, const data_type &amp;dtype, std::int64_t destination_rank, std::int64_t source_rank, const std::vector&lt; sycl::event &gt; &amp;deps)=0</argsstring>
+        <name>sendrecv_replace</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::sendrecv_replace</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>destination_rank</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>source_rank</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; sycl::event &gt; &amp;</type>
+          <declname>deps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="136" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1ab24f7751b374791487f75dec4d08aca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>sycl::queue</type>
+        <definition>virtual sycl::queue get_queue</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_queue</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::get_queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="143" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1aee5382a279e01d71a3c7f7b4691d2c4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::int64_t</type>
+        <definition>virtual std::int64_t get_rank</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_rank</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::get_rank</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1aee5382a279e01d71a3c7f7b4691d2c4c">get_rank</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="106" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1ab2bb98bc8e3a3d7f7e798389ec1dfd10" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::int64_t</type>
+        <definition>virtual std::int64_t get_rank_count</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_rank_count</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::get_rank_count</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1ab2bb98bc8e3a3d7f7e798389ec1dfd10">get_rank_count</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="107" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a0b5ebbf58ab063c7dd2c17f3415fd023" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::int64_t</type>
+        <definition>virtual std::int64_t get_default_root_rank</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_default_root_rank</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::get_default_root_rank</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1a0b5ebbf58ab063c7dd2c17f3415fd023">get_default_root_rank</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="108" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a180b562270c9e008d33e92c29d305847" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void barrier</definition>
+        <argsstring>()=0</argsstring>
+        <name>barrier</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::barrier</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1a180b562270c9e008d33e92c29d305847">barrier</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="109" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a01105d1d9d2e3bd600b57b4091716ec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> *</type>
+        <definition>virtual request_iface * bcast</definition>
+        <argsstring>(byte_t *send_buf, std::int64_t count, const data_type &amp;dtype, std::int64_t root)=0</argsstring>
+        <name>bcast</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::bcast</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1a01105d1d9d2e3bd600b57b4091716ec0">bcast</reimplements>
+        <param>
+          <type>byte_t *</type>
+          <declname>send_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="110" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1adda91626d20e4d75cc74d2d69fa5c011" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> *</type>
+        <definition>virtual request_iface * allgatherv</definition>
+        <argsstring>(const byte_t *send_buf, std::int64_t send_count, byte_t *recv_buf, const std::int64_t *recv_counts_host, const std::int64_t *displs_host, const data_type &amp;dtype)=0</argsstring>
+        <name>allgatherv</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::allgatherv</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1adda91626d20e4d75cc74d2d69fa5c011">allgatherv</reimplements>
+        <param>
+          <type>const byte_t *</type>
+          <declname>send_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>send_count</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>recv_buf</declname>
+        </param>
+        <param>
+          <type>const std::int64_t *</type>
+          <declname>recv_counts_host</declname>
+        </param>
+        <param>
+          <type>const std::int64_t *</type>
+          <declname>displs_host</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="111" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a1f25623413fdf57faf8112178ccaf442" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> *</type>
+        <definition>virtual request_iface * allreduce</definition>
+        <argsstring>(const byte_t *send_buf, byte_t *recv_buf, std::int64_t count, const data_type &amp;dtype, const reduce_op &amp;op)=0</argsstring>
+        <name>allreduce</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::allreduce</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1a1f25623413fdf57faf8112178ccaf442">allreduce</reimplements>
+        <param>
+          <type>const byte_t *</type>
+          <declname>send_buf</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>recv_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>const reduce_op &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="112" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a7c7984a3d0f4a7c9c393318c61365c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request__iface" kindref="compound">request_iface</ref> *</type>
+        <definition>virtual request_iface * sendrecv_replace</definition>
+        <argsstring>(byte_t *buf, std::int64_t count, const data_type &amp;dtype, std::int64_t destination_rank, std::int64_t source_rank, byte_t *recv_buf=nullptr)=0</argsstring>
+        <name>sendrecv_replace</name>
+        <qualifiedname>oneapi::dal::preview::spmd::v1::communicator_iface::sendrecv_replace</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1a7c7984a3d0f4a7c9c393318c61365c2b">sendrecv_replace</reimplements>
+        <param>
+          <type>byte_t *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>destination_rank</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>source_rank</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>recv_buf</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="113" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>communicator_iface</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>communicator_iface_base</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>communicator_iface</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>communicator_iface_base</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" line="103" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/spmd/communicator.hpp" bodystart="103" bodyend="144"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1af7a8c4220dcc799ad289302d66f53ccf" prot="public" virt="pure-virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>allgatherv</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1adda91626d20e4d75cc74d2d69fa5c011" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>allgatherv</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a74c6b2c702f15c853688ca112c8a1282" prot="public" virt="pure-virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>allreduce</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a1f25623413fdf57faf8112178ccaf442" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>allreduce</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a180b562270c9e008d33e92c29d305847" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>barrier</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a8de648eb055ab54bcc16d6e46c83243d" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>base_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a1aa5c7fb7073d58c21aedc7074fc2d8a" prot="public" virt="pure-virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>bcast</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a01105d1d9d2e3bd600b57b4091716ec0" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>bcast</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a0b5ebbf58ab063c7dd2c17f3415fd023" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>get_default_root_rank</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1afbf767b7018b898770c9b393b945d918" prot="public" virt="pure-virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>get_mpi_offload_support</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1ab24f7751b374791487f75dec4d08aca1" prot="public" virt="pure-virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>get_queue</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1aee5382a279e01d71a3c7f7b4691d2c4c" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>get_rank</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1ab2bb98bc8e3a3d7f7e798389ec1dfd10" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>get_rank_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a63525efb4783662f239880d651ef6163" prot="public" virt="pure-virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>sendrecv_replace</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface_1a7c7984a3d0f4a7c9c393318c61365c2b" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>sendrecv_replace</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1a0ab116cf7e87112074cf7ab3cf08bdc1" prot="public" virt="pure-virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>use_sendrecv_replace_alternative</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator__iface__base_1a6ededcc8bf56ed67527d5fb8ced2cc3b" prot="public" virt="virtual"><scope>oneapi::dal::preview::spmd::v1::communicator_iface</scope><name>~communicator_iface_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

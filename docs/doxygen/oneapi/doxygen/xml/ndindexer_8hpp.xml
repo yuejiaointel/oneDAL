@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ndindexer_8hpp" kind="file" language="C++">
+    <compoundname>ndindexer.hpp</compoundname>
+    <includes refid="array_8hpp" local="yes">oneapi/dal/array.hpp</includes>
+    <includes local="yes">oneapi/dal/backend/memory.hpp</includes>
+    <includes refid="ndshape_8hpp" local="yes">oneapi/dal/backend/primitives/ndshape.hpp</includes>
+    <includedby refid="element__wise_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/element_wise.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>oneapi/dal/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>oneapi/dal/backend/common.hpp</label>
+        <link refid="backend_2common_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>oneapi/dal/backend/primitives/common.hpp</label>
+        <link refid="backend_2primitives_2common_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp</label>
+        <link refid="ndindexer_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>oneapi/dal/backend/primitives/ndshape.hpp</label>
+        <link refid="ndshape_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>array</label>
+      </node>
+      <node id="4">
+        <label>oneapi/dal/backend/memory.hpp</label>
+      </node>
+      <node id="3">
+        <label>oneapi/dal/detail/array_impl.hpp</label>
+      </node>
+      <node id="11">
+        <label>oneapi/dal/detail/common.hpp</label>
+      </node>
+      <node id="10">
+        <label>sycl/sycl.hpp</label>
+      </node>
+      <node id="9">
+        <label>type_traits</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/element_wise.hpp</label>
+        <link refid="element__wise_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp</label>
+        <link refid="ndindexer_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__dkeeper" prot="public">oneapi::dal::backend::primitives::ndindexer_dkeeper</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base" prot="public">oneapi::dal::backend::primitives::ndindexer_base</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1c_00_01_index_01_4" prot="public">oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::c, Index &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer__base_3_01ndorder_1_1f_00_01_index_01_4" prot="public">oneapi::dal::backend::primitives::ndindexer_base&lt; ndorder::f, Index &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1primitives_1_1ndindexer" prot="public">oneapi::dal::backend::primitives::ndindexer</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1backend">oneapi::dal::backend</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1backend_1_1primitives">oneapi::dal::backend::primitives</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/primitives/ndindexer.hpp"/>
+  </compounddef>
+</doxygen>

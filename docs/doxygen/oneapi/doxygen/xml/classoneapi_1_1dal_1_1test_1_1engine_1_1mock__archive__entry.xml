@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::mock_archive_entry</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1a79447a1e61bfebac5627d9ed40e2b9e2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::uint8_t &gt;</type>
+        <definition>std::vector&lt;std::uint8_t&gt; data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_entry::data_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="49" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1a93b614d83af1602ff2b9d85ad54c543c" prot="private" static="no" mutable="no">
+        <type>data_type</type>
+        <definition>data_type dtype_</definition>
+        <argsstring></argsstring>
+        <name>dtype_</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_entry::dtype_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="50" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1a6e201ef5e1b22063b3fb43bce9e43548" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mock_archive_entry</definition>
+        <argsstring>(const std::uint8_t *data, data_type dtype)</argsstring>
+        <name>mock_archive_entry</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_entry::mock_archive_entry</qualifiedname>
+        <param>
+          <type>const std::uint8_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>data_type</type>
+          <declname>dtype</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="26" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1afe5b3274209fa0f482c22a244de2773d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_entry::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="32" column="7" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1a804c5b93caa58c14d04a38db96152707" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void write_to</definition>
+        <argsstring>(std::uint8_t *dst, data_type dtype) const</argsstring>
+        <name>write_to</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_entry::write_to</qualifiedname>
+        <param>
+          <type>std::uint8_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>data_type</type>
+          <declname>dtype</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="41" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="41" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="24" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="24" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1a79447a1e61bfebac5627d9ed40e2b9e2" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_entry</scope><name>data_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1a93b614d83af1602ff2b9d85ad54c543c" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_entry</scope><name>dtype_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1afe5b3274209fa0f482c22a244de2773d" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_entry</scope><name>get</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1a6e201ef5e1b22063b3fb43bce9e43548" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_entry</scope><name>mock_archive_entry</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__entry_1a804c5b93caa58c14d04a38db96152707" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_entry</scope><name>write_to</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

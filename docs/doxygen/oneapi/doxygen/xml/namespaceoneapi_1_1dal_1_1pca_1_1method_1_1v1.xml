@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1pca_1_1method_1_1v1" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::pca::method::v1</compoundname>
+    <innerclass refid="structoneapi_1_1dal_1_1pca_1_1method_1_1v1_1_1cov" prot="public">oneapi::dal::pca::method::v1::cov</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1pca_1_1method_1_1v1_1_1precomputed" prot="public">oneapi::dal::pca::method::v1::precomputed</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1pca_1_1method_1_1v1_1_1svd" prot="public">oneapi::dal::pca::method::v1::svd</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="algo_2pca_2common_8hpp_1a2358af2839dc842364b7180be5fc9914" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1pca_1_1method_1_1v1_1_1cov" kindref="compound">cov</ref></type>
+        <definition>using by_default =  cov</definition>
+        <argsstring></argsstring>
+        <name>by_default</name>
+        <qualifiedname>oneapi::dal::pca::method::v1::by_default</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Alias tag-type for :ref:<computeroutput>Covariance &lt;pca_t_math_cov&gt;</computeroutput> computational method. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" line="54" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/pca/common.hpp" line="42" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_0e0bdc286c793fb95987b50daa651cc7" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init</compoundname>
+    <innerdir refid="dir_571b53eac366eb643aa93fe5b1ce1df3">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/test</innerdir>
+    <innerfile refid="algo_2kmeans__init_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="algo_2kmeans__init_2compute_8hpp">compute.hpp</innerfile>
+    <innerfile refid="kmeans__init_2compute__types_8hpp">compute_types.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/"/>
+  </compounddef>
+</doxygen>

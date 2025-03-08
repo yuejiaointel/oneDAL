@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::csr_make_blobs</compoundname>
+    <includes refid="csr__table__builder_8hpp" local="no">csr_table_builder.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+        <defval>float</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" prot="public" static="no">
+        <type>std::int64_t</type>
+        <definition>using Index =  std::int64_t</definition>
+        <argsstring></argsstring>
+        <name>Index</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::Index</qualifiedname>
+        <briefdescription>
+<para>Indexing type used for generation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="285" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="285" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a17687093133148da2211e7bf72be32bc" prot="public" static="no" mutable="no">
+        <type><ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" kindref="member">Index</ref></type>
+        <definition>Index row_count_</definition>
+        <argsstring></argsstring>
+        <name>row_count_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::row_count_</qualifiedname>
+        <briefdescription>
+<para>Dataset paramters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="287" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a2476305852e86d4085726de028e27517" prot="public" static="no" mutable="no">
+        <type><ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" kindref="member">Index</ref></type>
+        <definition>Index column_count_</definition>
+        <argsstring></argsstring>
+        <name>column_count_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::column_count_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="287" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1aae8a89e1609fc346790783034453e83d" prot="public" static="no" mutable="no">
+        <type><ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" kindref="member">Index</ref></type>
+        <definition>Index cluster_count_</definition>
+        <argsstring></argsstring>
+        <name>cluster_count_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::cluster_count_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="287" column="36" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a30b3454f70fc3ace3590311d62515891" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float nonzero_fraction_</definition>
+        <argsstring></argsstring>
+        <name>nonzero_fraction_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::nonzero_fraction_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="288" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a39caf4c0aeac1875547523d517dfae3e" prot="public" static="no" mutable="no">
+        <type>sparse_indexing</type>
+        <definition>sparse_indexing indexing_</definition>
+        <argsstring></argsstring>
+        <name>indexing_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::indexing_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="289" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1acab15f8e7e7c5ef53828b2b5c3b95a7e" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Float &gt;</type>
+        <definition>const dal::array&lt;Float&gt; data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::data_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="290" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a8dcb97cabe494bf8b2a28580fba962c7" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" kindref="member">Index</ref> &gt;</type>
+        <definition>const dal::array&lt;Index&gt; column_indices_</definition>
+        <argsstring></argsstring>
+        <name>column_indices_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::column_indices_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="291" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a762876dd9c866f8cbc0652a7eaa55f3b" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" kindref="member">Index</ref> &gt;</type>
+        <definition>const dal::array&lt;Index&gt; row_offsets_</definition>
+        <argsstring></argsstring>
+        <name>row_offsets_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::row_offsets_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="292" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a70b4a29f49a1073bed884e11547fd11c" prot="public" static="no" mutable="no">
+        <type>const Float</type>
+        <definition>const Float centroid_fill_value</definition>
+        <argsstring></argsstring>
+        <name>centroid_fill_value</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::centroid_fill_value</qualifiedname>
+        <initializer>= 10.0f</initializer>
+        <briefdescription>
+<para>Dataset generation parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="294" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a618c9157fe8e72b1587c360c0aa69aa3" prot="public" static="no" mutable="no">
+        <type>const Float</type>
+        <definition>const Float min_val</definition>
+        <argsstring></argsstring>
+        <name>min_val</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::min_val</qualifiedname>
+        <initializer>= -1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="295" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1adcdd8bbb93521a2be0d50c6730681cb6" prot="public" static="no" mutable="no">
+        <type>const Float</type>
+        <definition>const Float max_val</definition>
+        <argsstring></argsstring>
+        <name>max_val</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::max_val</qualifiedname>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="296" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="296" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a51f110c029d57b1dc6307b459675503f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csr_make_blobs</definition>
+        <argsstring>(Index cluster_count, Index row_count, Index column_count, float nnz_fraction=0.05, sparse_indexing indexing=sparse_indexing::one_based, Index seed=42)</argsstring>
+        <name>csr_make_blobs</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::csr_make_blobs</qualifiedname>
+        <param>
+          <type><ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" kindref="member">Index</ref></type>
+          <declname>cluster_count</declname>
+        </param>
+        <param>
+          <type><ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" kindref="member">Index</ref></type>
+          <declname>row_count</declname>
+        </param>
+        <param>
+          <type><ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" kindref="member">Index</ref></type>
+          <declname>column_count</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nnz_fraction</declname>
+          <defval>0.05</defval>
+        </param>
+        <param>
+          <type>sparse_indexing</type>
+          <declname>indexing</declname>
+          <defval>sparse_indexing::one_based</defval>
+        </param>
+        <param>
+          <type><ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" kindref="member">Index</ref></type>
+          <declname>seed</declname>
+          <defval>42</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="298" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="298" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a4546c9bc29bc5772d91b891166015ffa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></type>
+        <definition>table get_data</definition>
+        <argsstring>(host_test_policy &amp;policy) const</argsstring>
+        <name>get_data</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::get_data</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="361" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="361" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a2ea4087c756f153b3163a7d89515b05e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></type>
+        <definition>table get_dense_data</definition>
+        <argsstring>(host_test_policy &amp;policy) const</argsstring>
+        <name>get_dense_data</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::get_dense_data</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="370" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="370" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a2a27544c9833d5a84c5e4949ab061c9b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></type>
+        <definition>table get_data</definition>
+        <argsstring>(device_test_policy &amp;policy) const</argsstring>
+        <name>get_data</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::get_data</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="380" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="380" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a696dd4f27c9499fb6b699c5d3ac37a06" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></type>
+        <definition>table get_dense_data</definition>
+        <argsstring>(device_test_policy &amp;policy) const</argsstring>
+        <name>get_dense_data</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::get_dense_data</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="390" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="390" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1ac0904fe10b1fb1aabead4eb4cf77bf73" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></type>
+        <definition>table get_initial_centroids</definition>
+        <argsstring>() const</argsstring>
+        <name>get_initial_centroids</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::get_initial_centroids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="401" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="401" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1aa305fd253ee7500e346a250785b3baa4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></type>
+        <definition>table get_result_centroids</definition>
+        <argsstring>() const</argsstring>
+        <name>get_result_centroids</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::get_result_centroids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="420" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="420" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a36f3ad241f2ea322ac43e703b7266d1a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></type>
+        <definition>table get_responses</definition>
+        <argsstring>() const</argsstring>
+        <name>get_responses</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_make_blobs::get_responses</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="454" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="454" bodyend="461"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Generates CSR table with clustering dataset. Dataset is looks like multidimensional blobs with fixed centroid and randomized points around centroid with radius :expr:<computeroutput>r=1.0</computeroutput>. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>array&lt; Index &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1v2_1_1array"/>
+      </node>
+      <node id="3">
+        <label>array&lt; float &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1v2_1_1array"/>
+      </node>
+      <node id="1">
+        <label>csr_make_blobs&lt; Float &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>indexing_</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>data_</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>column_indices_</edgelabel>
+          <edgelabel>row_offsets_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sparse_indexing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="283" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="283" bodyend="462"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a70b4a29f49a1073bed884e11547fd11c" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>centroid_fill_value</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1aae8a89e1609fc346790783034453e83d" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>cluster_count_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a2476305852e86d4085726de028e27517" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>column_count_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a8dcb97cabe494bf8b2a28580fba962c7" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>column_indices_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a51f110c029d57b1dc6307b459675503f" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>csr_make_blobs</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1acab15f8e7e7c5ef53828b2b5c3b95a7e" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>data_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a4546c9bc29bc5772d91b891166015ffa" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>get_data</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a2a27544c9833d5a84c5e4949ab061c9b" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>get_data</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a2ea4087c756f153b3163a7d89515b05e" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>get_dense_data</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a696dd4f27c9499fb6b699c5d3ac37a06" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>get_dense_data</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1ac0904fe10b1fb1aabead4eb4cf77bf73" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>get_initial_centroids</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a36f3ad241f2ea322ac43e703b7266d1a" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>get_responses</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1aa305fd253ee7500e346a250785b3baa4" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>get_result_centroids</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1af59c3fb9cf876d6efcc0b18c8ca1b416" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>Index</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a39caf4c0aeac1875547523d517dfae3e" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>indexing_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1adcdd8bbb93521a2be0d50c6730681cb6" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>max_val</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a618c9157fe8e72b1587c360c0aa69aa3" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>min_val</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a30b3454f70fc3ace3590311d62515891" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>nonzero_fraction_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a17687093133148da2211e7bf72be32bc" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>row_count_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__make__blobs_1a762876dd9c866f8cbc0652a7eaa55f3b" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_make_blobs</scope><name>row_offsets_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

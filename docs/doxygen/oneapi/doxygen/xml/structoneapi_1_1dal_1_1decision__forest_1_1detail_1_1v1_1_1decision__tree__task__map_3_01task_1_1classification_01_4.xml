@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1decision__tree__task__map_3_01task_1_1classification_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_forest::detail::v1::decision_tree_task_map&lt; task::classification &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1decision__tree__task__map_3_01task_1_1classification_01_4_1af8ef7871e32c2e6d1adfb3feb8cf7ee4" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1decision__tree_1_1task_1_1v1_1_1classification" kindref="compound">decision_tree::task::classification</ref></type>
+        <definition>using tree_task_t =  decision_tree::task::classification</definition>
+        <argsstring></argsstring>
+        <name>tree_task_t</name>
+        <qualifiedname>oneapi::dal::decision_forest::detail::v1::decision_tree_task_map&lt; task::classification &gt;::tree_task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="291" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="291" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" line="290" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/common.hpp" bodystart="290" bodyend="292"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1decision__tree__task__map_3_01task_1_1classification_01_4_1af8ef7871e32c2e6d1adfb3feb8cf7ee4" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::detail::v1::decision_tree_task_map&lt; task::classification &gt;</scope><name>tree_task_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

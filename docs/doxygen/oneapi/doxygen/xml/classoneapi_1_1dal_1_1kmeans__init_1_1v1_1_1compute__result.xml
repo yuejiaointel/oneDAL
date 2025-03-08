@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::kmeans_init::v1::compute_result</compoundname>
+    <includes refid="kmeans__init_2compute__types_8hpp" local="no">compute_types.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::kmeans_init::v1::compute_result::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" line="74" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a11569439543d7845dcf62f91e11e073a" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1kmeans__init_1_1detail_1_1v1_1_1compute__result__impl" kindref="compound">detail::compute_result_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::compute_result_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::kmeans_init::v1::compute_result::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" line="93" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a3f06753002a2523730ed42a2d5150903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>compute_result</definition>
+        <argsstring>()</argsstring>
+        <name>compute_result</name>
+        <qualifiedname>oneapi::dal::kmeans_init::v1::compute_result::compute_result</qualifiedname>
+        <briefdescription>
+<para>Creates a new instance of the class with the default property values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" line="77" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a6ecb80cbab5e714b9b6f737f9ef5ee53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_centroids</definition>
+        <argsstring>() const</argsstring>
+        <name>get_centroids</name>
+        <qualifiedname>oneapi::dal::kmeans_init::v1::compute_result::get_centroids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $k \times p$ table with the initial centroids. Each row of the table stores one centroid. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" line="82" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a8eb87ca4f9e5765ad7dd0c4c6446350c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_centroids</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_centroids</name>
+        <qualifiedname>oneapi::dal::kmeans_init::v1::compute_result::set_centroids</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" line="84" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a5e018d7ff7b5a15bca40be3c4b38aafb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_centroids_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_centroids_impl</name>
+        <qualifiedname>oneapi::dal::kmeans_init::v1::compute_result::set_centroids_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" line="90" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag-type that specifies type of the problem to solve. Can be :expr:<computeroutput>oneapi::dal::kmeans::task::clustering</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" line="70" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/kmeans_init/compute_types.hpp" bodystart="70" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a3f06753002a2523730ed42a2d5150903" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans_init::v1::compute_result</scope><name>compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a6ecb80cbab5e714b9b6f737f9ef5ee53" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans_init::v1::compute_result</scope><name>get_centroids</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a11569439543d7845dcf62f91e11e073a" prot="private" virt="non-virtual"><scope>oneapi::dal::kmeans_init::v1::compute_result</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a8eb87ca4f9e5765ad7dd0c4c6446350c" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans_init::v1::compute_result</scope><name>set_centroids</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1a5e018d7ff7b5a15bca40be3c4b38aafb" prot="protected" virt="non-virtual"><scope>oneapi::dal::kmeans_init::v1::compute_result</scope><name>set_centroids_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::kmeans_init::v1::compute_result</scope><name>task_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

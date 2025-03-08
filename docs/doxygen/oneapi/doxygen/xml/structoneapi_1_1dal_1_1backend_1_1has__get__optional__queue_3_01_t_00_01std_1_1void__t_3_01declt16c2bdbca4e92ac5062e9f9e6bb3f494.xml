@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1backend_1_1has__get__optional__queue_3_01_t_00_01std_1_1void__t_3_01declt16c2bdbca4e92ac5062e9f9e6bb3f494" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::backend::has_get_optional_queue&lt; T, std::void_t&lt; decltype(&amp;T::get_queue)&gt; &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::is_same&lt; std::optional&lt; sycl::queue &gt;, std::decay_t&lt; decltype(std::declval&lt; T &gt;().get_queue())&gt; &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>has_get_optional_queue&lt; T, std::void_t&lt; decltype(&amp;T::get_queue)&gt; &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1has__get__optional__queue_3_01_t_00_01std_1_1void__t_3_01declt16c2bdbca4e92ac5062e9f9e6bb3f494"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>is_same&lt; std::optional&lt; sycl::queue &gt;, std::decay_t&lt; decltype(std::declval&lt; T &gt;().get_queue())&gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>has_get_optional_queue&lt; T, std::void_t&lt; decltype(&amp;T::get_queue)&gt; &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1backend_1_1has__get__optional__queue_3_01_t_00_01std_1_1void__t_3_01declt16c2bdbca4e92ac5062e9f9e6bb3f494"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>is_same&lt; std::optional&lt; sycl::queue &gt;, std::decay_t&lt; decltype(std::declval&lt; T &gt;().get_queue())&gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="384" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" bodystart="386" bodyend="386"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

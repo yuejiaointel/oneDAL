@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::basic_statistics</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a18784e7483cadfdcff35732db869eebd" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; Float &gt;</type>
+        <definition>array&lt;Float&gt; mean_</definition>
+        <argsstring></argsstring>
+        <name>mean_</name>
+        <qualifiedname>oneapi::dal::test::engine::basic_statistics::mean_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" line="39" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a093d83524247d998b262ea3b042cf6b9" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; Float &gt;</type>
+        <definition>array&lt;Float&gt; variance_</definition>
+        <argsstring></argsstring>
+        <name>variance_</name>
+        <qualifiedname>oneapi::dal::test::engine::basic_statistics::variance_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" line="40" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a332c9591fe26788e9dd8c0d3db12f6ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>basic_statistics</definition>
+        <argsstring>(const array&lt; Float &gt; &amp;mean, const array&lt; Float &gt; &amp;variance)</argsstring>
+        <name>basic_statistics</name>
+        <qualifiedname>oneapi::dal::test::engine::basic_statistics::basic_statistics</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; Float &gt; &amp;</type>
+          <declname>mean</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; Float &gt; &amp;</type>
+          <declname>variance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" line="26" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a0d390590046d887383a36635d152b4c2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; Float &gt; &amp;</type>
+        <definition>const array&lt; Float &gt; &amp; get_means</definition>
+        <argsstring>() const</argsstring>
+        <name>get_means</name>
+        <qualifiedname>oneapi::dal::test::engine::basic_statistics::get_means</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" line="30" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a0c26ea4838d50eded7751fed3d56ca6a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">array</ref>&lt; Float &gt; &amp;</type>
+        <definition>const array&lt; Float &gt; &amp; get_variances</definition>
+        <argsstring>() const</argsstring>
+        <name>get_variances</name>
+        <qualifiedname>oneapi::dal::test::engine::basic_statistics::get_variances</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" line="34" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" line="24" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_math.hpp" bodystart="24" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a332c9591fe26788e9dd8c0d3db12f6ad" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::basic_statistics</scope><name>basic_statistics</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a0d390590046d887383a36635d152b4c2" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::basic_statistics</scope><name>get_means</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a0c26ea4838d50eded7751fed3d56ca6a" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::basic_statistics</scope><name>get_variances</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a18784e7483cadfdcff35732db869eebd" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::basic_statistics</scope><name>mean_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1basic__statistics_1a093d83524247d998b262ea3b042cf6b9" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::basic_statistics</scope><name>variance_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

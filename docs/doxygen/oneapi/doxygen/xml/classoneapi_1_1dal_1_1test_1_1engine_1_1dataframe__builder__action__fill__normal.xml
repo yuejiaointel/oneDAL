@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::dataframe_builder_action_fill_normal</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action" prot="public" virt="non-virtual">dataframe_builder_action</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a830b1880f9dc271a7b6415047d893783" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double mean_</definition>
+        <argsstring></argsstring>
+        <name>mean_</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_action_fill_normal::mean_</qualifiedname>
+        <initializer>= 5.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" line="133" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a959d2db61553f23987340d7d2c3d1877" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double deviation_</definition>
+        <argsstring></argsstring>
+        <name>deviation_</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_action_fill_normal::deviation_</qualifiedname>
+        <initializer>= 2.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" line="134" column="12" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a78022a432eebbc37208d1b5f126cb42a" prot="private" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t seed_</definition>
+        <argsstring></argsstring>
+        <name>seed_</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_action_fill_normal::seed_</qualifiedname>
+        <initializer>= 7777</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" line="135" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1aa8edbf49776ead4dfa13bbc044276805" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>dataframe_builder_action_fill_normal</definition>
+        <argsstring>(double mean, double deviation, std::int64_t seed)</argsstring>
+        <name>dataframe_builder_action_fill_normal</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_action_fill_normal::dataframe_builder_action_fill_normal</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>mean</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>deviation</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" line="99" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" bodystart="99" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a64f8c0526425a55b20d0766f0cc1b34c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string get_opcode</definition>
+        <argsstring>() const override</argsstring>
+        <name>get_opcode</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_action_fill_normal::get_opcode</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action_1af1220488559c485bea42e376dc30c02b">get_opcode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" line="110" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a48ee88d26a34aceff1855ebe873a9d16" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__impl" kindref="compound">dataframe_impl</ref> *</type>
+        <definition>dataframe_impl * execute</definition>
+        <argsstring>(dataframe_impl *df) const override</argsstring>
+        <name>execute</name>
+        <qualifiedname>oneapi::dal::test::engine::dataframe_builder_action_fill_normal::execute</qualifiedname>
+        <reimplements refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action_1afb246fead1d2494e8dc00dfbca68b6f9">execute</reimplements>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__impl" kindref="compound">dataframe_impl</ref> *</type>
+          <declname>df</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" line="114" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" bodystart="114" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>dataframe_builder_action_fill_normal</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>dataframe_builder_action</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>dataframe_builder_action_fill_normal</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>dataframe_builder_action</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" line="97" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/dataframe_actions.hpp" bodystart="97" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1aa8edbf49776ead4dfa13bbc044276805" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action_fill_normal</scope><name>dataframe_builder_action_fill_normal</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a959d2db61553f23987340d7d2c3d1877" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action_fill_normal</scope><name>deviation_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a48ee88d26a34aceff1855ebe873a9d16" prot="public" virt="virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action_fill_normal</scope><name>execute</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a64f8c0526425a55b20d0766f0cc1b34c" prot="public" virt="virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action_fill_normal</scope><name>get_opcode</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a830b1880f9dc271a7b6415047d893783" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action_fill_normal</scope><name>mean_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action__fill__normal_1a78022a432eebbc37208d1b5f126cb42a" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action_fill_normal</scope><name>seed_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1dataframe__builder__action_1a13985ca70ed008ad2f73e32358ac0119" prot="public" virt="virtual"><scope>oneapi::dal::test::engine::dataframe_builder_action_fill_normal</scope><name>~dataframe_builder_action</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

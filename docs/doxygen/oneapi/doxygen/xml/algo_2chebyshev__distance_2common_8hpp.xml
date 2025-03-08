@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="algo_2chebyshev__distance_2common_8hpp" kind="file" language="C++">
+    <compoundname>common.hpp</compoundname>
+    <includes local="yes">oneapi/dal/detail/common.hpp</includes>
+    <includes refid="table_2common_8hpp" local="yes">oneapi/dal/table/common.hpp</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/chebyshev_distance/common.hpp</label>
+        <link refid="algo_2chebyshev__distance_2common_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>oneapi/dal/table/common.hpp</label>
+        <link refid="table_2common_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>oneapi/dal/detail/common.hpp</label>
+      </node>
+      <node id="5">
+        <label>oneapi/dal/detail/serialization.hpp</label>
+      </node>
+      <node id="4">
+        <label>oneapi/dal/table/detail/table_iface.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structoneapi_1_1dal_1_1chebyshev__distance_1_1task_1_1v1_1_1compute" prot="public">oneapi::dal::chebyshev_distance::task::v1::compute</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1chebyshev__distance_1_1method_1_1v1_1_1dense" prot="public">oneapi::dal::chebyshev_distance::method::v1::dense</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1chebyshev__distance_1_1detail_1_1v1_1_1descriptor__tag" prot="public">oneapi::dal::chebyshev_distance::detail::v1::descriptor_tag</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1chebyshev__distance_1_1detail_1_1v1_1_1descriptor__base" prot="public">oneapi::dal::chebyshev_distance::detail::v1::descriptor_base</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1chebyshev__distance_1_1v1_1_1descriptor" prot="private">oneapi::dal::chebyshev_distance::v1::descriptor</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1chebyshev__distance">oneapi::dal::chebyshev_distance</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1chebyshev__distance_1_1task">oneapi::dal::chebyshev_distance::task</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1chebyshev__distance_1_1task_1_1v1">oneapi::dal::chebyshev_distance::task::v1</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1chebyshev__distance_1_1method">oneapi::dal::chebyshev_distance::method</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1chebyshev__distance_1_1method_1_1v1">oneapi::dal::chebyshev_distance::method::v1</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1chebyshev__distance_1_1detail">oneapi::dal::chebyshev_distance::detail</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1chebyshev__distance_1_1detail_1_1v1">oneapi::dal::chebyshev_distance::detail::v1</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1chebyshev__distance_1_1v1">oneapi::dal::chebyshev_distance::v1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/chebyshev_distance/common.hpp"/>
+  </compounddef>
+</doxygen>

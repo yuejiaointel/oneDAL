@@ -1,0 +1,792 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1v1_1_1base" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::v1::base</compoundname>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider" prot="public" virt="non-virtual">communicator_provider&lt; spmd::device_memory_access::none &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider" prot="public" virt="non-virtual">communicator_provider&lt; spmd::device_memory_access::usm &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base" prot="public" virt="non-virtual">ndarray_base&lt; axis_count, order &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base" prot="public" virt="non-virtual">ndarray_base&lt; axis_count, ndorder::c &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1basic__statistics_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; detail::descriptor_base&lt;&gt;::task_t &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; task::by_default &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result" prot="public" virt="non-virtual">partial_compute_result&lt; task::by_default &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1chebyshev__distance_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; task::by_default &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" prot="public" virt="non-virtual">node_info&lt; task::classification &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" prot="public" virt="non-virtual">node_info&lt; task::regression &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" prot="public" virt="non-virtual">node_info&lt; task::by_default &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1linear__regression_1_1v1_1_1partial__train__result" prot="public" virt="non-virtual">partial_train_result&lt; task::by_default &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1linear__regression_1_1v1_1_1train__input" prot="public" virt="non-virtual">train_input&lt; task::by_default &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider" prot="public" virt="non-virtual">communicator_provider&lt; MemoryAccessKind &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1object__store" prot="public" virt="non-virtual">object_store</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1object__store__entry" prot="public" virt="non-virtual">object_store_entry&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base" prot="public" virt="non-virtual">ndarray_base&lt; axis_count, order &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_01_4" prot="public" virt="non-virtual">serializable_map&lt; Tag, Map1, Map2 &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_00_01_map3_01_4" prot="public" virt="non-virtual">serializable_map&lt; Tag, Map1, Map2, Map3 &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_00_01_map3_00_01_map4_01_4" prot="public" virt="non-virtual">serializable_map&lt; Tag, Map1, Map2, Map3, Map4 &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1backend_1_1smart__event" prot="public" virt="non-virtual">smart_event</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1basic__statistics_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__result" prot="public" virt="non-virtual">compute_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result" prot="public" virt="non-virtual">partial_compute_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1chebyshev__distance_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1cosine__distance_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1covariance_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base" prot="public" virt="non-virtual">data_source_base</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args_3_01table_01_4" prot="public" virt="non-virtual">read_args&lt; table &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1dbscan_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1dbscan_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model" prot="public" virt="non-virtual">model&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info" prot="public" virt="non-virtual">node_info&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1finiteness__checker_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1compute__result" prot="public" virt="non-virtual">compute_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1kmeans_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__input" prot="public" virt="non-virtual">infer_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__input" prot="public" virt="non-virtual">train_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1kmeans__init_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1infer__input" prot="public" virt="non-virtual">infer_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1train__input" prot="public" virt="non-virtual">train_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1linear__kernel_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1linear__kernel_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1linear__kernel_1_1v1_1_1compute__result" prot="public" virt="non-virtual">compute_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1linear__regression_1_1v1_1_1infer__input" prot="public" virt="non-virtual">infer_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1logistic__regression_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1logistic__regression_1_1detail_1_1v1_1_1train__parameters" prot="public" virt="non-virtual">train_parameters&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1logistic__regression_1_1v1_1_1infer__input" prot="public" virt="non-virtual">infer_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1minkowski__distance_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1newton__cg_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1objective__function_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1objective__function_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1objective__function_1_1v1_1_1compute__result" prot="public" virt="non-virtual">compute_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1pca_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1infer__input" prot="public" virt="non-virtual">infer_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result" prot="public" virt="non-virtual">partial_train_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__input" prot="public" virt="non-virtual">train_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1polynomial__kernel_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1polynomial__kernel_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1polynomial__kernel_1_1v1_1_1compute__result" prot="public" virt="non-virtual">compute_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1detail_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__input" prot="public" virt="non-virtual">vertex_partitioning_input&lt; Graph, Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1jaccard_1_1detail_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1jaccard_1_1vertex__similarity__input" prot="public" virt="non-virtual">vertex_similarity_input&lt; Graph, Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1detail_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1vertex__partitioning__input" prot="public" virt="non-virtual">vertex_partitioning_input&lt; Graph, Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1traverse__input" prot="public" virt="non-virtual">traverse_input&lt; Graph, Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator" prot="public" virt="non-virtual">communicator&lt; MemoryAccessKind &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request" prot="public" virt="non-virtual">request</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1graph__matching__input" prot="public" virt="non-virtual">graph_matching_input&lt; Graph, Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__input" prot="public" virt="non-virtual">vertex_ranking_input&lt; Graph, Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1rbf__kernel_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1rbf__kernel_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1rbf__kernel_1_1v1_1_1compute__result" prot="public" virt="non-virtual">compute_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input" prot="public" virt="non-virtual">compute_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__result" prot="public" virt="non-virtual">compute_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base" prot="public" virt="non-virtual">descriptor_base&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1infer__input" prot="public" virt="non-virtual">infer_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1infer__result" prot="public" virt="non-virtual">infer_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1train__input" prot="public" virt="non-virtual">train_input&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1train__result" prot="public" virt="non-virtual">train_result&lt; Task &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__context" prot="public" virt="non-virtual">thread_communicator_context</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ~base</definition>
+        <argsstring>()=default</argsstring>
+        <name>~base</name>
+        <qualifiedname>oneapi::dal::v1::base::~base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/common.hpp" line="79" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="2">
+        <label>communicator_provider&lt; spmd::device_memory_access::none &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>communicator_provider&lt; spmd::device_memory_access::usm &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>compute_input&lt; task::by_default &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>descriptor_base&lt; detail::descriptor_base&lt;&gt;::task_t &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>descriptor_base&lt; task::by_default &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1chebyshev__distance_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ndarray_base&lt; axis_count, ndorder::c &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ndarray_base&lt; axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ndview&lt; T, axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>node_info&lt; task::by_default &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>node_info&lt; task::classification &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>node_info&lt; task::regression &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>communicator_provider&lt; MemoryAccessKind &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1communicator__provider"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>context_cpu</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1context__cpu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>context_gpu</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1context__gpu"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>fake_spmd_communicator&lt; MemoryAccessKind &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1fake__spmd__communicator"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>object_store</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1object__store"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>object_store_entry&lt; T &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1object__store__entry"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ndarray&lt; T, axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>ndarray_base&lt; axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndarray__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>ndview&lt; T, axis_count, order &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1primitives_1_1ndview"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>serializable_map&lt; Tag, Map1, Map2 &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>serializable_map&lt; Tag, Map1, Map2, Map3 &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_00_01_map3_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>serializable_map&lt; Tag, Map1, Map2, Map3, Map4 &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_00_01_map3_00_01_map4_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>smart_event</label>
+        <link refid="classoneapi_1_1dal_1_1backend_1_1smart__event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1compute__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>partial_compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__input"/>
+        <childnode refid="31" relation="protected-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>partial_compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1chebyshev__distance_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1cosine__distance_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1covariance_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>data_source_base</label>
+        <link refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1data__source__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>data_source&lt; Float &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1csv_1_1v1_1_1data__source"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>read_args&lt; table &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args_3_01table_01_4"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1dbscan_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1dbscan_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>descriptor&lt; Float, Method, Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1descriptor"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>model&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1model"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>leaf_node_info&lt; task::classification &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1leaf__node__info_3_01task_1_1classification_01_4"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>leaf_node_info&lt; task::regression &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1leaf__node__info_3_01task_1_1regression_01_4"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>node_info&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1node__info"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>split_node_info&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1decision__tree_1_1v1_1_1split__node__info"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1finiteness__checker_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1finiteness__checker_1_1v1_1_1compute__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1kmeans_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>infer_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1infer__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>train_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1kmeans_1_1v1_1_1train__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1kmeans__init_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1kmeans__init_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1knn_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>infer_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1infer__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>train_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1knn_1_1v1_1_1train__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__kernel_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__kernel_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__kernel_1_1v1_1_1compute__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__regression_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>infer_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1linear__regression_1_1v1_1_1infer__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1logistic__regression_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>train_parameters&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1logistic__regression_1_1detail_1_1v1_1_1train__parameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>infer_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1logistic__regression_1_1v1_1_1infer__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1minkowski__distance_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1newton__cg_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1objective__function_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1objective__function_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1objective__function_1_1v1_1_1compute__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1pca_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>infer_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1infer__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>partial_train_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__input"/>
+        <childnode refid="76" relation="protected-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>partial_train_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1partial__train__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>train_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1pca_1_1v1_1_1train__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1polynomial__kernel_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1polynomial__kernel_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1polynomial__kernel_1_1v1_1_1compute__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1descriptor"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1detail_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>vertex_partitioning_input&lt; Graph, Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>descriptor&lt; Float, Method, Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1jaccard_1_1descriptor"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1jaccard_1_1detail_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>vertex_similarity_input&lt; Graph, Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1jaccard_1_1vertex__similarity__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1descriptor"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1detail_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>vertex_partitioning_input&lt; Graph, Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1louvain_1_1vertex__partitioning__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>traverse_input&lt; Graph, Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1traverse__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>communicator&lt; MemoryAccessKind &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1communicator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>request</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1spmd_1_1v1_1_1request"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1descriptor"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1detail_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>graph_matching_input&lt; Graph, Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1subgraph__isomorphism_1_1graph__matching__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>descriptor&lt; Float, Method, Task, Allocator &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1descriptor"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1detail_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>vertex_ranking_input&lt; Graph, Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1rbf__kernel_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1rbf__kernel_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1rbf__kernel_1_1v1_1_1compute__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>compute_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1sigmoid__kernel_1_1v1_1_1compute__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>infer_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1infer__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>infer_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1infer__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>train_input&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1train__input"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>train_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1train__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>thread_communicator&lt; MemoryAccessKind &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>thread_communicator_context</label>
+        <link refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__context"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>partial_compute_result&lt; task::by_default &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>partial_train_result&lt; task::by_default &gt;</label>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>train_input&lt; task::by_default &gt;</label>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/common.hpp" line="77" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/common.hpp" bodystart="77" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::v1::base</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

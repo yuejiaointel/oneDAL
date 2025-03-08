@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1logloss__objective_1_1method_1_1v1_1_1dense__batch" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::logloss_objective::method::v1::dense_batch</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="42" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" bodystart="42" bodyend="42"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

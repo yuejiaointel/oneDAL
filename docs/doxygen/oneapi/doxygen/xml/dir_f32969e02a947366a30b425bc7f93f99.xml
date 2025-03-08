@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_f32969e02a947366a30b425bc7f93f99" kind="dir">
+    <compoundname>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths</compoundname>
+    <innerfile refid="algo_2shortest__paths_2common_8hpp">common.hpp</innerfile>
+    <innerfile refid="algo_2shortest__paths_2traverse_8hpp">traverse.hpp</innerfile>
+    <innerfile refid="traverse__types_8hpp">traverse_types.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1logistic__regression_1_1method_1_1v1" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::logistic_regression::method::v1</compoundname>
+    <innerclass refid="structoneapi_1_1dal_1_1logistic__regression_1_1method_1_1v1_1_1dense__batch" prot="public">oneapi::dal::logistic_regression::method::v1::dense_batch</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1logistic__regression_1_1method_1_1v1_1_1sparse" prot="public">oneapi::dal::logistic_regression::method::v1::sparse</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="algo_2logistic__regression_2common_8hpp_1a5c9b5592928e6614586d241f7e39e7f5" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1logistic__regression_1_1method_1_1v1_1_1dense__batch" kindref="compound">dense_batch</ref></type>
+        <definition>using by_default =  dense_batch</definition>
+        <argsstring></argsstring>
+        <name>by_default</name>
+        <qualifiedname>oneapi::dal::logistic_regression::method::v1::by_default</qualifiedname>
+        <briefdescription>
+<para>Alias tag-type for the <ref refid="structoneapi_1_1dal_1_1logistic__regression_1_1method_1_1v1_1_1dense__batch" kindref="compound">dense_batch</ref> method. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="51" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="44" column="1"/>
+  </compounddef>
+</doxygen>

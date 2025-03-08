@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::preview::shortest_paths::detail</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__base" prot="private">oneapi::dal::preview::shortest_paths::detail::descriptor_base</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__impl" prot="private">oneapi::dal::preview::shortest_paths::detail::descriptor_impl</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1detail_1_1descriptor__tag" prot="private">oneapi::dal::preview::shortest_paths::detail::descriptor_tag</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="algo_2shortest__paths_2common_8hpp_1a0ea3b139601ad1369942e852735c1196" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; dal::detail::is_one_of_v&lt; T, <ref refid="structoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1task_1_1one__to__all" kindref="compound">task::one_to_all</ref> &gt; &gt;</type>
+        <definition>using enable_if_single_source_t =  std::enable_if_t&lt;dal::detail::is_one_of_v&lt;T, task::one_to_all&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_single_source_t</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::enable_if_single_source_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="97" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="algo_2shortest__paths_2common_8hpp_1a94c13706101d706b3544b31c10979c8d" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; dal::detail::is_one_of_v&lt; T, <ref refid="structoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1task_1_1one__to__all" kindref="compound">task::one_to_all</ref> &gt; &amp;dal::detail::is_one_of_v&lt; M, <ref refid="structoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1method_1_1delta__stepping" kindref="compound">method::delta_stepping</ref> &gt; &gt;</type>
+        <definition>using enable_if_delta_stepping_single_source_t =  std::enable_if_t&lt;dal::detail::is_one_of_v&lt;T, task::one_to_all&gt; &amp; dal::detail::is_one_of_v&lt;M, method::delta_stepping&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_delta_stepping_single_source_t</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::enable_if_delta_stepping_single_source_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="100" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="algo_2shortest__paths_2common_8hpp_1a651d771a24a56ccfdfd78b2193a9c972" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; dal::detail::is_one_of_v&lt; M, <ref refid="structoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1method_1_1delta__stepping" kindref="compound">method::delta_stepping</ref> &gt; &gt;</type>
+        <definition>using enable_if_delta_stepping_t =  std::enable_if_t&lt;dal::detail::is_one_of_v&lt;M, method::delta_stepping&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>enable_if_delta_stepping_t</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::enable_if_delta_stepping_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="105" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="106" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="algo_2shortest__paths_2common_8hpp_1a3b3e82243e00896c3e86b8443806f31b" prot="private" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Method</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_method</definition>
+        <argsstring></argsstring>
+        <name>is_valid_method</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::is_valid_method</qualifiedname>
+        <initializer>= dal::detail::is_one_of_v&lt;Method, <ref refid="structoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1method_1_1delta__stepping" kindref="compound">method::delta_stepping</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="109" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2shortest__paths_2common_8hpp_1aed3f40067c50f1a4d99267508d2ae867" prot="private" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Task</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_task</definition>
+        <argsstring></argsstring>
+        <name>is_valid_task</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::is_valid_task</qualifiedname>
+        <initializer>= dal::detail::is_one_of_v&lt;Task, <ref refid="structoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1task_1_1one__to__all" kindref="compound">task::one_to_all</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="112" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2shortest__paths_2common_8hpp_1aab4f6978e976404943259d1000797fa2" prot="private" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Graph</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_graph</definition>
+        <argsstring></argsstring>
+        <name>is_valid_graph</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::is_valid_graph</qualifiedname>
+        <initializer>= is_directed&lt;Graph&gt;&amp;&amp;
+    dal::detail::is_one_of_v&lt;<ref refid="graph_2common_8hpp_1a36458ca5980ef2078a5e103bb72d9045" kindref="member">edge_user_value_type</ref>&lt;Graph&gt;, std::int32_t, double&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="218" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" bodystart="218" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="algo_2shortest__paths_2common_8hpp_1af40ca143f728019658c9e63ec97f6966" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref></type>
+        <definition>ONEDAL_EXPORT optional_result_id get_predecessors_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_predecessors_id</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::get_predecessors_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="81" column="34" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" declline="81" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="algo_2shortest__paths_2common_8hpp_1a201e419fc09ad4efada56bb351aa41be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ONEDAL_EXPORT <ref refid="classoneapi_1_1dal_1_1preview_1_1shortest__paths_1_1optional__result__id" kindref="compound">optional_result_id</ref></type>
+        <definition>ONEDAL_EXPORT optional_result_id get_distances_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_distances_id</name>
+        <qualifiedname>oneapi::dal::preview::shortest_paths::detail::get_distances_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="82" column="34" declfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" declline="82" declcolumn="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/shortest_paths/common.hpp" line="80" column="1"/>
+  </compounddef>
+</doxygen>

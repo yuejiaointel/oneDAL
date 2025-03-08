@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__sendrecv__replace_1_1buffer__info" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::thread_communicator_sendrecv_replace::buffer_info</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__sendrecv__replace_1_1buffer__info_1a0c8e006f7ce16fcdc2b7be700d37614c" prot="public" static="no" mutable="no">
+        <type>byte_t *</type>
+        <definition>byte_t* buf</definition>
+        <argsstring></argsstring>
+        <name>buf</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_sendrecv_replace::buffer_info::buf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="213" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__sendrecv__replace_1_1buffer__info_1a7b9bc0202b78c2be5b92d0c1b6ba024b" prot="public" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_sendrecv_replace::buffer_info::count</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="214" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="214" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>thread_communicator_sendrecv_replace::buffer_info</label>
+        <link refid="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__sendrecv__replace_1_1buffer__info"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>buf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>byte_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="212" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="212" bodyend="215"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__sendrecv__replace_1_1buffer__info_1a0c8e006f7ce16fcdc2b7be700d37614c" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_sendrecv_replace::buffer_info</scope><name>buf</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__sendrecv__replace_1_1buffer__info_1a7b9bc0202b78c2be5b92d0c1b6ba024b" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_sendrecv_replace::buffer_info</scope><name>count</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

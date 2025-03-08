@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::csv::v1::read_args</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Object</type>
+        <defval><ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref></defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/read_types.hpp" line="40" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/read_types.hpp" bodystart="40" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

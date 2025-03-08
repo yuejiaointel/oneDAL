@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1v1_1_1row__accessor" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::v1::row_accessor</compoundname>
+    <includes refid="row__accessor_8hpp" local="no">row_accessor.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1ab027bea168d2ecaeafcd7086740888ef" prot="private" static="no">
+        <type>std::remove_const_t&lt; T &gt;</type>
+        <definition>using data_t =  std::remove_const_t&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>data_t</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::data_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="33" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a01b5eaa93b39348c465be9a080c669af" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_readonly</definition>
+        <argsstring></argsstring>
+        <name>is_readonly</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::is_readonly</qualifiedname>
+        <initializer>= std::is_const_v&lt;T&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="34" column="27" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a4b894bb3e82cd1f81eaf1a1f78a59a72" prot="private" static="no" mutable="no">
+        <type>detail::shared&lt; detail::pull_rows_iface &gt;</type>
+        <definition>detail::shared&lt;detail::pull_rows_iface&gt; pull_iface_</definition>
+        <argsstring></argsstring>
+        <name>pull_iface_</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::pull_iface_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="166" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1ad090e824bb9d17061c97e576eff6d313" prot="private" static="no" mutable="no">
+        <type>detail::shared&lt; detail::push_rows_iface &gt;</type>
+        <definition>detail::shared&lt;detail::push_rows_iface&gt; push_iface_</definition>
+        <argsstring></argsstring>
+        <name>push_iface_</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::push_iface_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="167" column="20" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="167" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a5ae9aa8e42c174fdd422d938e1b4186e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+            <defval>T</defval>
+          </param>
+          <param>
+            <type>std::enable_if_t&lt; std::is_const_v&lt; U &gt;, int &gt;</type>
+            <defval>0</defval>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>row_accessor</definition>
+        <argsstring>(const table &amp;table)</argsstring>
+        <name>row_accessor</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::row_accessor</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a read-only accessor object from the table. Available only for const-qualified :literal:<computeroutput>T</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="40" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1aa226e73fc8ab2058d6827d740a86a1d1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>row_accessor</definition>
+        <argsstring>(const detail::table_builder &amp;builder)</argsstring>
+        <name>row_accessor</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::row_accessor</qualifiedname>
+        <param>
+          <type>const detail::table_builder &amp;</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="47" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="47" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a94be7846661bc2cf1ecf7caaa19b6bd1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; data_t &gt;</type>
+        <definition>dal::array&lt; data_t &gt; pull</definition>
+        <argsstring>(const range &amp;row_range={ 0, -1 }) const</argsstring>
+        <name>pull</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::pull</qualifiedname>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1v1_1_1range" kindref="compound">range</ref> &amp;</type>
+          <declname>row_range</declname>
+          <defval>{ 0, -1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides access to the rows of the table. The method returns an array that directly points to the memory within the table if it is possible. In that case, the array refers to the memory as to immutable data. Otherwise, the new memory block is allocated, the data from the table rows is converted and copied into this block. In this case, the array refers to the block as to mutable data.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">row_range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The range of rows that data is returned from the accessor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para><computeroutput>row_range</computeroutput> are within the range of <computeroutput>[0, obj.row_count)</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="70" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a8e76a29fb38136829f6fa474f5da4965" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; data_t &gt;</type>
+        <definition>dal::array&lt; data_t &gt; pull</definition>
+        <argsstring>(sycl::queue &amp;queue, const range &amp;row_range={ 0, -1 }, const sycl::usm::alloc &amp;alloc=sycl::usm::alloc::shared) const</argsstring>
+        <name>pull</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::pull</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1v1_1_1range" kindref="compound">range</ref> &amp;</type>
+          <declname>row_range</declname>
+          <defval>{ 0, -1 }</defval>
+        </param>
+        <param>
+          <type>const sycl::usm::alloc &amp;</type>
+          <declname>alloc</declname>
+          <defval>sycl::usm::alloc::shared</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides access to the rows of the table. The method returns an array that directly points to the memory within the table if it is possible. In that case, the array refers to the memory as to immutable data. Otherwise, the new memory block is allocated, the data from the table rows is converted and copied into this block. In this case, the array refers to the block as to mutable data.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">queue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">row_range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The range of rows that data is returned from the accessor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">alloc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The requested kind of USM in the returned block.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para><computeroutput>row_range</computeroutput> are within the range of <computeroutput>[0, obj.row_count)</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="88" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a45ec10de7a7b5909103f78555c637e46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * pull</definition>
+        <argsstring>(dal::array&lt; data_t &gt; &amp;block, const range &amp;row_range={ 0, -1 }) const</argsstring>
+        <name>pull</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::pull</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; data_t &gt; &amp;</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1v1_1_1range" kindref="compound">range</ref> &amp;</type>
+          <declname>row_range</declname>
+          <defval>{ 0, -1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides access to the rows of the table. The method returns an array that directly points to the memory within the table if it is possible. In that case, the array refers to the memory as to immutable data. Otherwise, the new memory block is allocated, the data from the table rows is converted and copied into this block. In this case, the array refers to the block as to mutable data. The method updates the :expr:<computeroutput>block</computeroutput> array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The block which memory is reused (if it is possible) to obtain the data from the table. The block memory is reset either when its size is not big enough, or when it contains immutable data, or when direct memory from the table can be used. If the block is reset to use a direct memory pointer from the object, it refers to this pointer as to immutable memory block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">row_range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The range of rows that data is returned from the accessor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para><computeroutput>rows</computeroutput> are within the range of <computeroutput>[0, obj.row_count)</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="112" column="7" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1aa507a486a11dcc8b132626b27de23ef2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * pull</definition>
+        <argsstring>(sycl::queue &amp;queue, dal::array&lt; data_t &gt; &amp;block, const range &amp;row_range={ 0, -1 }, const sycl::usm::alloc &amp;alloc=sycl::usm::alloc::shared) const</argsstring>
+        <name>pull</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::pull</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; data_t &gt; &amp;</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1v1_1_1range" kindref="compound">range</ref> &amp;</type>
+          <declname>row_range</declname>
+          <defval>{ 0, -1 }</defval>
+        </param>
+        <param>
+          <type>const sycl::usm::alloc &amp;</type>
+          <declname>alloc</declname>
+          <defval>sycl::usm::alloc::shared</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides access to the rows of the table. The method returns an array that directly points to the memory within the table if it is possible. In that case, the array refers to the memory as to immutable data. Otherwise, the new memory block is allocated, the data from the table rows is converted and copied into this block. In this case, the array refers to the block as to mutable data. The method updates the :expr:<computeroutput>block</computeroutput> array.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">queue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The SYCL* queue object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">block</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The block which memory is reused (if it is possible) to obtain the data from the table. The block memory is reset either when its size is not big enough, or when it contains immutable data, or when direct memory from the table can be used. If the block is reset to use a direct memory pointer from the object, it refers to this pointer as to immutable memory block. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">row_range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The range of rows that data is returned from the accessor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">alloc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The requested kind of USM in the returned block.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="pre"><para><computeroutput>rows</computeroutput> are within the range of <computeroutput>[0, obj.row_count)</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="135" column="7" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="135" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1af047f038761f96e641a1971477ab9f4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+            <defval>T</defval>
+          </param>
+          <param>
+            <type>std::enable_if_t&lt;!std::is_const_v&lt; U &gt;, int &gt;</type>
+            <defval>0</defval>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void push</definition>
+        <argsstring>(const dal::array&lt; data_t &gt; &amp;block, const range &amp;row_range={ 0, -1 })</argsstring>
+        <name>push</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::push</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; data_t &gt; &amp;</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1v1_1_1range" kindref="compound">range</ref> &amp;</type>
+          <declname>row_range</declname>
+          <defval>{ 0, -1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="145" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="145" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a295f8d9f40ebc24102fa26a02c542c94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+            <defval>T</defval>
+          </param>
+          <param>
+            <type>std::enable_if_t&lt;!std::is_const_v&lt; U &gt;, int &gt;</type>
+            <defval>0</defval>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void push</definition>
+        <argsstring>(sycl::queue &amp;queue, const dal::array&lt; data_t &gt; &amp;block, const range &amp;row_range={ 0, -1 })</argsstring>
+        <name>push</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::push</qualifiedname>
+        <param>
+          <type>sycl::queue &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; data_t &gt; &amp;</type>
+          <declname>block</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structoneapi_1_1dal_1_1v1_1_1range" kindref="compound">range</ref> &amp;</type>
+          <declname>row_range</declname>
+          <defval>{ 0, -1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="151" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="151" bodyend="155"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a17a7abe2df8ef1e1ba0a6f92cbd4caef" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>static T * get_block_data</definition>
+        <argsstring>(const dal::array&lt; data_t &gt; &amp;block)</argsstring>
+        <name>get_block_data</name>
+        <qualifiedname>oneapi::dal::v1::row_accessor::get_block_data</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; data_t &gt; &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="159" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="159" bodyend="164"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides access to the range of rows as one contiguous homogeneous block of memory.</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of data values in blocks returned by the accessor. Should be const-qualified for read-only access. An accessor supports at least :literal:<computeroutput>float</computeroutput>, :literal:<computeroutput>double</computeroutput>, and :literal:<computeroutput>std::int32_t</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" line="32" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/table/row_accessor.hpp" bodystart="32" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1ab027bea168d2ecaeafcd7086740888ef" prot="private" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>data_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a17a7abe2df8ef1e1ba0a6f92cbd4caef" prot="private" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>get_block_data</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a01b5eaa93b39348c465be9a080c669af" prot="private" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>is_readonly</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a94be7846661bc2cf1ecf7caaa19b6bd1" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>pull</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a8e76a29fb38136829f6fa474f5da4965" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>pull</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a45ec10de7a7b5909103f78555c637e46" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>pull</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1aa507a486a11dcc8b132626b27de23ef2" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>pull</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a4b894bb3e82cd1f81eaf1a1f78a59a72" prot="private" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>pull_iface_</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1af047f038761f96e641a1971477ab9f4c" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>push</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a295f8d9f40ebc24102fa26a02c542c94" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>push</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1ad090e824bb9d17061c97e576eff6d313" prot="private" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>push_iface_</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1a5ae9aa8e42c174fdd422d938e1b4186e" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>row_accessor</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1row__accessor_1aa226e73fc8ab2058d6827d740a86a1d1" prot="public" virt="non-virtual"><scope>oneapi::dal::v1::row_accessor</scope><name>row_accessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

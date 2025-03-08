@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1detail_1_1v1_1_1compute__ops_3_01_descriptor_00_01dal_1_1dbscan_1_1detail_1_1descriptor__tag_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::detail::v1::compute_ops&lt; Descriptor, dal::dbscan::detail::descriptor_tag &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">dal::dbscan::detail::compute_ops&lt; Descriptor &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Descriptor</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>compute_ops&lt; Descriptor, dal::dbscan::detail::descriptor_tag &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1detail_1_1v1_1_1compute__ops_3_01_descriptor_00_01dal_1_1dbscan_1_1detail_1_1descriptor__tag_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>compute_ops&lt; Descriptor &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>compute_ops&lt; Descriptor, dal::dbscan::detail::descriptor_tag &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1detail_1_1v1_1_1compute__ops_3_01_descriptor_00_01dal_1_1dbscan_1_1detail_1_1descriptor__tag_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>compute_ops&lt; Descriptor &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/compute.hpp" line="27" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/dbscan/compute.hpp" bodystart="28" bodyend="28"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

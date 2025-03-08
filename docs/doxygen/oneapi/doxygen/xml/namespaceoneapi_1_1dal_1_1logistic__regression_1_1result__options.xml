@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1logistic__regression_1_1result__options" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::logistic_regression::result_options</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1logistic__regression_1_1result__options_1a23e26ac7c0b7f47de3d3c4cceef5cc20" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1logistic__regression_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id intercept</definition>
+        <argsstring></argsstring>
+        <name>intercept</name>
+        <qualifiedname>oneapi::dal::logistic_regression::result_options::intercept</qualifiedname>
+        <initializer>= detail::get_intercept_id()</initializer>
+        <briefdescription>
+<para>Return the indices the intercept term in logistic regression. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="83" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1logistic__regression_1_1result__options_1affcdad81cf96506f45227ceeffd15e06" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1logistic__regression_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id coefficients</definition>
+        <argsstring></argsstring>
+        <name>coefficients</name>
+        <qualifiedname>oneapi::dal::logistic_regression::result_options::coefficients</qualifiedname>
+        <initializer>= detail::get_coefficients_id()</initializer>
+        <briefdescription>
+<para>Return the coefficients to use in logistic regression. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="86" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1logistic__regression_1_1result__options_1abca297cd2292915e5f726b28ce299010" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1logistic__regression_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id iterations_count</definition>
+        <argsstring></argsstring>
+        <name>iterations_count</name>
+        <qualifiedname>oneapi::dal::logistic_regression::result_options::iterations_count</qualifiedname>
+        <initializer>= detail::get_iterations_count_id()</initializer>
+        <briefdescription>
+<para>Return the number of iterations made by optimizer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="89" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceoneapi_1_1dal_1_1logistic__regression_1_1result__options_1ae3cad5d68ad88b5b91850daecbd56671" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1logistic__regression_1_1result__option__id" kindref="compound">result_option_id</ref></type>
+        <definition>const result_option_id inner_iterations_count</definition>
+        <argsstring></argsstring>
+        <name>inner_iterations_count</name>
+        <qualifiedname>oneapi::dal::logistic_regression::result_options::inner_iterations_count</qualifiedname>
+        <initializer>= detail::get_inner_iterations_count_id()</initializer>
+        <briefdescription>
+<para>Return the number of subiterations made by optimizer. Only available for newton-cg optimizer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="92" column="31" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Result options are used to define what should algorithm return </para>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="80" column="1"/>
+  </compounddef>
+</doxygen>

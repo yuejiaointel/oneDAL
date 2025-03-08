@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1method" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::preview::triangle_counting::method</compoundname>
+    <innerclass refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1method_1_1ordered__count" prot="public">oneapi::dal::preview::triangle_counting::method::ordered_count</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="algo_2triangle__counting_2common_8hpp_1a9e0af1a3f12416b666dab1327dde6375" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1method_1_1ordered__count" kindref="compound">ordered_count</ref></type>
+        <definition>using by_default =  ordered_count</definition>
+        <argsstring></argsstring>
+        <name>by_default</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::method::by_default</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="33" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/common.hpp" line="31" column="1"/>
+  </compounddef>
+</doxygen>

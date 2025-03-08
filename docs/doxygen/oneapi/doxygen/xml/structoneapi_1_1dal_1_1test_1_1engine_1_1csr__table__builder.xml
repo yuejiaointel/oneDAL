@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::csr_table_builder</compoundname>
+    <includes refid="csr__table__builder_8hpp" local="no">csr_table_builder.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Float</type>
+        <defval>float</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a37ef49eb30d58c7ddc8082acce04615c" prot="public" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t row_count_</definition>
+        <argsstring></argsstring>
+        <name>row_count_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::row_count_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="157" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1ae12dc9c6c7cbd91f9227b9849d4aa89c" prot="public" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t column_count_</definition>
+        <argsstring></argsstring>
+        <name>column_count_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::column_count_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="157" column="29" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a30b3454f70fc3ace3590311d62515891" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float nonzero_fraction_</definition>
+        <argsstring></argsstring>
+        <name>nonzero_fraction_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::nonzero_fraction_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="158" column="11" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a39caf4c0aeac1875547523d517dfae3e" prot="public" static="no" mutable="no">
+        <type>sparse_indexing</type>
+        <definition>sparse_indexing indexing_</definition>
+        <argsstring></argsstring>
+        <name>indexing_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::indexing_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="159" column="21" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1acab15f8e7e7c5ef53828b2b5c3b95a7e" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; Float &gt;</type>
+        <definition>const dal::array&lt;Float&gt; data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::data_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="160" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1ad746b66a634717bf4cb690c0acb887f3" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt;</type>
+        <definition>const dal::array&lt;std::int64_t&gt; column_indices_</definition>
+        <argsstring></argsstring>
+        <name>column_indices_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::column_indices_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="161" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1ad5b2cf60c1ca9d70ac29978c6a837b4b" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v2_1_1array" kindref="compound">dal::array</ref>&lt; std::int64_t &gt;</type>
+        <definition>const dal::array&lt;std::int64_t&gt; row_offsets_</definition>
+        <argsstring></argsstring>
+        <name>row_offsets_</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::row_offsets_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="162" column="22" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="162" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a665237e54e857ae65b4a6ee8ac047d91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>csr_table_builder</definition>
+        <argsstring>(std::int64_t row_count, std::int64_t column_count, float nnz_fraction=0.1, sparse_indexing indexing=sparse_indexing::one_based, float min_val=-10.0, float max_val=10.0, int seed_in=42)</argsstring>
+        <name>csr_table_builder</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::csr_table_builder</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>row_count</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>column_count</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>nnz_fraction</declname>
+          <defval>0.1</defval>
+        </param>
+        <param>
+          <type>sparse_indexing</type>
+          <declname>indexing</declname>
+          <defval>sparse_indexing::one_based</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min_val</declname>
+          <defval>-10.0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max_val</declname>
+          <defval>10.0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed_in</declname>
+          <defval>42</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="164" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="164" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a9c2f482833a5607ca5963604672993db" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1csr__table" kindref="compound">csr_table</ref></type>
+        <definition>csr_table build_csr_table</definition>
+        <argsstring>(device_test_policy &amp;policy) const</argsstring>
+        <name>build_csr_table</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::build_csr_table</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="236" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="236" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1ac95e1b7492483b85af04a4572984aa17" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1homogen__table" kindref="compound">homogen_table</ref></type>
+        <definition>homogen_table build_dense_table</definition>
+        <argsstring>(device_test_policy &amp;policy) const</argsstring>
+        <name>build_dense_table</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::build_dense_table</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1device__test__policy" kindref="compound">device_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="247" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="247" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a61a6af7e5eb0ab6cbf6c9b40439a8450" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1csr__table" kindref="compound">csr_table</ref></type>
+        <definition>csr_table build_csr_table</definition>
+        <argsstring>(host_test_policy &amp;policy) const</argsstring>
+        <name>build_csr_table</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::build_csr_table</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="259" column="15" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="259" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a3c1ef2b4232a84b04aa00011152f5efa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classoneapi_1_1dal_1_1v1_1_1homogen__table" kindref="compound">homogen_table</ref></type>
+        <definition>homogen_table build_dense_table</definition>
+        <argsstring>(host_test_policy &amp;policy) const</argsstring>
+        <name>build_dense_table</name>
+        <qualifiedname>oneapi::dal::test::engine::csr_table_builder::build_dense_table</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1host__test__policy" kindref="compound">host_test_policy</ref> &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="268" column="19" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="268" bodyend="275"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Generates random CSR table based on inputs </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>array&lt; float &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1v2_1_1array"/>
+      </node>
+      <node id="4">
+        <label>array&lt; std::int64_t &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1v2_1_1array"/>
+      </node>
+      <node id="1">
+        <label>csr_table_builder&lt; Float &gt;</label>
+        <link refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>indexing_</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>data_</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>column_indices_</edgelabel>
+          <edgelabel>row_offsets_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sparse_indexing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" line="156" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/csr_table_builder.hpp" bodystart="156" bodyend="276"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a9c2f482833a5607ca5963604672993db" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>build_csr_table</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a61a6af7e5eb0ab6cbf6c9b40439a8450" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>build_csr_table</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1ac95e1b7492483b85af04a4572984aa17" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>build_dense_table</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a3c1ef2b4232a84b04aa00011152f5efa" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>build_dense_table</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1ae12dc9c6c7cbd91f9227b9849d4aa89c" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>column_count_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1ad746b66a634717bf4cb690c0acb887f3" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>column_indices_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a665237e54e857ae65b4a6ee8ac047d91" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>csr_table_builder</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1acab15f8e7e7c5ef53828b2b5c3b95a7e" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>data_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a39caf4c0aeac1875547523d517dfae3e" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>indexing_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a30b3454f70fc3ace3590311d62515891" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>nonzero_fraction_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1a37ef49eb30d58c7ddc8082acce04615c" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>row_count_</name></member>
+      <member refid="structoneapi_1_1dal_1_1test_1_1engine_1_1csr__table__builder_1ad5b2cf60c1ca9d70ac29978c6a837b4b" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::csr_table_builder</scope><name>row_offsets_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

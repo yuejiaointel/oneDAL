@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1backend_1_1impl" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::backend::impl</compoundname>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1make__signed__map" prot="public">oneapi::dal::backend::impl::make_signed_map</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1make__signed__map_3_01_type_00_01true_01_4" prot="public">oneapi::dal::backend::impl::make_signed_map&lt; Type, true &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1preferred__vector__desc" prot="private">oneapi::dal::backend::impl::preferred_vector_desc</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1preferred__vector__desc_3_01char_01_4" prot="private">oneapi::dal::backend::impl::preferred_vector_desc&lt; char &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1preferred__vector__desc_3_01double_01_4" prot="private">oneapi::dal::backend::impl::preferred_vector_desc&lt; double &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1preferred__vector__desc_3_01float_01_4" prot="private">oneapi::dal::backend::impl::preferred_vector_desc&lt; float &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1preferred__vector__desc_3_01int_01_4" prot="private">oneapi::dal::backend::impl::preferred_vector_desc&lt; int &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1preferred__vector__desc_3_01long_01_4" prot="private">oneapi::dal::backend::impl::preferred_vector_desc&lt; long &gt;</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1impl_1_1preferred__vector__desc_3_01short_01_4" prot="private">oneapi::dal::backend::impl::preferred_vector_desc&lt; short &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/common.hpp" line="59" column="1"/>
+  </compounddef>
+</doxygen>

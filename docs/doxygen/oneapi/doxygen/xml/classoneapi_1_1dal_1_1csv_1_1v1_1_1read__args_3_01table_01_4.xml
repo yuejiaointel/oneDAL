@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args_3_01table_01_4" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::csv::v1::read_args&lt; table &gt;</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args_3_01table_01_4_1a1a55265c505dc7386dd12582088f6d66" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1csv_1_1detail_1_1v1_1_1read__args__impl" kindref="compound">detail::read_args_impl</ref>&lt; <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::read_args_impl&lt;table&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::csv::v1::read_args&lt; table &gt;::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/read_types.hpp" line="48" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/read_types.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args_3_01table_01_4_1a5e014b6322e1edf08a10f829fd304c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>read_args</definition>
+        <argsstring>()</argsstring>
+        <name>read_args</name>
+        <qualifiedname>oneapi::dal::csv::v1::read_args&lt; table &gt;::read_args</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/read_types.hpp" line="45" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>read_args&lt; table &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args_3_01table_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>read_args&lt; table &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args_3_01table_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/read_types.hpp" line="43" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/io/csv/read_types.hpp" bodystart="43" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args_3_01table_01_4_1a1a55265c505dc7386dd12582088f6d66" prot="private" virt="non-virtual"><scope>oneapi::dal::csv::v1::read_args&lt; table &gt;</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1csv_1_1v1_1_1read__args_3_01table_01_4_1a5e014b6322e1edf08a10f829fd304c13" prot="public" virt="non-virtual"><scope>oneapi::dal::csv::v1::read_args&lt; table &gt;</scope><name>read_args</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::csv::v1::read_args&lt; table &gt;</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

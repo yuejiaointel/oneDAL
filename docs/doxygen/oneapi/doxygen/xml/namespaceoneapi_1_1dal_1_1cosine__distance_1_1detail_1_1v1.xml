@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1cosine__distance_1_1detail_1_1v1" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::cosine_distance::detail::v1</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1cosine__distance_1_1detail_1_1v1_1_1descriptor__base" prot="public">oneapi::dal::cosine_distance::detail::v1::descriptor_base</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1cosine__distance_1_1detail_1_1v1_1_1descriptor__impl" prot="public">oneapi::dal::cosine_distance::detail::v1::descriptor_impl</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1cosine__distance_1_1detail_1_1v1_1_1descriptor__tag" prot="public">oneapi::dal::cosine_distance::detail::v1::descriptor_tag</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="algo_2cosine__distance_2common_8hpp_1a47508ff2562d529231dda47b677a7a89" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Float</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_float_v</definition>
+        <argsstring></argsstring>
+        <name>is_valid_float_v</name>
+        <qualifiedname>oneapi::dal::cosine_distance::detail::v1::is_valid_float_v</qualifiedname>
+        <initializer>= dal::detail::is_one_of_v&lt;Float, float, double&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/cosine_distance/common.hpp" line="59" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/cosine_distance/common.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2cosine__distance_2common_8hpp_1a801c5424efd3b7ec2f014ec5024a0830" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Method</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_method_v</definition>
+        <argsstring></argsstring>
+        <name>is_valid_method_v</name>
+        <qualifiedname>oneapi::dal::cosine_distance::detail::v1::is_valid_method_v</qualifiedname>
+        <initializer>= dal::detail::is_one_of_v&lt;Method, <ref refid="structoneapi_1_1dal_1_1cosine__distance_1_1method_1_1v1_1_1dense" kindref="compound">method::dense</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/cosine_distance/common.hpp" line="62" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/cosine_distance/common.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="algo_2cosine__distance_2common_8hpp_1a7d5b5b6385d2e3afa0bdc62e9038eaf3" prot="public" static="no" constexpr="yes" mutable="no">
+        <templateparamlist>
+          <param>
+            <type>typename Task</type>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool is_valid_task_v</definition>
+        <argsstring></argsstring>
+        <name>is_valid_task_v</name>
+        <qualifiedname>oneapi::dal::cosine_distance::detail::v1::is_valid_task_v</qualifiedname>
+        <initializer>= dal::detail::is_one_of_v&lt;Task, <ref refid="structoneapi_1_1dal_1_1cosine__distance_1_1task_1_1v1_1_1compute" kindref="compound">task::compute</ref>&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/cosine_distance/common.hpp" line="65" column="16" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/cosine_distance/common.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/cosine_distance/common.hpp" line="52" column="1"/>
+  </compounddef>
+</doxygen>

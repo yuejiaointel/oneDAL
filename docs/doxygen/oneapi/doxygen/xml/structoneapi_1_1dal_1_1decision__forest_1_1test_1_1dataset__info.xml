@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1dataset__info" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::decision_forest::test::dataset_info</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1dataset__info_1a9b45b3e13bd9167aab02e17e08916231" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::dataset_info::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="476" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1dataset__info_1ab9287e094dc4d970654fe081ebf9e57e" prot="public" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t class_count</definition>
+        <argsstring></argsstring>
+        <name>class_count</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::dataset_info::class_count</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="477" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1dataset__info_1a6d0d57caa8d09a637301940341549b66" prot="public" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t categ_feature_count</definition>
+        <argsstring></argsstring>
+        <name>categ_feature_count</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::dataset_info::categ_feature_count</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="478" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1dataset__info_1a8502da87743aaa13551eb06152089bc4" prot="public" static="no" mutable="no">
+        <type>const std::int64_t *</type>
+        <definition>const std::int64_t* categ_feature_list</definition>
+        <argsstring></argsstring>
+        <name>categ_feature_list</name>
+        <qualifiedname>oneapi::dal::decision_forest::test::dataset_info::categ_feature_list</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="479" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="479" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" line="475" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp" bodystart="475" bodyend="480"/>
+    <listofallmembers>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1dataset__info_1a6d0d57caa8d09a637301940341549b66" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::dataset_info</scope><name>categ_feature_count</name></member>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1dataset__info_1a8502da87743aaa13551eb06152089bc4" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::dataset_info</scope><name>categ_feature_list</name></member>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1dataset__info_1ab9287e094dc4d970654fe081ebf9e57e" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::dataset_info</scope><name>class_count</name></member>
+      <member refid="structoneapi_1_1dal_1_1decision__forest_1_1test_1_1dataset__info_1a9b45b3e13bd9167aab02e17e08916231" prot="public" virt="non-virtual"><scope>oneapi::dal::decision_forest::test::dataset_info</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

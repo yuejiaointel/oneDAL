@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::thread_communicator_allgather</compoundname>
+    <innerclass refid="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1_1buffer__info" prot="public">oneapi::dal::test::engine::thread_communicator_allgather::buffer_info</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1a200cd649fd2d140afe2fbe0435e9e2fb" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__context" kindref="compound">thread_communicator_context</ref> &amp;</type>
+        <definition>thread_communicator_context&amp; ctx_</definition>
+        <argsstring></argsstring>
+        <name>ctx_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allgather::ctx_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="311" column="33" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1aa42704e5aa229f236d0bee3e42f8cc06" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__barrier" kindref="compound">thread_communicator_barrier</ref></type>
+        <definition>thread_communicator_barrier barrier_</definition>
+        <argsstring></argsstring>
+        <name>barrier_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allgather::barrier_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="312" column="33" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1a802cf25f36bab2667447af8435eebdce" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1_1buffer__info" kindref="compound">buffer_info</ref> &gt;</type>
+        <definition>std::vector&lt;buffer_info&gt; send_buffers_</definition>
+        <argsstring></argsstring>
+        <name>send_buffers_</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allgather::send_buffers_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="313" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="313" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1adb6c5052bb068a7b2dfd0485667e5f39" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>thread_communicator_allgather</definition>
+        <argsstring>(thread_communicator_context &amp;ctx)</argsstring>
+        <name>thread_communicator_allgather</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allgather::thread_communicator_allgather</qualifiedname>
+        <param>
+          <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__context" kindref="compound">thread_communicator_context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="299" column="14" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1aa2f0c7ed87c56ab50a09ce3b332c8a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void operator()</definition>
+        <argsstring>(const byte_t *send_buf, std::int64_t send_count, byte_t *recv_buf, std::int64_t recv_count, const data_type &amp;dtype)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>oneapi::dal::test::engine::thread_communicator_allgather::operator()</qualifiedname>
+        <param>
+          <type>const byte_t *</type>
+          <declname>send_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>send_count</declname>
+        </param>
+        <param>
+          <type>byte_t *</type>
+          <declname>recv_buf</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>recv_count</declname>
+        </param>
+        <param>
+          <type>const data_type &amp;</type>
+          <declname>dtype</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="304" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" line="292" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/thread_communicator.hpp" bodystart="292" bodyend="314"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1aa42704e5aa229f236d0bee3e42f8cc06" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allgather</scope><name>barrier_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1a200cd649fd2d140afe2fbe0435e9e2fb" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allgather</scope><name>ctx_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1aa2f0c7ed87c56ab50a09ce3b332c8a70" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allgather</scope><name>operator()</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1a802cf25f36bab2667447af8435eebdce" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allgather</scope><name>send_buffers_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1thread__communicator__allgather_1adb6c5052bb068a7b2dfd0485667e5f39" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::thread_communicator_allgather</scope><name>thread_communicator_allgather</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

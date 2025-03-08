@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::preview::connected_components::vertex_partitioning_result</compoundname>
+    <includes refid="connected__components_2vertex__partitioning__types_8hpp" local="no">vertex_partitioning_types.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval><ref refid="structoneapi_1_1dal_1_1preview_1_1connected__components_1_1task_1_1vertex__partitioning" kindref="compound">task::by_default</ref></defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="61" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1aa5e34132c22d8ea95c3ec5703cb730d4" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; detail::vertex_partitioning_result_impl &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::vertex_partitioning_result_impl&gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="93" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a05f434d16f20a499d295bb722fd38d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vertex_partitioning_result</definition>
+        <argsstring>()</argsstring>
+        <name>vertex_partitioning_result</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::vertex_partitioning_result</qualifiedname>
+        <briefdescription>
+<para>Constructs the empty result. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="63" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a36b94224c53efbdaa7b12b961bce9f1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_labels</definition>
+        <argsstring>() const</argsstring>
+        <name>get_labels</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::get_labels</qualifiedname>
+        <briefdescription>
+<para>The table of size [vertex_count x 1] with computed component ids for each vertex. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="66" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a171a90a85f0b93bf9327e067d7978ed6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_component_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_component_count</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::get_component_count</qualifiedname>
+        <briefdescription>
+<para>The number of connected components. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="72" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a60f4146a730e62ee4138b3b5740c0af2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_labels</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_labels</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::set_labels</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the table with computed component ids for each vertex. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="77" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1ad48cff957eb5445b4ba9089a4d720ee0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_component_count</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_component_count</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::set_component_count</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the number of connected components. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="83" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1ae0d993df9b0bbf4b5f97ffe714ae85c0" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_labels_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_labels_impl</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::get_labels_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="89" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a77513da183737c8c27cdd7c54eccc1a1" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_component_count_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_component_count_impl</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::get_component_count_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="90" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a7c1250e385ee496a85a090fb8df2fb68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_labels_impl</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_labels_impl</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::set_labels_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="91" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1ae440c2d217605b1c882aceeef55278e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_component_count_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_component_count_impl</name>
+        <qualifiedname>oneapi::dal::preview::connected_components::vertex_partitioning_result::set_component_count_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="92" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for the description of the result of the Connected Components algorithm. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" line="57" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/vertex_partitioning_types.hpp" bodystart="57" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a171a90a85f0b93bf9327e067d7978ed6" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>get_component_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a77513da183737c8c27cdd7c54eccc1a1" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>get_component_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a36b94224c53efbdaa7b12b961bce9f1e" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>get_labels</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1ae0d993df9b0bbf4b5f97ffe714ae85c0" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>get_labels_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1aa5e34132c22d8ea95c3ec5703cb730d4" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1ad48cff957eb5445b4ba9089a4d720ee0" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>set_component_count</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1ae440c2d217605b1c882aceeef55278e4" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>set_component_count_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a60f4146a730e62ee4138b3b5740c0af2" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>set_labels</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a7c1250e385ee496a85a090fb8df2fb68" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>set_labels_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1connected__components_1_1vertex__partitioning__result_1a05f434d16f20a499d295bb722fd38d8b" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::connected_components::vertex_partitioning_result</scope><name>vertex_partitioning_result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

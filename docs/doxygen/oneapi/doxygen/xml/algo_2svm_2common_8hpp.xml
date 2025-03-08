@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="algo_2svm_2common_8hpp" kind="file" language="C++">
+    <compoundname>common.hpp</compoundname>
+    <includes refid="table_2common_8hpp" local="yes">oneapi/dal/table/common.hpp</includes>
+    <includes local="yes">oneapi/dal/detail/serialization.hpp</includes>
+    <includes local="yes">oneapi/dal/algo/svm/detail/kernel_function.hpp</includes>
+    <includedby refid="svm_2infer__types_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/infer_types.hpp</includedby>
+    <includedby refid="svm_2train__types_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/train_types.hpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp</label>
+        <link refid="algo_2svm_2common_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>oneapi/dal/table/common.hpp</label>
+        <link refid="table_2common_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>oneapi/dal/algo/svm/detail/kernel_function.hpp</label>
+      </node>
+      <node id="4">
+        <label>oneapi/dal/detail/serialization.hpp</label>
+      </node>
+      <node id="3">
+        <label>oneapi/dal/table/detail/table_iface.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm.hpp</label>
+        <link refid="svm_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp</label>
+        <link refid="algo_2svm_2common_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/infer.hpp</label>
+        <link refid="algo_2svm_2infer_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/infer_types.hpp</label>
+        <link refid="svm_2infer__types_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/train.hpp</label>
+        <link refid="algo_2svm_2train_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/train_types.hpp</label>
+        <link refid="svm_2train__types_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structoneapi_1_1dal_1_1svm_1_1task_1_1v1_1_1classification" prot="public">oneapi::dal::svm::task::v1::classification</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1svm_1_1task_1_1v1_1_1regression" prot="public">oneapi::dal::svm::task::v1::regression</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1svm_1_1task_1_1v1_1_1nu__classification" prot="public">oneapi::dal::svm::task::v1::nu_classification</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1svm_1_1task_1_1v1_1_1nu__regression" prot="public">oneapi::dal::svm::task::v1::nu_regression</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1svm_1_1method_1_1v1_1_1thunder" prot="public">oneapi::dal::svm::method::v1::thunder</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1svm_1_1method_1_1v1_1_1smo" prot="public">oneapi::dal::svm::method::v1::smo</innerclass>
+    <innerclass refid="structoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__tag" prot="public">oneapi::dal::svm::detail::v1::descriptor_tag</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1svm_1_1detail_1_1v1_1_1descriptor__base" prot="public">oneapi::dal::svm::detail::v1::descriptor_base</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1descriptor" prot="private">oneapi::dal::svm::v1::descriptor</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1svm_1_1v1_1_1model" prot="private">oneapi::dal::svm::v1::model</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1svm">oneapi::dal::svm</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1svm_1_1task">oneapi::dal::svm::task</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1svm_1_1task_1_1v1">oneapi::dal::svm::task::v1</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1svm_1_1method">oneapi::dal::svm::method</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1svm_1_1method_1_1v1">oneapi::dal::svm::method::v1</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1svm_1_1detail">oneapi::dal::svm::detail</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1svm_1_1detail_1_1v1">oneapi::dal::svm::detail::v1</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1svm_1_1v1">oneapi::dal::svm::v1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/svm/common.hpp"/>
+  </compounddef>
+</doxygen>

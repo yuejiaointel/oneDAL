@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="decision__forest_2infer__types_8hpp" kind="file" language="C++">
+    <compoundname>infer_types.hpp</compoundname>
+    <includes refid="algo_2decision__forest_2common_8hpp" local="yes">oneapi/dal/algo/decision_forest/common.hpp</includes>
+    <includes local="yes">oneapi/dal/detail/parameters/system_parameters.hpp</includes>
+    <includedby refid="algo_2decision__forest_2infer_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer.hpp</includedby>
+    <includedby refid="cpu_2infer__parameters_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/infer_parameters.hpp</includedby>
+    <includedby refid="gpu_2infer__parameters_8hpp" local="yes">/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/gpu/infer_parameters.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>oneapi/dal/algo/decision_forest/common.hpp</label>
+        <link refid="algo_2decision__forest_2common_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp</label>
+        <link refid="decision__forest_2infer__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>oneapi/dal/table/common.hpp</label>
+        <link refid="table_2common_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>oneapi/dal/util/common.hpp</label>
+        <link refid="util_2common_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>oneapi/dal/algo/decision_tree/detail/node_visitor.hpp</label>
+      </node>
+      <node id="3">
+        <label>oneapi/dal/detail/common.hpp</label>
+      </node>
+      <node id="11">
+        <label>oneapi/dal/detail/parameters/system_parameters.hpp</label>
+      </node>
+      <node id="6">
+        <label>oneapi/dal/detail/serialization.hpp</label>
+      </node>
+      <node id="10">
+        <label>oneapi/dal/detail/threading.hpp</label>
+      </node>
+      <node id="5">
+        <label>oneapi/dal/table/detail/table_iface.hpp</label>
+      </node>
+      <node id="8">
+        <label>oneapi/dal/util/detail/type_traits.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest.hpp</label>
+        <link refid="decision__forest_8hpp_source"/>
+      </node>
+      <node id="2">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer.hpp</label>
+        <link refid="algo_2decision__forest_2infer_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp</label>
+        <link refid="decision__forest_2infer__types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/cpu/infer_parameters.hpp</label>
+        <link refid="cpu_2infer__parameters_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/parameters/gpu/infer_parameters.hpp</label>
+        <link refid="gpu_2infer__parameters_8hpp_source"/>
+      </node>
+      <node id="4">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/test/fixture.hpp</label>
+        <link refid="decision__forest_2test_2fixture_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1_1_1infer__parameters" prot="public">oneapi::dal::decision_forest::detail::v1::infer_parameters</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1infer__input" prot="private">oneapi::dal::decision_forest::v1::infer_input</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1decision__forest_1_1v1_1_1infer__result" prot="private">oneapi::dal::decision_forest::v1::infer_result</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1decision__forest">oneapi::dal::decision_forest</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1decision__forest_1_1detail">oneapi::dal::decision_forest::detail</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1decision__forest_1_1detail_1_1v1">oneapi::dal::decision_forest::detail::v1</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1decision__forest_1_1v1">oneapi::dal::decision_forest::v1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/decision_forest/infer_types.hpp"/>
+  </compounddef>
+</doxygen>

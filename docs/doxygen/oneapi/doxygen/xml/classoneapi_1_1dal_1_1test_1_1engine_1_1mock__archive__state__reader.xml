@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::test::engine::mock_archive_state_reader</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1aa6e0282067416ca7057bdcd41151fa5e" prot="private" static="no" mutable="no">
+        <type><ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state" kindref="compound">mock_archive_state</ref></type>
+        <definition>mock_archive_state state_</definition>
+        <argsstring></argsstring>
+        <name>state_</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_state_reader::state_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="99" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1a855a888115f6d1c55080d90750af3fd7" prot="private" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t cursor_</definition>
+        <argsstring></argsstring>
+        <name>cursor_</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_state_reader::cursor_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="100" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="100" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1a5c29b808030a7446d1ea29fcf360a7f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>mock_archive_state_reader</definition>
+        <argsstring>(const mock_archive_state &amp;state)</argsstring>
+        <name>mock_archive_state_reader</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_state_reader::mock_archive_state_reader</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state" kindref="compound">mock_archive_state</ref> &amp;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="83" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1ad20897c5c8bd47f5d4005989bead0e55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_state_reader::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="85" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1a30fdb1532bcabda87d6de1b3c3cbce45" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_end</definition>
+        <argsstring>() const</argsstring>
+        <name>is_end</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_state_reader::is_end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="89" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1a16b887199560a8c482c1662eadaeadbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <qualifiedname>oneapi::dal::test::engine::mock_archive_state_reader::read</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="94" column="7" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="94" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" line="81" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/test/engine/serialization.hpp" bodystart="81" bodyend="101"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1a855a888115f6d1c55080d90750af3fd7" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_state_reader</scope><name>cursor_</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1a30fdb1532bcabda87d6de1b3c3cbce45" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_state_reader</scope><name>is_end</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1a5c29b808030a7446d1ea29fcf360a7f6" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_state_reader</scope><name>mock_archive_state_reader</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1a16b887199560a8c482c1662eadaeadbe" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_state_reader</scope><name>read</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1ad20897c5c8bd47f5d4005989bead0e55" prot="public" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_state_reader</scope><name>reset</name></member>
+      <member refid="classoneapi_1_1dal_1_1test_1_1engine_1_1mock__archive__state__reader_1aa6e0282067416ca7057bdcd41151fa5e" prot="private" virt="non-virtual"><scope>oneapi::dal::test::engine::mock_archive_state_reader</scope><name>state_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

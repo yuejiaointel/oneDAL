@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceoneapi_1_1dal_1_1logistic__regression_1_1v1" kind="namespace" language="C++">
+    <compoundname>oneapi::dal::logistic_regression::v1</compoundname>
+    <innerclass refid="classoneapi_1_1dal_1_1logistic__regression_1_1v1_1_1descriptor" prot="private">oneapi::dal::logistic_regression::v1::descriptor</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1logistic__regression_1_1v1_1_1infer__input" prot="public">oneapi::dal::logistic_regression::v1::infer_input</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1logistic__regression_1_1v1_1_1infer__result" prot="public">oneapi::dal::logistic_regression::v1::infer_result</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1logistic__regression_1_1v1_1_1model" prot="private">oneapi::dal::logistic_regression::v1::model</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1logistic__regression_1_1v1_1_1train__input" prot="private">oneapi::dal::logistic_regression::v1::train_input</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1logistic__regression_1_1v1_1_1train__result" prot="private">oneapi::dal::logistic_regression::v1::train_result</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logistic_regression/common.hpp" line="169" column="1"/>
+  </compounddef>
+</doxygen>

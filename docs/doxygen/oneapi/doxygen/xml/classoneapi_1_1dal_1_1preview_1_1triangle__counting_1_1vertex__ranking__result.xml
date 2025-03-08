@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::preview::triangle_counting::vertex_ranking_result</compoundname>
+    <includes refid="vertex__ranking__types_8hpp" local="no">vertex_ranking_types.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval><ref refid="structoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1task_1_1local" kindref="compound">task::by_default</ref></defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="61" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1afb7de6fc27bd33ae2e71b0a37c036123" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; detail::vertex_ranking_result_impl &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::vertex_ranking_result_impl&gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="97" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a494034513f99cb5607a6527ef39f4f66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>vertex_ranking_result</definition>
+        <argsstring>()</argsstring>
+        <name>vertex_ranking_result</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::vertex_ranking_result</qualifiedname>
+        <briefdescription>
+<para>Constructs the empty result. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="63" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1aec5fe692c0b09a106ca284ea7f0e4025" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_local_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_ranks</definition>
+        <argsstring>() const</argsstring>
+        <name>get_ranks</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::get_ranks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the table with computed number of local triangles for each vertex represented as std::int64_t values </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="68" column="17" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a5382a6754a00411c6ff85e4a8d9b1071" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_global_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_global_rank</definition>
+        <argsstring>() const</argsstring>
+        <name>get_global_rank</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::get_global_rank</qualifiedname>
+        <briefdescription>
+<para>Returns the total number of triangles in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="74" column="18" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1aeb824093cfee53a79d4abe2f66d7697b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_local_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_ranks</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_ranks</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::set_ranks</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the table with computed number of local triangles for each vertex. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="80" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a260e54f70642317d4c8d02974287a06a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval>Task</defval>
+          </param>
+          <param>
+            <type>typename</type>
+            <defval>detail::enable_if_global_t&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_global_rank</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_global_rank</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::set_global_rank</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets the total number of triangles in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="87" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a9425c2e09b35261c4cb822213207197c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_ranks_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_ranks_impl</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::get_ranks_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="93" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a19d7984d04e1ba3e0403674fbd7e6b64" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t get_global_rank_impl</definition>
+        <argsstring>() const</argsstring>
+        <name>get_global_rank_impl</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::get_global_rank_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="94" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a6b02892647b62461a0bae6ed0ff7bdba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_ranks_impl</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_ranks_impl</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::set_ranks_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="95" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a003ae1313050ec0d963a7f431e5adcf7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_global_rank_impl</definition>
+        <argsstring>(std::int64_t value)</argsstring>
+        <name>set_global_rank_impl</name>
+        <qualifiedname>oneapi::dal::preview::triangle_counting::vertex_ranking_result::set_global_rank_impl</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="96" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for the description of the result of the Triangle Counting algorithm. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" line="57" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/triangle_counting/vertex_ranking_types.hpp" bodystart="57" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a5382a6754a00411c6ff85e4a8d9b1071" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>get_global_rank</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a19d7984d04e1ba3e0403674fbd7e6b64" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>get_global_rank_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1aec5fe692c0b09a106ca284ea7f0e4025" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>get_ranks</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a9425c2e09b35261c4cb822213207197c" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>get_ranks_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1afb7de6fc27bd33ae2e71b0a37c036123" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a260e54f70642317d4c8d02974287a06a" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>set_global_rank</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a003ae1313050ec0d963a7f431e5adcf7" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>set_global_rank_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1aeb824093cfee53a79d4abe2f66d7697b" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>set_ranks</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a6b02892647b62461a0bae6ed0ff7bdba" prot="private" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>set_ranks_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1preview_1_1triangle__counting_1_1vertex__ranking__result_1a494034513f99cb5607a6527ef39f4f66" prot="public" virt="non-virtual"><scope>oneapi::dal::preview::triangle_counting::vertex_ranking_result</scope><name>vertex_ranking_result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

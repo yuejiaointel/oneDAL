@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::logloss_objective::detail::v1::descriptor_base</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" static="no">
+        <type><ref refid="structoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__tag" kindref="compound">descriptor_tag</ref></type>
+        <definition>using tag_t =  descriptor_tag</definition>
+        <argsstring></argsstring>
+        <name>tag_t</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::tag_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="74" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1aef34e23d4cca9aba8d78eeb0ae8fcd2e" prot="public" static="no">
+        <type>float</type>
+        <definition>using float_t =  float</definition>
+        <argsstring></argsstring>
+        <name>float_t</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::float_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="75" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1a29eb320b4d42767b5e12ba9dbae02a26" prot="public" static="no">
+        <type>method::by_default</type>
+        <definition>using method_t =  method::by_default</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::method_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="76" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="77" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__impl" kindref="compound">descriptor_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;descriptor_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="91" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>descriptor_base</definition>
+        <argsstring>()</argsstring>
+        <name>descriptor_base</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::descriptor_base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="79" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1a04c0a8ab5b8211b7a8bfc3efe6ce69cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_l1_regularization_coefficient</definition>
+        <argsstring>() const</argsstring>
+        <name>get_l1_regularization_coefficient</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::get_l1_regularization_coefficient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="81" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1ad7043086c64470344b09db9b712ad61b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_l2_regularization_coefficient</definition>
+        <argsstring>() const</argsstring>
+        <name>get_l2_regularization_coefficient</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::get_l2_regularization_coefficient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="82" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1aa49b996daed53579495596b9578331ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool get_intercept_flag</definition>
+        <argsstring>() const</argsstring>
+        <name>get_intercept_flag</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::get_intercept_flag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="83" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1af49f413087d92c72c10dda347da8b743" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_l1_regularization_coefficient_impl</definition>
+        <argsstring>(double l1_coef)</argsstring>
+        <name>set_l1_regularization_coefficient_impl</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::set_l1_regularization_coefficient_impl</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>l1_coef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="86" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1a0f5692c5126ee04fa71f2ca582016475" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_l2_regularization_coefficient_impl</definition>
+        <argsstring>(double l2_coef)</argsstring>
+        <name>set_l2_regularization_coefficient_impl</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::set_l2_regularization_coefficient_impl</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>l2_coef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="87" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1aaa94f55487d967de2e53eea4723cf34b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_intercept_flag_impl</definition>
+        <argsstring>(bool fit_intercept)</argsstring>
+        <name>set_intercept_flag_impl</name>
+        <qualifiedname>oneapi::dal::logloss_objective::detail::v1::descriptor_base::set_intercept_flag_impl</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>fit_intercept</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="88" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>descriptor_base&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" line="70" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/logloss_objective/common.hpp" bodystart="70" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1abd5389747ec75b5923c3ccccd67d579a" prot="public" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>descriptor_base</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1aef34e23d4cca9aba8d78eeb0ae8fcd2e" prot="public" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>float_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1aa49b996daed53579495596b9578331ef" prot="public" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>get_intercept_flag</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1a04c0a8ab5b8211b7a8bfc3efe6ce69cb" prot="public" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>get_l1_regularization_coefficient</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1ad7043086c64470344b09db9b712ad61b" prot="public" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>get_l2_regularization_coefficient</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1ac0cb2aff7c9814faede9961ffbe7fa68" prot="private" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1a29eb320b4d42767b5e12ba9dbae02a26" prot="public" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>method_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1aaa94f55487d967de2e53eea4723cf34b" prot="protected" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>set_intercept_flag_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1af49f413087d92c72c10dda347da8b743" prot="protected" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>set_l1_regularization_coefficient_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1a0f5692c5126ee04fa71f2ca582016475" prot="protected" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>set_l2_regularization_coefficient_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1a4e806d43e4c486f1d7701aca7be853bd" prot="public" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>tag_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1logloss__objective_1_1detail_1_1v1_1_1descriptor__base_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::logloss_objective::detail::v1::descriptor_base</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

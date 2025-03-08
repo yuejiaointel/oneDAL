@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result" kind="class" language="C++" prot="public">
+    <compoundname>oneapi::dal::basic_statistics::v1::partial_compute_result</compoundname>
+    <basecompoundref refid="classoneapi_1_1dal_1_1v1_1_1base" prot="public" virt="non-virtual">base</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Task</type>
+        <defval>task::by_default</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" static="no">
+        <type>Task</type>
+        <definition>using task_t =  Task</definition>
+        <argsstring></argsstring>
+        <name>task_t</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::task_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="225" column="5" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" bodystart="225" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1af0d992051f44315450f4e159ef67a6f4" prot="private" static="no" mutable="no">
+        <type>dal::detail::pimpl&lt; <ref refid="classoneapi_1_1dal_1_1basic__statistics_1_1detail_1_1v1_1_1partial__compute__result__impl" kindref="compound">detail::partial_compute_result_impl</ref>&lt; Task &gt; &gt;</type>
+        <definition>dal::detail::pimpl&lt;detail::partial_compute_result_impl&lt;Task&gt; &gt; impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="292" column="24" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" bodystart="292" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a56c7acc0ddfc3b066350d61104fa3e39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>partial_compute_result</definition>
+        <argsstring>()</argsstring>
+        <name>partial_compute_result</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::partial_compute_result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="227" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a6592dce386fbd6922162b142360c6d76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_n_rows</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_n_rows</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::get_partial_n_rows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The nobs value. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="231" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a32a52426fd260db74cceea046557427a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_n_rows</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_n_rows</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_n_rows</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="233" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" bodystart="233" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ac39c98030173ef55830bfc409515daa9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_min</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_min</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::get_partial_min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times p$ table, where element $j$ is the minimum current result for feature $j$. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="240" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1af14ac6b0639b51423ad0789b643a7fc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_min</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_min</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_min</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="242" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" bodystart="242" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a2485a1dd81da6dd5135015884debee0d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_max</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_max</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::get_partial_max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times p$ table, where element $j$ is the maximum current result for feature $j$. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="249" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1aa46bf56c8a8be0497a7ef31ad1987468" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_max</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_max</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_max</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="251" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ae788a83136358f1500fdff6afdbc88e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_sum</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_sum</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::get_partial_sum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times p$ table, where element $j$ is the sum result of current blocks for feature $j$. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="258" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a62114a0ba910dc976e368a534260b57f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_sum</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_sum</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_sum</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="260" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a8b7217cb790b665173d4d3f41d7d01fb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_sum_squares</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_sum_squares</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::get_partial_sum_squares</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times p$ table, where element $j$ is the sum_squares result of current blocks for feature $j$. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="267" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a26ba1942ff8f896504602712e9e26d0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_sum_squares</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_sum_squares</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_sum_squares</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="269" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" bodystart="269" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a3b4679b28b398263dc9f7c4e5c691eb6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        <definition>const table &amp; get_partial_sum_squares_centered</definition>
+        <argsstring>() const</argsstring>
+        <name>get_partial_sum_squares_centered</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::get_partial_sum_squares_centered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A $1 \times p$ table, where element $j$ is the sum_squares_centered result of current blocks for feature $j$. <simplesect kind="remark"><para>default = table{} </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="276" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ac55d1e775b150ca11cd41b3ec3f63ae0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; set_partial_sum_squares_centered</definition>
+        <argsstring>(const table &amp;value)</argsstring>
+        <name>set_partial_sum_squares_centered</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_sum_squares_centered</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="278" column="10" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" bodystart="278" bodyend="281"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1aa3a831080796e95b809c175c41f2b8fd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_n_rows_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_n_rows_impl</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_n_rows_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="284" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a5d23e4fc9bc610b4c6f5581a827db608" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_min_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_min_impl</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_min_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="285" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a18da0a3b07fcd9ca06d22aa2a5edcc42" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_max_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_max_impl</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_max_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="286" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a7a2c212969bc997df240df381eca480d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_sum_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_sum_impl</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_sum_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="287" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a98e3bd5b0d2811b3dfc9c6c4c1b60b85" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_sum_squares_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_sum_squares_impl</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_sum_squares_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="288" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ae123ae27fe97105a23beb052f71bdf28" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_partial_sum_squares_centered_impl</definition>
+        <argsstring>(const table &amp;)</argsstring>
+        <name>set_partial_sum_squares_centered_impl</name>
+        <qualifiedname>oneapi::dal::basic_statistics::v1::partial_compute_result::set_partial_sum_squares_centered_impl</qualifiedname>
+        <param>
+          <type>const <ref refid="classoneapi_1_1dal_1_1v1_1_1table" kindref="compound">table</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="289" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>partial_compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>base</label>
+        <link refid="classoneapi_1_1dal_1_1v1_1_1base"/>
+      </node>
+      <node id="1">
+        <label>partial_compute_result&lt; Task &gt;</label>
+        <link refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" line="221" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/basic_statistics/compute_types.hpp" bodystart="221" bodyend="293"/>
+    <listofallmembers>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a2485a1dd81da6dd5135015884debee0d" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>get_partial_max</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ac39c98030173ef55830bfc409515daa9" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>get_partial_min</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a6592dce386fbd6922162b142360c6d76" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>get_partial_n_rows</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ae788a83136358f1500fdff6afdbc88e0" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>get_partial_sum</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a8b7217cb790b665173d4d3f41d7d01fb" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>get_partial_sum_squares</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a3b4679b28b398263dc9f7c4e5c691eb6" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>get_partial_sum_squares_centered</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1af0d992051f44315450f4e159ef67a6f4" prot="private" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>impl_</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a56c7acc0ddfc3b066350d61104fa3e39" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>partial_compute_result</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1aa46bf56c8a8be0497a7ef31ad1987468" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_max</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a18da0a3b07fcd9ca06d22aa2a5edcc42" prot="protected" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_max_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1af14ac6b0639b51423ad0789b643a7fc5" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_min</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a5d23e4fc9bc610b4c6f5581a827db608" prot="protected" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_min_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a32a52426fd260db74cceea046557427a" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_n_rows</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1aa3a831080796e95b809c175c41f2b8fd" prot="protected" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_n_rows_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a62114a0ba910dc976e368a534260b57f" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_sum</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a7a2c212969bc997df240df381eca480d" prot="protected" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_sum_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a26ba1942ff8f896504602712e9e26d0d" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_sum_squares</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ac55d1e775b150ca11cd41b3ec3f63ae0" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_sum_squares_centered</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ae123ae27fe97105a23beb052f71bdf28" prot="protected" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_sum_squares_centered_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1a98e3bd5b0d2811b3dfc9c6c4c1b60b85" prot="protected" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>set_partial_sum_squares_impl</name></member>
+      <member refid="classoneapi_1_1dal_1_1basic__statistics_1_1v1_1_1partial__compute__result_1ac4dc9ea56dcb87ce6278b6e791dec0c9" prot="public" virt="non-virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>task_t</name></member>
+      <member refid="classoneapi_1_1dal_1_1v1_1_1base_1a94886fe79cc69cc51ea51e049e872e45" prot="public" virt="virtual"><scope>oneapi::dal::basic_statistics::v1::partial_compute_result</scope><name>~base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

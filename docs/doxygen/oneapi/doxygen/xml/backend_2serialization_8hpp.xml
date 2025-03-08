@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="backend_2serialization_8hpp" kind="file" language="C++">
+    <compoundname>serialization.hpp</compoundname>
+    <includes refid="backend_2common_8hpp" local="yes">oneapi/dal/backend/common.hpp</includes>
+    <includes local="yes">oneapi/dal/detail/serialization.hpp</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>oneapi/dal/array.hpp</label>
+        <link refid="array_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>oneapi/dal/backend/common.hpp</label>
+        <link refid="backend_2common_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp</label>
+        <link refid="backend_2serialization_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>oneapi/dal/detail/array_impl.hpp</label>
+      </node>
+      <node id="7">
+        <label>oneapi/dal/detail/common.hpp</label>
+      </node>
+      <node id="8">
+        <label>oneapi/dal/detail/serialization.hpp</label>
+      </node>
+      <node id="4">
+        <label>sycl/sycl.hpp</label>
+      </node>
+      <node id="3">
+        <label>type_traits</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structoneapi_1_1dal_1_1backend_1_1serialization__id__map" prot="public">oneapi::dal::backend::serialization_id_map</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_01_4" prot="public">oneapi::dal::backend::serializable_map&lt; Tag, Map1, Map2 &gt;</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_00_01_map3_01_4" prot="public">oneapi::dal::backend::serializable_map&lt; Tag, Map1, Map2, Map3 &gt;</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1serializable__map_3_01_tag_00_01_map1_00_01_map2_00_01_map3_00_01_map4_01_4" prot="public">oneapi::dal::backend::serializable_map&lt; Tag, Map1, Map2, Map3, Map4 &gt;</innerclass>
+    <innerclass refid="classoneapi_1_1dal_1_1backend_1_1serialization__ids" prot="public">oneapi::dal::backend::serialization_ids</innerclass>
+    <innernamespace refid="namespaceoneapi">oneapi</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal">oneapi::dal</innernamespace>
+    <innernamespace refid="namespaceoneapi_1_1dal_1_1backend">oneapi::dal::backend</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="backend_2serialization_8hpp_1a0e621cf2968465933ef26ce01a1cd9ae" prot="public" static="no">
+        <name>ONEDAL_REGISTER_SERIALIZABLE</name>
+        <initializer>__ONEDAL_REGISTER_SERIALIZABLE__</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="22" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="backend_2serialization_8hpp_1accc7067899ee9a57eee5f5cceb859e98" prot="public" static="no">
+        <name>ONEDAL_REGISTER_SERIALIZABLE_INIT</name>
+        <param><defname>unique_id</defname></param>
+        <initializer>    namespace oneapi::dal::backend {                 \
+    bool __force_serializable_init__##unique_id() {  \
+        return true;                                 \
+    }                                                \
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="24" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="define" id="backend_2serialization_8hpp_1af226217f277733fa7dfc777ec66fcf0a" prot="public" static="no">
+        <name>ONEDAL_FORCE_SERIALIZABLE_INIT</name>
+        <param><defname>unique_id</defname></param>
+        <initializer>    namespace oneapi::dal::backend {                                                     \
+    bool __force_serializable_init__##unique_id();                                       \
+    }                                                                                    \
+    [[maybe_unused]] static volatile bool __force_serializable_init_dummy__##unique_id = \
+        ::oneapi::dal::backend::__force_serializable_init__##unique_id();</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="31" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="define" id="backend_2serialization_8hpp_1a41d45bd3239ed0833e94b1b695e7717d" prot="public" static="no">
+        <name>ONEDAL_SERIALIZATION_ID</name>
+        <param><defname>id</defname></param>
+        <initializer>::oneapi::dal::backend::serialization_ids::id</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="38" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="backend_2serialization_8hpp_1a50a9bf579265bd734ea124eb764c4b11" prot="public" static="no">
+        <name>ONEDAL_SERIALIZATION_ID_MAP</name>
+        <param><defname>Tag</defname></param>
+        <param><defname>id</defname></param>
+        <initializer>    <ref refid="structoneapi_1_1dal_1_1backend_1_1serialization__id__map" kindref="compound">::oneapi::dal::backend::serialization_id_map</ref>&lt;Tag, ONEDAL_SERIALIZATION_ID(id)&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="40" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="40" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="define" id="backend_2serialization_8hpp_1a9f2c54242edeec4fbc0beac5c749720e" prot="public" static="no">
+        <name>ONEDAL_SERIALIZABLE</name>
+        <param><defname>id</defname></param>
+        <initializer>::oneapi::dal::detail::serializable&lt;ONEDAL_SERIALIZATION_ID(id)&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="43" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="backend_2serialization_8hpp_1a87dac51034ddf7fb71f0d04ad30633b9" prot="public" static="no">
+        <name>ONEDAL_SERIALIZABLE_MAP2</name>
+        <param><defname>Tag</defname></param>
+        <param><defname>Map1</defname></param>
+        <param><defname>Map2</defname></param>
+        <initializer>    ::oneapi::dal::backend::                      \
+        serializable_map&lt;Tag, ONEDAL_SERIALIZATION_ID_MAP Map1, ONEDAL_SERIALIZATION_ID_MAP Map2&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="45" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="define" id="backend_2serialization_8hpp_1ad6d97f3009815ab8ee4d9969a0dd6e45" prot="public" static="no">
+        <name>ONEDAL_SERIALIZABLE_MAP3</name>
+        <param><defname>Tag</defname></param>
+        <param><defname>Map1</defname></param>
+        <param><defname>Map2</defname></param>
+        <param><defname>Map3</defname></param>
+        <initializer>    <ref refid="classoneapi_1_1dal_1_1backend_1_1serializable__map" kindref="compound">::oneapi::dal::backend::serializable_map</ref>&lt;Tag,                              \
+                                             ONEDAL_SERIALIZATION_ID_MAP Map1, \
+                                             ONEDAL_SERIALIZATION_ID_MAP Map2, \
+                                             ONEDAL_SERIALIZATION_ID_MAP Map3&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="49" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="define" id="backend_2serialization_8hpp_1ac99fa1b9917bbaecc8168ddb3937ec0e" prot="public" static="no">
+        <name>ONEDAL_SERIALIZABLE_MAP4</name>
+        <param><defname>Tag</defname></param>
+        <param><defname>Map1</defname></param>
+        <param><defname>Map2</defname></param>
+        <param><defname>Map3</defname></param>
+        <param><defname>Map4</defname></param>
+        <initializer>    <ref refid="classoneapi_1_1dal_1_1backend_1_1serializable__map" kindref="compound">::oneapi::dal::backend::serializable_map</ref>&lt;Tag,                              \
+                                             ONEDAL_SERIALIZATION_ID_MAP Map1, \
+                                             ONEDAL_SERIALIZATION_ID_MAP Map2, \
+                                             ONEDAL_SERIALIZATION_ID_MAP Map3, \
+                                             ONEDAL_SERIALIZATION_ID_MAP Map4&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="55" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="define" id="backend_2serialization_8hpp_1afa9ee3bcb6282349525ee196d8059982" prot="public" static="no">
+        <name>ID</name>
+        <param><defname>unique_id</defname></param>
+        <param><defname>name</defname></param>
+        <initializer>static constexpr std::uint64_t name = unique_id</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" line="150" column="9" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp" bodystart="150" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/backend/serialization.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structoneapi_1_1dal_1_1preview_1_1connected__components_1_1task_1_1vertex__partitioning" kind="struct" language="C++" prot="public">
+    <compoundname>oneapi::dal::preview::connected_components::task::vertex_partitioning</compoundname>
+    <includes refid="algo_2connected__components_2common_8hpp" local="no">common.hpp</includes>
+    <briefdescription>
+<para>Tag-type that parameterizes entities that are used for Connected Components algorithm. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/common.hpp" line="27" column="1" bodyfile="/home/runner/work/oneDAL/oneDAL/cpp/oneapi/dal/algo/connected_components/common.hpp" bodystart="27" bodyend="27"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
