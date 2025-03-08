@@ -92,7 +92,7 @@ jobs:
         git checkout gh-pages
 
         # Replace existing files with new build files
-        git rm -rf .
+        rm -rf .
         echo "before"
         ls -al
         cp -R /tmp/build/* .
