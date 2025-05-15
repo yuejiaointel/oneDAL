@@ -22,6 +22,8 @@ on:
 
 permissions:
   contents: write
+  id-token: write
+  contents: read
   
 jobs:
   build-docs:
@@ -73,25 +75,19 @@ jobs:
         cd docs
         make html
 
-    - name: Deploy Documentation to gh-pages
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Prepare Documentation for Deployment
       run: |
-        # Set git auth for push changes 
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        mkdir -p _site        
+        cp -r docs/build/* _site/
+        
+    - name: Upload artifact for GitHub Pages
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '_site'
 
-        # Copy the build folder to a temporary location
-        cp -R docs/build/. /tmp/build
-
-        # Checkout the gh-pages branch
-        git checkout gh-pages
-
-        # Replace existing files with new build files
-        git rm -rf .
-        cp -R /tmp/build/. .
-
-        # Push to gh-pages
-        git add -A
-        git commit -m "Automatic doc update for version $DOC_VERSION"
-        git push origin gh-pages
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
